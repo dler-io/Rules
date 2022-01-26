@@ -487,4 +487,3 @@ rule-providers:
     url: 'https://raw.dler.io/main/Clash/Provider/LAN.yaml'
     path: ./Rules/LAN
     interval: 86400
-		
