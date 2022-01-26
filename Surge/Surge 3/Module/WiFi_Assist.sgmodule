@@ -1,0 +1,6 @@
+#!name=Wi-Fi Assist
+#!desc=Surge will try to set up a connection with cellular data when the Wi-Fi network is poor.
+#!system=ios
+
+[General]
+wifi-assist = true

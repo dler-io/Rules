@@ -1,0 +1,5 @@
+#!name=anti-AD
+#!desc=https://github.com/privacy-protection-tools/anti-AD
+
+[Rule]
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-surge2.txt,REJECT

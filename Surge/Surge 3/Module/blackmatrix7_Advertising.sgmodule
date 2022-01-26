@@ -1,0 +1,5 @@
+#!name=Advertising
+#!desc=https://github.com/blackmatrix7/ios_rule_script
+
+[Rule]
+DOMAIN-SET,https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Surge/Advertising/Advertising_Domain.list,REJECT

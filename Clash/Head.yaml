@@ -1,0 +1,12 @@
+port: 8888
+socks-port: 8889
+mixed-port: 8899
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:6170
+experimental:
+  ignore-resolve-fail: true
+clash-for-android: 
+  # append-system-dns: true # 追加系统 DNS 到 nameserver 
+  ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"

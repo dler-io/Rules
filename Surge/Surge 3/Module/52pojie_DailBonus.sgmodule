@@ -1,0 +1,9 @@
+#!name=52pojie
+#!desc=Need to manually log in to the https://www.52pojie.cn/home.php?mod=space checkin to get cookie. If you receive a cookie success notification, you can disable this script.
+
+[Script]
+http-request https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+cron "0 8 * * *" script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+
+[MITM]
+hostname = %APPEND% www.52pojie.cn
