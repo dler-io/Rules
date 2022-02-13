@@ -58,6 +58,7 @@ payload:
   - DOMAIN-SUFFIX,rsc.org
   - DOMAIN-SUFFIX,sagepub.com
   - DOMAIN-SUFFIX,sci-hub.tw
+  - DOMAIN-SUFFIX,science.org
   - DOMAIN-SUFFIX,sciencedirect.com
   - DOMAIN-SUFFIX,sciencemag.org
   - DOMAIN-SUFFIX,scitation.org
