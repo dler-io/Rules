@@ -26,6 +26,9 @@ payload:
   # > Google
   - DOMAIN,safebrowsing.googleapis.com
   - DOMAIN-SUFFIX,dl.google.com
+  
+  # > jsdelivr.net
+  - DOMAIN,cdn.jsdelivr.net
 
   # > Microsoft
   # - USER-AGENT,Microsoft%20Remote%20Desktop*
