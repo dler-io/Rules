@@ -2246,6 +2246,7 @@ payload:
   - DOMAIN-SUFFIX,chidir.com
   - DOMAIN-SUFFIX,chinacsky.com
   - DOMAIN-SUFFIX,chinaheh.com
+  - DOMAIN-SUFFIX,chinaliftoff.io
   - DOMAIN-SUFFIX,chinauma.net
   - DOMAIN-SUFFIX,chinaweichu.net
   - DOMAIN-SUFFIX,chjxzk.1555110.cn
@@ -3689,6 +3690,7 @@ payload:
   - DOMAIN-SUFFIX,gog9.qzdfc.com
   - DOMAIN-SUFFIX,go-mpulse.net
   - DOMAIN-SUFFIX,good.ta80.com
+  - DOMAIN-SUFFIX,googleadsserving.cn
   - DOMAIN-SUFFIX,googlecommerce.com
   - DOMAIN-SUFFIX,googlesyndication.com
   - DOMAIN-SUFFIX,goolpter.com
