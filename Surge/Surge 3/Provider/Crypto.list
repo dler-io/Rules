@@ -73,6 +73,7 @@ DOMAIN-SUFFIX,binancezh.top
 DOMAIN-SUFFIX,bnappzh.mobi
 DOMAIN-SUFFIX,bsc.getblock.io
 DOMAIN-SUFFIX,bscscan.com
+PROCESS-NAME,Binance.exe
 DOMAIN-KEYWORD,binance
 
 # > Huobi
@@ -95,11 +96,13 @@ DOMAIN-SUFFIX,huobi.ws
 DOMAIN-SUFFIX,huobi.ug
 DOMAIN-SUFFIX,huobi.co.ma
 DOMAIN-SUFFIX,huobi.br.com
+PROCESS-NAME,Huobi.exe
 DOMAIN-KEYWORD,huobi
 
 # > OKX
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,okx.com
+PROCESS-NAME,OKX.exe
 DOMAIN-KEYWORD,okx
 
 # > asproex
