@@ -233,7 +233,7 @@ payload:
   - DOMAIN,min-api.cryptocompare.com
 
   # > NFT
-  - DOMAIN-SUFFIX,- DOMAIN-SUFFIX,,opensea.io
+  - DOMAIN-SUFFIX,opensea.io
   - DOMAIN-SUFFIX,nftscan.com
   - DOMAIN-SUFFIX,makersplace.com
   - DOMAIN-SUFFIX,nonfungible.com
