@@ -1,4 +1,4 @@
-payload:  
+payload:
   # > Youtube
   - PROCESS-NAME,com.google.android.youtube
   - PROCESS-NAME,com.google.android.youtube.tv

@@ -1,4 +1,4 @@
-payload:  
+payload:
   # > Spotify
   - PROCESS-NAME,com.spotify.music
   - DOMAIN-SUFFIX,pscdn.co
