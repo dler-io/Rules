@@ -8254,10 +8254,12 @@ URL-REGEX,^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$
 URL-REGEX,^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$
 
 # > Zhihu
+DOMAIN,appcloud2.in.zhihu.com,
 DOMAIN,mqtt.zhihu.com
 DOMAIN,sugar.zhihu.com
 DOMAIN,zhihu-analytics.zhihu.com
 DOMAIN,zhihu-web-analytics.zhihu.com
+DOMAIN,118.89.204.198
 DOMAIN-SUFFIX,xdrig.com
 URL-REGEX,https://api.zhihu.com/(fringe|zst|real_time|ad-style-service|banners|topstory/hot-lists|market/popover|mqtt|me|.*launch|.*featured-comment-ad|search/(top|tabs|preset))
 URL-REGEX,https://api.zhihu.com.*(launch|recommendations)
@@ -8289,7 +8291,11 @@ URL-REGEX,https?://www.bldimg.com/(background|splash)/.+.png$
 IP-CIDR,39.107.15.115/32,no-resolve
 IP-CIDR,47.89.59.182/32,no-resolve
 IP-CIDR,103.49.209.27/32,no-resolve
+IP-CIDR,118.89.204.198/32,no-resolve
 IP-CIDR,123.56.152.96/32,no-resolve
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
+
+USER-AGENT,AVOS*,AdBlock
 
 # > China Net
 IP-CIDR,61.160.200.223/32,no-resolve
