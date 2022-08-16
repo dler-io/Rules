@@ -8213,8 +8213,8 @@ DOMAIN,offnavi.map.baidu.com
 DOMAIN,newvector.map.baidu.com
 DOMAIN,ulog.imap.baidu.com
 DOMAIN,newloc.map.n.shifen.com
-URL-REGEX,^http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php
-URL-REGEX,^http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule$
+URL-REGEX,http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php
+URL-REGEX,http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule$
 
 # > Bilibili
 DOMAIN,miniapp.bilibili.com
@@ -8227,7 +8227,7 @@ URL-REGEX,https://app.bilibili.com/x/v2/rank.*rid=(168|5)
 URL-REGEX,https://api.bilibili.com/pgc/season/rank/cn
 
 # > Didi
-URL-REGEX,^https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/
+URL-REGEX,https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/
 
 # > ele
 DOMAIN,log.star.ele.me
@@ -8249,8 +8249,8 @@ DOMAIN,pr.da.netease.com
 DOMAIN,rd.da.netease.com
 DOMAIN,wr.da.netease.com
 DOMAIN,yt-adp.nosdn.127.net
-URL-REGEX,^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$
-URL-REGEX,^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$
+URL-REGEX,http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$
+URL-REGEX,http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$
 
 # > Zhihu
 DOMAIN,appcloud2.in.zhihu.com
@@ -8267,8 +8267,8 @@ URL-REGEX,https://api.zhihu.com/search/(top|tabs|preset)
 URL-REGEX,https://api.zhihu.com/answers/.*/comments/featured-comment-ad
 
 URL-REGEX,https?://(e|m).+/((uu|oo).php.+|\d+.x?html\?$)
-URL-REGEX,https?://[^(apple|10010)]+.(com|cn)\/(a|A)d(s|v)?(/|.js)
-URL-REGEX,https?://[^bbs].tianya\.cn
+URL-REGEX,https?://[(apple|10010)]+.(com|cn)\/(a|A)d(s|v)?(/|.js)
+URL-REGEX,https?://[bbs].tianya\.cn
 URL-REGEX,https?://\w.?up.qingdaonews.com
 URL-REGEX,https?://\w{6}.com1.z0.glb.clouddn.com
 URL-REGEX,https?://\w{8}.logic.cpm.cm.kankan.com
