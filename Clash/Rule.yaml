@@ -50,7 +50,7 @@
 
 - RULE-SET,Telegram,Telegram
 - RULE-SET,Crypto,Crypto
-- RULE-SET,Douyin,Douyin
+- RULE-SET,Discord,Discord
 - RULE-SET,Steam,Steam
 - RULE-SET,Speedtest,Speedtest
 - RULE-SET,PayPal,PayPal
@@ -118,7 +118,7 @@ script:
             "ViuTV": "Global TV",
             "Telegram": "Telegram",
             "Crypto": "Crypto",
-            "Douyin": "Douyin",
+            "Discord": "Discord",
             "Steam": "Steam",
             "Speedtest": "Speedtest",
             "PayPal": "PayPal",
@@ -439,11 +439,11 @@ rule-providers:
     url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Crypto.yaml'
     path: ./Rules/Crypto
     interval: 86400
-  Douyin:
+  Discord:
     type: http
     behavior: classical
-    url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Douyin.yaml'
-    path: ./Rules/Douyin
+    url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Discord.yaml'
+    path: ./Rules/Discord
     interval: 86400
   Steam:
     type: http
