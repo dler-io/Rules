@@ -24,3 +24,9 @@ tun:
     - 198.18.0.2:53
   auto-route: true
   auto-detect-interface: true
+
+# Clash for Windows
+# Proxies module latency test settings
+cfw-latency-timeout: 3000
+cfw-latency-url: http://cp.cloudflare.com/generate_204
+cfw-conn-break-strategy: true

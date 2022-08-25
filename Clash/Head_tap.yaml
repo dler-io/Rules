@@ -17,3 +17,9 @@ dns:
     - 223.5.5.5
     - 223.6.6.6
   # interface-name: WLAN
+
+# Clash for Windows
+# Proxies module latency test settings
+cfw-latency-timeout: 3000
+cfw-latency-url: http://cp.cloudflare.com/generate_204
+cfw-conn-break-strategy: true
