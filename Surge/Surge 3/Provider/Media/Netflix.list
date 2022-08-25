@@ -1,5 +1,4 @@
-USER-AGENT,Argo*
-
+# > Netflix
 DOMAIN-SUFFIX,flxvpn.net
 DOMAIN-SUFFIX,netflix.ca
 DOMAIN-SUFFIX,netflix.com
@@ -23,6 +22,9 @@ DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
+
+DOMAIN,e13252.dscg.akamaiedge.net
+DOMAIN,h-netflix.online-metrix.net
 
 IP-CIDR,23.246.0.0/18,no-resolve
 IP-CIDR,37.77.184.0/21,no-resolve
