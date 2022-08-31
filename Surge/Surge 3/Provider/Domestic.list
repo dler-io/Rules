@@ -1,3 +1,38 @@
+# China Banks
+# > Agricultural Bank of China
+DOMAIN-SUFFIX,abchina.com
+
+# > Bank of China
+DOMAIN-SUFFIX,boc.cn
+
+# > China Citic Bank
+DOMAIN-SUFFIX,citicbank.com
+DOMAIN-SUFFIX,ecitic.com
+DOMAIN-SUFFIX,ecitic.net
+
+# > China Construction Bank
+DOMAIN-SUFFIX,ccb.com
+DOMAIN-SUFFIX,ccb.com.cn
+
+# > China Everbright Bank
+DOMAIN-SUFFIX,cebbank.com
+
+# > China Merchants Bank
+USER-AGENT,cmb*
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,cmbimg.com
+DOMAIN-SUFFIX,cmbt.cn
+DOMAIN-SUFFIX,mbcloud.com
+
+# > Industrial and Commercial Bank of China
+USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*
+DOMAIN-SUFFIX,icbc.com.cn
+
+# > Ping An Bank
+DOMAIN-SUFFIX,pingan.com
+DOMAIN-SUFFIX,pingan.com.cn
+
+# Type
 # > Beplay
 DOMAIN-KEYWORD,beplay
 
@@ -47,10 +82,13 @@ IP-CIDR,129.226.0.0/16,DIRECT,no-resolve
 IP-CIDR,183.128.0.0/11,DIRECT,no-resolve
 IP-CIDR,183.131.48.0/20,DIRECT,no-resolve
 
+DOMAIN-SUFFIX,10010.com
+DOMAIN-SUFFIX,10086.cn
 DOMAIN-SUFFIX,12306.cn
 DOMAIN-SUFFIX,12306.com
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,189.cn
 DOMAIN-SUFFIX,360.cn
 DOMAIN-SUFFIX,360.com
 DOMAIN-SUFFIX,360buy.com
@@ -115,8 +153,6 @@ DOMAIN-SUFFIX,duokan.com
 DOMAIN-SUFFIX,duoshuo.com
 DOMAIN-SUFFIX,dytt8.net
 DOMAIN-SUFFIX,easou.com
-DOMAIN-SUFFIX,ecitic.com
-DOMAIN-SUFFIX,ecitic.net
 DOMAIN-SUFFIX,eudic.net
 DOMAIN-SUFFIX,ewqcxz.com
 DOMAIN-SUFFIX,feng.com
@@ -264,8 +300,6 @@ DOMAIN-SUFFIX,wkcdn.com
 DOMAIN-SUFFIX,xdrig.com
 DOMAIN-SUFFIX,xhostfire.com
 DOMAIN-SUFFIX,xhscdn.com
-DOMAIN-SUFFIX,xiami.com
-DOMAIN-SUFFIX,xiami.net
 DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-SUFFIX,xiaojukeji.com
 DOMAIN-SUFFIX,xiaomi.com
@@ -294,4 +328,5 @@ DOMAIN-SUFFIX,zmz002.com
 IP-CIDR,1.255.62.0/24,no-resolve
 
 # > CN
+DOMAIN-SUFFIX,gov.cn
 DOMAIN-SUFFIX,cn
