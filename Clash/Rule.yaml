@@ -22,6 +22,7 @@
 - RULE-SET,ABC,Global TV
 - RULE-SET,Abema TV,Global TV
 - RULE-SET,Amazon,Global TV
+- RULE-SET,Apple Music,Global TV
 - RULE-SET,Apple News,Global TV
 - RULE-SET,Apple TV,Global TV
 - RULE-SET,Bahamut,Global TV
@@ -91,6 +92,7 @@ script:
             "ABC": "Global TV",
             "Abema TV": "Global TV",
             "Amazon": "Global TV",
+            "Apple Music": "Global TV",
             "Apple News": "Global TV",
             "Apple TV": "Global TV",
             "Bahamut": "Global TV",
@@ -270,6 +272,12 @@ rule-providers:
     behavior: classical
     url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Amazon.yaml'
     path: ./Rules/Media/Amazon
+    interval: 86400
+  Apple Music:
+    type: http
+    behavior: classical
+    url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Apple%20Music.yaml'
+    path: ./Rules/Media/Apple_Music
     interval: 86400
   Apple News:
     type: http
