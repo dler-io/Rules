@@ -685,6 +685,10 @@ DOMAIN-SUFFIX,v2ex.com
 
 DOMAIN-KEYWORD,dlercloud
 
+# > VikACG
+DOMAIN-SUFFIX,vikacg.com
+DOMAIN-SUFFIX,picjs.xyz
+
 # > exception
 DOMAIN-SUFFIX,wheel-size.cn
 DOMAIN-SUFFIX,chalungu.cn
