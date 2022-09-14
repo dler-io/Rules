@@ -8194,6 +8194,8 @@ payload:
   - DOMAIN-SUFFIX,zzy1.quyaoya.com
   - DOMAIN-SUFFIX,zzz7.52896368.com
   - DOMAIN-SUFFIX,zzzzz4.52896368.com
+  - DOMAIN-SUFFIX,5534edee5a.com
+  - DOMAIN-SUFFIX,ea778a21c7.com
 
   # > Baidu
   - DOMAIN-SUFFIX,baidustatic.com
