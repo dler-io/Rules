@@ -25,7 +25,8 @@ DOMAIN-SUFFIX,nflxvideo.net
 
 DOMAIN,e13252.dscg.akamaiedge.net
 DOMAIN,h-netflix.online-metrix.net
-DOMAIN,geolocation.onetrust.com
+DOMAIN-SUFFIX,onetrust.com
+DOMAIN-SUFFIX,cookielaw.org
 
 IP-CIDR,23.246.0.0/18,no-resolve
 IP-CIDR,37.77.184.0/21,no-resolve
