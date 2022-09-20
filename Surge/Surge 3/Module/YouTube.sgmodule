@@ -2,25 +2,20 @@
 #!desc=YouTube videos removes ads.
 
 [Rule]
-URL-REGEX,https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost,REJECT
-URL-REGEX,https?:\/\/.+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+(&oad|ctier),REJECT
-URL-REGEX,https?:\/\/.+\.youtube\.com\/api\/stats\/ads,REJECT
-URL-REGEX,https?:\/\/.+\.youtube\.com\/get_midroll_,REJECT
-URL-REGEX,https?:\/\/.+\.youtube\.com\/(pagead|ptracking)\/,REJECT
-URL-REGEX,https?:\/\/.+\.youtube\.com\/_get_ads,REJECT
-URL-REGEX,https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite,REJECT
-URL-REGEX,https?:\/\/s0\.2mdn\.net\/ads\/,REJECT
-URL-REGEX,https?:\/\/stats\.tubemogul\.com\/stats\/,REJECT
-URL-REGEX,https?:\/\/youtubei\.googleapis\.com\/.+ad_break,REJECT
-URL-REGEX,https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+(ad|log),REJECT
-URL-REGEX,https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?.*adformat,REJECT
+URL-REGEX,https?:\/\/.+\.googlevideo\.com\/.+?)(&ctier=L|\/ctier\/L)((&|\/).+?)(,ctier|%2Cctier)((,|%2C),REJECT-TINYGIF
+URL-REGEX,https?:\/\/.+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+(&oad|ctier),REJECT-TINYGIF
+URL-REGEX,https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost,REJECT-TINYGIF
+URL-REGEX,https?:\/\/.+\.youtube\.com\/api\/stats\/ads,REJECT-TINYGIF
+URL-REGEX,https?:\/\/.+\.youtube\.com\/get_midroll_,REJECT-TINYGIF
+URL-REGEX,https?:\/\/.+\.youtube\.com\/(pagead|ptracking)\/,REJECT-TINYGIF
+URL-REGEX,https?:\/\/.+\.youtube\.com\/_get_ads,REJECT-TINYGIF
+URL-REGEX,https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite,REJECT-TINYGIF
+URL-REGEX,https?:\/\/s0\.2mdn\.net\/ads\/,REJECT-TINYGIF
+URL-REGEX,https?:\/\/stats\.tubemogul\.com\/stats\/,REJECT-TINYGIF
+URL-REGEX,https?:\/\/youtubei\.googleapis\.com\/.+ad_break,REJECT-TINYGIF
+URL-REGEX,https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+(ad|log),REJECT-TINYGIF
+URL-REGEX,https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?.*adformat,REJECT-TINYGIF
 URL-REGEX,https?:\/\/(?!redirector)[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+)(ctier=L)(&.+),REJECT-TINYGIF
-
-[URL Rewrite]
-ctier=[A-Z] citer=A 302
-
-[Script]
-http-request https?:\/\/.+?\.googlevideo\.com\/.+&(oad|ctier)=(?!A),script-path=https://choler.github.io/Surge/Script/YouTube.js
 
 [MITM]
 hostname = %APPEND% *.googlevideo.com, *.youtube.com, youtubei.googleapis.com
