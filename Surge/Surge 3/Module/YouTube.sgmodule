@@ -2,7 +2,7 @@
 #!desc=YouTube videos removes ads.
 
 [Rule]
-URL-REGEX,https?:\/\/.+\.googlevideo\.com\/.+?)(&ctier=L|\/ctier\/L)((&|\/).+?)(,ctier|%2Cctier)((,|%2C),REJECT-TINYGIF
+#URL-REGEX,https?:\/\/.+\.googlevideo\.com\/.+?)(&ctier=L|\/ctier\/L)((&|\/).+?)(,ctier|%2Cctier)((,|%2C),REJECT-TINYGIF
 URL-REGEX,https?:\/\/.+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+(&oad|ctier),REJECT-TINYGIF
 URL-REGEX,https?:\/\/.+\.googlevideo\.com\/ptracking\?pltype=adhost,REJECT-TINYGIF
 URL-REGEX,https?:\/\/.+\.youtube\.com\/api\/stats\/ads,REJECT-TINYGIF
