@@ -43,6 +43,7 @@
 - RULE-SET,KKTV,Global TV
 - RULE-SET,Line TV,Global TV
 - RULE-SET,myTV SUPER,Global TV
+- RULE-SET,Niconico,Global TV
 - RULE-SET,Pandora,Global TV
 - RULE-SET,PBS,Global TV
 - RULE-SET,Pornhub,Global TV
@@ -113,6 +114,7 @@ script:
             "KKTV": "Global TV",
             "Line TV": "Global TV",
             "myTV SUPER": "Global TV",
+            "Niconico": "Global TV",
             "Pandora": "Global TV",
             "PBS": "Global TV",
             "Pornhub": "Global TV",
@@ -404,6 +406,12 @@ rule-providers:
     behavior: classical
     url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/myTV%20SUPER.yaml'
     path: ./Rules/Media/myTV_SUPER
+    interval: 86400
+  Niconico:
+    type: http
+    behavior: classical
+    url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Niconico.yaml'
+    path: ./Rules/Media/Niconico
     interval: 86400
   Pandora:
     type: http
