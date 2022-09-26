@@ -26,11 +26,11 @@ const BASE_URL = 'https://www.youtube.com/premium'
 
 const DEFAULT_OPTIONS = {
   title: 'YouTube Premium',
-  availableContent: '支持 YouTube Premium，地区：#REGION_FLAG# #REGION_NAME#',
+  availableContent: '支持 | 地区: #REGION_FLAG# #REGION_NAME_EN#',
   availableIcon: '',
   availableIconColor: '',
   availableStyle: 'good',
-  notAvailableContent: '不支持 YouTube Premium',
+  notAvailableContent: '不支持',
   notAvailableIcon: '',
   notAvailableIconColor: '',
   notAvailableStyle: 'alert',

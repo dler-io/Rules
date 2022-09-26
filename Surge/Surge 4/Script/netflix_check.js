@@ -31,15 +31,15 @@ const FILM_ID = 81215567
 const AREA_TEST_FILM_ID = 80018499
 const DEFAULT_OPTIONS = {
   title: 'Netflix',
-  fullContent: '完整支持，地区：#REGION_FLAG# #REGION_NAME#',
+  fullContent: '完整支持 | 地区: #REGION_FLAG# #REGION_NAME_EN#',
   fullIcon: '',
   fullIconColor: '',
   fullStyle: 'good',
-  onlyOriginalContent: '仅支持自制剧，地区：#REGION_FLAG# #REGION_NAME#',
+  onlyOriginalContent: '仅支持自制剧 | 地区: #REGION_FLAG# #REGION_NAME_EN#',
   onlyOriginalIcon: '',
   onlyOriginalIconColor: '',
   onlyOriginalStyle: 'info',
-  notAvailableContent: '不支持 Netflix',
+  notAvailableContent: '不支持',
   notAvailableIcon: '',
   notAvailableIconColor: '',
   notAvailableStyle: 'alert',

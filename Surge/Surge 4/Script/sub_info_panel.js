@@ -45,7 +45,7 @@ function getArgs() {
 }
 
 function getUserInfo(url) {
-  let request = { headers: { "User-Agent": "Quantumult%20X" }, url };
+  let request = { headers: { "User-Agent": "Surge" }, url };
   return new Promise((resolve, reject) =>
     $httpClient.get(request, (err, resp) => {
       if (err != null) {
