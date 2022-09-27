@@ -2,7 +2,7 @@
 #!desc=Netflix Unlock Check
 #!system=ios
 
-[Script]
+[Panel]
 netflix_check = script-name=netflix_check, update-interval=1
 
 [Script]

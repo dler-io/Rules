@@ -2,7 +2,7 @@
 #!desc=YouTube Unlock Check
 #!system=ios
 
-[Script]
+[Panel]
 youtube_check = script-name=youtube_check, update-interval=1
 
 [Script]
