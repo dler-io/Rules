@@ -29,3 +29,8 @@ tun:
 cfw-latency-timeout: 3000
 cfw-latency-url: http://cp.cloudflare.com/generate_204
 cfw-conn-break-strategy: true
+
+# Stash
+url-rewrite:
+    - ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+    - ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302

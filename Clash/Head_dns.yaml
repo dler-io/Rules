@@ -120,3 +120,8 @@ cfw-conn-break-strategy: true
 # Clash for Android
 clash-for-android: 
   ui-subtitle-pattern: "[\u4e00-\u9fa5]{2,4}"
+
+# Stash
+url-rewrite:
+    - ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+    - ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
