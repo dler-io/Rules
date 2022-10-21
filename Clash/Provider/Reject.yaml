@@ -8207,7 +8207,6 @@ payload:
   - DOMAIN,nsclick.baidu.com
   - DOMAIN,wn.pos.baidu.com
   - DOMAIN,ps.map.baidu.com
-  - DOMAIN,sv.map.baidu.com
   - DOMAIN,offnavi.map.baidu.com
   - DOMAIN,newvector.map.baidu.com
   - DOMAIN,ulog.imap.baidu.com
