@@ -2,6 +2,7 @@ payload:
   # China Banks
   # > Agricultural Bank of China
   - DOMAIN-SUFFIX,abchina.com
+  - DOMAIN-SUFFIX,abchina.com.cn
 
   # > Bank of China
   - DOMAIN-SUFFIX,boc.cn
@@ -98,6 +99,7 @@ payload:
   - DOMAIN-SUFFIX,51ym.me
   - DOMAIN-SUFFIX,58.com
   - DOMAIN-SUFFIX,8686c.com
+  - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,abercrombie.com
   - DOMAIN-SUFFIX,acfun.tv
   - DOMAIN-SUFFIX,adobesc.com
