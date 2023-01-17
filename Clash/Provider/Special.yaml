@@ -143,6 +143,7 @@ payload:
   - DOMAIN-SUFFIX,springsunday.net
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,totheglory.im
+  - DOMAIN-SUFFIX,audiences.me
 
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,torrent
