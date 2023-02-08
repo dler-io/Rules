@@ -485,7 +485,7 @@ rule-providers:
     url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Microsoft.yaml'
     path: ./Rules/Microsoft
     interval: 86400
-  Microsoft:
+  ChatGPT:
     type: http
     behavior: classical
     url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/ChatGPT.yaml'
