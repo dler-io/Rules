@@ -113,6 +113,7 @@ PROCESS-NAME,WebTorrent
 PROCESS-NAME,WebTorrent Helper
 
 # > Private Tracker
+DOMAIN-SUFFIX,audiences.me
 DOMAIN-SUFFIX,awesome-hd.me
 DOMAIN-SUFFIX,broadcasthe.net
 DOMAIN-SUFFIX,chdbits.co
@@ -140,3 +141,6 @@ DOMAIN-SUFFIX,totheglory.im
 
 DOMAIN-SUFFIX,smtp
 URL-REGEX,(Subject|HELO|SMTP)
+
+# > UBI
+DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com

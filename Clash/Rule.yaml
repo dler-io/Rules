@@ -22,9 +22,6 @@
 - RULE-SET,ABC,Global TV
 - RULE-SET,Abema TV,Global TV
 - RULE-SET,Amazon,Global TV
-- RULE-SET,Apple Music,Global TV
-- RULE-SET,Apple News,Global TV
-- RULE-SET,Apple TV,Global TV
 - RULE-SET,Bahamut,Global TV
 - RULE-SET,BBC iPlayer,Global TV
 - RULE-SET,DAZN,Global TV
@@ -57,6 +54,10 @@
 - RULE-SET,Speedtest,Speedtest
 - RULE-SET,PayPal,PayPal
 - RULE-SET,Microsoft,Microsoft
+
+- RULE-SET,Apple Music,Apple TV
+- RULE-SET,Apple News,Apple TV
+- RULE-SET,Apple TV,Apple TV
 
 - RULE-SET,Apple,Apple
 
@@ -93,9 +94,6 @@ script:
             "ABC": "Global TV",
             "Abema TV": "Global TV",
             "Amazon": "Global TV",
-            "Apple Music": "Global TV",
-            "Apple News": "Global TV",
-            "Apple TV": "Global TV",
             "Bahamut": "Global TV",
             "BBC iPlayer": "Global TV",
             "DAZN": "Global TV",
@@ -127,6 +125,9 @@ script:
             "Speedtest": "Speedtest",
             "PayPal": "PayPal",
             "Microsoft": "Microsoft",
+            "Apple Music": "Apple TV",
+            "Apple News": "Apple TV",
+            "Apple TV": "Apple TV",
             "Apple": "Apple",
             "Google FCM": "Google FCM",
             "Scholar": "Scholar",
