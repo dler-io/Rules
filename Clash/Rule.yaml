@@ -1,3 +1,5 @@
+- SCRIPT,BLOCK_QUIC,REJECT
+
 - RULE-SET,Reject,AdBlock
 - RULE-SET,Special,DIRECT
 
@@ -76,6 +78,8 @@
 - MATCH,Others
 
 script:
+  shortcuts:
+    BLOCK_QUIC: 'network == "udp" and dst_port == 443'
   code: |
     def main(ctx, metadata):
         ruleset_action = {"Reject": "AdBlock",
@@ -141,7 +145,7 @@ script:
 
         port = int(metadata["dst_port"])
 
-        if metadata["network"] == "UDP" and port == 443:
+        if metadata["network"] == "udp" and port == 443:
             ctx.log('[Script] matched QUIC traffic use reject')
             return "REJECT"
 
