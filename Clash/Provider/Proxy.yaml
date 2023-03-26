@@ -1,4 +1,11 @@
 payload:
+  # > Blizzard
+  # - USER-AGENT,hearthstone*
+  - DOMAIN,cdp.cloud.unity3d.com
+  - DOMAIN-SUFFIX,battle.net
+  - DOMAIN-SUFFIX,battlenet.com
+  - DOMAIN-SUFFIX,blizzard.com
+  
   # > Duolingo
   # - USER-AGENT,Duolingo*
   - DOMAIN-KEYWORD,duolingo

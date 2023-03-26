@@ -38,13 +38,6 @@ payload:
   # > Beplay
   - DOMAIN-KEYWORD,beplay
 
-  # > Blizzard
-  # - USER-AGENT,hearthstone*
-  - DOMAIN,cdp.cloud.unity3d.com
-  - DOMAIN-SUFFIX,battle.net
-  - DOMAIN-SUFFIX,battlenet.com
-  - DOMAIN-SUFFIX,blizzard.com
-
   # > Prior
   - DOMAIN,client.amplifi.com
   - DOMAIN,ip.bjango.com
