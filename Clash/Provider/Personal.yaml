@@ -1,0 +1,20 @@
+payload:
+# > Personal
+- DOMAIN-SUFFIX,bing.com
+- DOMAIN-SUFFIX,feedly.com
+- DOMAIN-SUFFIX,studio384.be
+- DOMAIN-SUFFIX,changewindows.org
+- DOMAIN-SUFFIX,maketecheasier.com
+- DOMAIN-SUFFIX,linuxtoday.com
+- DOMAIN-SUFFIX,howtogeek.com
+- DOMAIN-SUFFIX,groovypost.com
+- DOMAIN-SUFFIX,itprotoday.com
+- DOMAIN-SUFFIX,helpdeskgeek.com
+- DOMAIN-SUFFIX,linuxiac.com
+- DOMAIN-SUFFIX,techspot.com
+- DOMAIN-SUFFIX,kernel.ubuntu.com
+- DOMAIN-SUFFIX,launchpadcontent.net
+- DOMAIN-SUFFIX,ghacks.net
+- DOMAIN-SUFFIX,mspoweruser.com
+- DOMAIN-SUFFIX,cloudflarestorage.com
+- DOMAIN-SUFFIX,models.topazlabs.com

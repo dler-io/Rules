@@ -5,16 +5,16 @@ payload:
   - DOMAIN-SUFFIX,heremaps.cn
   - DOMAIN-SUFFIX,ovi.com.cn
 
-  - DOMAIN-SUFFIX,azure
+ #- DOMAIN-SUFFIX,azure
   - DOMAIN-SUFFIX,azure-apim.net
-  - DOMAIN-SUFFIX,azure-dns.com
-  - DOMAIN-SUFFIX,azure-dns.info
-  - DOMAIN-SUFFIX,azure-dns.net
-  - DOMAIN-SUFFIX,azure-dns.org
+ #- DOMAIN-SUFFIX,azure-dns.com
+ #- DOMAIN-SUFFIX,azure-dns.info
+ #- DOMAIN-SUFFIX,azure-dns.net
+ #- DOMAIN-SUFFIX,azure-dns.org
   - DOMAIN-SUFFIX,azure-mobile.net
   - DOMAIN-SUFFIX,azure-sphere.com
   - DOMAIN-SUFFIX,azure-test.net
-  - DOMAIN-SUFFIX,azure.cn
+ #- DOMAIN-SUFFIX,azure.cn
   - DOMAIN-SUFFIX,azure.com
   - DOMAIN-SUFFIX,azure.net
   - DOMAIN-SUFFIX,azurecomcdn.net
@@ -43,9 +43,9 @@ payload:
   - DOMAIN-SUFFIX,azuresmartspaces.net
   - DOMAIN-SUFFIX,azurestackvalidation.com
   - DOMAIN-SUFFIX,azurewebsites.net
-  - DOMAIN-SUFFIX,chinacloudapi.cn
-  - DOMAIN-SUFFIX,chinacloudapp.cn
-  - DOMAIN-SUFFIX,chinacloudsites.cn
+ #- DOMAIN-SUFFIX,chinacloudapi.cn
+ #- DOMAIN-SUFFIX,chinacloudapp.cn
+ #- DOMAIN-SUFFIX,chinacloudsites.cn
   - DOMAIN-SUFFIX,cosmosdb.info
   - DOMAIN-SUFFIX,cosmosdb.net
   - DOMAIN-SUFFIX,devopsms.com
@@ -55,7 +55,7 @@ payload:
   - DOMAIN-SUFFIX,serverlesslibrary.net
   - DOMAIN-SUFFIX,signalr.net
   - DOMAIN-SUFFIX,tryfunctions.com
-  - DOMAIN-SUFFIX,windowsazure.cn
+ #- DOMAIN-SUFFIX,windowsazure.cn
   - DOMAIN-SUFFIX,windowsazure.com
   - DOMAIN-SUFFIX,azure.microsoft.com
   - DOMAIN-SUFFIX,azuremarketplace.microsoft.com
@@ -65,8 +65,7 @@ payload:
   - DOMAIN-SUFFIX,biing.com
   - DOMAIN-SUFFIX,binb.com
   - DOMAIN-SUFFIX,binf.com
-  - DOMAIN-SUFFIX,bing
-  - DOMAIN-SUFFIX,bing.com
+  #- DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,bing.com.cn
   - DOMAIN-SUFFIX,bing.net
   - DOMAIN-SUFFIX,bing123.com
@@ -116,8 +115,8 @@ payload:
   - DOMAIN-SUFFIX,working-bing-int.com
   - DOMAIN-SUFFIX,bj1.api.bing.com
   - DOMAIN-SUFFIX,emoi-cncdn.bing.com
-  - DOMAIN-SUFFIX,cn.bing.com
-  - DOMAIN-SUFFIX,cn.bing.net
+  #- DOMAIN-SUFFIX,cn.bing.com
+  #- DOMAIN-SUFFIX,cn.bing.net
   - DOMAIN-SUFFIX,ditu.live.com
 
   - DOMAIN-SUFFIX,a-msedge.net
@@ -217,7 +216,7 @@ payload:
   - DOMAIN-SUFFIX,o365weve-dev.com
   - DOMAIN-SUFFIX,o365weve-ppe.com
   - DOMAIN-SUFFIX,o365weve.com
-  - DOMAIN-SUFFIX,office
+ # - DOMAIN-SUFFIX,office
   - DOMAIN-SUFFIX,office.com
   - DOMAIN-SUFFIX,office.net
   - DOMAIN-SUFFIX,office365.com
@@ -360,7 +359,7 @@ payload:
   - DOMAIN-SUFFIX,helpshift.com
   - DOMAIN-SUFFIX,hockeyapp.net
   - DOMAIN-SUFFIX,hololens.com
-  - DOMAIN-SUFFIX,hotmail
+ #- DOMAIN-SUFFIX,hotmail
   - DOMAIN-SUFFIX,hotmail.co
   - DOMAIN-SUFFIX,hotmail.com
   - DOMAIN-SUFFIX,hotmail.eu

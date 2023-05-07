@@ -1,0 +1,12 @@
+domain:gstatic.com
+domain:kernel.org
+keyword:github
+#youtube
+keyword:youtube
+domain:yt.be
+domain:yt3.ggpht.com
+domain:ytimg.com
+domain:gvt1.com
+domain:youtu.be
+#google
+keyword:google
