@@ -1,6 +1,6 @@
 payload:
 # > Personal
-- DOMAIN-SUFFIX,bing.com
+- DOMAIN-SUFFIX,www.bing.com
 - DOMAIN-SUFFIX,feedly.com
 - DOMAIN-SUFFIX,studio384.be
 - DOMAIN-SUFFIX,changewindows.org
