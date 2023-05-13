@@ -148,7 +148,6 @@ payload:
   - DOMAIN-SUFFIX,cnn.com
   - DOMAIN-SUFFIX,cocoapods.org
   - DOMAIN-SUFFIX,comodoca.com
-  - DOMAIN-SUFFIX,content.office.net
   - DOMAIN-SUFFIX,crisp.chat
   - DOMAIN-SUFFIX,culturedcode.com
   - DOMAIN-SUFFIX,cygames.jp
@@ -219,7 +218,6 @@ payload:
   - DOMAIN-SUFFIX,getmdl.io
   - DOMAIN-SUFFIX,getpricetag.com
   - DOMAIN-SUFFIX,gfw.press
-  - DOMAIN-SUFFIX,gfx.ms
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,ghostnoteapp.com
   - DOMAIN-SUFFIX,ghcr.io
@@ -314,7 +312,6 @@ payload:
   - DOMAIN-SUFFIX,mega.co.nz
   - DOMAIN-SUFFIX,mega.nz
   - DOMAIN-SUFFIX,megaupload.com
-  - DOMAIN-SUFFIX,microsofttranslator.com
   - DOMAIN-SUFFIX,mindnode.com
   - DOMAIN-SUFFIX,mixin.one
   - DOMAIN-SUFFIX,mlssoccer.com
@@ -322,7 +319,6 @@ payload:
   - DOMAIN-SUFFIX,modmyi.com
   - DOMAIN-SUFFIX,moves-export.com
   - DOMAIN-SUFFIX,mp3buscador.com
-  - DOMAIN-SUFFIX,msedge.net
   - DOMAIN-SUFFIX,mycnnews.com
   - DOMAIN-SUFFIX,myfontastic.com
   - DOMAIN-SUFFIX,mypikpak.com
@@ -346,14 +342,11 @@ payload:
   - DOMAIN-SUFFIX,nytimes.com
   - DOMAIN-SUFFIX,nytimg.com
   - DOMAIN-SUFFIX,nytstyle.com
-  - DOMAIN-SUFFIX,office365.com
   - DOMAIN-SUFFIX,okx.com
   - DOMAIN-SUFFIX,omnigroup.com
-  - DOMAIN-SUFFIX,onenote.com
   - DOMAIN-SUFFIX,ooyala.com
   - DOMAIN-SUFFIX,openvpn.net
   - DOMAIN-SUFFIX,openwrt.org
-  - DOMAIN-SUFFIX,optimizely.com
   - DOMAIN-SUFFIX,orkut.com
   - DOMAIN-SUFFIX,osha.gov
   - DOMAIN-SUFFIX,osxdaily.com
@@ -409,7 +402,6 @@ payload:
   - DOMAIN-SUFFIX,search.com
   - DOMAIN-SUFFIX,servebom.com
   - DOMAIN-SUFFIX,sexinsex.net
-  - DOMAIN-SUFFIX,sfx.ms
   - DOMAIN-SUFFIX,shadowsocks.org
   - DOMAIN-SUFFIX,shadowverse.jp
   - DOMAIN-SUFFIX,sharethis.com
