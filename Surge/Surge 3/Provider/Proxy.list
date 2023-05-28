@@ -102,8 +102,6 @@ DOMAIN-SUFFIX,bbtoystore.com
 DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,betvictor.com
 DOMAIN-SUFFIX,bigsound.org
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,bing.net
 DOMAIN-SUFFIX,bintray.com
 DOMAIN-SUFFIX,bit.com
 DOMAIN-SUFFIX,bit.do
@@ -152,7 +150,6 @@ DOMAIN-SUFFIX,cnet.com
 DOMAIN-SUFFIX,cnn.com
 DOMAIN-SUFFIX,cocoapods.org
 DOMAIN-SUFFIX,comodoca.com
-DOMAIN-SUFFIX,content.office.net
 DOMAIN-SUFFIX,crisp.chat
 DOMAIN-SUFFIX,culturedcode.com
 DOMAIN-SUFFIX,cygames.jp
@@ -223,7 +220,6 @@ DOMAIN-SUFFIX,getlantern.org
 DOMAIN-SUFFIX,getmdl.io
 DOMAIN-SUFFIX,getpricetag.com
 DOMAIN-SUFFIX,gfw.press
-DOMAIN-SUFFIX,gfx.ms
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ghostnoteapp.com
 DOMAIN-SUFFIX,ghcr.io
@@ -318,7 +314,6 @@ DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,mega.co.nz
 DOMAIN-SUFFIX,mega.nz
 DOMAIN-SUFFIX,megaupload.com
-DOMAIN-SUFFIX,microsofttranslator.com
 DOMAIN-SUFFIX,mindnode.com
 DOMAIN-SUFFIX,mixin.one
 DOMAIN-SUFFIX,mlssoccer.com
@@ -326,7 +321,6 @@ DOMAIN-SUFFIX,mobile01.com
 DOMAIN-SUFFIX,modmyi.com
 DOMAIN-SUFFIX,moves-export.com
 DOMAIN-SUFFIX,mp3buscador.com
-DOMAIN-SUFFIX,msedge.net
 DOMAIN-SUFFIX,mycnnews.com
 DOMAIN-SUFFIX,myfontastic.com
 DOMAIN-SUFFIX,mypikpak.com
@@ -350,14 +344,11 @@ DOMAIN-SUFFIX,nyt.com
 DOMAIN-SUFFIX,nytimes.com
 DOMAIN-SUFFIX,nytimg.com
 DOMAIN-SUFFIX,nytstyle.com
-DOMAIN-SUFFIX,office365.com
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,omnigroup.com
-DOMAIN-SUFFIX,onenote.com
 DOMAIN-SUFFIX,ooyala.com
 DOMAIN-SUFFIX,openvpn.net
 DOMAIN-SUFFIX,openwrt.org
-DOMAIN-SUFFIX,optimizely.com
 DOMAIN-SUFFIX,orkut.com
 DOMAIN-SUFFIX,osha.gov
 DOMAIN-SUFFIX,osxdaily.com

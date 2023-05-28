@@ -14,6 +14,7 @@ payload:
   # Hong Kong, Macau, Taiwan
   # - USER-AGENT,bili-inter*
   - DOMAIN,apiintl.biliapi.net
+
   # Android Process
   - PROCESS-NAME,com.bilibili.app.blue
   - PROCESS-NAME,com.bilibili.app.in
