@@ -8224,7 +8224,6 @@ payload:
   # - URL-REGEX,https:\/\/api\.bilibili\.com\/pgc\/season\/rank\/cn
 
   # > OpenAI
-  - DOMAIN,o33249.ingest.sentry.io
   - DOMAIN,openaicom.imgix.net
 
   # > Didi
