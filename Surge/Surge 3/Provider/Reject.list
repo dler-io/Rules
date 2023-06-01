@@ -8227,6 +8227,7 @@ URL-REGEX,https:\/\/app\.bilibili\.com\/x\/v2\/rank\.*rid=(168|5)
 URL-REGEX,https:\/\/api\.bilibili\.com\/pgc\/season\/rank\/cn
 
 # > OpenAI
+DOMAIN,o33249.ingest.sentry.io
 DOMAIN,openaicom.imgix.net
 
 # > Didi
