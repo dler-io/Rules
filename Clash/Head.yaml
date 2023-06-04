@@ -5,6 +5,7 @@ allow-lan: true
 mode: Rule
 log-level: info
 external-controller: 127.0.0.1:6170
+secret: dler
 experimental:
   ignore-resolve-fail: true
 
