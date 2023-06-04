@@ -1574,6 +1574,8 @@ payload:
   - DOMAIN-SUFFIX,applog.uc.cn
   - DOMAIN-SUFFIX,applogapi.autohome.com.cn
   - DOMAIN-SUFFIX,applogios.uc.cn
+  - DOMAIN-SUFFIX,applovin.com
+  - DOMAIN-SUFFIX,applvn.com
   - DOMAIN-SUFFIX,app-monitor.ele.me
   - DOMAIN-SUFFIX,appnext.com
   - DOMAIN-SUFFIX,appodealx.com
@@ -2572,7 +2574,6 @@ payload:
   - DOMAIN-SUFFIX,d.admx.baixing.com
   - DOMAIN-SUFFIX,d.agkn.com
   - DOMAIN-SUFFIX,d.annarbor.com
-  - DOMAIN-SUFFIX,d.applovin.com
   - DOMAIN-SUFFIX,d.beigedi.com
   - DOMAIN-SUFFIX,d.businessinsider.com
   - DOMAIN-SUFFIX,d.clkservice.youdao.com
@@ -2871,6 +2872,7 @@ payload:
   - DOMAIN-SUFFIX,dolphin.deliver.ifeng.com
   - DOMAIN-SUFFIX,dolphin.ftimg.net
   - DOMAIN-SUFFIX,dolphin4.ftimg.net
+  - DOMAIN-SUFFIX,doubleclick.net
   - DOMAIN-SUFFIX,domed.shenbimall.com
   - DOMAIN-SUFFIX,do-not-tracker.org
   - DOMAIN-SUFFIX,dontblockme.modaco.com
