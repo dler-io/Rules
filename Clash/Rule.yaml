@@ -63,6 +63,8 @@
 - RULE-SET,Speedtest,Speedtest
 - RULE-SET,Steam,Steam
 
+- RULE-SET,miHoYo,miHoYo
+
 - RULE-SET,PROXY,Proxy
 
 - RULE-SET,Domestic,Domestic
@@ -130,6 +132,7 @@ script:
             "Scholar": "Scholar",
             "Speedtest": "Speedtest",
             "Steam": "Steam",
+            "miHoYo": "miHoYo",
             "PROXY": "Proxy",
             "Domestic": "Domestic",
             "Domestic IPs": "Domestic",
@@ -529,4 +532,10 @@ rule-providers:
     behavior: classical
     url: 'https://dler.cloud/Rules/Clash/Provider/Scholar.yaml'
     path: ./Rules/Scholar
+    interval: 86400
+  miHoYo:
+    type: http
+    behavior: classical
+    url: 'https://dler.cloud/Rules/Clash/Provider/miHoYo.yaml'
+    path: ./Rules/miHoYo
     interval: 86400
