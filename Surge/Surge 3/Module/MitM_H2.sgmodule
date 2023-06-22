@@ -1,0 +1,5 @@
+#!name=MITM over HTTP/2
+#!desc=MITM over HTTP/2
+
+[MITM]
+h2 = true

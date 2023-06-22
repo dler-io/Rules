@@ -1,0 +1,5 @@
+#!name=Ponte
+#!desc=Surge Ponte is a private mesh network between Surge Mac and iOS devices.
+
+[Ponte]
+server-proxy-name = Proxy
