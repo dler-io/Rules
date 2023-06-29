@@ -139,6 +139,7 @@ payload:
   - DOMAIN-SUFFIX,chromium.org
   - DOMAIN-SUFFIX,cl.ly
   - DOMAIN-SUFFIX,clien.net
+  - DOMAIN-SUFFIX,cloud.cupronickel.goog
   - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,cloudfront.net
   - DOMAIN-SUFFIX,cloudgarage.jp
