@@ -168,6 +168,7 @@ payload:
   - DOMAIN-SUFFIX,disq.us
   - DOMAIN-SUFFIX,disqus.com
   - DOMAIN-SUFFIX,disquscdn.com
+  - DOMAIN-SUFFIX,dler.io
   - DOMAIN-SUFFIX,dmm.co.jp
   - DOMAIN-SUFFIX,dnsimple.com
   - DOMAIN-SUFFIX,docker.com
