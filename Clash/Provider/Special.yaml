@@ -1,7 +1,4 @@
 payload:
-  # > Dler Cloud
-  - DOMAIN-SUFFIX,dler.cloud
-
   # > Apple CDN
   - PROCESS-NAME,storedownloadd
   # - USER-AGENT,com.apple.appstored*
