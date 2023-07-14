@@ -53,11 +53,11 @@
 
 - RULE-SET,Telegram,Telegram
 
-- RULE-SET,ChatGPT,ChatGPT
 - RULE-SET,Crypto,Crypto
 - RULE-SET,Discord,Discord
 - RULE-SET,Google FCM,Google FCM
 - RULE-SET,Microsoft,Microsoft
+- RULE-SET,OpenAI,OpenAI
 - RULE-SET,PayPal,PayPal
 - RULE-SET,Scholar,Scholar
 - RULE-SET,Speedtest,Speedtest
@@ -123,11 +123,11 @@ script:
             "Apple TV": "Apple TV",
             "Apple": "Apple",
             "Telegram": "Telegram",
-            "ChatGPT": "ChatGPT",
             "Crypto": "Crypto",
             "Discord": "Discord",
             "Google FCM": "Google FCM",
             "Microsoft": "Microsoft",
+            "OpenAI": "OpenAI",
             "PayPal": "PayPal",
             "Scholar": "Scholar",
             "Speedtest": "Speedtest",
@@ -509,11 +509,11 @@ rule-providers:
     url: 'https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Microsoft.yaml'
     path: ./Rules/Microsoft
     interval: 86400
-  ChatGPT:
+  OpenAI:
     type: http
     behavior: classical
-    url: 'https://raw.dler.io/dler-io/Rules/main/Clash/Provider/ChatGPT.yaml'
-    path: ./Rules/ChatGPT
+    url: 'https://raw.dler.io/dler-io/Rules/main/Clash/Provider/OpenAI.yaml'
+    path: ./Rules/OpenAI
     interval: 86400
   Apple:
     type: http
