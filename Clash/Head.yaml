@@ -10,8 +10,8 @@ experimental:
   ignore-resolve-fail: true
 
 # Clash for Windows
-cfw-latency-timeout: 3000
 cfw-latency-url: http://cp.cloudflare.com/generate_204
+cfw-latency-timeout: 3000
 cfw-conn-break-strategy: true
 
 # Clash for Android
