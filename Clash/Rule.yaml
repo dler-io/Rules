@@ -1,3 +1,5 @@
+- RULE-SET,Anti IP,DIRECT
+
 - RULE-SET,Reject,AdBlock
 - RULE-SET,Special,DIRECT
 
@@ -77,94 +79,96 @@
 script:
   code: |
     def main(ctx, metadata):
-        ruleset_action = {"Reject": "AdBlock",
-            "Special": "DIRECT",
-            "Netflix": "Netflix",
-            "Disney Plus": "Disney",
-            "YouTube": "YouTube",
-            "Spotify": "Spotify",
-            "Bilibili": "Asian TV",
-            "IQ": "Asian TV",
-            "IQIYI": "Asian TV",
-            "Letv": "Asian TV",
-            "Netease Music": "Asian TV",
-            "Tencent Video": "Asian TV",
-            "Youku": "Asian TV",
-            "WeTV": "Asian TV",
-            "ABC": "Global TV",
-            "Abema TV": "Global TV",
-            "Amazon": "Global TV",
-            "Bahamut": "Global TV",
-            "BBC iPlayer": "Global TV",
-            "DAZN": "Global TV",
-            "Discovery Plus": "Global TV",
-            "encoreTVB": "Global TV",
-            "F1 TV": "Global TV",
-            "Fox Now": "Global TV",
-            "Fox+": "Global TV",
-            "HBO Go": "Global TV",
-            "HBO Max": "Global TV",
-            "Hulu Japan": "Global TV",
-            "Hulu": "Global TV",
-            "Japonx": "Global TV",
-            "JOOX": "Global TV",
-            "KKBOX": "Global TV",
-            "KKTV": "Global TV",
-            "Line TV": "Global TV",
-            "myTV SUPER": "Global TV",
-            "Niconico": "Global TV",
-            "Pandora": "Global TV",
-            "PBS": "Global TV",
-            "Pornhub": "Global TV",
-            "Soundcloud": "Global TV",
-            "ViuTV": "Global TV",
-            "Apple Music": "Apple TV",
-            "Apple News": "Apple TV",
-            "Apple TV": "Apple TV",
-            "Apple": "Apple",
-            "Telegram": "Telegram",
-            "Crypto": "Crypto",
-            "Discord": "Discord",
-            "Google FCM": "Google FCM",
-            "Microsoft": "Microsoft",
-            "OpenAI": "OpenAI",
-            "PayPal": "PayPal",
-            "Scholar": "Scholar",
-            "Speedtest": "Speedtest",
-            "Steam": "Steam",
-            "miHoYo": "miHoYo",
-            "PROXY": "Proxy",
-            "Domestic": "Domestic",
-            "Domestic IPs": "Domestic",
-            "LAN": "DIRECT"
+        ruleset_action = {
+            'DIRECT': 'Anti IP',
+            'Reject': 'AdBlock',
+            'Special': 'DIRECT',
+            'Netflix': 'Netflix',
+            'Disney Plus': 'Disney',
+            'YouTube': 'YouTube',
+            'Spotify': 'Spotify',
+            'Bilibili': 'Asian TV',
+            'IQ': 'Asian TV',
+            'IQIYI': 'Asian TV',
+            'Letv': 'Asian TV',
+            'Netease Music': 'Asian TV',
+            'Tencent Video': 'Asian TV',
+            'Youku': 'Asian TV',
+            'WeTV': 'Asian TV',
+            'ABC': 'Global TV',
+            'Abema TV': 'Global TV',
+            'Amazon': 'Global TV',
+            'Bahamut': 'Global TV',
+            'BBC iPlayer': 'Global TV',
+            'DAZN': 'Global TV',
+            'Discovery Plus': 'Global TV',
+            'encoreTVB': 'Global TV',
+            'F1 TV': 'Global TV',
+            'Fox Now': 'Global TV',
+            'Fox+': 'Global TV',
+            'HBO Go': 'Global TV',
+            'HBO Max': 'Global TV',
+            'Hulu Japan': 'Global TV',
+            'Hulu': 'Global TV',
+            'Japonx': 'Global TV',
+            'JOOX': 'Global TV',
+            'KKBOX': 'Global TV',
+            'KKTV': 'Global TV',
+            'Line TV': 'Global TV',
+            'myTV SUPER': 'Global TV',
+            'Niconico': 'Global TV',
+            'Pandora': 'Global TV',
+            'PBS': 'Global TV',
+            'Pornhub': 'Global TV',
+            'Soundcloud': 'Global TV',
+            'ViuTV': 'Global TV',
+            'Apple Music': 'Apple TV',
+            'Apple News': 'Apple TV',
+            'Apple TV': 'Apple TV',
+            'Apple': 'Apple',
+            'Telegram': 'Telegram',
+            'Crypto': 'Crypto',
+            'Discord': 'Discord',
+            'Google FCM': 'Google FCM',
+            'Microsoft': 'Microsoft',
+            'OpenAI': 'OpenAI',
+            'PayPal': 'PayPal',
+            'Scholar': 'Scholar',
+            'Speedtest': 'Speedtest',
+            'Steam': 'Steam',
+            'miHoYo': 'miHoYo',
+            'PROXY': 'Proxy',
+            'Domestic': 'Domestic',
+            'Domestic IPs': 'Domestic',
+            'LAN': 'DIRECT'
           }
 
-        port = int(metadata["dst_port"])
+        port = int(metadata['dst_port'])
 
-        if metadata["network"] == "UDP" and port == 443:
+        if metadata['network'] == 'UDP' and port == 443:
             ctx.log('[Script] matched QUIC traffic use reject')
-            return "REJECT"
+            return 'REJECT'
 
         port_list = [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 3389, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8888, 8889]
         if port not in port_list:
             ctx.log('[Script] not common port use direct')
-            return "DIRECT"
+            return 'DIRECT'
 
-        if metadata["dst_ip"] == "":
-            metadata["dst_ip"] = ctx.resolve_ip(metadata["host"])
+        if metadata['dst_ip'] == '':
+            metadata['dst_ip'] = ctx.resolve_ip(metadata['host'])
 
         for ruleset in ruleset_action:
             if ctx.rule_providers[ruleset].match(metadata):
                 return ruleset_action[ruleset]
 
-        if metadata["dst_ip"] != "":
-            code = ctx.geoip(metadata["dst_ip"])
-            if code == "CN":
+        if metadata['dst_ip'] != '':
+            code = ctx.geoip(metadata['dst_ip'])
+            if code == 'CN':
                 ctx.log('[Script] Geoip CN')
-                return "Domestic"
+                return 'Domestic'
 
         ctx.log('[Script] FINAL')
-        return "Others"
+        return 'Others'
 
 rule-providers:
   Reject:
@@ -202,6 +206,12 @@ rule-providers:
     behavior: classical
     url: 'https://raw.githubusercontent.com/dler-io/Rules/main/Clash/Provider/LAN.yaml'
     path: ./Rules/LAN
+    interval: 86400
+  Anti IP:
+    type: http
+    behavior: classical
+    url: 'https://raw.githubusercontent.com/lwd-temp/anti-ip-attribution/main/generated/rule-provider.yaml'
+    path: ./Rules/Anti_IP
     interval: 86400
   Netflix:
     type: http
