@@ -80,7 +80,7 @@ script:
   code: |
     def main(ctx, metadata):
         ruleset_action = {
-            'DIRECT': 'Anti IP',
+            'Anti IP': 'DIRECT',
             'Reject': 'AdBlock',
             'Special': 'DIRECT',
             'Netflix': 'Netflix',
