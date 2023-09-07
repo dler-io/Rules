@@ -8332,7 +8332,7 @@ IP-CIDR,221.179.131.72/32,no-resolve
 IP-CIDR,221.179.140.145/32,no-resolve
 
 # > Dr.Peng
-IP-CIDR,10.72.25.0/24
+IP-CIDR,10.72.25.0/24,no-resolve
 IP-CIDR,115.182.16.79/32,no-resolve
 IP-CIDR,118.144.88.126/32,no-resolve
 IP-CIDR,118.144.88.215/32,no-resolve
