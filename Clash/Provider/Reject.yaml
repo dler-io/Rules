@@ -1261,7 +1261,7 @@ payload:
   - DOMAIN-SUFFIX,adstextview.qq.com
   - DOMAIN-SUFFIX,adstil.indiatimes.com
   - DOMAIN-SUFFIX,ad-stir.com
-  - DOMAIN-SUFFIX,adsmind.ugdtimg.com
+  - DOMAIN-SUFFIX,adsmind.gdtimg.com
   - DOMAIN-SUFFIX,adstream.123.sogoucdn.com
   - DOMAIN-SUFFIX,ads-twitter.com
   - DOMAIN-SUFFIX,ads-v-darwin.hulustream.com
@@ -1951,6 +1951,7 @@ payload:
   - DOMAIN-SUFFIX,btn.onlylady.com
   - DOMAIN-SUFFIX,btn.pchome.net
   - DOMAIN-SUFFIX,btr.domywife.com
+  - DOMAIN-SUFFIX,btrace.qq.com
   - DOMAIN-SUFFIX,bttrack.com
   - DOMAIN-SUFFIX,btyou.com
   - DOMAIN-SUFFIX,bu01.zybang.com
@@ -3771,6 +3772,7 @@ payload:
   - DOMAIN-SUFFIX,h5.pk1179.com
   - DOMAIN-SUFFIX,h5.super-dreamers.com
   - DOMAIN-SUFFIX,h5.taihao.cc
+  - DOMAIN-SUFFIX,h5-api.feiersmart.com
   - DOMAIN-SUFFIX,h8.bec.com
   - DOMAIN-SUFFIX,h9377c.com
   - DOMAIN-SUFFIX,haitaoad.nosdn.127.net
@@ -4178,6 +4180,8 @@ payload:
   - DOMAIN-SUFFIX,info.sec.miui.com
   - DOMAIN-SUFFIX,info.stockstar.com
   - DOMAIN-SUFFIX,info.yitsoftware.com
+  - DOMAIN-SUFFIX,info4.video.qq.com
+  - DOMAIN-SUFFIX,info6.video.qq.com
   - DOMAIN-SUFFIX,infocenter.meizu.com
   - DOMAIN-SUFFIX,ingameads.gameloft.com
   - DOMAIN-SUFFIX,ini.litingxin.cn
@@ -4207,6 +4211,7 @@ payload:
   - DOMAIN-SUFFIX,interest.mix.sina.com.cn
   - DOMAIN-SUFFIX,ioc.mmakd.top
   - DOMAIN-SUFFIX,ios.bugly.qq.com
+  - DOMAIN-SUFFIX,ios.video.mpush.qq.com
   - DOMAIN-SUFFIX,ios-dc.51y5.net
   - DOMAIN-SUFFIX,ios-informationplatform.wps.cn
   - DOMAIN-SUFFIX,iosipa.b0.upaiyun.com
