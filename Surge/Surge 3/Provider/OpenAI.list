@@ -1,8 +1,10 @@
 # > ChatGPT
 DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
 
 # > Chat GPT API & CDN
+DOMAIN-SUFFIX,cdn.oaistatic.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,openaiapi-site.azureedge.net
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
