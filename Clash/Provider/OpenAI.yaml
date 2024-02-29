@@ -23,5 +23,8 @@ payload:
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
 
-  # > Bard
-  - DOMAIN,bard.google.com
+  # > Gemini
+  DOMAIN-KEYWORD,generativelanguage
+  DOMAIN-KEYWORD,colab
+  DOMAIN-SUFFIX,apis.google.com
+  DOMAIN-KEYWORD,developerprofiles
