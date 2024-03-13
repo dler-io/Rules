@@ -24,7 +24,4 @@ payload:
   - DOMAIN-SUFFIX,claude.ai
 
   # > Gemini
-  DOMAIN-KEYWORD,generativelanguage
-  DOMAIN-KEYWORD,colab
-  DOMAIN-SUFFIX,apis.google.com
-  DOMAIN-KEYWORD,developerprofiles
+  - DOMAIN-SUFFIX,gemini.google.com
