@@ -14,13 +14,15 @@ DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 
-# > New Bing
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,bingapis.com
+DOMAIN-SUFFIX,o33249.ingest.sentry.io
 
 # > Claude
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+
+# > Copilot
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bingapis.com
 
 # > Gemini
 DOMAIN-SUFFIX,gemini.google.com
