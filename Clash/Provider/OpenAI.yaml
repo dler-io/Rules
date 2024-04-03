@@ -27,3 +27,6 @@ payload:
 
   # > Gemini
   - DOMAIN-SUFFIX,gemini.google.com
+
+  # > Perplexity
+  - DOMAIN-SUFFIX,perplexity.ai

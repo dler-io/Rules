@@ -26,3 +26,6 @@ DOMAIN-SUFFIX,bingapis.com
 
 # > Gemini
 DOMAIN-SUFFIX,gemini.google.com
+
+# > Perplexity
+DOMAIN-SUFFIX,perplexity.ai
