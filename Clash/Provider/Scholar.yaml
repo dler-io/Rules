@@ -56,6 +56,7 @@ payload:
   - DOMAIN-SUFFIX,proquest.com
   - DOMAIN-SUFFIX,readcube.com
   - DOMAIN-SUFFIX,researchgate.net
+  - DOMAIN-SUFFIX,royalsocietypublishing.org
   - DOMAIN-SUFFIX,rsc.org
   - DOMAIN-SUFFIX,sagepub.com
   - DOMAIN-SUFFIX,sci-hub.tw
