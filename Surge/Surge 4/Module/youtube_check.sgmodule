@@ -1,9 +1,9 @@
-#!name=YouTube Unlock Check
-#!desc=YouTube Unlock Check
+#!name=YouTube Premium Unlock Check
+#!desc=YouTube Premium Unlock Check
 #!system=ios
 
 [Panel]
-youtube_check = script-name=youtube_check, update-interval=1
+youtube_check = script-name=youtube_check, title="YouTube Premium", update-interval=1
 
 [Script]
 youtube_check = type=generic, script-path=https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%204/Script/youtube_check.js, argument=title=YouTube Premium

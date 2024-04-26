@@ -3,7 +3,7 @@
 #!system=ios
 
 [Panel]
-netflix_check = script-name=netflix_check, update-interval=1
+netflix_check = script-name=nf_check, title="Netflix", update-interval=1
 
 [Script]
 netflix_check = type=generic, script-path=https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%204/Script/netflix_check.js, argument=title=Netflix
