@@ -35,6 +35,10 @@ payload:
 
   # > Gemini
   - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN,apis.google.com
+  - DOMAIN,colab.research.google.com
+  - DOMAIN,content-developerprofiles-pa.googleapis.com
+  - DOMAIN,generativelanguage.googleapis.com
 
   # > Meta AI
   - DOMAIN-SUFFIX,meta.ai
