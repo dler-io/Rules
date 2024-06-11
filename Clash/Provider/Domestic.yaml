@@ -125,6 +125,7 @@ payload:
   - DOMAIN-SUFFIX,dct-cloud.com
   - DOMAIN-SUFFIX,didialift.com
   - DOMAIN-SUFFIX,digicert.com
+  - DOMAIN-SUFFIX,dler.cloud
   - DOMAIN-SUFFIX,douban.com
   - DOMAIN-SUFFIX,doubanio.com
   - DOMAIN-SUFFIX,douyin.com
@@ -165,6 +166,7 @@ payload:
   - DOMAIN-SUFFIX,ifengimg.com
   - DOMAIN-SUFFIX,images-amazon.com
   - DOMAIN-SUFFIX,img4me.com
+  - DOMAIN-SUFFIX,ipapark.com
   - DOMAIN-SUFFIX,ithome.com
   - DOMAIN-SUFFIX,ixdzs.com
   - DOMAIN-SUFFIX,jd.com
@@ -205,7 +207,6 @@ payload:
   - DOMAIN-SUFFIX,ngabbs.com
   - DOMAIN-SUFFIX,netease.com
   - DOMAIN-SUFFIX,nfoservers.com
-  - DOMAIN-SUFFIX,nssurge.com
   - DOMAIN-SUFFIX,nuomi.com
   - DOMAIN-SUFFIX,ourbits.club
   - DOMAIN-SUFFIX,ourdvs.com

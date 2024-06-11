@@ -1,0 +1,9 @@
+#!name=Disney Unlock Check
+#!desc=Disney Unlock Check
+#!system=ios
+
+[Panel]
+disney_check = script-name=disney_check,title=Disney+,style=alert,update-interval=1800
+
+[Script]
+disney_check = type=generic, script-path=https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%204/Script/disney_check.js, argument=title=Disney

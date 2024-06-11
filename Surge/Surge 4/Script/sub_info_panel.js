@@ -6,16 +6,12 @@ https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js
   let args = getArgs();
   let info = await getDataInfo(args.url);
   if (!info) $done();
-  let resetDayLeft = getRmainingDays(parseInt(args["reset_day"]));
 
   let used = info.download + info.upload;
   let total = info.total - (info.download + info.upload);
   let expire = args.expire || info.expire;
   let content = [`已用：${bytesToSize(used)} / 可用：${bytesToSize(total)}`];
 
-  if (resetDayLeft) {
-    content.push(`重置流量：剩余${resetDayLeft}天`);
-  }
   if (expire) {
     if (/^[\d.]+$/.test(expire)) expire *= 1000;
     content.push(`到期时间：${formatTime(expire)}`);
