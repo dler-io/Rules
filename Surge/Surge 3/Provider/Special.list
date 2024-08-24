@@ -33,6 +33,9 @@ DOMAIN-SUFFIX,msftconnecttest.com
 PROCESS-NAME,v2ray
 PROCESS-NAME,ss-local
 
+# > PlayStation
+DOMAIN-SUFFIX,dl.playstation.net
+
 # > Steam
 USER-AGENT,Steam*
 DOMAIN,cm.steampowered.com
