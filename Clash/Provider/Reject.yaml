@@ -8214,10 +8214,6 @@ payload:
   # - URL-REGEX,https:\/\/app\.bilibili\.com\/x\/v2\/rank\.*rid=(168|5)
   # - URL-REGEX,https:\/\/api\.bilibili\.com\/pgc\/season\/rank\/cn
 
-  # > OpenAI
-  - DOMAIN,o33249.ingest.sentry.io
-  - DOMAIN,openaicom.imgix.net
-
   # > Didi
   # - URL-REGEX,https:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/
 

@@ -401,6 +401,7 @@ payload:
   - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redditmedia.com
+  - DOMAIN-SUFFIX,redditstatic.com
   - DOMAIN-SUFFIX,reuters.com
   - DOMAIN-SUFFIX,rfi.fr
   - DOMAIN-SUFFIX,rileyguide.com
@@ -601,6 +602,7 @@ payload:
   - DOMAIN-SUFFIX,wsj.com
   - DOMAIN-SUFFIX,wsj.net
   - DOMAIN-SUFFIX,wwitv.com
+  - DOMAIN-SUFFIX,x.com
   - DOMAIN-SUFFIX,xanga.com
   - DOMAIN-SUFFIX,xclient.info
   - DOMAIN-SUFFIX,xda-developers.com
@@ -680,6 +682,7 @@ payload:
   - DOMAIN-SUFFIX,pubnub.com
   - DOMAIN-SUFFIX,scdn.co
   - DOMAIN-SUFFIX,t.co
+  - DOMAIN-SUFFIX,tenor.com
   - DOMAIN-SUFFIX,tensorflow.org
   - DOMAIN-SUFFIX,toggleable.com
   - DOMAIN-SUFFIX,torproject.org
