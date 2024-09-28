@@ -194,7 +194,7 @@ rule-providers:
     interval: 86400
   Domestic IPs:
     type: http
-    behavior: ipcidr
+    behavior: classical
     url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Domestic%20IPs.yaml'
     path: ./Rules/Domestic_IPs
     interval: 86400
