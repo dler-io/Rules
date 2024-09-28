@@ -255,6 +255,7 @@ payload:
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,tawk.link
   - DOMAIN-SUFFIX,tawk.to
+  - DOMAIN-SUFFIX,tencent-cloud.net
   - DOMAIN-SUFFIX,tenpay.com
   - DOMAIN-SUFFIX,tietuku.com
   - DOMAIN-SUFFIX,tmall.com

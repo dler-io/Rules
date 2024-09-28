@@ -15,7 +15,7 @@ jobs:
       run: |
         wget -c http://ftp.apnic.net/stats/apnic/delegated-apnic-latest
         cat delegated-apnic-latest | awk -F '|' '/CN/&&/ipv4/ {print $4 "/" 32-log($5)/log(2)}' > raw_ips.txt
-        echo "# > Domestic  IPs" > Surge/Surge 3/Provider/Domestic IPs.list
+        echo "# > Domestic IPs" > Surge/Surge 3/Provider/Domestic IPs.list
         echo "payload:" > Clash/Provider/Domestic IPs.yaml
         cat raw_ips.txt | awk '{print "IP-CIDR,"$1",no-resolve"}' >> Surge/Surge 3/Provider/Domestic IPs.list
         cat raw_ips.txt | awk '{print "  - "$1}' >> Clash/Provider/Domestic IPs.yaml
