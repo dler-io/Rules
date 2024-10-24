@@ -57,7 +57,7 @@
   - RULE-SET, Discord, Discord
   - RULE-SET, Google FCM, Google FCM
   - RULE-SET, Microsoft, Microsoft
-  - RULE-SET, OpenAI, OpenAI
+  - RULE-SET, AI Suite, AI Suite
   - RULE-SET, PayPal, PayPal
   - RULE-SET, Scholar, Scholar
   - RULE-SET, Speedtest, Speedtest
@@ -128,7 +128,7 @@ script:
             'Discord': 'Discord',
             'Google FCM': 'Google FCM',
             'Microsoft': 'Microsoft',
-            'OpenAI': 'OpenAI',
+            'AI Suite': 'AI Suite',
             'PayPal': 'PayPal',
             'Scholar': 'Scholar',
             'Speedtest': 'Speedtest',
@@ -510,11 +510,11 @@ rule-providers:
     url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Microsoft.yaml'
     path: ./Rules/Microsoft
     interval: 86400
-  OpenAI:
+  AI Suite:
     type: http
     behavior: classical
-    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/OpenAI.yaml'
-    path: ./Rules/OpenAI
+    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AI%20Suite.yaml'
+    path: ./Rules/AI Suite
     interval: 86400
   Apple:
     type: http

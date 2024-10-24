@@ -33,3 +33,7 @@ payload:
 
   # > Perplexity AI
   - DOMAIN-SUFFIX,perplexity.ai
+
+  # > Siri
+  - DOMAIN-SUFFIX,apple-relay.apple.com
+  - DOMAIN,guzzoni.smoot.apple.com
