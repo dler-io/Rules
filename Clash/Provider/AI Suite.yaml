@@ -26,6 +26,7 @@ payload:
 
   # > Gemini
   - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 
   # > Meta AI
