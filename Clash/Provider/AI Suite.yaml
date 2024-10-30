@@ -37,4 +37,5 @@ payload:
 
   # > Siri
   - DOMAIN-SUFFIX,apple-relay.apple.com
+  - DOMAIN-SUFFIX,apple-relay.cloudflare.com
   - DOMAIN,guzzoni.smoot.apple.com
