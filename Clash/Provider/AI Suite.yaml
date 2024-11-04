@@ -15,19 +15,20 @@ payload:
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
 
-  - DOMAIN-SUFFIX,o33249.ingest.sentry.io
+  - DOMAIN,o33249.ingest.sentry.io
 
   # > Claude
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
 
   # > Copilot
+  - DOMAIN,api.githubcopilot.com
   - DOMAIN-SUFFIX,copilot.microsoft.com
 
   # > Gemini
   - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
-  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+  - DOMAIN,generativelanguage.googleapis.com
+  - DOMAIN,proactivebackend-pa.googleapis.com
 
   # > Meta AI
   - DOMAIN-SUFFIX,meta.ai
@@ -36,6 +37,6 @@ payload:
   - DOMAIN-SUFFIX,perplexity.ai
 
   # > Siri
-  - DOMAIN-SUFFIX,apple-relay.apple.com
-  - DOMAIN-SUFFIX,apple-relay.cloudflare.com
+  - DOMAIN,apple-relay.apple.com
+  - DOMAIN,apple-relay.cloudflare.com
   - DOMAIN,guzzoni.smoot.apple.com
