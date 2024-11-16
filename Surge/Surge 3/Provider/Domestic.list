@@ -193,6 +193,7 @@ DOMAIN-SUFFIX,lucifr.com
 DOMAIN-SUFFIX,luoo.net
 DOMAIN-SUFFIX,lxdns.com
 DOMAIN-SUFFIX,mai.tn
+DOMAIN-SUFFIX,meituan.com
 DOMAIN-SUFFIX,meizu.com
 DOMAIN-SUFFIX,metatrader4.com
 DOMAIN-SUFFIX,metatrader5.com
@@ -254,6 +255,7 @@ DOMAIN-SUFFIX,symcd.com
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tawk.link
 DOMAIN-SUFFIX,tawk.to
+DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tencent-cloud.net
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,tietuku.com
@@ -300,7 +302,8 @@ DOMAIN-SUFFIX,yinxiang.com
 DOMAIN-SUFFIX,yixia.com
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,youdao.com
-DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,ysepay.cn
+DOMAIN-SUFFIX,ysepay.com
 DOMAIN-SUFFIX,yunjiasu-cdn.net
 DOMAIN-SUFFIX,zealer.com
 DOMAIN-SUFFIX,zgslb.net

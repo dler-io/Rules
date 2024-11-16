@@ -39,6 +39,10 @@ payload:
   
   # > Tesla
   - DOMAIN-KEYWORD,tesla
+  
+  # > WAQI
+  - DOMAIN,api.waqi.info
+  - DOMAIN,aqi.aqicn.org
 
   # > Zooba
   # - USER-AGENT,battleroyale*
