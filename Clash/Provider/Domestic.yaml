@@ -276,6 +276,7 @@ payload:
   - DOMAIN-SUFFIX,weather.bjango.com
   - DOMAIN-SUFFIX,weather.com
   - DOMAIN-SUFFIX,webqxs.com
+  - DOMAIN-SUFFIX,wechat.com
   - DOMAIN-SUFFIX,weibo.cn
   - DOMAIN-SUFFIX,weibo.com
   - DOMAIN-SUFFIX,weico.cc
