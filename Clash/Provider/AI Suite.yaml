@@ -23,6 +23,7 @@ payload:
 
   # > Copilot
   - DOMAIN,api.githubcopilot.com
+  - DOMAIN,api.individual.githubcopilot.com
   - DOMAIN-SUFFIX,copilot.microsoft.com
 
   # > Gemini
