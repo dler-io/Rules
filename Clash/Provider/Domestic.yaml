@@ -89,7 +89,6 @@ payload:
   - DOMAIN-SUFFIX,air-matters.com
   - DOMAIN-SUFFIX,air-matters.io
   - DOMAIN-SUFFIX,aixifan.com
-  - DOMAIN-SUFFIX,akadns.net
   - DOMAIN-SUFFIX,alibaba.com
   - DOMAIN-SUFFIX,alibabacloud.com
   - DOMAIN-SUFFIX,alicdn.com
@@ -119,8 +118,6 @@ payload:
   - DOMAIN-SUFFIX,cloudxns.net
   - DOMAIN-SUFFIX,cmct.tv
   - DOMAIN-SUFFIX,cmfu.com
-  - DOMAIN-SUFFIX,cnbeta.com
-  - DOMAIN-SUFFIX,cnbetacdn.com
   - DOMAIN-SUFFIX,chdbits.co
   - DOMAIN-SUFFIX,cnlang.org
   - DOMAIN-SUFFIX,coolapk.com
@@ -240,7 +237,6 @@ payload:
   - DOMAIN-SUFFIX,sinaapp.com
   - DOMAIN-SUFFIX,sinaimg.cn
   - DOMAIN-SUFFIX,sinaimg.com
-  - DOMAIN-SUFFIX,sm.ms
   - DOMAIN-SUFFIX,smzdm.com
   - DOMAIN-SUFFIX,snwx.com
   - DOMAIN-SUFFIX,so.com
@@ -274,7 +270,6 @@ payload:
   - DOMAIN-SUFFIX,uxengine.net
   - DOMAIN-SUFFIX,wandoujia.com
   - DOMAIN-SUFFIX,weather.bjango.com
-  - DOMAIN-SUFFIX,weather.com
   - DOMAIN-SUFFIX,webqxs.com
   - DOMAIN-SUFFIX,wechat.com
   - DOMAIN-SUFFIX,weibo.cn
@@ -282,7 +277,6 @@ payload:
   - DOMAIN-SUFFIX,weico.cc
   - DOMAIN-SUFFIX,weiphone.com
   - DOMAIN-SUFFIX,weiphone.net
-  - DOMAIN-SUFFIX,wenku8.net
   - DOMAIN-SUFFIX,werewolf.53site.com
   - DOMAIN-SUFFIX,wkcdn.com
   - DOMAIN-SUFFIX,xdrig.com
