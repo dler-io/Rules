@@ -1,0 +1,17 @@
+payload:
+  # > Max
+  # -  USER-AGENT,*Max*
+
+  - DOMAIN-SUFFIX,max.com
+  - DOMAIN-SUFFIX,discomax.com
+  - DOMAIN-SUFFIX,arkoselabs.com
+  - DOMAIN-SUFFIX,brightline.tv
+  - DOMAIN-SUFFIX,hbo.com
+  - DOMAIN-SUFFIX,hbomax.com
+  - DOMAIN-SUFFIX,warnermediacdn.com
+
+  # > Analysis
+  - DOMAIN,api3.branch.io
+  - DOMAIN,kpck4q-launches.appsflyersdk.com
+  - DOMAIN,out053a3bejgh7t0phqa0csou.litix.io
+  - DOMAIN,sdk.iad-01.braze.com
