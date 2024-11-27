@@ -11,7 +11,7 @@ payload:
   - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN-SUFFIX,hdslb.com
   - DOMAIN,upos-hz-mirrorakam.akamaized.net
-  # Hong Kong, Macau, Taiwan
+  # Hong Kong,Macau,Taiwan
   # - USER-AGENT,bili-inter*
   - DOMAIN,apiintl.biliapi.net
 

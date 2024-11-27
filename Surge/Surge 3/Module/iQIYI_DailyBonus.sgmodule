@@ -1,5 +1,5 @@
 #!name=iQIYI Dailybonus
-#!desc=When iQiyi app is opened, click "My", If notification gets cookie success, you can use the check in script. because script will automatically judgment whether the cookie is updated, so you dont need to disable it manually.
+#!desc=When iQiyi app is opened,click "My",If notification gets cookie success,you can use the check in script. because script will automatically judgment whether the cookie is updated,so you dont need to disable it manually.
 #!system=ios
 
 [Script]

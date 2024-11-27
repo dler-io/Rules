@@ -1,12 +1,12 @@
 payload:
   # > Disney Plus
-  # - USER-AGENT,Disney*
+  # - USER-AGENT, Disney*
 
-  - PROCESS-NAME,com.disney.disneyplus
+  - PROCESS-NAME, com.disney.disneyplus
 
-  - DOMAIN-SUFFIX,disneyplus.com
-  - DOMAIN-SUFFIX,disney.api.edge.bamgrid.com
-  - DOMAIN-SUFFIX,disney.content.edge.bamgrid.com
-  - DOMAIN-SUFFIX,prod-static.disney-plus.net
-  - DOMAIN-SUFFIX,disney.content.edge.bamgrid.com
-  - DOMAIN-SUFFIX,prod-static.disney-plus.net
+  - DOMAIN-SUFFIX, disneyplus.com
+  - DOMAIN-SUFFIX, disney.api.edge.bamgrid.com
+  - DOMAIN-SUFFIX, disney.content.edge.bamgrid.com
+  - DOMAIN-SUFFIX, prod-static.disney-plus.net
+  - DOMAIN-SUFFIX, disney.content.edge.bamgrid.com
+  - DOMAIN-SUFFIX, prod-static.disney-plus.net

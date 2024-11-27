@@ -1,5 +1,5 @@
 #!name=Network framework
-#!desc=Uses Network.framework to utilize userspace network stack, whicl scan improve throughput, reduce latency and enable cutting edge features such as Multipath TCP. (Manual restart is required) Experimental features may be unstable, and may even cause the system to become frozen.
+#!desc=Uses Network.framework to utilize userspace network stack,whicl scan improve throughput,reduce latency and enable cutting edge features such as Multipath TCP. (Manual restart is required) Experimental features may be unstable,and may even cause the system to become frozen.
 
 [General]
 network-framework = true
