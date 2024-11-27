@@ -9,27 +9,28 @@
   - RULE-SET, Max, Max
   - RULE-SET, Spotify, Spotify
 
+  - RULE-SET, Bilibili, CN Mainland TV
+  - RULE-SET, IQ, CN Mainland TV
+  - RULE-SET, IQIYI, CN Mainland TV
+  - RULE-SET, Letv, CN Mainland TV
+  - RULE-SET, Netease Music, CN Mainland TV
+  - RULE-SET, Tencent Video, CN Mainland TV
+  - RULE-SET, WeTV, CN Mainland TV
+  - RULE-SET, Youku, CN Mainland TV
+
   - RULE-SET, Abema TV, Asian TV
   - RULE-SET, Bahamut, Asian TV
-  - RULE-SET, Bilibili, Asian TV
   - RULE-SET, Fox+, Asian TV
   - RULE-SET, Hulu Japan, Asian TV
-  - RULE-SET, IQ, Asian TV
-  - RULE-SET, IQIYI, Asian TV
   - RULE-SET, Japonx, Asian TV
   - RULE-SET, JOOX, Asian TV
   - RULE-SET, KKBOX, Asian TV
   - RULE-SET, KKTV, Asian TV
-  - RULE-SET, Letv, Asian TV
   - RULE-SET, Line TV, Asian TV
 #   - RULE-SET, MOO, Asian TV
   - RULE-SET, myTV SUPER, Asian TV
-  - RULE-SET, Netease Music, Asian TV
   - RULE-SET, Niconico, Asian TV
-  - RULE-SET, Tencent Video, Asian TV
   - RULE-SET, ViuTV, Asian TV
-  - RULE-SET, WeTV, Asian TV
-  - RULE-SET, Youku, Asian TV
 
   - RULE-SET, ABC, Global TV
   - RULE-SET, Amazon, Global TV
@@ -86,26 +87,26 @@ script:
             'YouTube': 'YouTube', 
             'Max': 'Max', 
             'Spotify': 'Spotify', 
+            'Bilibili': 'CN Mainland TV', 
+            'IQ': 'CN Mainland TV', 
+            'IQIYI': 'CN Mainland TV', 
+            'Letv': 'CN Mainland TV', 
+            'Netease Music': 'CN Mainland TV', 
+            'Tencent Video': 'CN Mainland TV', 
+            'Youku': 'CN Mainland TV', 
+            'WeTV': 'CN Mainland TV', 
             'Abema TV': 'Asian TV', 
             'Bahamut': 'Asian TV', 
-            'Bilibili': 'Asian TV', 
             'Fox+': 'Asian TV', 
             'Hulu Japan': 'Asian TV', 
-            'IQ': 'Asian TV', 
-            'IQIYI': 'Asian TV', 
             'Japonx': 'Asian TV', 
             'JOOX': 'Asian TV', 
             'KKBOX': 'Asian TV', 
             'KKTV': 'Asian TV', 
-            'Letv': 'Asian TV', 
             'Line TV': 'Asian TV', 
             'myTV SUPER': 'Asian TV', 
-            'Netease Music': 'Asian TV', 
             'Niconico': 'Asian TV', 
-            'Tencent Video': 'Asian TV', 
-            'Youku': 'Asian TV', 
             'ViuTV': 'Asian TV', 
-            'WeTV': 'Asian TV', 
             'ABC': 'Global TV', 
             'Amazon': 'Global TV', 
             'BBC iPlayer': 'Global TV', 
