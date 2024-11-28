@@ -19,6 +19,7 @@ DOMAIN, o33249.ingest.sentry.io
 # > Claude
 DOMAIN-SUFFIX, anthropic.com
 DOMAIN-SUFFIX, claude.ai
+DOMAIN-SUFFIX, claudeusercontent.com
 
 # > Copilot
 DOMAIN, api.githubcopilot.com
