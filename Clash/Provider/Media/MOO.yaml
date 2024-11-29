@@ -1,4 +1,4 @@
 payload:
   # > MOO
-  # - USER-AGENT, MOO*
-  # - USER-AGENT, TencentMidasConnect*
+  # - USER-AGENT,MOO*
+  # - USER-AGENT,TencentMidasConnect*
