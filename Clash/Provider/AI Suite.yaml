@@ -23,9 +23,8 @@ payload:
   - DOMAIN-SUFFIX,claudeusercontent.com
 
   # > Copilot
-  - DOMAIN,api.githubcopilot.com
-  - DOMAIN,api.individual.githubcopilot.com
-  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,githubcopilot.com
+  - DOMAIN,copilot.microsoft.com
 
   # > Gemini
   - DOMAIN-SUFFIX,gemini.google.com

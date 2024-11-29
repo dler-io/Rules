@@ -22,8 +22,7 @@ DOMAIN-SUFFIX, claude.ai
 DOMAIN-SUFFIX, claudeusercontent.com
 
 # > Copilot
-DOMAIN, api.githubcopilot.com
-DOMAIN, api.individual.githubcopilot.com
+DOMAIN-SUFFIX, githubcopilot.com
 DOMAIN, copilot.microsoft.com
 
 # > Gemini
