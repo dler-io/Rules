@@ -1,143 +1,143 @@
-  - RULE-SET, AdBlock, AdBlock
-  - RULE-SET, HTTPDNS, HTTPDNS
-  - RULE-SET, Special, DIRECT
+  - RULE-SET,AdBlock,AdBlock
+  - RULE-SET,HTTPDNS,HTTPDNS
+  - RULE-SET,Special,DIRECT
 
-  - RULE-SET, Netflix, Netflix
-  - RULE-SET, Disney Plus, Disney
-  - RULE-SET, YouTube, YouTube
-#   - RULE-SET, YouTube Music, YouTube
-  - RULE-SET, Max, Max
-  - RULE-SET, Spotify, Spotify
+  - RULE-SET,Netflix,Netflix
+  - RULE-SET,Disney Plus,Disney
+  - RULE-SET,YouTube,YouTube
+#   - RULE-SET,YouTube Music,YouTube
+  - RULE-SET,Max,Max
+  - RULE-SET,Spotify,Spotify
 
-  - RULE-SET, Bilibili, CN Mainland TV
-  - RULE-SET, IQ, CN Mainland TV
-  - RULE-SET, IQIYI, CN Mainland TV
-  - RULE-SET, Letv, CN Mainland TV
-  - RULE-SET, Netease Music, CN Mainland TV
-  - RULE-SET, Tencent Video, CN Mainland TV
-  - RULE-SET, WeTV, CN Mainland TV
-  - RULE-SET, Youku, CN Mainland TV
+  - RULE-SET,Bilibili,CN Mainland TV
+  - RULE-SET,IQ,CN Mainland TV
+  - RULE-SET,IQIYI,CN Mainland TV
+  - RULE-SET,Letv,CN Mainland TV
+  - RULE-SET,Netease Music,CN Mainland TV
+  - RULE-SET,Tencent Video,CN Mainland TV
+  - RULE-SET,WeTV,CN Mainland TV
+  - RULE-SET,Youku,CN Mainland TV
 
-  - RULE-SET, Abema TV, Asian TV
-  - RULE-SET, Bahamut, Asian TV
-  - RULE-SET, Fox+, Asian TV
-  - RULE-SET, Hulu Japan, Asian TV
-  - RULE-SET, Japonx, Asian TV
-  - RULE-SET, JOOX, Asian TV
-  - RULE-SET, KKBOX, Asian TV
-  - RULE-SET, KKTV, Asian TV
-  - RULE-SET, Line TV, Asian TV
-#   - RULE-SET, MOO, Asian TV
-  - RULE-SET, myTV SUPER, Asian TV
-  - RULE-SET, Niconico, Asian TV
-  - RULE-SET, ViuTV, Asian TV
+  - RULE-SET,Abema TV,Asian TV
+  - RULE-SET,Bahamut,Asian TV
+  - RULE-SET,Fox+,Asian TV
+  - RULE-SET,Hulu Japan,Asian TV
+  - RULE-SET,Japonx,Asian TV
+  - RULE-SET,JOOX,Asian TV
+  - RULE-SET,KKBOX,Asian TV
+  - RULE-SET,KKTV,Asian TV
+  - RULE-SET,Line TV,Asian TV
+#   - RULE-SET,MOO,Asian TV
+  - RULE-SET,myTV SUPER,Asian TV
+  - RULE-SET,Niconico,Asian TV
+  - RULE-SET,ViuTV,Asian TV
 
-  - RULE-SET, ABC, Global TV
-  - RULE-SET, Amazon, Global TV
-  - RULE-SET, BBC iPlayer, Global TV
-  - RULE-SET, DAZN, Global TV
-  - RULE-SET, Discovery Plus, Global TV
-  - RULE-SET, encoreTVB, Global TV
-  - RULE-SET, F1 TV, Global TV
-  - RULE-SET, Fox Now, Global TV
-  - RULE-SET, Hulu, Global TV
-  - RULE-SET, Pandora, Global TV
-  - RULE-SET, PBS, Global TV
-  - RULE-SET, Pornhub, Global TV
-  - RULE-SET, Soundcloud, Global TV
+  - RULE-SET,ABC,Global TV
+  - RULE-SET,Amazon,Global TV
+  - RULE-SET,BBC iPlayer,Global TV
+  - RULE-SET,DAZN,Global TV
+  - RULE-SET,Discovery Plus,Global TV
+  - RULE-SET,encoreTVB,Global TV
+  - RULE-SET,F1 TV,Global TV
+  - RULE-SET,Fox Now,Global TV
+  - RULE-SET,Hulu,Global TV
+  - RULE-SET,Pandora,Global TV
+  - RULE-SET,PBS,Global TV
+  - RULE-SET,Pornhub,Global TV
+  - RULE-SET,Soundcloud,Global TV
 
-  - RULE-SET, Apple Music, Apple TV
-  - RULE-SET, Apple News, Apple TV
-  - RULE-SET, Apple TV, Apple TV
+  - RULE-SET,Apple Music,Apple TV
+  - RULE-SET,Apple News,Apple TV
+  - RULE-SET,Apple TV,Apple TV
 
-  - RULE-SET, Apple, Apple
+  - RULE-SET,Apple,Apple
 
-  - RULE-SET, Telegram, Telegram
+  - RULE-SET,Telegram,Telegram
 
-  - RULE-SET, Crypto, Crypto
-  - RULE-SET, Discord, Discord
-  - RULE-SET, Google FCM, Google FCM
-  - RULE-SET, Microsoft, Microsoft
-  - RULE-SET, AI Suite, AI Suite
-  - RULE-SET, PayPal, PayPal
-  - RULE-SET, Scholar, Scholar
-  - RULE-SET, Speedtest, Speedtest
-  - RULE-SET, Steam, Steam
+  - RULE-SET,Crypto,Crypto
+  - RULE-SET,Discord,Discord
+  - RULE-SET,Google FCM,Google FCM
+  - RULE-SET,Microsoft,Microsoft
+  - RULE-SET,AI Suite,AI Suite
+  - RULE-SET,PayPal,PayPal
+  - RULE-SET,Scholar,Scholar
+  - RULE-SET,Speedtest,Speedtest
+  - RULE-SET,Steam,Steam
 
-  - RULE-SET, miHoYo, miHoYo
+  - RULE-SET,miHoYo,miHoYo
 
-  - RULE-SET, PROXY, Proxy
+  - RULE-SET,PROXY,Proxy
 
-  - RULE-SET, Domestic, Domestic
-  - RULE-SET, Domestic IPs, Domestic
+  - RULE-SET,Domestic,Domestic
+  - RULE-SET,Domestic IPs,Domestic
 
-  - RULE-SET, LAN, DIRECT
-  - GEOIP, CN, Domestic
-  - MATCH, Others
+  - RULE-SET,LAN,DIRECT
+  - GEOIP,CN,Domestic
+  - MATCH,Others
 
 script:
   code: |
-    def main(ctx, metadata):
+    def main(ctx,metadata):
         ruleset_action = {
-            'AdBlock': 'AdBlock', 
-            'HTTPDNS': 'HTTPDNS', 
-            'Special': 'DIRECT', 
-            'Netflix': 'Netflix', 
-            'Disney Plus': 'Disney', 
-            'YouTube': 'YouTube', 
-            'Max': 'Max', 
-            'Spotify': 'Spotify', 
-            'Bilibili': 'CN Mainland TV', 
-            'IQ': 'CN Mainland TV', 
-            'IQIYI': 'CN Mainland TV', 
-            'Letv': 'CN Mainland TV', 
-            'Netease Music': 'CN Mainland TV', 
-            'Tencent Video': 'CN Mainland TV', 
-            'Youku': 'CN Mainland TV', 
-            'WeTV': 'CN Mainland TV', 
-            'Abema TV': 'Asian TV', 
-            'Bahamut': 'Asian TV', 
-            'Fox+': 'Asian TV', 
-            'Hulu Japan': 'Asian TV', 
-            'Japonx': 'Asian TV', 
-            'JOOX': 'Asian TV', 
-            'KKBOX': 'Asian TV', 
-            'KKTV': 'Asian TV', 
-            'Line TV': 'Asian TV', 
-            'myTV SUPER': 'Asian TV', 
-            'Niconico': 'Asian TV', 
-            'ViuTV': 'Asian TV', 
-            'ABC': 'Global TV', 
-            'Amazon': 'Global TV', 
-            'BBC iPlayer': 'Global TV', 
-            'DAZN': 'Global TV', 
-            'Discovery Plus': 'Global TV', 
-            'encoreTVB': 'Global TV', 
-            'F1 TV': 'Global TV', 
-            'Fox Now': 'Global TV', 
-            'Hulu': 'Global TV', 
-            'Pandora': 'Global TV', 
-            'PBS': 'Global TV', 
-            'Pornhub': 'Global TV', 
-            'Soundcloud': 'Global TV', 
-            'Apple Music': 'Apple TV', 
-            'Apple News': 'Apple TV', 
-            'Apple TV': 'Apple TV', 
-            'Apple': 'Apple', 
-            'Telegram': 'Telegram', 
-            'Crypto': 'Crypto', 
-            'Discord': 'Discord', 
-            'Google FCM': 'Google FCM', 
-            'Microsoft': 'Microsoft', 
-            'AI Suite': 'AI Suite', 
-            'PayPal': 'PayPal', 
-            'Scholar': 'Scholar', 
-            'Speedtest': 'Speedtest', 
-            'Steam': 'Steam', 
-            'miHoYo': 'miHoYo', 
-            'PROXY': 'Proxy', 
-            'Domestic': 'Domestic', 
-            'Domestic IPs': 'Domestic', 
+            'AdBlock': 'AdBlock',
+            'HTTPDNS': 'HTTPDNS',
+            'Special': 'DIRECT',
+            'Netflix': 'Netflix',
+            'Disney Plus': 'Disney',
+            'YouTube': 'YouTube',
+            'Max': 'Max',
+            'Spotify': 'Spotify',
+            'Bilibili': 'CN Mainland TV',
+            'IQ': 'CN Mainland TV',
+            'IQIYI': 'CN Mainland TV',
+            'Letv': 'CN Mainland TV',
+            'Netease Music': 'CN Mainland TV',
+            'Tencent Video': 'CN Mainland TV',
+            'Youku': 'CN Mainland TV',
+            'WeTV': 'CN Mainland TV',
+            'Abema TV': 'Asian TV',
+            'Bahamut': 'Asian TV',
+            'Fox+': 'Asian TV',
+            'Hulu Japan': 'Asian TV',
+            'Japonx': 'Asian TV',
+            'JOOX': 'Asian TV',
+            'KKBOX': 'Asian TV',
+            'KKTV': 'Asian TV',
+            'Line TV': 'Asian TV',
+            'myTV SUPER': 'Asian TV',
+            'Niconico': 'Asian TV',
+            'ViuTV': 'Asian TV',
+            'ABC': 'Global TV',
+            'Amazon': 'Global TV',
+            'BBC iPlayer': 'Global TV',
+            'DAZN': 'Global TV',
+            'Discovery Plus': 'Global TV',
+            'encoreTVB': 'Global TV',
+            'F1 TV': 'Global TV',
+            'Fox Now': 'Global TV',
+            'Hulu': 'Global TV',
+            'Pandora': 'Global TV',
+            'PBS': 'Global TV',
+            'Pornhub': 'Global TV',
+            'Soundcloud': 'Global TV',
+            'Apple Music': 'Apple TV',
+            'Apple News': 'Apple TV',
+            'Apple TV': 'Apple TV',
+            'Apple': 'Apple',
+            'Telegram': 'Telegram',
+            'Crypto': 'Crypto',
+            'Discord': 'Discord',
+            'Google FCM': 'Google FCM',
+            'Microsoft': 'Microsoft',
+            'AI Suite': 'AI Suite',
+            'PayPal': 'PayPal',
+            'Scholar': 'Scholar',
+            'Speedtest': 'Speedtest',
+            'Steam': 'Steam',
+            'miHoYo': 'miHoYo',
+            'PROXY': 'Proxy',
+            'Domestic': 'Domestic',
+            'Domestic IPs': 'Domestic',
             'LAN': 'DIRECT'
           }
 
@@ -147,7 +147,7 @@ script:
             ctx.log('[Script] matched QUIC traffic use reject')
             return 'REJECT'
 
-        port_list = [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 3389, 5222, 5228, 5229, 5230, 8080, 8443, 8880, 8888, 8889]
+        port_list = [21,22,23,53,80,123,143,194,443,465,587,853,993,995,998,2052,2053,2082,2083,2086,2095,2096,3389,5222,5228,5229,5230,8080,8443,8880,8888,8889]
         if port not in port_list:
             ctx.log('[Script] not common port use direct')
             return 'DIRECT'
