@@ -2,7 +2,7 @@
 # According to Firebase FAQ https://firebase.google.com/docs/cloud-messaging/concept-options#messaging-ports-and-your-firewall
 DOMAIN, mtalk.google.com
 DOMAIN, mtalk4.google.com
-DOMAIN, mtalk-staging.google.com, 
+DOMAIN, mtalk-staging.google.com
 DOMAIN, mtalk-dev.google.com
 DOMAIN, alt1-mtalk.google.com
 DOMAIN, alt2-mtalk.google.com
