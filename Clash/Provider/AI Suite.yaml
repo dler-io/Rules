@@ -87,3 +87,6 @@ payload:
   # > Sora
   - DOMAIN-SUFFIX,sora.com
   - DOMAIN,sora-cdn.oaistatic.com
+
+  # > Codeium
+  - DOMAIN-SUFFIX,codeium.com
