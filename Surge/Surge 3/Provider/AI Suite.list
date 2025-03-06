@@ -86,3 +86,7 @@ DOMAIN, guzzoni.smoot.apple.com
 # > Sora
 DOMAIN-SUFFIX, sora.com
 DOMAIN, sora-cdn.oaistatic.com
+
+# > Grok
+DOMAIN-SUFFIX, x.ai
+DOMAIN-SUFFIX, grok.com
