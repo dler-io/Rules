@@ -38,10 +38,10 @@ payload:
   - DOMAIN-SUFFIX,yuedu.iqiyi.com
   # - URL-REGEX,https?:\/\/.+\/videos\/other\/.+
   # - URL-REGEX,https?:\/\/paopao\w?\.qiyipic\.com
-  - IP-CIDR,101.227.97.240/32
-  - IP-CIDR,101.227.200.11/32
-  - IP-CIDR,101.227.200.28/32
-  - IP-CIDR,124.192.153.42/32
+  - IP-CIDR,101.227.97.240/32,no-resolve
+  - IP-CIDR,101.227.200.11/32,no-resolve
+  - IP-CIDR,101.227.200.28/32,no-resolve
+  - IP-CIDR,124.192.153.42/32,no-resolve
 
   # > Youku & Tudou
   - DOMAIN-SUFFIX,actives.youku.com
@@ -88,20 +88,20 @@ payload:
   - DOMAIN-SUFFIX,wan.youku.com
   - DOMAIN-SUFFIX,ykatr.youku.com
   - DOMAIN-SUFFIX,ykrec.youku.com
-  - IP-CIDR,117.177.248.17/32
-  - IP-CIDR,117.177.248.41/32
-  - IP-CIDR,223.87.176.139/32
-  - IP-CIDR,223.87.176.176/32
-  - IP-CIDR,223.87.177.180/32
-  - IP-CIDR,223.87.177.182/32
-  - IP-CIDR,223.87.177.184/32
-  - IP-CIDR,223.87.177.43/32
-  - IP-CIDR,223.87.177.47/32
-  - IP-CIDR,223.87.177.80/32
-  - IP-CIDR,223.87.182.101/32
-  - IP-CIDR,223.87.182.102/32
-  - IP-CIDR,223.87.182.11/32
-  - IP-CIDR,223.87.182.52/32
+  - IP-CIDR,117.177.248.17/32,no-resolve
+  - IP-CIDR,117.177.248.41/32,no-resolve
+  - IP-CIDR,223.87.176.139/32,no-resolve
+  - IP-CIDR,223.87.176.176/32,no-resolve
+  - IP-CIDR,223.87.177.180/32,no-resolve
+  - IP-CIDR,223.87.177.182/32,no-resolve
+  - IP-CIDR,223.87.177.184/32,no-resolve
+  - IP-CIDR,223.87.177.43/32,no-resolve
+  - IP-CIDR,223.87.177.47/32,no-resolve
+  - IP-CIDR,223.87.177.80/32,no-resolve
+  - IP-CIDR,223.87.182.101/32,no-resolve
+  - IP-CIDR,223.87.182.102/32,no-resolve
+  - IP-CIDR,223.87.182.11/32,no-resolve
+  - IP-CIDR,223.87.182.52/32,no-resolve
   # - URL-REGEX,https?:\/\/\.+\.atm\.youku\.com
 
   # > MGTV
@@ -8276,50 +8276,50 @@ payload:
   # - URL-REGEX,https?:\/\/server-\w+\.imrworldwide\.com
   # - URL-REGEX,https?:\/\/www\.bldimg\.com\/(background|splash)\/\.+\.png
 
-  - IP-CIDR,39.107.15.115/32
-  - IP-CIDR,47.89.59.182/32
-  - IP-CIDR,103.49.209.27/32
-  - IP-CIDR,118.89.204.198/32
-  - IP-CIDR,123.56.152.96/32
-  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128
+  - IP-CIDR,39.107.15.115/32,no-resolve
+  - IP-CIDR,47.89.59.182/32,no-resolve
+  - IP-CIDR,103.49.209.27/32,no-resolve
+  - IP-CIDR,118.89.204.198/32,no-resolve
+  - IP-CIDR,123.56.152.96/32,no-resolve
+  - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve
 
   # > China Net
-  - IP-CIDR,61.160.200.223/32
-  - IP-CIDR,61.160.200.242/32
-  - IP-CIDR,61.160.200.252/32
-  - IP-CIDR,61.174.50.214/32
-  - IP-CIDR,111.175.220.163/32
-  - IP-CIDR,111.175.220.164/32
-  - IP-CIDR,124.232.160.178/32
-  - IP-CIDR,175.6.223.15/32
-  - IP-CIDR,183.59.53.237/32
-  - IP-CIDR,218.93.127.37/32
-  - IP-CIDR,221.228.17.152/32
-  - IP-CIDR,221.231.6.79/32
-  - IP-CIDR,222.186.61.91/32
-  - IP-CIDR,222.186.61.95/32
-  - IP-CIDR,222.186.61.96/32
-  - IP-CIDR,222.186.61.97/32
+  - IP-CIDR,61.160.200.223/32,no-resolve
+  - IP-CIDR,61.160.200.242/32,no-resolve
+  - IP-CIDR,61.160.200.252/32,no-resolve
+  - IP-CIDR,61.174.50.214/32,no-resolve
+  - IP-CIDR,111.175.220.163/32,no-resolve
+  - IP-CIDR,111.175.220.164/32,no-resolve
+  - IP-CIDR,124.232.160.178/32,no-resolve
+  - IP-CIDR,175.6.223.15/32,no-resolve
+  - IP-CIDR,183.59.53.237/32,no-resolve
+  - IP-CIDR,218.93.127.37/32,no-resolve
+  - IP-CIDR,221.228.17.152/32,no-resolve
+  - IP-CIDR,221.231.6.79/32,no-resolve
+  - IP-CIDR,222.186.61.91/32,no-resolve
+  - IP-CIDR,222.186.61.95/32,no-resolve
+  - IP-CIDR,222.186.61.96/32,no-resolve
+  - IP-CIDR,222.186.61.97/32,no-resolve
 
   # > China Unicom
-  - IP-CIDR,106.75.231.48/32
-  - IP-CIDR,119.4.249.166/32
-  - IP-CIDR,220.196.52.141/32
-  - IP-CIDR,221.6.4.148/32
+  - IP-CIDR,106.75.231.48/32,no-resolve
+  - IP-CIDR,119.4.249.166/32,no-resolve
+  - IP-CIDR,220.196.52.141/32,no-resolve
+  - IP-CIDR,221.6.4.148/32,no-resolve
 
   # > China Mobile
-  - IP-CIDR,114.247.28.96/32
-  - IP-CIDR,221.179.131.72/32
-  - IP-CIDR,221.179.140.145/32
+  - IP-CIDR,114.247.28.96/32,no-resolve
+  - IP-CIDR,221.179.131.72/32,no-resolve
+  - IP-CIDR,221.179.140.145/32,no-resolve
 
   # > Dr.Peng
-  - IP-CIDR,10.72.25.0/24
-  - IP-CIDR,115.182.16.79/32
-  - IP-CIDR,118.144.88.126/32
-  - IP-CIDR,118.144.88.215/32
-  - IP-CIDR,120.76.189.132/32
-  - IP-CIDR,124.14.21.147/32
-  - IP-CIDR,124.14.21.151/32
-  - IP-CIDR,180.166.52.24/32
-  - IP-CIDR,220.115.251.25/32
-  - IP-CIDR,222.73.156.235/32
+  - IP-CIDR,10.72.25.0/24,no-resolve
+  - IP-CIDR,115.182.16.79/32,no-resolve
+  - IP-CIDR,118.144.88.126/32,no-resolve
+  - IP-CIDR,118.144.88.215/32,no-resolve
+  - IP-CIDR,120.76.189.132/32,no-resolve
+  - IP-CIDR,124.14.21.147/32,no-resolve
+  - IP-CIDR,124.14.21.151/32,no-resolve
+  - IP-CIDR,180.166.52.24/32,no-resolve
+  - IP-CIDR,220.115.251.25/32,no-resolve
+  - IP-CIDR,222.73.156.235/32,no-resolve

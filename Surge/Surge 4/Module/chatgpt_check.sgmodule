@@ -9,7 +9,7 @@
 # 如：argument=icon=lasso.and.sparkles&iconerr=xmark.seal.fill&icon-color=#477FEF&iconerr-color=#D65C51
 
 [Panel]
-chatgpt_check = script-name=chatgpt_check, update-interval=-1
+chatgpt_check = script-name=chatgpt_check,update-interval=-1
 
 [Script]
-chatgpt_check = type=generic, timeout=6, script-path=https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%204/Script/chatgpt_check.js, argument=icon=lasso.and.sparkles&iconerr=xmark.seal.fill&icon-color=#336FA9&iconerr-color=#D65C51
+chatgpt_check = type=generic,timeout=6,script-path=https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%204/Script/chatgpt_check.js,argument=icon=lasso.and.sparkles&iconerr=xmark.seal.fill&icon-color=#336FA9&iconerr-color=#D65C51

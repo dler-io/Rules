@@ -24,10 +24,10 @@ https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js
   minutes = minutes > 9 ? minutes : "0" + minutes;
 
   $done({
-    title: `${args.title}`, 
-    content: content.join("\n"), 
-    icon: args.icon || "airplane.circle", 
-    "icon-color": args.color || "#007aff", 
+    title: `${args.title}`,
+    content: content.join("\n"),
+    icon: args.icon || "airplane.circle",
+    "icon-color": args.color || "#007aff",
   });
 })();
 
@@ -36,14 +36,14 @@ function getArgs() {
     $argument
       .split("&")
       .map((item) => item.split("="))
-      .map(([k, v]) => [k, decodeURIComponent(v)])
+      .map(([k,v]) => [k,decodeURIComponent(v)])
   );
 }
 
 function getUserInfo(url) {
-  let request = { headers: { "User-Agent": "Surge" }, url };
-  return new Promise((resolve, reject) =>
-    $httpClient.get(request, (err, resp) => {
+  let request = { headers: { "User-Agent": "Surge" },url };
+  return new Promise((resolve,reject) =>
+    $httpClient.get(request,(err,resp) => {
       if (err != null) {
         reject(err);
         return;
@@ -65,9 +65,9 @@ function getUserInfo(url) {
 }
 
 async function getDataInfo(url) {
-  const [err, data] = await getUserInfo(url)
-    .then((data) => [null, data])
-    .catch((err) => [err, null]);
+  const [err,data] = await getUserInfo(url)
+    .then((data) => [null,data])
+    .catch((err) => [err,null]);
   if (err) {
     console.log(err);
     return;
@@ -77,7 +77,7 @@ async function getDataInfo(url) {
     data
       .match(/\w+=[\d.eE+]+/g)
       .map((item) => item.split("="))
-      .map(([k, v]) => [k, Number(v)])
+      .map(([k,v]) => [k,Number(v)])
   );
 }
 
@@ -93,7 +93,7 @@ function getRmainingDays(resetDay) {
   if (resetDay > today) {
     daysInMonth = 0;
   } else {
-    daysInMonth = new Date(year, month + 1, 0).getDate();
+    daysInMonth = new Date(year,month + 1,0).getDate();
   }
 
   return daysInMonth - today + resetDay;
@@ -102,9 +102,9 @@ function getRmainingDays(resetDay) {
 function bytesToSize(bytes) {
   if (bytes === 0) return "0B";
   let k = 1024;
-  sizes = ["B", "KiB", "MiB", "GiB", "TiB", "PiB"];
+  sizes = ["B","KiB","MiB","GiB","TiB","PiB"];
   let i = Math.floor(Math.log(bytes) / Math.log(k));
-  return (bytes / Math.pow(k, i)).toFixed(2) + " " + sizes[i];
+  return (bytes / Math.pow(k,i)).toFixed(2) + " " + sizes[i];
 }
 
 function formatTime(time) {
