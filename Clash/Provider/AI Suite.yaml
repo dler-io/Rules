@@ -73,6 +73,9 @@ payload:
   # > OpenArt
   - DOMAIN-SUFFIX,openart.ai
 
+  # > OpenRouter
+  - DOMAIN-SUFFIX,openrouter.ai
+
   # > Perplexity AI
   - DOMAIN-SUFFIX,perplexity.ai
 
@@ -87,3 +90,6 @@ payload:
   # > Sora
   - DOMAIN-SUFFIX,sora.com
   - DOMAIN,sora-cdn.oaistatic.com
+
+  # > AI
+  - DOMAIN-SUFFIX,ai

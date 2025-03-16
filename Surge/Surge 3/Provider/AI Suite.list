@@ -72,6 +72,9 @@ DOMAIN-SUFFIX,meta.ai
 # > OpenArt
 DOMAIN-SUFFIX,openart.ai
 
+# > OpenRouter
+DOMAIN-SUFFIX,openrouter.ai
+
 # > Perplexity AI
 DOMAIN-SUFFIX,perplexity.ai
 
@@ -86,3 +89,6 @@ DOMAIN,guzzoni.smoot.apple.com
 # > Sora
 DOMAIN-SUFFIX,sora.com
 DOMAIN,sora-cdn.oaistatic.com
+
+# > AI
+DOMAIN-SUFFIX,ai
