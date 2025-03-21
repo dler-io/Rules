@@ -28,6 +28,9 @@ payload:
   - DOMAIN-SUFFIX,githubcopilot.com
   - DOMAIN,copilot.microsoft.com
 
+  # > Cursor
+  - DOMAIN-SUFFIX,cursor.sh
+
   # > Dify.AI
   - DOMAIN-SUFFIX,dify.ai
 
