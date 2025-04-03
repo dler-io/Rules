@@ -46,12 +46,6 @@
   - RULE-SET,Pornhub,Global TV
   - RULE-SET,Soundcloud,Global TV
 
-  - RULE-SET,Apple Music,Apple TV
-  - RULE-SET,Apple News,Apple TV
-  - RULE-SET,Apple TV,Apple TV
-
-  - RULE-SET,Apple,Apple
-
   - RULE-SET,Telegram,Telegram
 
   - RULE-SET,Crypto,Crypto
@@ -63,6 +57,13 @@
   - RULE-SET,Scholar,Scholar
   - RULE-SET,Speedtest,Speedtest
   - RULE-SET,Steam,Steam
+  - RULE-SET,TikTok,TikTok
+
+  - RULE-SET,Apple Music,Apple TV
+  - RULE-SET,Apple News,Apple TV
+  - RULE-SET,Apple TV,Apple TV
+
+  - RULE-SET,Apple,Apple
 
   - RULE-SET,miHoYo,miHoYo
 
@@ -134,6 +135,7 @@ script:
             'Scholar': 'Scholar',
             'Speedtest': 'Speedtest',
             'Steam': 'Steam',
+            'TikTok': 'TikTok',
             'miHoYo': 'miHoYo',
             'PROXY': 'Proxy',
             'Domestic': 'Domestic',
@@ -492,6 +494,12 @@ rule-providers:
     behavior: classical
     url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Steam.yaml'
     path: ./Rules/Steam
+    interval: 86400
+  TikTok:
+    type: http
+    behavior: classical
+    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/TikTok.yaml'
+    path: ./Rules/TikTok
     interval: 86400
   Speedtest:
     type: http
