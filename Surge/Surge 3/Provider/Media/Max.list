@@ -9,7 +9,6 @@ DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,ngtv.io
 DOMAIN-SUFFIX,pypestream.com
 DOMAIN-SUFFIX,warnermediacdn.com
-USER-AGENT,*Max*
 
 # > Analysis
 DOMAIN,app-analytics-services.com
