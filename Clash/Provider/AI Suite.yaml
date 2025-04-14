@@ -67,6 +67,10 @@ payload:
   - DOMAIN-SUFFIX,notebooklm.google
   - DOMAIN-SUFFIX,notebooklm.google.com
 
+  # > Grok
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,grok.com
+
   # > Groq
   - DOMAIN-SUFFIX,groq.com
 
