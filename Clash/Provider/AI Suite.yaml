@@ -24,7 +24,8 @@ payload:
   # > Cloudflare AI Gateway
   - DOMAIN,gateway.ai.cloudflare.com
 
-  # > Codeium
+  # > Windsurf
+  - DOMAIN-SUFFIX,windsurf.com
   - DOMAIN-SUFFIX,codeium.com
 
   # > Copilot
