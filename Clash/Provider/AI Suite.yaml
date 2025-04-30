@@ -27,6 +27,7 @@ payload:
   # > Windsurf
   - DOMAIN-SUFFIX,windsurf.com
   - DOMAIN-SUFFIX,codeium.com
+  - DOMAIN-SUFFIX,codeiumdata.com
 
   # > Copilot
   - DOMAIN-SUFFIX,githubcopilot.com
