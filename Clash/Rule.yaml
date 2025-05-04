@@ -363,6 +363,12 @@ rule-providers:
     url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/Disney%20Plus.yaml'
     path: ./Rules/Media/Disney_Plus
     interval: 86400
+  DMM:
+    type: http
+    behavior: classical
+    url: 'https://testingcf.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Media/DMM.yaml'
+    path: ./Rules/Media/DMM
+    interval: 86400
   encoreTVB:
     type: http
     behavior: classical
