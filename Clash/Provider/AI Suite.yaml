@@ -103,3 +103,6 @@ payload:
   # > Sora
   - DOMAIN-SUFFIX,sora.com
   - DOMAIN,sora-cdn.oaistatic.com
+
+  # > Zed
+  - DOMAIN,llm.zed.dev
