@@ -3,7 +3,7 @@
   - RULE-SET,Special,DIRECT
 
   - RULE-SET,Netflix,Netflix
-  - RULE-SET,Disney Plus,Disney
+  - RULE-SET,Disney Plus,Disney Plus
   - RULE-SET,YouTube,YouTube
 #   - RULE-SET,YouTube Music,YouTube
   - RULE-SET,Max,Max
@@ -84,7 +84,7 @@ script:
             'HTTPDNS': 'HTTPDNS',
             'Special': 'DIRECT',
             'Netflix': 'Netflix',
-            'Disney Plus': 'Disney',
+            'Disney Plus': 'Disney Plus',
             'YouTube': 'YouTube',
             'Max': 'Max',
             'Spotify': 'Spotify',
