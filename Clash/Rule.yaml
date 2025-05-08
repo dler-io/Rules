@@ -20,6 +20,7 @@
 
   - RULE-SET,Abema TV,Asian TV
   - RULE-SET,Bahamut,Asian TV
+  - RULE-SET,DMM,Asian TV
   - RULE-SET,Fox+,Asian TV
   - RULE-SET,Hulu Japan,Asian TV
   - RULE-SET,Japonx,Asian TV
@@ -98,6 +99,7 @@ script:
             'WeTV': 'CN Mainland TV',
             'Abema TV': 'Asian TV',
             'Bahamut': 'Asian TV',
+            'DMM': 'Asian TV',
             'Fox+': 'Asian TV',
             'Hulu Japan': 'Asian TV',
             'Japonx': 'Asian TV',
