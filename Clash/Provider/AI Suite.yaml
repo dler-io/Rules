@@ -1,4 +1,7 @@
 payload:
+  # > Augment
+  - DOMAIN-SUFFIX,augmentcode.com
+
   # > ChatGPT
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,chatgpt.com
