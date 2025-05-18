@@ -26,6 +26,9 @@ DOMAIN-SUFFIX,claudeusercontent.com
 # > Cloudflare AI Gateway
 DOMAIN,gateway.ai.cloudflare.com
 
+# > DIA
+DOMAIN-SUFFIX,diabrowser.engineering
+
 # > Windsurf
 DOMAIN-SUFFIX,windsurf.com
 DOMAIN-SUFFIX,codeium.com
@@ -33,6 +36,7 @@ DOMAIN-SUFFIX,codeiumdata.com
 
 # > Copilot
 DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN,copilot.microsoft.com
 
 # > Cursor
