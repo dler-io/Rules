@@ -1,9 +1,9 @@
 payload:
   # > DMM
-  - DOMAIN-SUFFIX,dmm.com
-  - DOMAIN-SUFFIX,dmm.co.jp
-  - DOMAIN-SUFFIX,dmmgames.com
-  - DOMAIN-SUFFIX,dmm.hk
   - DOMAIN-SUFFIX,dmm-extension.com
-  - DOMAIN,d129a39a862w9z.cloudfront.net
-  - DOMAIN,d2ezz24t9nm0vu.cloudfront.net
+  - DOMAIN-SUFFIX,dmm.co.jp
+  - DOMAIN-SUFFIX,dmm.com
+  - DOMAIN-SUFFIX,img.vm-movie.jp
+  - DOMAIN-SUFFIX,p-smith.com
+  - DOMAIN-SUFFIX,videomarket.jp
+  - DOMAIN-SUFFIX,vmdash-cenc.akamaized.net
