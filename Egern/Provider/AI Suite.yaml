@@ -1,0 +1,130 @@
+# AI Suite
+
+domain_suffix_set:
+  # > Augment
+  - augment.com
+  - augmentcode.com
+
+  # > ChatGPT
+  - ai.com
+  - chatgpt.com
+  - openai.com
+
+  # > Chat GPT API & CDN
+  - cdn.oaistatic.com
+  - oaiusercontent.com
+
+
+  # > Claude
+  - anthropic.com
+  - claude.ai
+  - claudeusercontent.com
+
+
+  # > DIA
+  - diabrowser.engineering
+
+  # > Windsurf
+  - windsurf.com
+  - codeium.com
+  - codeiumdata.com
+
+  # > Chorus
+  - chorus.sh
+
+  # > Copilot
+  - githubcopilot.com
+  - microsoftonline.com
+
+  # > Cursor
+  - cursor.sh
+
+  # > Dify.AI
+  - dify.ai
+
+  # > Google Gemini
+  - apis.google.com
+  - bard.google.com
+  - gemini.google.com
+
+  # > Google DeepMind
+  - deepmind.com
+  - deepmind.google
+
+  # > Google Generative Language API
+  - generativelanguage.googleapis.com
+  - geller-pa.googleapis.com
+  - proactivebackend-pa.googleapis.com
+
+  # > Google AI Studio
+  - domain_keyword,alkalimakersuite-pa.clients6.google.com
+  - aistudio.google.com
+  - makersuite.google.com
+  - generativeai.google
+
+  # > Google NotebookLM
+  - notebooklm.google
+  - notebooklm.google.com
+
+  # > Grok
+  - x.ai
+  - grok.com
+
+  # > Groq
+  - groq.com
+
+  # > Jasper
+  - clipdrop.co
+  - jasper.ai
+
+  # > Meta AI
+  - meta.ai
+
+  # > OpenArt
+  - openart.ai
+
+  # > OpenRouter
+  - openrouter.ai
+
+  # > Perplexity AI
+  - perplexity.ai
+
+  # > POE
+  - poe.com
+
+  # > Sora
+  - sora.com
+
+  # > Zed
+  - zed.dev
+
+domain_set:
+    # > Chat GPT API & CDN
+  - chat.openai.com.cdn.cloudflare.net
+  - openaiapi-site.azureedge.net
+  - openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+  - openaicomproductionae4b.blob.core.windows.net
+  - production-openaicom-storage.azureedge.net
+  - o33249.ingest.sentry.io
+
+  # > Cloudflare AI Gateway
+  - gateway.ai.cloudflare.com
+
+  # > Copilot
+  - copilot.microsoft.com
+
+  # > GitHub Copilot
+  - api.github.com
+
+  # > Google AI Studio
+  - ai.google.dev
+  - alkalicore-pa.clients6.google.com
+  - waa-pa.clients6.google.com
+
+  # > Siri
+  - apple-relay.apple.com
+  - apple-relay.cloudflare.com
+  - guzzoni.smoot.apple.com
+
+  # > Sora
+  - sora-cdn.oaistatic.com

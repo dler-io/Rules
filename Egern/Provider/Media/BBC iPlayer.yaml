@@ -1,0 +1,14 @@
+# BBC iPlayer
+
+domain_keyword_set:
+  - -uk-live.akamaized.net
+  - bbcfmt
+
+domain_suffix_set:
+  - bbc.co
+  - bbc.co.uk
+  - bbc.com
+  - bbcfmt.hs.llnwd.net
+  - bbci.co
+  - bbci.co.uk
+  - bidi.net.uk

@@ -1,0 +1,37 @@
+# Apple
+
+domain_keyword_set:
+  # > Apple API
+  - apple.com.akadns.net
+  - icloud.com.akadns.net
+
+domain_suffix_set:
+  - aaplimg.com
+  - apple.co
+  - apple.com
+  - apple-cloudkit.com
+  - apple-mapkit.com
+  - appsto.re
+  - cdn-apple.com
+  - icloud.com
+  - icloud-content.com
+  - itunes.com
+  - me.com
+  - mzstatic.com
+  # > Apple News
+  - apple.comscoreresearch.com
+  - apple.news
+
+ip_cidr_set:
+  - 17.0.0.0/8
+  - 63.92.224.0/19
+  - 65.199.22.0/23
+  - 139.178.128.0/18
+  - 144.178.0.0/19
+  - 144.178.36.0/22
+  - 144.178.48.0/20
+  - 192.35.50.0/24
+  - 198.183.17.0/24
+  - 205.180.175.0/24
+
+  # > Apple Maps

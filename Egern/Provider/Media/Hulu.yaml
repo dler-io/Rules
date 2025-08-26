@@ -1,0 +1,26 @@
+# Hulu
+
+ip_cidr_set:
+  - 8.28.124.0/23
+  - 199.60.116.0/24
+  - 199.200.48.0/22
+  - 208.91.156.0/22
+
+ip_cidr6_set:
+  - 2620:100:3000::/40
+
+domain_suffix_set:
+  - hulu.com
+  - hulu.hb.omtrdc.net
+  - hulu.sc.omtrdc.net
+  - huluad.com
+  - huluim.com
+  - hulumail.com
+  - huluqa.com
+  - hulustream.com
+
+domain_set:
+  - cs428.wpc.edgecastcdn.net
+  - cws-hulu.conviva.com
+  - hulu.com.c.footprint.net
+  - hulu.map.fastly.net

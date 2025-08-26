@@ -1,0 +1,23 @@
+# Max
+
+domain_suffix_set:
+  - max.com
+  - discomax.com
+  - arkoselabs.com
+  - brightline.tv
+  - cdn.turner.com
+  - hbo.com
+  - hbomax.com
+  - ngtv.io
+  - pypestream.com
+  - warnermediacdn.com
+  # > Analysis
+  - branch.io
+
+domain_set:
+  - app-analytics-services.com
+  - kpck4q-launches.appsflyersdk.com
+  - kpck4q-skadsdkless.appsflyersdk.com
+  - o0137140.ingest.us.sentry.io
+  - out053a3bejgh7t0phqa0csou.litix.io
+  - sdk.iad-01.braze.com
