@@ -1,0 +1,14 @@
+# DAZN
+
+domain_suffix_set:
+  - dazn-api.com
+  - dazn.com
+  - dazndn.com
+  - indazn.com
+  - indaznlab.com
+  - dcalivedazn.akamaized.net
+  - dcblivedazn.akamaized.net
+  - dc1live2lindazn.akamaized.net
+  - dc1-lm-live2dazn.secure.footprint.net
+  - dc1voddazn.akamaized.net
+  - dc2voddazn.akamaized.net

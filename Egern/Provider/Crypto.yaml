@@ -1,0 +1,306 @@
+# Crypto
+
+domain_suffix_set:
+  # > Forum
+  - bitcointalk.org
+
+  # > Exchange
+  - aex.com
+  - bibox.com
+  - bitfinex.com
+  - bithumb.com
+  - bitmex.com
+  - bitstamp.net
+  - bittrex.com
+  - bybit.com
+  - coinbase.com
+  - coincheck.com
+  - coinone.co.kr
+  - gemini.com
+  - korbit.co.kr
+  - kraken.com
+  - kucoin.com
+  - liquid.com
+  - poloniex.com
+  - bitbank.cc
+  - bitcoin.org
+  - bitquick.co
+  - btcbox.co.jp
+  - cex.io
+  - dogecoin.com
+  - paxful.com
+  - tether.to
+  - dydx.exchange
+  - solana.com
+  - avax.network
+  - optimism.io
+  - arbitrum.io
+  - poly.network
+  - zkscan.io
+  - zksync.io
+  - boba.network
+
+  # > Binance
+  - binance.cc
+  - binance.cloud
+  - binance.com
+  - binance.im
+  - binance.me
+  - binance.us
+  - bnappzh.co
+  - bnappzh.com
+  - bnbstatic.com
+  - bntrace.com
+  - binance.charity
+  - binance.co
+  - binance.info
+  - binance.net
+  - binance.org
+  - binance.vision
+  - binanceapi.com
+  - binancezh.be
+  - binancezh.biz
+  - binancezh.cc
+  - binancezh.co
+  - binancezh.com
+  - binancezh.info
+  - binancezh.ink
+  - binancezh.kim
+  - binancezh.link
+  - binancezh.live
+  - binancezh.mobi
+  - binancezh.net
+  - binancezh.pro
+  - binancezh.sh
+  - binancezh.top
+  - bnappzh.mobi
+  - bsc.getblock.io
+  - bscscan.com
+
+  # > Huobi
+  - hbabit.com
+  - hbfile.net
+  - huobi.com
+  - huobi.me
+  - huobi.pro
+  - huobi.sc
+  - huobiasia.vip
+  - huobigroup.com
+  - huobitoken.com
+  - heco-scan.com
+  - hecoview.com
+  - hbfile.net
+  - huobi.br.com
+  - bitderiv.com
+  - hecochain.com
+  - huobi.ws
+  - huobi.ug
+  - huobi.co.ma
+  - huobi.br.com
+
+  # > OKX
+  - okex.com
+  - okx.com
+
+  # > asproex
+  - asproex.com
+  - asproexapi.com
+      
+  # > bitflyer
+  - bitflyer.com
+  - bitflyer.jp
+      
+  # > bitsquare
+  - bisq.io
+  - bisq.network
+  - bitsquare.io
+      
+  # > coinone
+  - coinone.co.kr
+  - coinonecore.com
+  - coinonecorp.com
+      
+  # > ethereum
+  - devcon.org
+  - ethereum.foundation
+  - ethereum.org
+  - etherscan.io
+  - nansen.ai
+  - ethgasstation.info
+  - watchtheburn.com
+  - flashbots.net
+  - cryptofees.info
+  - etherscan.io
+  - ethereum-magicians.org
+  - vitalik.ca
+  - ethfans.org
+  - ethereum.cn
+  - ethereum.stackexchange.com
+  - etherscan.com
+  - parity.io
+  - ethernodes.org
+      
+  # > localbitcoins
+  - localbitcoins.com
+  - localbitcoinschain.com
+
+  # > zb
+  - zb.app
+  - zb.com
+  - zb.io
+  - zb.live
+      
+  # > Analysis
+  - aicoin.com
+  - aimoon.com
+  - coingecko.com
+  - coinmarketcap.com
+  - glassnode.com
+  - coinmetrics.io
+  - tokenview.com
+  - oklink.com
+  - blockchair.com
+  - intotheblock.com
+  - bytetree.com
+  - coin.dance
+  - defieye.io
+  - duneanalytics.com
+  - tokenterminal.com
+  - dapp.review
+  - dappradar.com
+  - stateofthedapps.com
+  - thegraph.com
+  - debank.com
+  - vfat.tools
+  - loanscan.io
+  - defirate.com
+  - defipulse.com
+  - apy999.com
+  - defieye.io
+  - dextools.io
+  - tradingview.com
+  - dcabtc.com
+  - chainalysis.com
+  - cryptoquant.com
+  - viewbase.com
+  - bitcoinity.org
+  - cryptocompare.com
+  - coincodex.com
+  - cointrendz.com
+  - coincheckup.com
+  - thetie.io
+  - cryptorank.io
+  - tradeblock.com
+  - nyctale.io
+  - dovemetrics.com
+  - cryptorank.io
+  - icodrops.com
+  - chainbroker.io
+  - crunchbase.com
+  - defillama.com
+  - coinowo.com
+  - earni.fi
+  - dropsearn.com
+  - bitcoin.it
+  - bitcoinmagazine.com
+  - blockchain.com
+  - tronscan.org
+
+  # > POOL
+  - btc.com
+  - f2pool.com
+  - cbeci.org
+  - digiconomist.net
+  - 1ml.com
+  - bitcoinvisuals.com
+  - crypto51.app
+  - masternodes.online
+  - bitnodes.earn.com
+  - poolin.com
+  - ethermine.org
+  - ewapool.net
+
+  # > FTX
+  - ftx.com
+
+  # > NFT
+  - opensea.io
+  - nftscan.com
+  - makersplace.com
+  - nonfungible.com
+  - cryptoslam.io
+  - cryptoart.io
+  - nftcalendar.io
+  - nftgo.io
+
+  # > IPFS
+  - filecoin.io
+  - docs.lotu.sh
+  - ipfs.io
+  - docs.ipfs.io
+  - discuss.ipfs.io
+
+  # > EOS
+  - eos.io
+  - developers.eos.io
+  - block.one
+  - eostracker.io
+  - eosflare.io
+  - eospark.com
+  - bloks.io
+
+  # > Lightning
+  - lightning.engineering
+  - lightning.community
+  - acinq.co
+  - 1ml.com
+
+  # > Token
+  - tokenpocket.pro
+  - token.im
+  - phantom.app
+  - tronlink.org
+  - myetherwallet.com
+  - jaxx.io
+  - trustwalletapp.com
+
+  # > Gate
+  - gate.ac
+  - gate.io
+
+  # > Mexc
+  - mexc.com
+
+  # > Dapp
+  - sushi.com
+  - uniswap.org
+  - sunswap.com
+  - traderjoexyz.com
+  - raydium.io
+  - synthetix.io
+  - aave.com
+  - compound.finance
+  - makerdao.com
+  - wbtc.network
+  - pancakeswap.finance
+  - pancakeswap.com
+  - mdex.co
+  - mdex.one
+  - mdex.com
+  - mdex.me
+  - 1inch.io
+
+domain_set:
+  # > Metamask
+  - token-api.metaswap.codefi.network
+  - min-api.cryptocompare.com
+
+domain_keyword_set:
+  # > Binance
+  - binance
+  # > Metamask
+  - metamask
+  # > Huobi
+  - huobi
+  # > OKX
+  - okx

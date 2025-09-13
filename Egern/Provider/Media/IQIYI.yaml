@@ -1,0 +1,15 @@
+# IQIYI
+
+domain_suffix_set:
+  - iqiyi.com
+  - iqiyipic.com
+  - iq.com
+  - qy.net
+  - gitv.tv
+  - 71.am
+
+domain_keyword_set:
+  - qiyi
+
+domain_set:
+  - cache.video.iqiyi.com
