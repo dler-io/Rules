@@ -110,6 +110,7 @@ payload:
   - DOMAIN,apple-relay.apple.com
   - DOMAIN,apple-relay.cloudflare.com
   - DOMAIN,guzzoni.smoot.apple.com
+  - DOMAIN,gspe1-ssl.ls.apple.com
 
   # > Sora
   - DOMAIN-SUFFIX,sora.com
