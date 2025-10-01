@@ -1,0 +1,16 @@
+# AbemaTV
+
+domain_suffix_set:
+  - abema-tv.com
+  - abema.adx.promo
+  - abema.io
+  - abema.tv
+  - ameba.jp
+  - bucketeer.jp
+  - ds-linear-abematv.akamaized.net
+  - ds-vod-abematv.akamaized.net
+  - hayabusa.io
+  - hayabusa.media
+  - linear-abematv.akamaized.net
+  - vod-abematv.akamaized.net
+  - vod-playout-abematv.akamaized.net
