@@ -66,6 +66,11 @@ payload:
   # > Tencent
   - IP-CIDR,182.254.116.0/24,no-resolve
 
+  # > Emby
+  - DOMAIN-SUFFIX,jiedaibao.gs
+  - DOMAIN,cdn.lilyemby.com
+  - DOMAIN,tx.lilyemby.com
+
   - DOMAIN-SUFFIX,10010.com
   - DOMAIN-SUFFIX,10086.cn
   - DOMAIN-SUFFIX,12306.cn
