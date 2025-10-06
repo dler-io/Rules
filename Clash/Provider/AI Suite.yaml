@@ -57,6 +57,7 @@ payload:
   - DOMAIN-SUFFIX,apis.google.com
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
 
   # > Google DeepMind
   - DOMAIN-SUFFIX,deepmind.com
