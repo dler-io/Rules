@@ -30,7 +30,11 @@ tun:
 cfw-latency-url: http://cp.cloudflare.com/generate_204
 cfw-latency-timeout: 3000
 cfw-latency-type: 1
-cfw-conn-break-strategy: true
+cfw-conn-break-strategy:
+  proxy: all
+  profile: true
+  mode: true
+
 
 # Stash
 url-rewrite:
