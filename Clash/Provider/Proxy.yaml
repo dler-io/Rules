@@ -6,12 +6,6 @@ payload:
   - DOMAIN-SUFFIX,battlenet.com
   - DOMAIN-SUFFIX,blizzard.com
   
-  # > Duolingo
-  # - USER-AGENT,Duolingo*
-  - DOMAIN-KEYWORD,duolingo
-  - DOMAIN-SUFFIX,duolingo.cn
-  - DOMAIN-SUFFIX,duolingo.com
-  
   # > Line
   - DOMAIN-SUFFIX,lin.ee
   - DOMAIN-SUFFIX,line.me

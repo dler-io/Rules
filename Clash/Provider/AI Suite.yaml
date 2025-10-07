@@ -36,6 +36,9 @@ payload:
   - DOMAIN-SUFFIX,codeium.com
   - DOMAIN-SUFFIX,codeiumdata.com
 
+  # > Chorus
+  - DOMAIN-SUFFIX,chorus.sh
+
   # > Copilot
   - DOMAIN-SUFFIX,githubcopilot.com
   - DOMAIN-SUFFIX,microsoftonline.com
@@ -51,9 +54,11 @@ payload:
   - DOMAIN,api.github.com
 
   # > Google Gemini
+  - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
   - DOMAIN-SUFFIX,apis.google.com
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
 
   # > Google DeepMind
   - DOMAIN-SUFFIX,deepmind.com
@@ -107,6 +112,7 @@ payload:
   - DOMAIN,apple-relay.apple.com
   - DOMAIN,apple-relay.cloudflare.com
   - DOMAIN,guzzoni.smoot.apple.com
+  - DOMAIN,gspe1-ssl.ls.apple.com
 
   # > Sora
   - DOMAIN-SUFFIX,sora.com
