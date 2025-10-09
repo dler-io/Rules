@@ -66,7 +66,10 @@ payload:
   # > Tencent
   - IP-CIDR,182.254.116.0/24,no-resolve
 
-  # > Emby
+  # > Emby (UHD)
+  - DOMAIN,smart.uhdnow.com
+
+  # > Emby (MTDB)
   - DOMAIN-SUFFIX,jiedaibao.gs
   - DOMAIN,cdn.lilyemby.com
   - DOMAIN,tx.lilyemby.com
