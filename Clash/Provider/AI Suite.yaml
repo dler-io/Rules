@@ -31,11 +31,6 @@ payload:
   # > DIA
   - DOMAIN-SUFFIX,diabrowser.engineering
 
-  # > Windsurf
-  - DOMAIN-SUFFIX,windsurf.com
-  - DOMAIN-SUFFIX,codeium.com
-  - DOMAIN-SUFFIX,codeiumdata.com
-
   # > Chorus
   - DOMAIN-SUFFIX,chorus.sh
 
