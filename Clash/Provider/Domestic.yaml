@@ -314,6 +314,7 @@ payload:
   - DOMAIN-SUFFIX,ysepay.cn
   - DOMAIN-SUFFIX,ysepay.com
   - DOMAIN-SUFFIX,yunjiasu-cdn.net
+  - DOMAIN-SUFFIX,yuque.com
   - DOMAIN-SUFFIX,zealer.com
   - DOMAIN-SUFFIX,zgslb.net
   - DOMAIN-SUFFIX,zhihu.com
