@@ -1,0 +1,10 @@
+# Bahamut
+
+domain_suffix_set:
+  - bahamut.com.tw
+  - gamer.com.tw
+
+domain_set:
+  - gamer-cds.cdn.hinet.net
+  - gamer2-cds.cdn.hinet.net
+  - bahamut.akamaized.net

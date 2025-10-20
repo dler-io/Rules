@@ -1,0 +1,23 @@
+# TikTok
+
+domain_suffix_set:
+  - byteoversea.com
+  - ibytedtos.com
+  - ibyteimg.com
+  - ipstatp.com
+  - muscdn.com
+  - musical.ly
+  - sgpstatp.com
+  - snssdk.com
+  - tik-tokapi.com
+  - tiktok.com
+  - tiktokcdn.com
+  - tiktokv.com
+
+
+domain_set:
+  - p16-tiktokcdn-com.akamaized.net
+
+domain_keyword_set:
+  - -tiktokcdn-com
+#  - USER-AGENT,TikTok*
