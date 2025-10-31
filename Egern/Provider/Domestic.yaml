@@ -1,0 +1,327 @@
+# Domestic
+
+domain_suffix_set:
+  # China Banks
+  # > Agricultural Bank of China
+  - abchina.com
+  - abchina.com.cn
+
+  # > Bank of China
+  - boc.cn
+
+  # > China Citic Bank
+  - citicbank.com
+  - ecitic.com
+  - ecitic.net
+
+  # > China Construction Bank
+  - ccb.com
+  - ccb.com.cn
+
+  # > China Everbright Bank
+  - cebbank.com
+
+  # > China Merchants Bank
+  - cmbchina.com
+  - cmbimg.com
+  - cmbt.cn
+  - mbcloud.com
+
+  # > Industrial and Commercial Bank of China
+  - icbc.com.cn
+
+  # > Ping An Bank
+  - pingan.com
+  - pingan.com.cn
+
+  # Type
+
+  # > Prior
+  - alphassl.com
+  - edu.cn
+
+  # > RRYS
+  - p4pfile.com
+  - zmzfile.com
+
+  # > Sony
+  - sony.com
+  - sonyentertainmentnetwork.com
+
+  - 10010.com
+  - 10086.cn
+  - 12306.cn
+  - 12306.com
+  - 126.net
+  - 163.com
+  - 189.cn
+  - 360.cn
+  - 360.com
+  - 360buy.com
+  - 360buyimg.com
+  - 36kr.com
+  - 51ym.me
+  - 58.com
+  - 8686c.com
+  - 95516.com
+  - abercrombie.com
+  - acfun.tv
+  - adobesc.com
+  - aiaa.org
+  - air-matters.com
+  - air-matters.io
+  - aixifan.com
+  - alibaba.com
+  - alibabacloud.com
+  - alicdn.com
+  - alipay.com
+  - alipayobjects.com
+  - aliyun.com
+  - aliyuncs.com
+  - amap.com
+  - appshike.com
+  - appstore.com
+  - autonavi.com
+  - bababian.com
+  - baidu.com
+  - baidupcs.com
+  - bdimg.com
+  - bdstatic.com
+  - beatsbydre.com
+  - bochk.com
+  - broadcasthe.net
+  - caiyunapp.com
+  - ccgslb.com
+  - ccgslb.net
+  - chinacache.net
+  - chunbo.com
+  - chunboimg.com
+  - clouddn.com
+  - cloudsigma.com
+  - cloudxns.net
+  - cmct.tv
+  - cmfu.com
+  - chdbits.co
+  - cnlang.org
+  - coolapk.com
+  - cn88.net
+  - dct-cloud.com
+  - didialift.com
+  - digicert.com
+  - dler.cloud
+  - douban.com
+  - doubanio.com
+  - douyin.com
+  - douyu.com
+  - douyu.tv
+  - douyutv.com
+  - duokan.com
+  - duoshuo.com
+  - dytt8.net
+  - easou.com
+  - eudic.net
+  - ewqcxz.com
+  - feng.com
+  - fir.im
+  - frdic.com
+  - fresh-ideas.cc
+  - gameloft.com
+  - garmin.cn
+  - geetest.com
+  - godic.net
+  - goodread.com
+  - goofish.com
+  - gtimg.com
+  - haibian.com
+  - hao123.com
+  - haosou.com
+  - hdchina.org
+  - hdcmct.org
+  - hjfile.cn
+  - hkserversolution.com
+  - hollisterco.com
+  - hongxiu.com
+  - hujiang.com
+  - hxcdn.net
+  - icedropper.com
+  - iciba.com
+  - ifeng.com
+  - ifengimg.com
+  - images-amazon.com
+  - img4me.com
+  - ipapark.com
+  - ithome.com
+  - ixdzs.com
+  - jd.com
+  - jd.hk
+  - jianshu.com
+  - jianshu.io
+  - jianshuapi.com
+  - jiathis.com
+  - jomodns.com
+  - jsboxbbs.com
+  - knewone.com
+  - kuaidi100.com
+  - kugou.com
+  - lecloud.com
+  - lemicp.com
+  - letv.com
+  - letvcloud.com
+  - liyuans.com
+  - lizhi.io
+  - localizecdn.com
+  - lucifr.com
+  - luoo.net
+  - lxdns.com
+  - mai.tn
+  - meituan.com
+  - meizu.com
+  - metatrader4.com
+  - metatrader5.com
+  - mi.com
+  - miaopai.com
+  - miui.com
+  - miwifi.com
+  - mob.com
+  - moji.com
+  - moke.com
+  - mxhichina.com
+  - myqcloud.com
+  - myunlu.com
+  - ngabbs.com
+  - netease.com
+  - nfoservers.com
+  - nuomi.com
+  - ourbits.club
+  - ourdvs.com
+  - passthepopcorn.me
+  - pgyer.com
+  - pniao.com
+  - privatehd.to
+  - qbox.me
+  - qcloud.com
+  - qdaily.com
+  - qdmm.com
+  - qhimg.com
+  - qidian.com
+  - qihucdn.com
+  - qin.io
+  - qingmang.me
+  - qingmang.mobi
+  - qiniucdn.com
+  - qiniudn.com
+  - qq.com
+  - qqurl.com
+  - rarbg.to
+  - redacted.ch
+  - rrmj.tv
+  - ruguoapp.com
+  - sf-express.com
+  - sinaapp.com
+  - sinaimg.cn
+  - sinaimg.com
+  - smzdm.com
+  - snwx.com
+  - so.com
+  - sogou.com
+  - sogoucdn.com
+  - sohu.com
+  - soku.com
+  - soso.com
+  - sspai.com
+  - startssl.com
+  - suning.com
+  - symcd.com
+  - taobao.com
+  - tawk.link
+  - tawk.to
+  - tencent.com
+  - tencent-cloud.net
+  - tenpay.com
+  - tietuku.com
+  - tmall.com
+  - tmzvps.com
+  - trello.com
+  - trellocdn.com
+  - totheglory.im
+  - ttmeiju.com
+  - tudou.com
+  - udache.com
+  - umengcloud.com
+  - upaiyun.com
+  - upyun.com
+  - uxengine.net
+  - wandoujia.com
+  - weather.bjango.com
+  - webqxs.com
+  - wechat.com
+  - weibo.cn
+  - weibo.com
+  - weico.cc
+  - weiphone.com
+  - weiphone.net
+  - werewolf.53site.com
+  - wkcdn.com
+  - xdrig.com
+  - xhostfire.com
+  - xhscdn.com
+  - xiaohongshu.com
+  - xiaojukeji.com
+  - xiaomi.com
+  - xiaomi.net
+  - xiaomicp.com
+  - ximalaya.com
+  - xitek.com
+  - xmcdn.com
+  - xslb.net
+  - yach.me
+  - yeepay.com
+  - yhd.com
+  - yinxiang.com
+  - yixia.com
+  - ykimg.com
+  - youdao.com
+  - ysepay.cn
+  - ysepay.com
+  - yunjiasu-cdn.net
+  - zealer.com
+  - zgslb.net
+  - zhihu.com
+  - zhimg.com
+  - zimuzu.tv
+  - zmz002.com
+
+  # > CN
+  - gov.cn
+  - cn
+
+domain_set:
+  # > Prior
+  - client.amplifi.com
+  - ip.bjango.com
+
+domain_keyword_set:
+  # > Beplay
+  - beplay
+
+ip_cidr_set:
+  # > TeamViewer
+  - 185.188.32.0/24
+  - 185.188.33.0/24
+  - 185.188.34.0/24
+  - 185.188.35.0/24
+    # > Tencent
+  - 182.254.116.0/24
+
+  - 1.255.62.0/24
+
+ip_cidr6_set:
+  # > TeamViewer
+  - 185.188.32.0/24
+  - 185.188.33.0/24
+  - 185.188.34.0/24
+  - 185.188.35.0/24
+  - 2a0b:b580::/48
+  - 2a0b:b581::/48
+  - 2a0b:b582::/48
+  - 2a0b:b583::/48

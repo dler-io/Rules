@@ -1,0 +1,17 @@
+# Bilibili
+
+domain_suffix_set:
+  - acg.tv
+  - acgvideo.com
+  - b23.tv
+  - bilibili.com
+  - bilibili.tv
+  - biliapi.net
+  - biliapi.com
+  - bilivideo.com
+  - hdslb.com
+
+domain_set:
+  - upos-hz-mirrorakam.akamaized.net
+  # Hong Kong,Macau,Taiwan
+  - apiintl.biliapi.net

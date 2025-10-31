@@ -1,0 +1,7 @@
+# Youku
+
+domain_suffix_set:
+  - youku.com
+
+ip_cidr_set:
+  - 106.11.0.0/16
