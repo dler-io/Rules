@@ -2,7 +2,6 @@
 PROCESS-NAME,storedownloadd
 USER-AGENT,com.apple.appstored*
 DOMAIN,aod.itunes.apple.com
-DOMAIN,api.smoot.apple.cn
 DOMAIN,appldnld.apple.com
 DOMAIN,apptrailers.itunes.apple.com
 DOMAIN,gs-loc-cn.apple.com
@@ -12,8 +11,6 @@ DOMAIN,mvod.itunes.apple.com
 DOMAIN,osxapps.itunes.apple.com
 DOMAIN,supportdownload.apple.com
 DOMAIN,swcdn.apple.com
-DOMAIN,updates-http.cdn-apple.com
-DOMAIN-SUFFIX,ls.apple.com
 
 # > Duet
 USER-AGENT,duet*
