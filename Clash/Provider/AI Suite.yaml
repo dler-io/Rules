@@ -105,18 +105,18 @@ payload:
   - DOMAIN-SUFFIX,poe.com
 
   # > Siri
-  - DOMAIN-SUFFIX,amp-api.apps.apple.com
   - DOMAIN-SUFFIX,apple-relay.apple.com
-  - DOMAIN-SUFFIX,apple-relay.cloudflare.com
   - DOMAIN-SUFFIX,apple-relay.fastly-edge.com
-  - DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
-  - DOMAIN-SUFFIX,apps.mzstatic.com
-  - DOMAIN-SUFFIX,cp4.cloudflare.com
+  - DOMAIN-SUFFIX,apple-relay.cloudflare.com
   - DOMAIN-SUFFIX,gateway.icloud.com
   - DOMAIN-SUFFIX,guzzoni.apple.com
+  - DOMAIN-SUFFIX,cp4.cloudflare.com
   - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+  - DOMAIN-SUFFIX,apps.mzstatic.com
+  - DOMAIN-SUFFIX,amp-api.apps.apple.com
   - DOMAIN-SUFFIX,smoot.apple.com
   - DOMAIN-SUFFIX,updates.cdn-apple.com
+  - DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
 
   # > Sora
   - DOMAIN-SUFFIX,sora.com
