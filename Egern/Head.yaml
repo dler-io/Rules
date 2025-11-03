@@ -1,0 +1,7 @@
+ipv6: false
+http_port: 8888
+socks_port: 8889
+allow_external_connections: true
+geoip_db_url: https://testingcf.jsdelivr.net/gh/Masaiki/GeoIP2-CN/raw/refs/heads@release/Country.mmdb
+proxy_latency_test_url: http://cp.cloudflare.com/generate_204
+direct_latency_test_url: http://wifi.vivo.com.cn/generate_204

@@ -1,0 +1,13 @@
+# F1 TV
+
+domain_set:
+  - d2n9h2wits23hf.cloudfront.net
+  - f1prodlive.akamaized.net
+  - mobile-collector.newrelic.com
+
+domain_suffix_set:
+  - bitmovin.com
+  - f1esports.com
+  - f1manager.com
+  - f1play.com
+  - formula1.com

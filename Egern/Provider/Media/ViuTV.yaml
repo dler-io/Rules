@@ -1,0 +1,14 @@
+# ViuTV
+
+domain_suffix_set:
+  - bootstrapcdn.com
+  - cloudfront.net
+  - cognito-identity.us-east-1.amazonaws.com
+  - firebaseio.com
+  - jwpcdn.com
+  - jwplayer.com
+  - mobileanalytics.us-east-1.amazonaws.com
+  - nowe.com
+  - viu.com
+  - viu.tv
+  - viu.now.com

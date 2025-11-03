@@ -1,0 +1,134 @@
+# Apple CDN
+
+domain_suffix_set:
+  - ls.apple.com
+
+  # > Google
+  - dl.google.com
+
+  # > Microsoft
+  - msftconnecttest.com
+
+  # > Proxy plugin
+    
+  # > PlayStation
+  - dl.playstation.net
+
+  # > Steam
+  - steamcontent.com
+  - steamserver.net
+
+  - steamchina.com
+
+  # > Tesla
+  - solarcity.com
+  - tesla.cn
+  - tesla.com
+  - tesla.com.cn
+  - teslamotors.cn
+  - teslamotors.com
+  - teslamotors.com.cn
+  - ts.la
+
+  # > UUBooster
+    
+  # > WiFiman
+  - app-measurement.com
+
+  # > Xunlei
+  - xunlei.com
+
+  # > Download
+        #                                     
+  # > Private Tracker
+  - audiences.me
+  - awesome-hd.me
+  - broadcasthe.net
+  - chdbits.co
+  - classix-unlimited.co.uk
+  - dmhy.best
+  - empornium.me
+  - gazellegames.net
+  - hdchina.org
+  - hdsky.me
+  - icetorrent.org
+  - jpopsuki.eu
+  - keepfrds.com
+  - madsrevolution.net
+  - m-team.cc
+  - nanyangpt.com
+  - ncore.cc
+  - open.cd
+  - ourbits.club
+  - passthepopcorn.me
+  - privatehd.to
+  - redacted.ch
+  - sandai.net
+  - springsunday.net
+  - tjupt.org
+  - totheglory.im
+  - audiences.me
+
+  - smtp
+
+domain_set:
+  - aod.itunes.apple.com
+  - api.smoot.apple.cn
+  - appldnld.apple.com
+  - apptrailers.itunes.apple.com
+  - gs-loc-cn.apple.com
+  - iosapps.itunes.apple.com
+  - music.apple.com
+  - mvod.itunes.apple.com
+  - osxapps.itunes.apple.com
+  - supportdownload.apple.com
+  - swcdn.apple.com
+  - updates-http.cdn-apple.com
+
+  # > Google
+  - safebrowsing.googleapis.com
+
+  # > Steam
+  - cm.steampowered.com
+  - ol.epicgames.com
+
+  - csgo.wmsj.cn
+  - dota2.wmsj.cn
+  - wmsjsteam.com
+
+  - dl.steam.clngaa.com
+  - dl.steam.ksyna.com
+
+  - gstore.val.manlaxy.com
+
+  - st.dl.bscstorage.net
+  - st.dl.eccdnx.com
+  - st.dl.pinyuncloud.com
+
+  - steampipe.steamcontent.tnkjmec.com
+
+  - steampowered.com.8686c.com
+  - steamstatic.com.8686c.com
+
+  - steambroadcast.akamaized.net
+  - steamcdn-a.akamaihd.net
+  - steamcommunity-a.akamaihd.net
+  - steamstore-a.akamaihd.net
+  - steamusercontent-a.akamaihd.net
+  - steamuserimages-a.akamaihd.net
+
+  # > Tesla
+  - tesla-cdn.thron.cn
+  - tesla-cdn.thron.com
+  # > UBI
+  - uplaypc-s-ubisoft.cdn.ubi.com
+
+domain_keyword_set:
+  # > Epic
+  - epicgames
+
+  - announce
+  - torrent
+
+url_regex_set:
+    - (Subject|HELO|SMTP)

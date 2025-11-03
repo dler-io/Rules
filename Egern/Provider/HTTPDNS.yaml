@@ -1,0 +1,102 @@
+# Block HTTPDNS
+
+domain_set:
+  # > ZhihuAlibaba
+  - httpdns.alicdn.com
+
+  # > ZhihuAliyun
+  - httpdns-api.aliyuncs.com
+  - httpdns-sc.aliyuncs.com
+
+  # > ZhihuBaidu
+  - httpsdns.baidu.com
+  - httpdns.baidu.com
+
+  # > ZhihuBaiduBCE
+  - httpdns.baidubce.com
+
+  # > ZhihuBilibili
+  - httpdns.bilivideo.com
+
+  # > ZhihuHuawei
+  - httpdns.c.cdnhwc2.com
+
+  # > ZhihuJD
+  - dns.jd.com
+
+  # > ZhihuKuaishou
+  - kuaishou.httpdns.pro
+
+  # > ZhihuMeituan
+  - httpdns.meituan.com
+
+  # > ZhihuNetEase
+  - httpdns.yunxindns.com
+  - httpdns.n.netease.com
+  - httpdns.music.163.com
+  - music.httpdns.c.163.com
+  - lofter.httpdns.c.163.com
+
+  # > ZhihuOppo
+  - httpdns.push.oppomobile.com
+
+  # > ZhihuWeixin
+  - dns.weixin.qq.com
+  - dns.weixin.qq.com.cn
+
+  # > ZhihuVolcengine
+  - httpdns.volcengineapi.com
+
+  # > ZhihuWeibo
+  - dns.weibo.cn
+
+ip_cidr_set:
+  # > ZhihuAliyun
+  - 203.107.1.0/24
+  # > ZhihuBaiduBCE
+  - 186.76.76.200/32
+
+  # > ZhihuJD
+  - 101.124.19.122/32
+
+  # > ZhihuJD Cloud
+  - 103.224.222.208/32
+
+  # > ZhihuNetEase
+  - 59.111.239.61/32
+  - 59.111.239.62/32
+  - 115.236.121.51/32
+  - 115.236.121.195/32
+
+
+  # > ZhihuTencent Cloud
+  - 119.29.29.98/32
+  - 119.29.29.99/32
+
+  # > ZhihuWeibo
+  - 39.97.128.148/32
+  - 39.97.130.51/32
+
+  - 42.81.232.18/32
+  - 42.187.182.106/32
+  - 42.187.182.123/32
+  - 42.187.184.154/32
+  - 123.151.54.50/32
+
+  # > ZhihuWework
+  - 182.254.116.117/32
+  - 182.254.118.119/32
+
+    # > ZhihuZhihu
+  - 118.89.204.198/23
+
+ip_cidr6_set:
+    # > ZhihuZhihu
+  - 2402:4e00:1200:ed00:0:9089:6dac:96b6/128
+
+  # > ZhihuJD
+  - 2402:db40:5100:1011::5/128
+
+  - 2402:4e00:1900:1700:0:9554:1ad9:c3a/128
+  - 240e:928:1400:10::25/128
+

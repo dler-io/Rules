@@ -1,0 +1,83 @@
+# Scholar
+
+domain_suffix_set:
+  # - scholar.google.com
+  - acm.org
+  - acs.org
+  - aip.org
+  - ams.org
+  - annualreviews.org
+  - aps.org
+  - ascelibrary.org
+  - asm.org
+  - asme.org
+  - astm.org
+  - blackwell-synergy.com
+  - bmj.com
+  - cabdirect.org
+  - cambridge.org
+  - cas.org
+  - cell.com
+  - clarivate.com
+  # - cnki.net
+  # - cqvip.com
+  - csiro.au
+  - deepdyve.com
+  - ebscohost.com
+  - els-cdn.com
+  - elsevier.com
+  - emerald.com
+  - endnote.com
+  - engineeringvillage.com
+  - icevirtuallibrary.com
+  - ieee.org
+  - imf.org
+  - iop.org
+  - jamanetwork.com
+  - jbc.org
+  - jhu.edu
+  - jstor.org
+  - karger.com
+  - libguides.com
+  - liebertpub.com
+  - madsrevolution.net
+  - mdpi.com
+  - mpg.de
+  - myilibrary.com
+  - nature.com
+  - ncbi.nlm.nih.gov
+  - oecd-ilibrary.org
+  - osapublishing.org
+  - oup.com
+  - ovid.com
+  - oxfordartonline.com
+  - oxfordbibliographies.com
+  - oxfordmusiconline.com
+  # - pkulaw.com
+  - pnas.org
+  - proquest.com
+  - readcube.com
+  - researchgate.net
+  - royalsocietypublishing.org
+  - rsc.org
+  - sagepub.com
+  - sci-hub.tw
+  - sciencedirect.com
+  - science.org
+  - scitation.org
+  - scopus.com
+  - semanticscholar.org
+  - siam.org
+  - spiedigitallibrary.org
+  - springer.com
+  - springerlink.com
+  - tandfonline.com
+  - un.org
+  - uni-bielefeld.de
+  # - wanfangdata.com
+  - webofknowledge.com
+  - westlaw.com
+  # - westlawchina.com
+  - wiley.com
+  - worldbank.org
+  - worldscientific.com
