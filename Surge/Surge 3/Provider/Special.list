@@ -11,6 +11,7 @@ DOMAIN,mvod.itunes.apple.com
 DOMAIN,osxapps.itunes.apple.com
 DOMAIN,supportdownload.apple.com
 DOMAIN,swcdn.apple.com
+DOMAIN,updates-http.cdn-apple.com
 
 # > Duet
 USER-AGENT,duet*

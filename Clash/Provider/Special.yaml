@@ -12,6 +12,7 @@ payload:
   - DOMAIN,osxapps.itunes.apple.com
   - DOMAIN,supportdownload.apple.com
   - DOMAIN,swcdn.apple.com
+  - DOMAIN,updates-http.cdn-apple.com
 
   # > Epic
   - DOMAIN-KEYWORD,epicgames
