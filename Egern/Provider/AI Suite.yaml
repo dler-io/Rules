@@ -14,6 +14,9 @@ domain_suffix_set:
   - cdn.oaistatic.com
   - oaiusercontent.com
 
+  # > Cerebras
+  - cerebras.ai
+
 
   # > Claude
   - anthropic.com
