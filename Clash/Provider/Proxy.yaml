@@ -338,6 +338,7 @@ payload:
   - DOMAIN-SUFFIX,nicovideo.jp
   - DOMAIN-SUFFIX,nih.gov
   - DOMAIN-SUFFIX,nimg.jp
+  - DOMAIN-SUFFIX,nikke-kr.com
   - DOMAIN-SUFFIX,nintendo.com
   - DOMAIN-SUFFIX,nintendo.net
   - DOMAIN-SUFFIX,notion.so
