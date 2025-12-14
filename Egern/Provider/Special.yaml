@@ -9,6 +9,10 @@ domain_suffix_set:
   # > Microsoft
   - msftconnecttest.com
 
+  # > Passkey
+  - DOMAIN-SUFFIX,auth.com
+  - DOMAIN-SUFFIX,ua5v.com
+
   # > Proxy plugin
     
   # > PlayStation
