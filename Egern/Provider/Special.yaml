@@ -11,7 +11,6 @@ domain_suffix_set:
 
   # > Passkey
   - DOMAIN-SUFFIX,auth.com
-  - DOMAIN-SUFFIX,ua5v.com
 
   # > Proxy plugin
     

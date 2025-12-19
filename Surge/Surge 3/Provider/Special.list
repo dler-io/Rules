@@ -29,7 +29,6 @@ DOMAIN-SUFFIX,msftconnecttest.com
 
 # > Passkey
 DOMAIN-SUFFIX,auth.com
-DOMAIN-SUFFIX,ua5v.com
 
 # > Proxy plugin
 PROCESS-NAME,v2ray
