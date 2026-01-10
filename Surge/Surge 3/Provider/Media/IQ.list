@@ -1,8 +1,8 @@
-DOMAIN-SUFFIX,iq.com,Foreign Media
-DOMAIN-SUFFIX,inter.iqiyi.com,Foreign Media
-DOMAIN-SUFFIX,intl-rcd.iqiyi.com,Foreign Media
-DOMAIN-SUFFIX,intl-subscription.iqiyi.com,Foreign Media
-DOMAIN-SUFFIX,intl.iqiyi.com,Foreign Media
+DOMAIN-SUFFIX,iq.com
+DOMAIN-SUFFIX,inter.iqiyi.com
+DOMAIN-SUFFIX,intl-rcd.iqiyi.com
+DOMAIN-SUFFIX,intl-subscription.iqiyi.com
+DOMAIN-SUFFIX,intl.iqiyi.com
 IP-CIDR,23.40.242.10/32,no-resolve
 IP-CIDR,23.59.252.0/24,no-resolve
 IP-CIDR,23.200.145.146/32,no-resolve
