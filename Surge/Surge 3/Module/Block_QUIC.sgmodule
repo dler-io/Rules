@@ -1,5 +1,0 @@
-#!name=Block QUIC Protocol
-#!desc=Forced fallback HTTP2/HTTP1.1
-
-[Rule]
-AND,((PROTOCOL,UDP),(DEST-PORT,443)),REJECT-NO-DROP
