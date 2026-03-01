@@ -1,5 +1,0 @@
-#!name=WeChat ASN
-#!desc=Non-86 users
-
-[Rule]
-IP-ASN,132203,DIRECT
