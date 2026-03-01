@@ -1,0 +1,1100 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+unified-delay: true
+
+sniffer:
+  sniff:
+    TLS:
+      ports: [443, 8443]
+      override-destination: true
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+  enable: true
+  skip-domain:
+    - Mijia Cloud
+    - dlg.io.mi.com
+  parse-pure-ip: true
+  force-dns-mapping: true
+  override-destination: true
+
+dns:
+  ipv6: false
+  enable: true
+  listen: 0.0.0.0:1053
+  enhanced-mode: fake-ip
+  use-hosts: false
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 8.8.8.8
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fallback:
+    - tls://8.8.4.4
+    - tls://1.1.1.1
+  proxy-server-nameserver:
+    - 223.5.5.5
+    - https://dns.alidns.com/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
+    ip-is-private: true
+    domain:
+      - '+.mzstatic.com'
+      - '+.itunes.com'
+      - '+.me.com'
+      - '+.ip.sb'
+      - '+.qq.com'
+      - '+.mi.com'
+      - '+.push.apple.com'
+      - '+.hotmail.com'
+      - '+.taobao.com'
+      - '+.tunnel.com'
+      - '+.alibaba.com'
+      - '+.acgvideo.com'
+      - '+.126.net'
+  fake-ip-range: 198.18.0.1/15
+  fake-ip-filter:
+    - '*.lan'
+    - '*.localdomain'
+    - '*.example'
+    - '*.invalid'
+    - '*.localhost'
+    - '*.test'
+    - '*.local'
+    - '*.home.arpa'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - stun.*.*
+    - stun.*.*.*
+    - swscan.apple.com
+    - mesu.apple.com
+    - music.163.com
+    - '*.music.163.com'
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - y.qq.com
+    - '*.y.qq.com'
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - localhost.ptlogin2.qq.com
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - '*.xiami.com'
+    - '*.music.migu.cn'
+    - music.migu.cn
+    - +.wotgame.cn
+    - +.wggames.cn
+    - +.wowsgame.cn
+    - +.wargaming.net
+    - '*.*.*.srv.nintendo.net'
+    - '*.*.stun.playstation.net'
+    - xbox.*.*.microsoft.com
+    - '*.*.xboxlive.com'
+    - '*.ipv6.microsoft.com'
+    - teredo.*.*.*
+    - teredo.*.*
+    - speedtest.cros.wr.pvp.net
+    - +.jjvip8.com
+    - www.douyu.com
+    - activityapi.huya.com
+    - activityapi.huya.com.w.cdngslb.com
+    - www.bilibili.com
+    - api.bilibili.com
+    - a.w.bilicdn1.com
+    - '*.unifi.ui.com'
+    - '*.unifi'
+    - '*.xhscdn.com'
+    - '*.xiaohongshu.com'
+    - 'test.tunnel.com'
+    - '*.autonavi.com'
+    - '*.ip.sb'
+    - '*.acgvideo.com'
+    - '*.mi.com'
+    - '*.baidu.com'
+    - '*.sony.ottcn.com'
+    - '*.aiseet.atianqi.com'
+    - '*.playstation.net'
+    - '*.nanoleaf.me'
+    - '*.aqara.com'
+    - '*.bilibili.com'
+    - '*.music.126.net'
+    - '*.issues.apple.com'
+    - '*.myqcloud.com'
+    - '*.push.apple.com'
+    - '*.apple.com'
+    - '*.icloud.com'
+    - 'time.apple.com'
+    - 'time.asia.apple.com'
+    - 'time*.apple.com'
+    - '*.xhscdn.com'
+    - '*.akadns.net'
+    - '*.ubnt.com'
+    - '*.ui.com'
+    - '*.unifi.com'
+    - 'ping.ui.com'
+    - 'stun.l.google.com'
+
+## Custom Filter
+x-badnodes: &badnodes (?i)(\(Premium\)|Traffic|Expire|\d+(\.\d+)?\s*GB?\s*\|\s*\d+(\.\d+)?\s*GB?)
+x-onu-exclude: &onu_exclude (?i)(香港|HK\b|HKG|Hong\s*Kong|日本|JP\b|JPN|Japan|台湾|台灣|TW\b|TWN|Taiwan|新加坡|SG\b|SGP|Singapore|美国|美國|US\b|USA|United\s*States|英国|英國|UK\b|GB\b|United\s*Kingdom|Traffic|Expire|\(Premium\)|\d+(\.\d+)?\s*GB?\s*\|\s*\d+(\.\d+)?\s*GB?)
+
+proxies:
+  - name: US Fiber
+    type: socks5
+    server: 149.119.51.69
+    port: 6051
+    username: abc2792162_9qlq
+    password: '89251163'
+    dialer-proxy: HKG Select
+
+proxy-groups:
+- name: Proxy
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Proxy.png
+  type: select
+  proxies:
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+  - HKG Select
+  - DIRECT
+- name: Domestic
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Domestic.png
+  type: select
+  proxies:
+  - DIRECT
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+- name: Others
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Star.png
+  type: select
+  proxies:
+  - SGP
+  - HKG
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+  - HKG Select
+  - DIRECT
+- name: AdBlock
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Advertising.png
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+- name: HTTPDNS
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Filter.png
+  type: select
+  proxies:
+  - DIRECT
+  - REJECT
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+- name: Netflix
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Netflix.png
+  type: select
+  proxies:
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+  - DIRECT
+- name: Disney Plus
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Disney+.png
+  type: select
+  proxies:
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+  - DIRECT
+- name: YouTube
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/YouTube.png
+  type: select
+  proxies:
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+  - DIRECT
+- name: Max
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/HBO_Max.png
+  type: select
+  proxies:
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+  - DIRECT
+- name: Spotify
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Spotify.png
+  type: select
+  proxies:
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+  - DIRECT
+- name: CN Mainland TV
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/bilibili.png
+  type: select
+  proxies:
+  - DIRECT
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+- name: Asian TV
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/AbemaTV.png
+  type: select
+  proxies:
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+  - DIRECT
+- name: Global TV
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Hulu.png
+  type: select
+  proxies:
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+  - DIRECT
+- name: Apple
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Apple.png
+  type: select
+  proxies:
+  - DIRECT
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+- name: Apple TV
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Apple_TV.png
+  type: select
+  proxies:
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+  - DIRECT
+- name: Telegram
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Telegram.png
+  type: select
+  proxies:
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+  - HKG Select
+  - DIRECT
+- name: Google FCM
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Google_Search.png
+  type: select
+  proxies:
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+  - DIRECT
+- name: Crypto
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Cryptocurrency.png
+  type: select
+  proxies:
+  - DIRECT
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+- name: Discord
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Discord.png
+  type: select
+  proxies:
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+  - DIRECT
+- name: Microsoft
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Microsoft.png
+  type: select
+  proxies:
+  - DIRECT
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+- name: AI Suite
+  icon: https://cdn.jsdelivr.net/gh/HotKids/Rules@master/Quantumult/X/Images/Color/ChatGPT.png
+  type: select
+  proxies:
+  - USA
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - GBR
+  - ONU
+  - DIRECT
+- name: PayPal
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/PayPal.png
+  type: select
+  proxies:
+  - USA
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - GBR
+  - ONU
+  - US Fiber
+  - DIRECT
+- name: Scholar
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Scholar.png
+  type: select
+  proxies:
+  - DIRECT
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+- name: Speedtest
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Speedtest.png
+  type: select
+  proxies:
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+  - HKG Select
+  - DIRECT
+- name: Steam
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Steam.png
+  type: select
+  proxies:
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+  - DIRECT
+- name: TikTok
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/TikTok.png
+  type: select
+  proxies:
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+  - DIRECT
+- name: miHoYo
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Mouse.png
+  type: select
+  proxies:
+  - DIRECT
+  - HKG
+  - SGP
+  - TWN
+  - JPN
+  - USA
+  - GBR
+  - ONU
+- name: HKG
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Hong_Kong.png
+  type: fallback
+  use: &id001
+    - 👑 Mainstream
+    - 🧩 Alternative
+    - 📎 Substitute
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  filter: (?i)(香港|HK\b|HKG|Hong\s*Kong)
+  exclude-filter: *badnodes
+- name: SGP
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Singapore.png
+  type: fallback
+  use: *id001
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  filter: (?i)(新加坡|SG\b|SGP|Singapore)
+  exclude-filter: *badnodes
+- name: TWN
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Taiwan.png
+  type: fallback
+  use: *id001
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  filter: (?i)(台湾|台灣|TW\b|TWN|Taiwan)
+  exclude-filter: *badnodes
+- name: JPN
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Japan.png
+  type: fallback
+  use: *id001
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  filter: (?i)(日本|JP\b|JPN|Japan)
+  exclude-filter: *badnodes
+- name: USA
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/United_States.png
+  type: fallback
+  use: *id001
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  filter: (?i)(美国|美國|US\b|USA|United\s*States)
+  exclude-filter: *badnodes
+- name: GBR
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/United_Kingdom.png
+  type: fallback
+  use: *id001
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  filter: (?i)(英国|英國|UK\b|United\s*Kingdom)
+  exclude-filter: *badnodes
+- name: ONU
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/United_Nations.png
+  type: select
+  use: *id001
+  exclude-filter: *onu_exclude
+- name: HKG Select
+  icon: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Hong_Kong.png
+  type: url-test
+  use: *id001
+  url: http://cp.cloudflare.com/generate_204
+  interval: 300
+  tolerance: 50
+  filter: (?i)(香港|HK\b|HKG|Hong\s*Kong)
+  exclude-filter: *badnodes
+
+rules:
+- RULE-SET,AdBlock,AdBlock
+- RULE-SET,HTTPDNS,HTTPDNS
+- RULE-SET,Special,DIRECT
+- RULE-SET,Netflix,Netflix
+- RULE-SET,Disney Plus,Disney Plus
+- RULE-SET,YouTube,YouTube
+- RULE-SET,Max,Max
+- RULE-SET,Spotify,Spotify
+- RULE-SET,Abema TV,Asian TV
+- RULE-SET,Bahamut,Asian TV
+- RULE-SET,DMM,Asian TV
+- RULE-SET,Fox+,Asian TV
+- RULE-SET,Hulu Japan,Asian TV
+- RULE-SET,IQ,Asian TV
+- RULE-SET,Japonx,Asian TV
+- RULE-SET,JOOX,Asian TV
+- RULE-SET,KKBOX,Asian TV
+- RULE-SET,KKTV,Asian TV
+- RULE-SET,Line TV,Asian TV
+- RULE-SET,myTV SUPER,Asian TV
+- RULE-SET,Niconico,Asian TV
+- RULE-SET,ViuTV,Asian TV
+- RULE-SET,ABC,Global TV
+- RULE-SET,Amazon,Global TV
+- RULE-SET,BBC iPlayer,Global TV
+- RULE-SET,DAZN,Global TV
+- RULE-SET,Discovery Plus,Global TV
+- RULE-SET,encoreTVB,Global TV
+- RULE-SET,F1 TV,Global TV
+- RULE-SET,Fox Now,Global TV
+- RULE-SET,Hulu,Global TV
+- RULE-SET,Pandora,Global TV
+- RULE-SET,PBS,Global TV
+- RULE-SET,Pornhub,Global TV
+- RULE-SET,Soundcloud,Global TV
+- RULE-SET,Bilibili,CN Mainland TV
+- RULE-SET,IQIYI,CN Mainland TV
+- RULE-SET,Letv,CN Mainland TV
+- RULE-SET,Netease Music,CN Mainland TV
+- RULE-SET,Tencent Video,CN Mainland TV
+- RULE-SET,WeTV,CN Mainland TV
+- RULE-SET,Youku,CN Mainland TV
+- RULE-SET,Telegram,Telegram
+- RULE-SET,Crypto,Crypto
+- RULE-SET,Discord,Discord
+- RULE-SET,Google FCM,Google FCM
+- RULE-SET,Microsoft,Microsoft
+- RULE-SET,AI Suite,AI Suite
+- RULE-SET,PayPal,PayPal
+- RULE-SET,Scholar,Scholar
+- RULE-SET,Speedtest,Speedtest
+- RULE-SET,Steam,Steam
+- RULE-SET,TikTok,TikTok
+- RULE-SET,Apple Music,Apple TV
+- RULE-SET,Apple News,Apple TV
+- RULE-SET,Apple TV,Apple TV
+- RULE-SET,Apple,Apple
+- RULE-SET,miHoYo,miHoYo
+- RULE-SET,PROXY,Proxy
+- RULE-SET,Domestic,Domestic
+- RULE-SET,Domestic IPs,Domestic
+- RULE-SET,LAN,DIRECT
+- GEOIP,CN,Domestic
+- MATCH,Others
+
+script:
+  code: "def main(ctx,metadata):\n    ruleset_action = {\n        'AdBlock': 'AdBlock',\n\
+    \        'HTTPDNS': 'HTTPDNS',\n        'Special': 'DIRECT',\n        'Netflix':\
+    \ 'Netflix',\n        'Disney Plus': 'Disney Plus',\n        'YouTube': 'YouTube',\n\
+    \        'Max': 'Max',\n        'Spotify': 'Spotify',\n        'Abema TV': 'Asian\
+    \ TV',\n        'Bahamut': 'Asian TV',\n        'DMM': 'Asian TV',\n        'Fox+':\
+    \ 'Asian TV',\n        'Hulu Japan': 'Asian TV',\n        'IQ': 'Asian TV',\n\
+    \        'Japonx': 'Asian TV',\n        'JOOX': 'Asian TV',\n        'KKBOX':\
+    \ 'Asian TV',\n        'KKTV': 'Asian TV',\n        'Line TV': 'Asian TV',\n \
+    \       'myTV SUPER': 'Asian TV',\n        'Niconico': 'Asian TV',\n        'ViuTV':\
+    \ 'Asian TV',\n        'ABC': 'Global TV',\n        'Amazon': 'Global TV',\n \
+    \       'BBC iPlayer': 'Global TV',\n        'DAZN': 'Global TV',\n        'Discovery\
+    \ Plus': 'Global TV',\n        'encoreTVB': 'Global TV',\n        'F1 TV': 'Global\
+    \ TV',\n        'Fox Now': 'Global TV',\n        'Hulu': 'Global TV',\n      \
+    \  'Pandora': 'Global TV',\n        'PBS': 'Global TV',\n        'Pornhub': 'Global\
+    \ TV',\n        'Soundcloud': 'Global TV',\n        'Bilibili': 'CN Mainland TV',\n\
+    \        'IQIYI': 'CN Mainland TV',\n        'Letv': 'CN Mainland TV',\n     \
+    \   'Netease Music': 'CN Mainland TV',\n        'Tencent Video': 'CN Mainland\
+    \ TV',\n        'Youku': 'CN Mainland TV',\n        'WeTV': 'CN Mainland TV',\n\
+    \        'Apple Music': 'Apple TV',\n        'Apple News': 'Apple TV',\n     \
+    \   'Apple TV': 'Apple TV',\n        'Apple': 'Apple',\n        'Telegram': 'Telegram',\n\
+    \        'Crypto': 'Crypto',\n        'Discord': 'Discord',\n        'Google FCM':\
+    \ 'Google FCM',\n        'Microsoft': 'Microsoft',\n        'AI Suite': 'AI Suite',\n\
+    \        'PayPal': 'PayPal',\n        'Scholar': 'Scholar',\n        'Speedtest':\
+    \ 'Speedtest',\n        'Steam': 'Steam',\n        'TikTok': 'TikTok',\n     \
+    \   'miHoYo': 'miHoYo',\n        'PROXY': 'Proxy',\n        'Domestic': 'Domestic',\n\
+    \        'Domestic IPs': 'Domestic',\n        'LAN': 'DIRECT'\n      }\n\n   \
+    \ port = int(metadata['dst_port'])\n\n    if metadata['network'] == 'UDP' and\
+    \ port == 443:\n        ctx.log('[Script] matched QUIC traffic use reject')\n\
+    \        return 'REJECT'\n\n    port_list = [21,22,23,53,80,123,143,194,443,465,587,853,993,995,998,2052,2053,2082,2083,2086,2095,2096,3389,5222,5228,5229,5230,8080,8443,8880,8888,8889]\n\
+    \    if port not in port_list:\n        ctx.log('[Script] not common port use\
+    \ direct')\n        return 'DIRECT'\n\n    if metadata['dst_ip'] == '':\n    \
+    \    metadata['dst_ip'] = ctx.resolve_ip(metadata['host'])\n\n    for ruleset\
+    \ in ruleset_action:\n        if ctx.rule_providers[ruleset].match(metadata):\n\
+    \            return ruleset_action[ruleset]\n\n    if metadata['dst_ip'] != '':\n\
+    \        code = ctx.geoip(metadata['dst_ip'])\n        if code == 'CN':\n    \
+    \        ctx.log('[Script] Geoip CN')\n            return 'Domestic'\n\n    ctx.log('[Script]\
+    \ FINAL')\n    return 'Others'\n"
+
+rule-providers:
+  AdBlock:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/AdBlock.yaml
+    path: ./Rules/AdBlock
+    interval: 86400
+  HTTPDNS:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/HTTPDNS.yaml
+    path: ./Rules/HTTPDNS
+    interval: 86400
+  Special:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Special.yaml
+    path: ./Rules/Special
+    interval: 86400
+  PROXY:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Proxy.yaml
+    path: ./Rules/Proxy
+    interval: 86400
+  Domestic:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Domestic.yaml
+    path: ./Rules/Domestic
+    interval: 86400
+  Domestic IPs:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Domestic%20IPs.yaml
+    path: ./Rules/Domestic-IPs
+    interval: 86400
+  LAN:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/LAN.yaml
+    path: ./Rules/LAN
+    interval: 86400
+  Netflix:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Netflix.yaml
+    path: ./Rules/Media/Netflix
+    interval: 86400
+  Spotify:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Spotify.yaml
+    path: ./Rules/Media/Spotify
+    interval: 86400
+  YouTube:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/YouTube.yaml
+    path: ./Rules/Media/YouTube
+    interval: 86400
+  Max:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Max.yaml
+    path: ./Rules/Media/Max
+    interval: 86400
+  Bilibili:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Bilibili.yaml
+    path: ./Rules/Media/Bilibili
+    interval: 86400
+  IQ:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/IQ.yaml
+    path: ./Rules/Media/IQI
+    interval: 86400
+  IQIYI:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/IQIYI.yaml
+    path: ./Rules/Media/IQYI
+    interval: 86400
+  Letv:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Letv.yaml
+    path: ./Rules/Media/Letv
+    interval: 86400
+  Netease Music:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Netease%20Music.yaml
+    path: ./Rules/Media/Netease-Music
+    interval: 86400
+  Tencent Video:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Tencent%20Video.yaml
+    path: ./Rules/Media/Tencent-Video
+    interval: 86400
+  Youku:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Youku.yaml
+    path: ./Rules/Media/Youku
+    interval: 86400
+  WeTV:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/WeTV.yaml
+    path: ./Rules/Media/WeTV
+    interval: 86400
+  ABC:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/ABC.yaml
+    path: ./Rules/Media/ABC
+    interval: 86400
+  Abema TV:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Abema%20TV.yaml
+    path: ./Rules/Media/Abema-TV
+    interval: 86400
+  Amazon:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Amazon.yaml
+    path: ./Rules/Media/Amazon
+    interval: 86400
+  Apple Music:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Apple%20Music.yaml
+    path: ./Rules/Media/Apple-Music
+    interval: 86400
+  Apple News:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Apple%20News.yaml
+    path: ./Rules/Media/Apple-News
+    interval: 86400
+  Apple TV:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Apple%20TV.yaml
+    path: ./Rules/Media/Apple-TV
+    interval: 86400
+  Bahamut:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Bahamut.yaml
+    path: ./Rules/Media/Bahamut
+    interval: 86400
+  BBC iPlayer:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/BBC%20iPlayer.yaml
+    path: ./Rules/Media/BBC-iPlayer
+    interval: 86400
+  DAZN:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/DAZN.yaml
+    path: ./Rules/Media/DAZN
+    interval: 86400
+  Discovery Plus:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Discovery%20Plus.yaml
+    path: ./Rules/Media/Discovery-Plus
+    interval: 86400
+  Disney Plus:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Disney%20Plus.yaml
+    path: ./Rules/Media/Disney-Plus
+    interval: 86400
+  DMM:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/DMM.yaml
+    path: ./Rules/Media/DMM
+    interval: 86400
+  encoreTVB:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/encoreTVB.yaml
+    path: ./Rules/Media/encoreTVB
+    interval: 86400
+  F1 TV:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/F1%20TV.yaml
+    path: ./Rules/Media/F1-TV
+    interval: 86400
+  Fox Now:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Fox%20Now.yaml
+    path: ./Rules/Media/Fox-Now
+    interval: 86400
+  Fox+:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Fox%2B.yaml
+    path: ./Rules/Media/Fox+
+    interval: 86400
+  Hulu Japan:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Hulu%20Japan.yaml
+    path: ./Rules/Media/Hulu-Japan
+    interval: 86400
+  Hulu:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Hulu.yaml
+    path: ./Rules/Media/Hulu
+    interval: 86400
+  Japonx:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Japonx.yaml
+    path: ./Rules/Media/Japonx
+    interval: 86400
+  JOOX:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/JOOX.yaml
+    path: ./Rules/Media/JOOX
+    interval: 86400
+  KKBOX:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/KKBOX.yaml
+    path: ./Rules/Media/KKBOX
+    interval: 86400
+  KKTV:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/KKTV.yaml
+    path: ./Rules/Media/KKTV
+    interval: 86400
+  Line TV:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Line%20TV.yaml
+    path: ./Rules/Media/Line-TV
+    interval: 86400
+  myTV SUPER:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/myTV%20SUPER.yaml
+    path: ./Rules/Media/myTV-SUPER
+    interval: 86400
+  Niconico:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Niconico.yaml
+    path: ./Rules/Media/Niconico
+    interval: 86400
+  Pandora:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Pandora.yaml
+    path: ./Rules/Media/Pandora
+    interval: 86400
+  PBS:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/PBS.yaml
+    path: ./Rules/Media/PBS
+    interval: 86400
+  Pornhub:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Pornhub.yaml
+    path: ./Rules/Media/Pornhub
+    interval: 86400
+  Soundcloud:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/Soundcloud.yaml
+    path: ./Rules/Media/Soundcloud
+    interval: 86400
+  ViuTV:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Media/ViuTV.yaml
+    path: ./Rules/Media/ViuTV
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Telegram.yaml
+    path: ./Rules/Telegram
+    interval: 86400
+  Crypto:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Crypto.yaml
+    path: ./Rules/Crypto
+    interval: 86400
+  Discord:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Discord.yaml
+    path: ./Rules/Discord
+    interval: 86400
+  Steam:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Steam.yaml
+    path: ./Rules/Steam
+    interval: 86400
+  TikTok:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/TikTok.yaml
+    path: ./Rules/TikTok
+    interval: 86400
+  Speedtest:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Speedtest.yaml
+    path: ./Rules/Speedtest
+    interval: 86400
+  PayPal:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/PayPal.yaml
+    path: ./Rules/PayPal
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Microsoft.yaml
+    path: ./Rules/Microsoft
+    interval: 86400
+  AI Suite:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/AI%20Suite.yaml
+    path: ./Rules/AI-Suite
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Apple.yaml
+    path: ./Rules/Apple
+    interval: 86400
+  Google FCM:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Google%20FCM.yaml
+    path: ./Rules/Google-FCM
+    interval: 86400
+  Scholar:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/Scholar.yaml
+    path: ./Rules/Scholar
+    interval: 86400
+  miHoYo:
+    type: http
+    behavior: classical
+    url: https://raw.dler.io/dler-io/Rules/main/Clash/Provider/miHoYo.yaml
+    path: ./Rules/miHoYo
+    interval: 86400
+
+proxy-providers:
+  👑 Mainstream:
+    type: http
+    url: https://xxx ## input your mainstream proxy subscription link here
+    interval: 3600
+    path: ./providers/Mainstream.yaml
+    filter: "^((?!(Premium| G |Traffic|Expire)).)*$"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+    override:
+      additional-prefix: "👑 "
+  🧩 Alternative:
+    type: file
+    path: ./providers/xxx.yaml ## this is a local file type provider
+    filter: "^((?!(GB|Traffic|Expire)).)*$"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+    override:
+      additional-prefix: "🧩 "
+  📎 Substitute:
+    type: http
+    url: https://xx ## input your substitute proxy subscription link here
+    interval: 3600
+    path: ./providers/Substitute.yaml
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+    override:
+      additional-prefix: "📎 "
