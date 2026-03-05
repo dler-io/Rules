@@ -1,5 +1,0 @@
-#!name=IPv6
-#!desc=Enable IPv6 support.
-
-[General]
-ipv6 = true
