@@ -48,6 +48,7 @@ domain_suffix_set:
   # > Google Gemini
   - apis.google.com
   - bard.google.com
+  - gemini.google
   - gemini.google.com
 
   # > Google DeepMind
