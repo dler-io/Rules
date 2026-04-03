@@ -21,6 +21,7 @@ domain_suffix_set:
   # > Claude
   - anthropic.com
   - claude.ai
+  - claude.com
   - claudeusercontent.com
 
 
@@ -98,13 +99,18 @@ domain_suffix_set:
 
   # > Sora
   - sora.com
-
-  # > Zed
-  - zed.dev
   
   # > TRAE
   - trae.ai
   - traeapi.us
+
+  # > Windsurf
+  - windsurf.com
+  - codeium.com
+  - codeiumdata.com
+
+  # > Zed
+  - zed.dev
 
 domain_set:
     # > Chat GPT API & CDN

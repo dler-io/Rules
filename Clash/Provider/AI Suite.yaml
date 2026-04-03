@@ -27,6 +27,7 @@ payload:
   # > Claude
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
   - DOMAIN-SUFFIX,claudeusercontent.com
 
   # > Cloudflare AI Gateway
@@ -121,6 +122,10 @@ payload:
   - DOMAIN-SUFFIX,sora.com
   - DOMAIN,sora-cdn.oaistatic.com
 
+  # > TRAE
+  - DOMAIN-SUFFIX,trae.ai
+  - DOMAIN-SUFFIX,traeapi.us
+
   # > Windsurf
   - DOMAIN-SUFFIX,windsurf.com
   - DOMAIN-SUFFIX,codeium.com
@@ -128,7 +133,3 @@ payload:
 
   # > Zed
   - DOMAIN-SUFFIX,zed.dev
-
-  # > TRAE
-  - DOMAIN-SUFFIX,trae.ai
-  - DOMAIN-SUFFIX,traeapi.us

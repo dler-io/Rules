@@ -121,6 +121,10 @@ DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-SUFFIX,sora.com
 DOMAIN,sora-cdn.oaistatic.com
 
+# > TRAE
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,traeapi.us
+
 # > Windsurf
 DOMAIN-SUFFIX,windsurf.com
 DOMAIN-SUFFIX,codeium.com
@@ -128,7 +132,3 @@ DOMAIN-SUFFIX,codeiumdata.com
 
 # > Zed
 DOMAIN-SUFFIX,zed.dev
-
-# > TRAE
-DOMAIN-SUFFIX,trae.ai
-DOMAIN-SUFFIX,traeapi.us
