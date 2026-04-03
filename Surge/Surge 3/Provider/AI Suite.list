@@ -128,3 +128,7 @@ DOMAIN-SUFFIX,codeiumdata.com
 
 # > Zed
 DOMAIN-SUFFIX,zed.dev
+
+# > TRAE
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,traeapi.us

@@ -101,6 +101,10 @@ domain_suffix_set:
 
   # > Zed
   - zed.dev
+  
+  # > TRAE
+  - trae.ai
+  - traeapi.us
 
 domain_set:
     # > Chat GPT API & CDN
