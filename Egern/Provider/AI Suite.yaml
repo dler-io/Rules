@@ -84,6 +84,7 @@ domain_suffix_set:
 
   # > Meta AI
   - meta.ai
+  - meta.com
 
   # > OpenArt
   - openart.ai

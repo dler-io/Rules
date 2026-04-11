@@ -96,6 +96,7 @@ payload:
 
   # > Meta AI
   - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,meta.com
 
   # > OpenArt
   - DOMAIN-SUFFIX,openart.ai
