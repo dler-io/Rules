@@ -1,0 +1,105 @@
+  - RULE-SET,Reject,REJECT
+  - RULE-SET,Reject Extra,REJECT
+  - RULE-SET,Reject Non-IP,REJECT
+  - RULE-SET,Reject Non-IP No-Drop,REJECT
+  - RULE-SET,Reject Non-IP Drop,REJECT
+  - RULE-SET,Reject IP,REJECT
+
+  - RULE-SET,Domestic,Domestic
+  - RULE-SET,Domestic IP,Domestic
+  - RULE-SET,China IP,Domestic
+
+  - DOMAIN-SUFFIX,wechat.com,Domestic
+
+  - DOMAIN,apps.apple.com,Proxy
+  - DOMAIN-SUFFIX,ls.apple.com,DIRECT
+  - DOMAIN-SUFFIX,store.apple.com,DIRECT
+  - RULE-SET,Apple Push,Proxy
+  - RULE-SET,Apple,Proxy
+
+  - RULE-SET,LAN,DIRECT
+  - GEOIP,CN,Domestic
+  - MATCH,Others
+
+rule-providers:
+  Reject:
+    type: http
+    behavior: domain
+    format: text
+    interval: 86400
+    url: 'https://ruleset.skk.moe/Clash/domainset/reject.txt'
+    path: ./Rules/Reject
+  Reject Extra:
+    type: http
+    behavior: domain
+    format: text
+    interval: 86400
+    url: 'https://ruleset.skk.moe/Clash/domainset/reject_extra.txt'
+    path: ./Rules/Reject_Extra
+  Reject Non-IP:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: 'https://ruleset.skk.moe/Clash/non_ip/reject.txt'
+    path: ./Rules/Reject_Non_IP
+  Reject Non-IP No-Drop:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: 'https://ruleset.skk.moe/Clash/non_ip/reject-no-drop.txt'
+    path: ./Rules/Reject_Non_IP_No_Drop
+  Reject Non-IP Drop:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: 'https://ruleset.skk.moe/Clash/non_ip/reject-drop.txt'
+    path: ./Rules/Reject_Non_IP_Drop
+  Reject IP:
+    type: http
+    behavior: ipcidr
+    format: text
+    interval: 86400
+    url: 'https://ruleset.skk.moe/Clash/ip/reject.txt'
+    path: ./Rules/Reject_IP
+  Domestic:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: 'https://ruleset.skk.moe/Clash/non_ip/domestic.txt'
+    path: ./Rules/Domestic
+  Domestic IP:
+    type: http
+    behavior: ipcidr
+    format: text
+    interval: 86400
+    url: 'https://ruleset.skk.moe/Clash/ip/domestic.txt'
+    path: ./Rules/Domestic_IP
+  China IP:
+    type: http
+    behavior: ipcidr
+    format: text
+    interval: 86400
+    url: 'https://ruleset.skk.moe/Clash/ip/china_ip.txt'
+    path: ./Rules/China_IP
+  Apple Push:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Apple%20Push.yaml'
+    path: ./Rules/Apple_Push
+  Apple:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Apple.yaml'
+    path: ./Rules/Apple
+  LAN:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/LAN.yaml'
+    path: ./Rules/LAN
