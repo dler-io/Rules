@@ -64,7 +64,8 @@
   - RULE-SET,Apple News,Apple TV
   - RULE-SET,Apple TV,Apple TV
 
-  - RULE-SET,Apple,Apple
+  - RULE-SET,Apple Push,Apple Push
+  - RULE-SET,Apple,Apple Services
 
   - RULE-SET,miHoYo,miHoYo
 
@@ -443,6 +444,12 @@ rule-providers:
     behavior: classical
     url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Apple.yaml'
     path: ./Rules/Apple
+    interval: 86400
+  Apple Push:
+    type: http
+    behavior: classical
+    url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Apple%20Push.yaml'
+    path: ./Rules/Apple_Push
     interval: 86400
   Google FCM:
     type: http

@@ -1,0 +1,22 @@
+# Apple Push
+
+domain_keyword_set:
+  - apple.com.edgekey.net
+
+domain_suffix_set:
+  - push.apple.com
+  - push-apple.com.akadns.net
+
+# IP Source: https://support.apple.com/en-us/102266
+ip_cidr_set:
+  - 17.249.0.0/16
+  - 17.252.0.0/16
+  - 17.57.144.0/22
+  - 17.188.128.0/18
+  - 17.188.20.0/23
+
+ip_cidr6_set:
+  - 2620:149:a44::/48
+  - 2403:300:a42::/48
+  - 2403:300:a51::/48
+  - 2a01:b740:a42::/48
