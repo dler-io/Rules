@@ -9,8 +9,6 @@
   - RULE-SET,Domestic IP,Domestic
   - RULE-SET,China IP,Domestic
 
-  - DOMAIN-SUFFIX,wechat.com,Domestic
-
   - DOMAIN,apps.apple.com,Proxy
   - DOMAIN-SUFFIX,ls.apple.com,DIRECT
   - DOMAIN-SUFFIX,store.apple.com,DIRECT
