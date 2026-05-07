@@ -1,5 +1,4 @@
   - RULE-SET,AdBlock,AdBlock
-  - RULE-SET,HTTPDNS,HTTPDNS
   - RULE-SET,Special,DIRECT
 
   - RULE-SET,Netflix,Netflix
@@ -84,12 +83,6 @@ rule-providers:
     behavior: classical
     url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AdBlock.yaml'
     path: ./Rules/AdBlock
-    interval: 86400
-  HTTPDNS:
-    type: http
-    behavior: classical
-    url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/HTTPDNS.yaml'
-    path: ./Rules/HTTPDNS
     interval: 86400
   Special:
     type: http
