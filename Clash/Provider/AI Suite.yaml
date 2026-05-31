@@ -6,17 +6,61 @@ payload:
   # > ChatGPT
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,ct.sendgrid.net
+  - DOMAIN-SUFFIX,featureassets.org
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,prodregistryv2.org
+  - DOMAIN-SUFFIX,statsig.com
+  - DOMAIN-SUFFIX,statsigapi.net
 
   # > Chat GPT API & CDN
+  - DOMAIN,cdn.openaimerge.com
+  - DOMAIN,cdn.workos.com
+  - DOMAIN,challenges.cloudflare.com
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN,forwarder.workos.com
+  - DOMAIN,humb.apple.com
+  - DOMAIN,images.workoscdn.com
+  - DOMAIN,js.stripe.com
+  - DOMAIN,o207216.ingest.sentry.io
+  - DOMAIN,o33249.ingest.sentry.io
   - DOMAIN,openaiapi-site.azureedge.net
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
   - DOMAIN,production-openaicom-storage.azureedge.net
-  - DOMAIN-SUFFIX,cdn.oaistatic.com
-  - DOMAIN-SUFFIX,oaiusercontent.com
-  - DOMAIN,o33249.ingest.sentry.io
+  - DOMAIN,rum.browser-intake-datadoghq.com
+  - DOMAIN,setup.workos.com
+  - DOMAIN,workos.imgix.net
+
+  # > ChatGPT Voice
+  # - IP-CIDR,102.37.57.54/32,no-resolve
+  # - IP-CIDR,13.71.25.29/32,no-resolve
+  # - IP-CIDR,135.220.40.201/32,no-resolve
+  # - IP-CIDR,172.203.39.49/32,no-resolve
+  # - IP-CIDR,172.207.173.200/32,no-resolve
+  # - IP-CIDR,172.214.226.198/32,no-resolve
+  # - IP-CIDR,191.233.251.27/32,no-resolve
+  # - IP-CIDR,20.162.96.163/32,no-resolve
+  # - IP-CIDR,20.168.48.117/32,no-resolve
+  # - IP-CIDR,20.184.36.134/32,no-resolve
+  # - IP-CIDR,20.203.144.245/32,no-resolve
+  # - IP-CIDR,20.74.221.21/32,no-resolve
+  # - IP-CIDR,4.151.200.38/32,no-resolve
+  # - IP-CIDR,4.155.146.196/32,no-resolve
+  # - IP-CIDR,4.197.172.116/32,no-resolve
+  # - IP-CIDR,4.217.235.100/32,no-resolve
+  # - IP-CIDR,4.245.198.13/32,no-resolve
+  # - IP-CIDR,40.118.236.137/32,no-resolve
+  # - IP-CIDR,51.4.112.173/32,no-resolve
+  # - IP-CIDR,52.143.181.161/32,no-resolve
+  # - IP-CIDR,68.155.152.41/32,no-resolve
+  # - IP-CIDR,72.146.20.246/32,no-resolve
+  # - IP-CIDR,74.248.148.7/32,no-resolve
 
   # > Cerebras
   - DOMAIN-SUFFIX,cerebras.ai
@@ -121,7 +165,7 @@ payload:
 
   # > Sora
   - DOMAIN-SUFFIX,sora.com
-  - DOMAIN,sora-cdn.oaistatic.com
+  # - DOMAIN,sora-cdn.oaistatic.com
 
   # > TRAE
   - DOMAIN-SUFFIX,trae.ai
