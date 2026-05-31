@@ -8,11 +8,17 @@ domain_suffix_set:
   # > ChatGPT
   - ai.com
   - chatgpt.com
-  - openai.com
-
-  # > Chat GPT API & CDN
-  - cdn.oaistatic.com
+  - ct.sendgrid.net
+  - featureassets.org
+  - featuregates.org
+  - intercom.io
+  - intercomcdn.com
+  - oaistatic.com
   - oaiusercontent.com
+  - openai.com
+  - prodregistryv2.org
+  - statsig.com
+  - statsigapi.net
 
   # > Cerebras
   - cerebras.ai
@@ -114,13 +120,24 @@ domain_suffix_set:
   - zed.dev
 
 domain_set:
-    # > Chat GPT API & CDN
+  # > Chat GPT API & CDN
+  - cdn.openaimerge.com
+  - cdn.workos.com
+  - challenges.cloudflare.com
   - chat.openai.com.cdn.cloudflare.net
+  - forwarder.workos.com
+  - humb.apple.com
+  - images.workoscdn.com
+  - js.stripe.com
+  - o207216.ingest.sentry.io
+  - o33249.ingest.sentry.io
   - openaiapi-site.azureedge.net
   - openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - openaicomproductionae4b.blob.core.windows.net
   - production-openaicom-storage.azureedge.net
-  - o33249.ingest.sentry.io
+  - rum.browser-intake-datadoghq.com
+  - setup.workos.com
+  - workos.imgix.net
 
   # > Cloudflare AI Gateway
   - gateway.ai.cloudflare.com
@@ -142,4 +159,30 @@ domain_set:
   - guzzoni.smoot.apple.com
 
   # > Sora
-  - sora-cdn.oaistatic.com
+  # - sora-cdn.oaistatic.com
+
+# ip_cidr_set:
+  # > ChatGPT Voice
+  # - 102.37.57.54/32
+  # - 13.71.25.29/32
+  # - 135.220.40.201/32
+  # - 172.203.39.49/32
+  # - 172.207.173.200/32
+  # - 172.214.226.198/32
+  # - 191.233.251.27/32
+  # - 20.162.96.163/32
+  # - 20.168.48.117/32
+  # - 20.184.36.134/32
+  # - 20.203.144.245/32
+  # - 20.74.221.21/32
+  # - 4.151.200.38/32
+  # - 4.155.146.196/32
+  # - 4.197.172.116/32
+  # - 4.217.235.100/32
+  # - 4.245.198.13/32
+  # - 40.118.236.137/32
+  # - 51.4.112.173/32
+  # - 52.143.181.161/32
+  # - 68.155.152.41/32
+  # - 72.146.20.246/32
+  # - 74.248.148.7/32
