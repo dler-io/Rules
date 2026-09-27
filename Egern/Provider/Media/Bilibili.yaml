@@ -13,5 +13,3 @@ domain_suffix_set:
 
 domain_set:
   - upos-hz-mirrorakam.akamaized.net
-  # Hong Kong,Macau,Taiwan
-  - apiintl.biliapi.net

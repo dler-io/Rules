@@ -1,7 +1,9 @@
 # Google FCM
-  # According to Firebase FAQ https://firebase.google.com/docs/cloud-messaging/concept-options#messaging-ports-and-your-firewall
+
+no_resolve: true
 
 domain_set:
+  # According to Firebase FAQ https://firebase.google.com/docs/cloud-messaging/concept-options#messaging-ports-and-your-firewall
   - mtalk.google.com
   - mtalk4.google.com
   - mtalk-staging.google.com
@@ -19,6 +21,7 @@ domain_set:
   - firebaseinstallations.googleapis.com
 
 ip_cidr_set:
+  # According to Firebase FAQ https://firebase.google.com/docs/cloud-messaging/concept-options#messaging-ports-and-your-firewall
   - 64.233.177.188/32
   - 64.233.186.188/32
   - 64.233.187.188/32

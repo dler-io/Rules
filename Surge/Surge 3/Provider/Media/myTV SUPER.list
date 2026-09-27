@@ -1,6 +1,5 @@
 # > myTV_SUPER
 USER-AGENT,mytv*
-DOMAIN-KEYWORD,nowtv100
-DOMAIN-KEYWORD,rthklive
+DOMAIN,rthklive2-lh.akamaihd.net
 DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,tvb.com

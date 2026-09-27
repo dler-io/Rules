@@ -18,11 +18,12 @@ DOMAIN-SUFFIX,appstoreconnect.apple.com
 DOMAIN-SUFFIX,itunesconnect.apple.com
 DOMAIN,contentdelivery.itunes.apple.com
 
+# > Apple Maps and Search
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN,api.smoot.apple.cn
+
 # > Duet
 USER-AGENT,duet*
-
-# > Epic
-DOMAIN-KEYWORD,epicgames
 
 # > Google
 DOMAIN,safebrowsing.googleapis.com
@@ -138,9 +139,6 @@ DOMAIN-SUFFIX,sandai.net
 DOMAIN-SUFFIX,springsunday.net
 DOMAIN-SUFFIX,tjupt.org
 DOMAIN-SUFFIX,totheglory.im
-
-DOMAIN-SUFFIX,smtp
-URL-REGEX,(Subject|HELO|SMTP)
 
 # > UBI
 DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com

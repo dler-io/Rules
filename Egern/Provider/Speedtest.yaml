@@ -1,8 +1,13 @@
+# Speedtest
+
 domain_suffix_set:
   # > Fast
   - fast.com
 
   # > Speedtest by Ookla
+  - speedtest.net
+  - speedtest.co
+  - speedtestcustom.com
   - ooklaserver.net
 
   # > Speed Test by Cloudflare
@@ -11,7 +16,3 @@ domain_suffix_set:
 domain_set:
   # > Speedtest by Ookla
   - speed.dler.io
-
-domain_keyword_set:
-  # > Speedtest by Ookla
-  - speedtest

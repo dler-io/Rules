@@ -11,10 +11,10 @@ payload:
   - DOMAIN-SUFFIX,telegram.me
   - DOMAIN-SUFFIX,telegram.org
   - DOMAIN-SUFFIX,telegram.space
+  - DOMAIN-SUFFIX,telegram-cdn.org
   - DOMAIN-SUFFIX,telesco.pe
   - DOMAIN-SUFFIX,tg.dev
   - DOMAIN-SUFFIX,tx.me
-  - DOMAIN-KEYWORD,telegram
 
   - IP-CIDR,5.28.195.1/32,no-resolve
   - IP-CIDR,5.28.195.2/32,no-resolve

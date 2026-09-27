@@ -1,4 +1,4 @@
-// > IQIYI
+# > IQIYI
 USER-AGENT,*QIYI*
 USER-AGENT,iQiYi*
 DOMAIN-SUFFIX,iqiyi.com
@@ -16,7 +16,6 @@ DOMAIN-SUFFIX,gitv.cn
 DOMAIN-SUFFIX,gitv.tv
 DOMAIN-SUFFIX,ibkstore.com
 DOMAIN-SUFFIX,iq.com
-DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyi.demo.uwp
 DOMAIN-SUFFIX,iqiyiedge.com
 DOMAIN-SUFFIX,iqiyiedge.net

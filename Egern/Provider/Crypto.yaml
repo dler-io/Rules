@@ -42,16 +42,19 @@ domain_suffix_set:
   - boba.network
 
   # > Binance
+  - bnappzh.co
+  - bnappzh.com
+  - bnbstatic.com
+  - bntrace.com
+  - bnappzh.mobi
+  - bsc.getblock.io
+  - bscscan.com
   - binance.cc
   - binance.cloud
   - binance.com
   - binance.im
   - binance.me
   - binance.us
-  - bnappzh.co
-  - bnappzh.com
-  - bnbstatic.com
-  - bntrace.com
   - binance.charity
   - binance.co
   - binance.info
@@ -74,13 +77,14 @@ domain_suffix_set:
   - binancezh.pro
   - binancezh.sh
   - binancezh.top
-  - bnappzh.mobi
-  - bsc.getblock.io
-  - bscscan.com
 
   # > Huobi
   - hbabit.com
   - hbfile.net
+  - heco-scan.com
+  - hecoview.com
+  - bitderiv.com
+  - hecochain.com
   - huobi.com
   - huobi.me
   - huobi.pro
@@ -88,16 +92,10 @@ domain_suffix_set:
   - huobiasia.vip
   - huobigroup.com
   - huobitoken.com
-  - heco-scan.com
-  - hecoview.com
-  - hbfile.net
   - huobi.br.com
-  - bitderiv.com
-  - hecochain.com
   - huobi.ws
   - huobi.ug
   - huobi.co.ma
-  - huobi.br.com
 
   # > OKX
   - okex.com
@@ -106,21 +104,20 @@ domain_suffix_set:
   # > asproex
   - asproex.com
   - asproexapi.com
-      
+
   # > bitflyer
   - bitflyer.com
   - bitflyer.jp
-      
+
   # > bitsquare
   - bisq.io
   - bisq.network
   - bitsquare.io
-      
+
   # > coinone
-  - coinone.co.kr
   - coinonecore.com
   - coinonecorp.com
-      
+
   # > ethereum
   - devcon.org
   - ethereum.foundation
@@ -131,7 +128,6 @@ domain_suffix_set:
   - watchtheburn.com
   - flashbots.net
   - cryptofees.info
-  - etherscan.io
   - ethereum-magicians.org
   - vitalik.ca
   - ethfans.org
@@ -140,7 +136,7 @@ domain_suffix_set:
   - etherscan.com
   - parity.io
   - ethernodes.org
-      
+
   # > localbitcoins
   - localbitcoins.com
   - localbitcoinschain.com
@@ -150,7 +146,7 @@ domain_suffix_set:
   - zb.com
   - zb.io
   - zb.live
-      
+
   # > Analysis
   - aicoin.com
   - aimoon.com
@@ -177,7 +173,6 @@ domain_suffix_set:
   - defirate.com
   - defipulse.com
   - apy999.com
-  - defieye.io
   - dextools.io
   - tradingview.com
   - dcabtc.com
@@ -194,7 +189,6 @@ domain_suffix_set:
   - tradeblock.com
   - nyctale.io
   - dovemetrics.com
-  - cryptorank.io
   - icodrops.com
   - chainbroker.io
   - crunchbase.com
@@ -224,6 +218,9 @@ domain_suffix_set:
   # > FTX
   - ftx.com
 
+  # > Metamask
+  - metamask.io
+
   # > NFT
   - opensea.io
   - nftscan.com
@@ -238,12 +235,9 @@ domain_suffix_set:
   - filecoin.io
   - docs.lotu.sh
   - ipfs.io
-  - docs.ipfs.io
-  - discuss.ipfs.io
 
   # > EOS
   - eos.io
-  - developers.eos.io
   - block.one
   - eostracker.io
   - eosflare.io
@@ -254,7 +248,6 @@ domain_suffix_set:
   - lightning.engineering
   - lightning.community
   - acinq.co
-  - 1ml.com
 
   # > Token
   - tokenpocket.pro
@@ -294,14 +287,3 @@ domain_suffix_set:
 domain_set:
   # > Metamask
   - token-api.metaswap.codefi.network
-  - min-api.cryptocompare.com
-
-domain_keyword_set:
-  # > Binance
-  - binance
-  # > Metamask
-  - metamask
-  # > Huobi
-  - huobi
-  # > OKX
-  - okx

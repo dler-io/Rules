@@ -14,10 +14,5 @@ domain_suffix_set:
   - tiktokcdn.com
   - tiktokv.com
 
-
 domain_set:
   - p16-tiktokcdn-com.akamaized.net
-
-domain_keyword_set:
-  - -tiktokcdn-com
-#  - USER-AGENT,TikTok*

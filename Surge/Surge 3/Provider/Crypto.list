@@ -39,16 +39,20 @@ DOMAIN-SUFFIX,zksync.io
 DOMAIN-SUFFIX,boba.network
 
 # > Binance
+DOMAIN-SUFFIX,bnappzh.co
+DOMAIN-SUFFIX,bnappzh.com
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,bntrace.com
+DOMAIN-SUFFIX,bnappzh.mobi
+DOMAIN-SUFFIX,bsc.getblock.io
+DOMAIN-SUFFIX,bscscan.com
+PROCESS-NAME,Binance.exe
 DOMAIN-SUFFIX,binance.cc
 DOMAIN-SUFFIX,binance.cloud
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,binance.im
 DOMAIN-SUFFIX,binance.me
 DOMAIN-SUFFIX,binance.us
-DOMAIN-SUFFIX,bnappzh.co
-DOMAIN-SUFFIX,bnappzh.com
-DOMAIN-SUFFIX,bnbstatic.com
-DOMAIN-SUFFIX,bntrace.com
 DOMAIN-SUFFIX,binance.charity
 DOMAIN-SUFFIX,binance.co
 DOMAIN-SUFFIX,binance.info
@@ -71,15 +75,15 @@ DOMAIN-SUFFIX,binancezh.net
 DOMAIN-SUFFIX,binancezh.pro
 DOMAIN-SUFFIX,binancezh.sh
 DOMAIN-SUFFIX,binancezh.top
-DOMAIN-SUFFIX,bnappzh.mobi
-DOMAIN-SUFFIX,bsc.getblock.io
-DOMAIN-SUFFIX,bscscan.com
-PROCESS-NAME,Binance.exe
-DOMAIN-KEYWORD,binance
 
 # > Huobi
 DOMAIN-SUFFIX,hbabit.com
 DOMAIN-SUFFIX,hbfile.net
+DOMAIN-SUFFIX,heco-scan.com
+DOMAIN-SUFFIX,hecoview.com
+DOMAIN-SUFFIX,bitderiv.com
+DOMAIN-SUFFIX,hecochain.com
+PROCESS-NAME,Huobi.exe
 DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,huobi.me
 DOMAIN-SUFFIX,huobi.pro
@@ -87,24 +91,15 @@ DOMAIN-SUFFIX,huobi.sc
 DOMAIN-SUFFIX,huobiasia.vip
 DOMAIN-SUFFIX,huobigroup.com
 DOMAIN-SUFFIX,huobitoken.com
-DOMAIN-SUFFIX,heco-scan.com
-DOMAIN-SUFFIX,hecoview.com
-DOMAIN-SUFFIX,hbfile.net
 DOMAIN-SUFFIX,huobi.br.com
-DOMAIN-SUFFIX,bitderiv.com
-DOMAIN-SUFFIX,hecochain.com
 DOMAIN-SUFFIX,huobi.ws
 DOMAIN-SUFFIX,huobi.ug
 DOMAIN-SUFFIX,huobi.co.ma
-DOMAIN-SUFFIX,huobi.br.com
-PROCESS-NAME,Huobi.exe
-DOMAIN-KEYWORD,huobi
 
 # > OKX
 DOMAIN-SUFFIX,okex.com
-DOMAIN-SUFFIX,okx.com
 PROCESS-NAME,OKX.exe
-DOMAIN-KEYWORD,okx
+DOMAIN-SUFFIX,okx.com
 
 # > asproex
 DOMAIN-SUFFIX,asproex.com
@@ -113,17 +108,13 @@ DOMAIN-SUFFIX,asproexapi.com
 # > bitflyer
 DOMAIN-SUFFIX,bitflyer.com
 DOMAIN-SUFFIX,bitflyer.jp
-    
 # > bitsquare
 DOMAIN-SUFFIX,bisq.io
 DOMAIN-SUFFIX,bisq.network
 DOMAIN-SUFFIX,bitsquare.io
-    
 # > coinone
-DOMAIN-SUFFIX,coinone.co.kr
 DOMAIN-SUFFIX,coinonecore.com
 DOMAIN-SUFFIX,coinonecorp.com
-    
 # > ethereum
 DOMAIN-SUFFIX,devcon.org
 DOMAIN-SUFFIX,ethereum.foundation
@@ -134,7 +125,6 @@ DOMAIN-SUFFIX,ethgasstation.info
 DOMAIN-SUFFIX,watchtheburn.com
 DOMAIN-SUFFIX,flashbots.net
 DOMAIN-SUFFIX,cryptofees.info
-DOMAIN-SUFFIX,etherscan.io
 DOMAIN-SUFFIX,ethereum-magicians.org
 DOMAIN-SUFFIX,vitalik.ca
 DOMAIN-SUFFIX,ethfans.org
@@ -143,7 +133,6 @@ DOMAIN-SUFFIX,ethereum.stackexchange.com
 DOMAIN-SUFFIX,etherscan.com
 DOMAIN-SUFFIX,parity.io
 DOMAIN-SUFFIX,ethernodes.org
-    
 # > localbitcoins
 DOMAIN-SUFFIX,localbitcoins.com
 DOMAIN-SUFFIX,localbitcoinschain.com
@@ -153,7 +142,6 @@ DOMAIN-SUFFIX,zb.app
 DOMAIN-SUFFIX,zb.com
 DOMAIN-SUFFIX,zb.io
 DOMAIN-SUFFIX,zb.live
-    
 # > Analysis
 DOMAIN-SUFFIX,aicoin.com
 DOMAIN-SUFFIX,aimoon.com
@@ -180,7 +168,6 @@ DOMAIN-SUFFIX,loanscan.io
 DOMAIN-SUFFIX,defirate.com
 DOMAIN-SUFFIX,defipulse.com
 DOMAIN-SUFFIX,apy999.com
-DOMAIN-SUFFIX,defieye.io
 DOMAIN-SUFFIX,dextools.io
 DOMAIN-SUFFIX,tradingview.com
 DOMAIN-SUFFIX,dcabtc.com
@@ -197,7 +184,6 @@ DOMAIN-SUFFIX,cryptorank.io
 DOMAIN-SUFFIX,tradeblock.com
 DOMAIN-SUFFIX,nyctale.io
 DOMAIN-SUFFIX,dovemetrics.com
-DOMAIN-SUFFIX,cryptorank.io
 DOMAIN-SUFFIX,icodrops.com
 DOMAIN-SUFFIX,chainbroker.io
 DOMAIN-SUFFIX,crunchbase.com
@@ -228,9 +214,8 @@ DOMAIN-SUFFIX,ewapool.net
 DOMAIN-SUFFIX,ftx.com
 
 # > Metamask
-DOMAIN-KEYWORD,metamask
+DOMAIN-SUFFIX,metamask.io
 DOMAIN,token-api.metaswap.codefi.network
-DOMAIN,min-api.cryptocompare.com
 
 # > NFT
 DOMAIN-SUFFIX,opensea.io
@@ -246,12 +231,9 @@ DOMAIN-SUFFIX,nftgo.io
 DOMAIN-SUFFIX,filecoin.io
 DOMAIN-SUFFIX,docs.lotu.sh
 DOMAIN-SUFFIX,ipfs.io
-DOMAIN-SUFFIX,docs.ipfs.io
-DOMAIN-SUFFIX,discuss.ipfs.io
 
 # > EOS
 DOMAIN-SUFFIX,eos.io
-DOMAIN-SUFFIX,developers.eos.io
 DOMAIN-SUFFIX,block.one
 DOMAIN-SUFFIX,eostracker.io
 DOMAIN-SUFFIX,eosflare.io
@@ -262,7 +244,6 @@ DOMAIN-SUFFIX,bloks.io
 DOMAIN-SUFFIX,lightning.engineering
 DOMAIN-SUFFIX,lightning.community
 DOMAIN-SUFFIX,acinq.co
-DOMAIN-SUFFIX,1ml.com
 
 # > Token
 DOMAIN-SUFFIX,tokenpocket.pro

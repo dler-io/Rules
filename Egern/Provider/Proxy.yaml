@@ -1,10 +1,13 @@
-# Blizzard
+# Proxy
+
+no_resolve: true
 
 domain_suffix_set:
+  # > Blizzard
   - battle.net
   - battlenet.com
   - blizzard.com
-  
+
   # > Line
   - lin.ee
   - line.me
@@ -26,11 +29,12 @@ domain_suffix_set:
 
   # > Spark
   - api.amplitude.com
-  - app.smartmailcloud.com
-  - gate.hockeyapp.net
   - smartmailcloud.com
-  
-  # > Zooba
+
+  # > Tesla
+  - tesla.com
+  - teslamotors.com
+  - tesla.cn
 
   # > Top blocked sites
   - 2o7.net
@@ -107,7 +111,6 @@ domain_suffix_set:
   - blogger.com
   - bloglovin.com
   - blogsmithmedia.com
-  - blogspot.hk
   - bloomberg.cn
   - bloomberg.com
   - books.com.tw
@@ -402,6 +405,7 @@ domain_suffix_set:
   - search.com
   - servebom.com
   - sexinsex.net
+  - sfx.ms
   - shadowsocks.org
   - shadowverse.jp
   - sharethis.com
@@ -623,8 +627,298 @@ domain_suffix_set:
   - zeutch.com
   - zynamics.com
 
-  # > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
+  # > Apple Daily
+  - appledaily.com
+  - appledaily.com.hk
+  - appledaily.com.tw
+  - appledaily.hk
 
+  # > Blogger
+  - blogspot.com
+  - blogspot.hk
+
+  # > Dropbox
+  - addtodropbox.com
+  - dropbox.com
+  - dropboxapi.com
+  - dropboxbusiness.com
+  - dropboxcaptcha.com
+  - dropboxexperiment.com
+  - dropboxforums.com
+  - dropboxforum.com
+  - dropboxinsiders.com
+  - dropboxlegal.com
+  - dropboxmail.com
+  - dropboxpartners.com
+  - dropboxstatic.com
+  - dropboxteam.com
+  - dropbox.tech
+  - dropbox.zendesk.com
+  - getdropbox.com
+  - dropbox-dns.com
+  - dropboxusercontent.com
+
+  # > Facebook
+  - facebook.com
+  - facebook.net
+  - facebook.org
+  - facebookmail.com
+  - facebookbrand.com
+
+  # > GitHub
+  - github.ai
+  - github.blog
+  - github.career
+  - github.com
+  - github.community
+  - github.dev
+  - github.io
+  - githubapp.com
+  - githubassets.com
+  - githubhackathon.com
+  - githubnext.com
+  - githubpreview.dev
+  - githubstatus.com
+  - githubsupport.com
+  - githubuniverse.com
+  - githubusercontent.com
+  - thegithubshop.com
+
+  # > Instagram
+  - instagram.com
+  - cdninstagram.com
+
+  # > Twitter
+  - ads-twitter.com
+  - twitter.biz
+  - twitter.com
+  - twitter.jp
+  - twittercommunity.com
+  - twitterflightschool.com
+  - twitterinc.com
+  - twitteroauth.com
+  - twitterstat.us
+
+  # > WhatsApp
+  - whatsapp.com
+  - whatsapp.net
+  - whatsappbrand.com
+
+  # > Google
+  - google
+  - google-analytics.com
+  - google.ad
+  - google.ae
+  - google.al
+  - google.am
+  - google.as
+  - google.at
+  - google.az
+  - google.ba
+  - google.be
+  - google.bf
+  - google.bg
+  - google.bi
+  - google.bj
+  - google.bs
+  - google.bt
+  - google.by
+  - google.ca
+  - google.cat
+  - google.cd
+  - google.cf
+  - google.cg
+  - google.ch
+  - google.ci
+  - google.cl
+  - google.cm
+  - google.cn
+  - google.co.ao
+  - google.co.bw
+  - google.co.ck
+  - google.co.cr
+  - google.co.id
+  - google.co.il
+  - google.co.in
+  - google.co.jp
+  - google.co.ke
+  - google.co.kr
+  - google.co.ls
+  - google.co.ma
+  - google.co.mz
+  - google.co.nz
+  - google.co.th
+  - google.co.tz
+  - google.co.ug
+  - google.co.uk
+  - google.co.uz
+  - google.co.ve
+  - google.co.vi
+  - google.co.za
+  - google.co.zm
+  - google.co.zw
+  - google.com
+  - google.com.af
+  - google.com.ag
+  - google.com.ar
+  - google.com.au
+  - google.com.bd
+  - google.com.bh
+  - google.com.bn
+  - google.com.bo
+  - google.com.br
+  - google.com.bz
+  - google.com.co
+  - google.com.cu
+  - google.com.cy
+  - google.com.do
+  - google.com.ec
+  - google.com.eg
+  - google.com.et
+  - google.com.fj
+  - google.com.gh
+  - google.com.gi
+  - google.com.gt
+  - google.com.hk
+  - google.com.jm
+  - google.com.kh
+  - google.com.kw
+  - google.com.lb
+  - google.com.ly
+  - google.com.mm
+  - google.com.mt
+  - google.com.mx
+  - google.com.my
+  - google.com.na
+  - google.com.ng
+  - google.com.ni
+  - google.com.np
+  - google.com.om
+  - google.com.pa
+  - google.com.pe
+  - google.com.pg
+  - google.com.ph
+  - google.com.pk
+  - google.com.pr
+  - google.com.py
+  - google.com.qa
+  - google.com.sa
+  - google.com.sb
+  - google.com.sg
+  - google.com.sl
+  - google.com.sv
+  - google.com.tj
+  - google.com.tr
+  - google.com.tw
+  - google.com.ua
+  - google.com.uy
+  - google.com.vc
+  - google.com.vn
+  - google.cv
+  - google.cz
+  - google.de
+  - google.dev
+  - google.dj
+  - google.dk
+  - google.dm
+  - google.dz
+  - google.ee
+  - google.es
+  - google.fi
+  - google.fm
+  - google.fr
+  - google.ga
+  - google.ge
+  - google.gg
+  - google.gl
+  - google.gm
+  - google.gr
+  - google.gy
+  - google.hn
+  - google.hr
+  - google.ht
+  - google.hu
+  - google.ie
+  - google.im
+  - google.iq
+  - google.is
+  - google.it
+  - google.je
+  - google.jo
+  - google.kg
+  - google.ki
+  - google.kz
+  - google.la
+  - google.li
+  - google.lk
+  - google.lt
+  - google.lu
+  - google.lv
+  - google.md
+  - google.me
+  - google.mg
+  - google.mk
+  - google.ml
+  - google.mn
+  - google.mu
+  - google.mv
+  - google.mw
+  - google.ne
+  - google.net
+  - google.nl
+  - google.no
+  - google.nr
+  - google.nu
+  - google.org
+  - google.pl
+  - google.pn
+  - google.ps
+  - google.pt
+  - google.ro
+  - google.rs
+  - google.ru
+  - google.rw
+  - google.sc
+  - google.se
+  - google.sh
+  - google.si
+  - google.sk
+  - google.sm
+  - google.sn
+  - google.so
+  - google.sr
+  - google.st
+  - google.td
+  - google.tg
+  - google.tl
+  - google.tm
+  - google.tn
+  - google.to
+  - google.tt
+  - google.vu
+  - google.ws
+  - googleadservices.com
+  - googleapis.cn
+  - googleapis.com
+  - googleblog.com
+  - googlebot.com
+  - googlecode.com
+  - googledomains.com
+  - googleearth.com
+  - googlefiber.com
+  - googlefiber.net
+  - googlemail.com
+  - googlemaps.com
+  - googlephotos.com
+  - googlesource.com
+  - googlestore.com
+  - googlesyndication.com
+  - googletagmanager.com
+  - googletagservices.com
+  - googleusercontent.com
+  - googlevideo.com
+  - googlezip.net
+  - withgoogle.com
   - 1e100.net
   - 2mdn.net
   - abc.xyz
@@ -675,7 +969,6 @@ domain_suffix_set:
 
   # > V2EX
   - v2ex.com
-  
 
   # > VikACG
   - vikacg.com
@@ -685,30 +978,19 @@ domain_suffix_set:
   - wheel-size.cn
   - chalungu.cn
 
-
 domain_set:
+  # > TestFlight
+  - testflight.apple.com
+
+  # > Blizzard
   - cdp.cloud.unity3d.com
 
   # > WAQI
   - api.waqi.info
   - aqi.aqicn.org
 
-
-domain_keyword_set:
-  # > Tesla
-  - tesla
-
-  - dlercloud
-  - appledaily
-  - beetalk
-  - blogspot
-  - dropbox
-  - facebook
-  - github
-  - instagram
-  - twitter
-  - whatsapp
-  - google
+  # > GitHub
+  - github-api.arkoselabs.com
 
 ip_cidr_set:
   # > Amazon
@@ -774,10 +1056,10 @@ ip_cidr_set:
   - 203.174.77.0/24
 
   # > Potato Chat
-  - 13.251.24.157/24
-  - 13.251.41.203/24
-  - 17.252.156.147/24
-  - 17.252.157.26/24
+  - 13.251.24.0/24
+  - 13.251.41.0/24
+  - 17.252.156.0/24
+  - 17.252.157.0/24
 
   # > SoftLayer
   - 74.86.0.0/16

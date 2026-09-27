@@ -1,6 +1,5 @@
-# Fox+ (HK|TW|SG)
+# Fox+
 
 domain_suffix_set:
-  - akamaized.net
+  # > Fox+ (HK|TW|SG)
   - foxplus.com
-  - theplatform.com

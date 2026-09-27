@@ -56,8 +56,6 @@ DOMAIN-SUFFIX,signalr.net
 DOMAIN-SUFFIX,tryfunctions.com
 DOMAIN-SUFFIX,windowsazure.cn
 DOMAIN-SUFFIX,windowsazure.com
-DOMAIN-SUFFIX,azure.microsoft.com
-DOMAIN-SUFFIX,azuremarketplace.microsoft.com
 
 DOMAIN-SUFFIX,bbing.com
 DOMAIN-SUFFIX,bibg.com
@@ -113,11 +111,6 @@ DOMAIN-SUFFIX,osdinfra.net
 DOMAIN-SUFFIX,renovacionoffice.com
 DOMAIN-SUFFIX,sprinklesapp.com
 DOMAIN-SUFFIX,working-bing-int.com
-DOMAIN-SUFFIX,bj1.api.bing.com
-DOMAIN-SUFFIX,emoi-cncdn.bing.com
-DOMAIN-SUFFIX,cn.bing.com
-DOMAIN-SUFFIX,cn.bing.net
-DOMAIN-SUFFIX,ditu.live.com
 
 DOMAIN-SUFFIX,a-msedge.net
 DOMAIN-SUFFIX,c-msedge.net
@@ -178,11 +171,6 @@ DOMAIN-SUFFIX,uwpcommunitytoolkit.com
 DOMAIN-SUFFIX,vfsforgit.com
 DOMAIN-SUFFIX,vfsforgit.org
 DOMAIN-SUFFIX,xamarin.com
-DOMAIN-SUFFIX,developer.microsoft.com
-DOMAIN-SUFFIX,dtlgalleryint.cloudapp.net
-DOMAIN-SUFFIX,poshtestgallery.cloudapp.net
-DOMAIN-SUFFIX,psg-int-centralus.cloudapp.net
-DOMAIN-SUFFIX,psg-int-eastus.cloudapp.net
 
 DOMAIN-SUFFIX,microsoft-online.cn
 DOMAIN-SUFFIX,microsoft-online.com.cn
@@ -229,10 +217,8 @@ DOMAIN-SUFFIX,onedrive.co
 DOMAIN-SUFFIX,onedrive.co.uk
 DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,onedrive.eu
-DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,onedrive.net
 DOMAIN-SUFFIX,onedrive.org
-DOMAIN-SUFFIX,storage.live.com
 
 DOMAIN-SUFFIX,groupme.com
 DOMAIN-SUFFIX,skype.com
@@ -447,7 +433,6 @@ DOMAIN-SUFFIX,microsoftads.com
 DOMAIN-SUFFIX,microsoftadvertising.com
 DOMAIN-SUFFIX,microsoftadvertisingregionalawards.com
 DOMAIN-SUFFIX,microsoftaffiliates.com
-DOMAIN-SUFFIX,microsoftapps.azurewebsites.net
 DOMAIN-SUFFIX,microsoftazuread-sso.com
 DOMAIN-SUFFIX,microsoftcloud.com
 DOMAIN-SUFFIX,microsoftcloudworkshop.com
@@ -573,8 +558,6 @@ DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,windows-int.net
 DOMAIN-SUFFIX,windows-ppe.net
-DOMAIN-SUFFIX,windows.com
-DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,windows.nl
 DOMAIN-SUFFIX,windows8.hk
 DOMAIN-SUFFIX,windowscommunity.net

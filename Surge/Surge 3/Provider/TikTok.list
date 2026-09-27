@@ -12,3 +12,5 @@ DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokv.com
 USER-AGENT,TikTok*
+
+DOMAIN,p16-tiktokcdn-com.akamaized.net

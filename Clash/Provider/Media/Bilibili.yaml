@@ -1,6 +1,5 @@
 payload:
   # > Bilibili
-  # - USER-AGENT,bili*
   - DOMAIN-SUFFIX,acg.tv
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,b23.tv
@@ -12,10 +11,8 @@ payload:
   - DOMAIN-SUFFIX,hdslb.com
   - DOMAIN,upos-hz-mirrorakam.akamaized.net
   # Hong Kong,Macau,Taiwan
-  # - USER-AGENT,bili-inter*
-  - DOMAIN,apiintl.biliapi.net
 
-  # Android Process
+  # > Processes
   - PROCESS-NAME,com.bilibili.app.blue
   - PROCESS-NAME,com.bilibili.app.in
   - PROCESS-NAME,com.bilibili.comic

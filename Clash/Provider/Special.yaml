@@ -19,8 +19,9 @@ payload:
   - DOMAIN-SUFFIX,itunesconnect.apple.com
   - DOMAIN,contentdelivery.itunes.apple.com
 
-  # > Epic
-  - DOMAIN-KEYWORD,epicgames
+  # > Apple Maps and Search
+  - DOMAIN-SUFFIX,ls.apple.com
+  - DOMAIN,api.smoot.apple.cn
 
   # > Google
   - DOMAIN,safebrowsing.googleapis.com
@@ -88,7 +89,7 @@ payload:
 
   # > UUBooster
   - PROCESS-NAME,UUBooster
-  
+
   # > WiFiman
   - DOMAIN-SUFFIX,app-measurement.com
 
@@ -147,12 +148,9 @@ payload:
   - DOMAIN-SUFFIX,springsunday.net
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,totheglory.im
-  - DOMAIN-SUFFIX,audiences.me
-
-  - DOMAIN-KEYWORD,announce
-  - DOMAIN-KEYWORD,torrent
-  - DOMAIN-SUFFIX,smtp
-  # - URL-REGEX,(Subject|HELO|SMTP)
 
   # > UBI
   - DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
+
+  # > Tailscale
+  - IP-CIDR,100.64.0.0/10,no-resolve

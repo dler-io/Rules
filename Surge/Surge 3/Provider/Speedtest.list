@@ -3,7 +3,9 @@ DOMAIN-SUFFIX,fast.com
 
 # > Speedtest by Ookla
 USER-AGENT,SpeedTest*
-DOMAIN-KEYWORD,speedtest
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,speedtest.co
+DOMAIN-SUFFIX,speedtestcustom.com
 DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN,speed.dler.io
 

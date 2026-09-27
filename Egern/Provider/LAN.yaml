@@ -1,11 +1,12 @@
 # LAN
 
+no_resolve: true
+
 domain_suffix_set:
   - local
 
 ip_cidr_set:
   - 10.0.0.0/8
-  - 17.0.0.0/8
   - 100.64.0.0/10
   - 127.0.0.0/8
   - 172.16.0.0/12
@@ -13,3 +14,5 @@ ip_cidr_set:
 
 ip_cidr6_set:
   - fe80::/10
+  - '::1/128'
+  - fc00::/7
