@@ -1,7 +1,7 @@
-
 # Discord
 
 domain_suffix_set:
+  # > Discord
   - discord.com
   - discord.gg
   - discord.media

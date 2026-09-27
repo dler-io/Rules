@@ -1,7 +1,7 @@
 # Scholar
 
 domain_suffix_set:
-  # - scholar.google.com
+  # > Scholar
   - acm.org
   - acs.org
   - aip.org
@@ -61,9 +61,10 @@ domain_suffix_set:
   - royalsocietypublishing.org
   - rsc.org
   - sagepub.com
+  # - scholar.google.com
   - sci-hub.tw
-  - sciencedirect.com
   - science.org
+  - sciencedirect.com
   - scitation.org
   - scopus.com
   - semanticscholar.org

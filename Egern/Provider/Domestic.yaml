@@ -1,9 +1,7 @@
 # Domestic
-
 no_resolve: true
 
 domain_suffix_set:
-  # China Banks
   # > Agricultural Bank of China
   - abchina.com
 
@@ -23,19 +21,8 @@ domain_suffix_set:
   - cmbimg.com
   - mbcloud.com
 
-  # > Ping An Bank
-  - pingan.com
-
-  # > Prior
-  - alphassl.com
-
-  # > RRYS
-  - p4pfile.com
-  - zmzfile.com
-
-  # > Sony
-  - sony.com
-  - sonyentertainmentnetwork.com
+  # > CN
+  - cn
 
   # > Other domains
   - 10010.com
@@ -275,8 +262,19 @@ domain_suffix_set:
   - zimuzu.tv
   - zmz002.com
 
-  # > CN
-  - cn
+  # > Ping An Bank
+  - pingan.com
+
+  # > Prior
+  - alphassl.com
+
+  # > RRYS
+  - p4pfile.com
+  - zmzfile.com
+
+  # > Sony
+  - sony.com
+  - sonyentertainmentnetwork.com
 
 domain_set:
   # > Prior
@@ -284,6 +282,9 @@ domain_set:
   - ip.bjango.com
 
 ip_cidr_set:
+  # > Other domains
+  - 1.255.62.0/24
+
   # > TeamViewer
   - 185.188.32.0/24
   - 185.188.33.0/24
@@ -292,9 +293,6 @@ ip_cidr_set:
 
   # > Tencent
   - 182.254.116.0/24
-
-  # > Other domains
-  - 1.255.62.0/24
 
 ip_cidr6_set:
   # > TeamViewer

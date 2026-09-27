@@ -1,20 +1,19 @@
 # Apple
-
 no_resolve: true
 
 domain_suffix_set:
   # > Apple API
-  - apple.com.akadns.net
-  - icloud.com.akadns.net
   - aaplimg.com
-  - apple.co
-  - apple.com
   - apple-cloudkit.com
   - apple-mapkit.com
+  - apple.co
+  - apple.com
+  - apple.com.akadns.net
   - appsto.re
   - cdn-apple.com
-  - icloud.com
   - icloud-content.com
+  - icloud.com
+  - icloud.com.akadns.net
   - itunes.com
   - me.com
   - mzstatic.com

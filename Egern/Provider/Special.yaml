@@ -1,5 +1,4 @@
 # Special
-
 no_resolve: true
 
 domain_suffix_set:
@@ -22,10 +21,38 @@ domain_suffix_set:
   # > PlayStation
   - dl.playstation.net
 
+  # > Private Tracker
+  - audiences.me
+  - awesome-hd.me
+  - broadcasthe.net
+  - chdbits.co
+  - classix-unlimited.co.uk
+  - dmhy.best
+  - empornium.me
+  - gazellegames.net
+  - hdchina.org
+  - hdsky.me
+  - icetorrent.org
+  - jpopsuki.eu
+  - keepfrds.com
+  - m-team.cc
+  - madsrevolution.net
+  - nanyangpt.com
+  - ncore.cc
+  - open.cd
+  - ourbits.club
+  - passthepopcorn.me
+  - privatehd.to
+  - redacted.ch
+  - sandai.net
+  - springsunday.net
+  - tjupt.org
+  - totheglory.im
+
   # > Steam
+  - steamchina.com
   - steamcontent.com
   - steamserver.net
-  - steamchina.com
 
   # > Tesla
   - solarcity.com
@@ -42,34 +69,6 @@ domain_suffix_set:
 
   # > Xunlei
   - xunlei.com
-
-  # > Private Tracker
-  - audiences.me
-  - awesome-hd.me
-  - broadcasthe.net
-  - chdbits.co
-  - classix-unlimited.co.uk
-  - dmhy.best
-  - empornium.me
-  - gazellegames.net
-  - hdchina.org
-  - hdsky.me
-  - icetorrent.org
-  - jpopsuki.eu
-  - keepfrds.com
-  - madsrevolution.net
-  - m-team.cc
-  - nanyangpt.com
-  - ncore.cc
-  - open.cd
-  - ourbits.club
-  - passthepopcorn.me
-  - privatehd.to
-  - redacted.ch
-  - sandai.net
-  - springsunday.net
-  - tjupt.org
-  - totheglory.im
 
 domain_set:
   # > Apple CDN
@@ -91,30 +90,32 @@ domain_set:
   # > Apple Maps and Search
   - api.smoot.apple.cn
 
+  # > Epic Games
+  - ol.epicgames.com
+
   # > Google
   - safebrowsing.googleapis.com
 
   # > Steam
   - cm.steampowered.com
-  - ol.epicgames.com
   - csgo.wmsj.cn
-  - dota2.wmsj.cn
-  - wmsjsteam.com
   - dl.steam.clngaa.com
   - dl.steam.ksyna.com
+  - dota2.wmsj.cn
   - gstore.val.manlaxy.com
   - st.dl.bscstorage.net
   - st.dl.eccdnx.com
   - st.dl.pinyuncloud.com
-  - steampipe.steamcontent.tnkjmec.com
-  - steampowered.com.8686c.com
-  - steamstatic.com.8686c.com
   - steambroadcast.akamaized.net
   - steamcdn-a.akamaihd.net
   - steamcommunity-a.akamaihd.net
+  - steampipe.steamcontent.tnkjmec.com
+  - steampowered.com.8686c.com
+  - steamstatic.com.8686c.com
   - steamstore-a.akamaihd.net
   - steamusercontent-a.akamaihd.net
   - steamuserimages-a.akamaihd.net
+  - wmsjsteam.com
 
   # > Tesla
   - tesla-cdn.thron.cn

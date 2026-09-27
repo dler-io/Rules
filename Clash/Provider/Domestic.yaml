@@ -1,5 +1,6 @@
 payload:
-  # China Banks
+  # Domestic
+
   # > Agricultural Bank of China
   - DOMAIN-SUFFIX,abchina.com
 
@@ -19,34 +20,8 @@ payload:
   - DOMAIN-SUFFIX,cmbimg.com
   - DOMAIN-SUFFIX,mbcloud.com
 
-  # > Ping An Bank
-  - DOMAIN-SUFFIX,pingan.com
-
-  # > Prior
-  - DOMAIN,client.amplifi.com
-  - DOMAIN,ip.bjango.com
-  - DOMAIN-SUFFIX,alphassl.com
-
-  # > RRYS
-  - DOMAIN-SUFFIX,p4pfile.com
-  - DOMAIN-SUFFIX,zmzfile.com
-
-  # > Sony
-  - DOMAIN-SUFFIX,sony.com
-  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
-
-  # > TeamViewer
-  - IP-CIDR,185.188.32.0/24,no-resolve
-  - IP-CIDR,185.188.33.0/24,no-resolve
-  - IP-CIDR,185.188.34.0/24,no-resolve
-  - IP-CIDR,185.188.35.0/24,no-resolve
-  - IP-CIDR6,2a0b:b580::/48,no-resolve
-  - IP-CIDR6,2a0b:b581::/48,no-resolve
-  - IP-CIDR6,2a0b:b582::/48,no-resolve
-  - IP-CIDR6,2a0b:b583::/48,no-resolve
-
-  # > Tencent
-  - IP-CIDR,182.254.116.0/24,no-resolve
+  # > CN
+  - DOMAIN-SUFFIX,cn
 
   # > Other domains
   - DOMAIN-SUFFIX,10010.com
@@ -285,8 +260,33 @@ payload:
   - DOMAIN-SUFFIX,zhimg.com
   - DOMAIN-SUFFIX,zimuzu.tv
   - DOMAIN-SUFFIX,zmz002.com
-
   - IP-CIDR,1.255.62.0/24,no-resolve
 
-  # > CN
-  - DOMAIN-SUFFIX,cn
+  # > Ping An Bank
+  - DOMAIN-SUFFIX,pingan.com
+
+  # > Prior
+  - DOMAIN-SUFFIX,alphassl.com
+  - DOMAIN,client.amplifi.com
+  - DOMAIN,ip.bjango.com
+
+  # > RRYS
+  - DOMAIN-SUFFIX,p4pfile.com
+  - DOMAIN-SUFFIX,zmzfile.com
+
+  # > Sony
+  - DOMAIN-SUFFIX,sony.com
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+
+  # > TeamViewer
+  - IP-CIDR,185.188.32.0/24,no-resolve
+  - IP-CIDR,185.188.33.0/24,no-resolve
+  - IP-CIDR,185.188.34.0/24,no-resolve
+  - IP-CIDR,185.188.35.0/24,no-resolve
+  - IP-CIDR6,2a0b:b580::/48,no-resolve
+  - IP-CIDR6,2a0b:b581::/48,no-resolve
+  - IP-CIDR6,2a0b:b582::/48,no-resolve
+  - IP-CIDR6,2a0b:b583::/48,no-resolve
+
+  # > Tencent
+  - IP-CIDR,182.254.116.0/24,no-resolve

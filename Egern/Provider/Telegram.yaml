@@ -1,25 +1,26 @@
 # Telegram
-
 no_resolve: true
 
 domain_suffix_set:
+  # > Telegram
   - cdn-telegram.org
   - graph.org
   - legra.ph
   - t.me
   - tdesktop.com
-  - telegra.ph
   - telega.one
+  - telegra.ph
+  - telegram-cdn.org
   - telegram.dog
   - telegram.me
   - telegram.org
   - telegram.space
-  - telegram-cdn.org
   - telesco.pe
   - tg.dev
   - tx.me
 
 ip_cidr_set:
+  # > Telegram
   - 5.28.195.1/32
   - 5.28.195.2/32
   - 91.105.192.0/23
@@ -34,6 +35,7 @@ ip_cidr_set:
   - 196.55.216.167/32
 
 ip_cidr6_set:
+  # > Telegram
   - 2001:67c:4e8::/48
   - 2001:b28:f23c::/48
   - 2001:b28:f23d::/48

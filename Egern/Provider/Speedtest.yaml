@@ -4,14 +4,14 @@ domain_suffix_set:
   # > Fast
   - fast.com
 
-  # > Speedtest by Ookla
-  - speedtest.net
-  - speedtest.co
-  - speedtestcustom.com
-  - ooklaserver.net
-
   # > Speed Test by Cloudflare
   - speed.cloudflare.com
+
+  # > Speedtest by Ookla
+  - ooklaserver.net
+  - speedtest.co
+  - speedtest.net
+  - speedtestcustom.com
 
 domain_set:
   # > Speedtest by Ookla

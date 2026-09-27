@@ -1,9 +1,7 @@
 # HTTPDNS
-
 no_resolve: true
 
 domain_set:
-  # Block HTTPDNS
   # > Alibaba
   - httpdns.alicdn.com
 
@@ -12,8 +10,8 @@ domain_set:
   - httpdns-sc.aliyuncs.com
 
   # > Baidu
-  - httpsdns.baidu.com
   - httpdns.baidu.com
+  - httpsdns.baidu.com
 
   # > BaiduBCE
   - httpdns.baidubce.com
@@ -34,11 +32,11 @@ domain_set:
   - httpdns.meituan.com
 
   # > NetEase
-  - httpdns.yunxindns.com
-  - httpdns.n.netease.com
   - httpdns.music.163.com
-  - music.httpdns.c.163.com
+  - httpdns.n.netease.com
+  - httpdns.yunxindns.com
   - lofter.httpdns.c.163.com
+  - music.httpdns.c.163.com
 
   # > Oppo
   - httpdns.push.oppomobile.com

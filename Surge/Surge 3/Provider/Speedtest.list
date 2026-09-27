@@ -1,13 +1,13 @@
 # > Fast
 DOMAIN-SUFFIX,fast.com
 
-# > Speedtest by Ookla
-USER-AGENT,SpeedTest*
-DOMAIN-SUFFIX,speedtest.net
-DOMAIN-SUFFIX,speedtest.co
-DOMAIN-SUFFIX,speedtestcustom.com
-DOMAIN-SUFFIX,ooklaserver.net
-DOMAIN,speed.dler.io
-
 # > Speed Test by Cloudflare
 DOMAIN-SUFFIX,speed.cloudflare.com
+
+# > Speedtest by Ookla
+DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN,speed.dler.io
+DOMAIN-SUFFIX,speedtest.co
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,speedtestcustom.com
+USER-AGENT,SpeedTest*
