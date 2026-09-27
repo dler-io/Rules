@@ -1,9 +1,18 @@
 # AI Suite: place before Microsoft, Apple and general proxy rules
 # Keep app/model restrictions even when the website supports Hong Kong
 
+# > Apple Intelligence ChatGPT extension
+# The extension follows ChatGPT regional availability
+# https://support.apple.com/en-us/101555
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.mask.apple-dns.net
+
 # > Augment
 DOMAIN-SUFFIX,augment.com
 DOMAIN-SUFFIX,augmentcode.com
+
+# > Cerebras
+DOMAIN-SUFFIX,cerebras.ai
 
 # > ChatGPT / Codex
 # https://help.openai.com/en/articles/9247338
@@ -14,22 +23,6 @@ DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
 
-# > ChatGPT shared dependencies (also used by other services)
-DOMAIN-SUFFIX,ct.sendgrid.net
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN,cdn.workos.com
-DOMAIN,challenges.cloudflare.com
-DOMAIN,forwarder.workos.com
-DOMAIN,humb.apple.com
-DOMAIN,images.workoscdn.com
-DOMAIN,js.stripe.com
-DOMAIN,o207216.ingest.sentry.io
-DOMAIN,o33249.ingest.sentry.io
-DOMAIN,rum.browser-intake-datadoghq.com
-DOMAIN,setup.workos.com
-DOMAIN,workos.imgix.net
-
 # > ChatGPT API & CDN
 DOMAIN,cdn.openaimerge.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
@@ -38,12 +31,25 @@ DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
 
+# > ChatGPT shared dependencies (also used by other services)
+DOMAIN,cdn.workos.com
+DOMAIN,challenges.cloudflare.com
+DOMAIN-SUFFIX,ct.sendgrid.net
+DOMAIN,forwarder.workos.com
+DOMAIN,humb.apple.com
+DOMAIN,images.workoscdn.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN,js.stripe.com
+DOMAIN,o207216.ingest.sentry.io
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,rum.browser-intake-datadoghq.com
+DOMAIN,setup.workos.com
+DOMAIN,workos.imgix.net
+
 # > ChatGPT Voice
 # Direct-IP UDP voice needs separate IP rules and a UDP-capable outbound
 # Current ranges: https://openai.com/chatgpt-voice.json
-
-# > Cerebras
-DOMAIN-SUFFIX,cerebras.ai
 
 # > Chorus
 DOMAIN-SUFFIX,chorus.sh
@@ -61,20 +67,22 @@ DOMAIN,gateway.ai.cloudflare.com
 # Provider region restrictions also apply to models in Cursor
 # https://cursor.com/docs/account/regions
 # https://cursor.com/docs/enterprise/network-configuration
+DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
+DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
-DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursorvm.com
-DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
+
+# > Cursor shared sign-in
 # Shared sign-in hosts from 2026-09-30; keep exact matches to avoid routing all of Grok
 # https://cursor.com/help/troubleshooting/sign-in-domains
 DOMAIN,accounts.spacex.ai
 DOMAIN,accounts.x.ai
-DOMAIN,auth.x.ai
 DOMAIN,auth.grok.com
-DOMAIN,auth.grokusercontent.com
 DOMAIN,auth.grokipedia.com
+DOMAIN,auth.grokusercontent.com
+DOMAIN,auth.x.ai
 
 # > DIA
 DOMAIN-SUFFIX,diabrowser.com
@@ -86,22 +94,24 @@ DOMAIN-SUFFIX,udify.app
 
 # > GitHub Copilot
 # https://docs.github.com/en/copilot/reference/copilot-allowlist-reference
-DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,copilot-reports.github.com
 DOMAIN,copilot-telemetry.githubusercontent.com
-DOMAIN,origin-tracker.githubusercontent.com
 DOMAIN,default.exp-tas.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN,origin-tracker.githubusercontent.com
+
+# > GitHub Copilot shared API
 # Shared GitHub API host, required for Copilot token and user requests
 DOMAIN,api.github.com
 
 # > Google AI Studio
-DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN-SUFFIX,generativeai.google
 DOMAIN,ai.google.dev
+DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN,waa-pa.clients6.google.com
 
 # > Google Antigravity / Gemini Code Assist
@@ -114,11 +124,6 @@ DOMAIN,cloudcode-pa.googleapis.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 
-# > Google Generative Language API
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,geller-pa.googleapis.com
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-
 # > Google Gemini
 # Retained for iOS: Hong Kong is absent from its availability list (2026-09-27)
 # https://support.google.com/gemini/answer/14579026?co=GENIE.Platform%3DiOS
@@ -127,28 +132,35 @@ DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
+
+# > Google Gemini Notebook / NotebookLM
+DOMAIN-SUFFIX,notebook.google
+DOMAIN-SUFFIX,notebook.google.com
+DOMAIN-SUFFIX,notebooklm.cloud.google.com
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+
+# > Google Gemini shared API
 # Shared Google API loader
 DOMAIN,apis.google.com
+
+# > Google Generative Language API
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 
 # > Google Jules
 DOMAIN-SUFFIX,jules.google
 DOMAIN-SUFFIX,jules.google.com
 DOMAIN,jules.googleapis.com
 
-# > Google Gemini Notebook / NotebookLM
-DOMAIN-SUFFIX,notebook.google
-DOMAIN-SUFFIX,notebook.google.com
-DOMAIN-SUFFIX,notebooklm.google
-DOMAIN-SUFFIX,notebooklm.google.com
-DOMAIN-SUFFIX,notebooklm.cloud.google.com
-
 # > Google Opal
 # Availability: https://developers.google.com/opal/faq
+DOMAIN,appcatalyst.pa.googleapis.com
+DOMAIN-SUFFIX,opal.goog
 DOMAIN-SUFFIX,opal.google
 DOMAIN-SUFFIX,opal.google.com
-DOMAIN-SUFFIX,opal.goog
 DOMAIN-SUFFIX,opal.withgoogle.com
-DOMAIN,appcatalyst.pa.googleapis.com
 
 # > Groq
 DOMAIN-SUFFIX,groq.com
@@ -158,9 +170,11 @@ DOMAIN-SUFFIX,clipdrop.co
 DOMAIN-SUFFIX,jasper.ai
 
 # > JetBrains
-DOMAIN-SUFFIX,jetbrains.ai
-DOMAIN,api.jetbrains.cloud
 DOMAIN,api.app.prod.grazie.aws.intellij.net
+DOMAIN,api.jetbrains.cloud
+DOMAIN-SUFFIX,jetbrains.ai
+
+# > JetBrains shared sign-in
 # Shared JetBrains account hosts
 DOMAIN,account.jetbrains.com
 DOMAIN,oauth.account.jetbrains.com
@@ -171,9 +185,11 @@ DOMAIN-SUFFIX,meta.ai
 # > Microsoft Copilot
 # Retained for macOS app availability; web/mobile support alone is insufficient
 # https://support.microsoft.com/en-us/microsoft-copilot/getting-started-with-microsoft-copilot
+DOMAIN-SUFFIX,copilot.cloud.microsoft
 DOMAIN-SUFFIX,copilot.com
 DOMAIN-SUFFIX,copilot.microsoft.com
-DOMAIN-SUFFIX,copilot.cloud.microsoft
+
+# > Microsoft Copilot shared sign-in
 # Shared Microsoft sign-in hosts
 DOMAIN,login.live.com
 DOMAIN,login.microsoftonline.com
@@ -188,19 +204,13 @@ DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,pplx.ai
 
-# > Apple Intelligence ChatGPT extension
-# The extension follows ChatGPT regional availability
-# https://support.apple.com/en-us/101555
-DOMAIN,apple-relay.apple.com
-DOMAIN,apple-relay.mask.apple-dns.net
-
 # > Sora
 DOMAIN-SUFFIX,sora.com
 
 # > Windsurf
-DOMAIN-SUFFIX,windsurf.com
 DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,codeiumdata.com
+DOMAIN-SUFFIX,windsurf.com
 
 # > Zed
 DOMAIN-SUFFIX,zed.dev
