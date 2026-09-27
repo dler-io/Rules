@@ -1,17 +1,19 @@
 # IQ
-
 no_resolve: true
 
 domain_suffix_set:
-  - iq.com
+  # > IQ
   - inter.iqiyi.com
   - intl.iqiyi.com
+  - iq.com
 
 domain_set:
+  # > IQ
   - intl-rcd.iqiyi.com
   - intl-subscription.iqiyi.com
 
 ip_cidr_set:
+  # > IQ
   - 23.40.242.10/32
   - 23.59.252.0/24
   - 23.200.145.146/32

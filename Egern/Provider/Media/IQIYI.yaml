@@ -1,7 +1,7 @@
 # IQIYI
 
 domain_suffix_set:
-  - iqiyi.com
+  # > IQIYI
   - 71.am
   - 71.am.com
   - 71edge.com
@@ -16,6 +16,7 @@ domain_suffix_set:
   - gitv.tv
   - ibkstore.com
   - iq.com
+  - iqiyi.com
   - iqiyi.demo.uwp
   - iqiyiedge.com
   - iqiyiedge.net

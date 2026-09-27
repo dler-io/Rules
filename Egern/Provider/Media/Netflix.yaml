@@ -1,6 +1,7 @@
 # Netflix
 
 domain_suffix_set:
+  # > Netflix
   - netflix.com
   - netflix.net
   - nflxext.com

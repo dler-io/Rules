@@ -1,6 +1,7 @@
 # Line TV
 
 domain_suffix_set:
+  # > Line TV
   - d3c7rimkq79yfu.cloudfront.net
   - linetv.tw
   - profile.line-scdn.net

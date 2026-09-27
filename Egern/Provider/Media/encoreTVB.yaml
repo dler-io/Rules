@@ -1,8 +1,10 @@
 # encoreTVB
 
 domain_suffix_set:
+  # > encoreTVB
   - encoretvb.com
 
 domain_set:
+  # > encoreTVB
   - content.jwplatform.com
   - videos-f.jwpsrv.com

@@ -1,12 +1,14 @@
 # Apple News and Apple Map TOMTOM Version
 
 domain_set:
-  - gspe1-ssl.ls.apple.com
+  # > Apple News and Apple Map TOMTOM Version
   # - apple.comscoreresearch.com
   # - gateway.icloud.com
+  - gspe1-ssl.ls.apple.com
   # - news-client.apple.com
   # - news-edge.apple.com
   # - news-events.apple.com
 
 # domain_suffix_set:
+  # > Apple News and Apple Map TOMTOM Version
   # - apple.news

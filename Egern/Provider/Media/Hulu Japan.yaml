@@ -1,6 +1,7 @@
 # Hulu(フールー)
 
 domain_suffix_set:
+  # > Hulu(フールー)
   - happyon.jp
   - hulu.jp
   - prod.hjholdings.tv

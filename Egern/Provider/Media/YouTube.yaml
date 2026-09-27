@@ -1,10 +1,13 @@
 # Youtube
 
 domain_suffix_set:
+  # > Youtube
   - googlevideo.com
   - gvt1.com
   - video.google.com
   - youtu.be
+  - youtube-nocookie.com
+  - youtube-ui.l.google.com
   - youtube.ae
   - youtube.al
   - youtube.am
@@ -161,8 +164,6 @@ domain_suffix_set:
   - youtubeembeddedplayer.googleapis.com
   - youtubei.googleapis.com
   - youtubekids.com
-  - youtube-nocookie.com
-  - youtube-ui.l.google.com
   - yt.be
   - yt3.ggpht.com
   - ytimg.com

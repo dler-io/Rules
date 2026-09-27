@@ -7,6 +7,4 @@ payload:
   - DOMAIN-SUFFIX,litix.io
   - DOMAIN-SUFFIX,mobile-collector.newrelic.com
   - DOMAIN-SUFFIX,uplynk.com
-
-  # > Processes
   - PROCESS-NAME,com.discovery.discoveryplus.mobile

@@ -1,6 +1,7 @@
 # DMM
 
 domain_suffix_set:
+  # > DMM
   - dmm-extension.com
   - dmm.co.jp
   - dmm.com

@@ -1,8 +1,12 @@
 # Spotify
 
 domain_suffix_set:
+  # > Spotify
   - byspotify.com
   - lifeatspotify.com
+  - pscdn.co
+  - scdn.co
+  - spoti.fi
   - spotify-everywhere.com
   - spotify.com
   - spotify.design
@@ -14,13 +18,11 @@ domain_suffix_set:
   - spotifyforbrands.com
   - spotifyforvendors.com
   - spotifyjobs.com
-  - tospotify.com
-  - pscdn.co
-  - scdn.co
-  - spoti.fi
   - spotilocal.com
+  - tospotify.com
 
 domain_set:
+  # > Spotify
   - audio-ak-spotify-com.akamaized.net
   - audio4-ak-spotify-com.akamaized.net
   - cdn-spotify-experiments.conductrics.com

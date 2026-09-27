@@ -2,8 +2,6 @@ payload:
   # > ViuTV
   - DOMAIN-SUFFIX,nowe.com
   - DOMAIN-SUFFIX,viu.com
-  - DOMAIN-SUFFIX,viu.tv
   - DOMAIN-SUFFIX,viu.now.com
-
-  # > Processes
+  - DOMAIN-SUFFIX,viu.tv
   - PROCESS-NAME,com.hktve.viutv

@@ -1,5 +1,6 @@
 # Netease Music
 
 domain_suffix_set:
-  - music.163.com
+  # > Netease Music
   - music.126.net
+  - music.163.com

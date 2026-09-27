@@ -1,7 +1,8 @@
 # ViuTV
 
 domain_suffix_set:
+  # > ViuTV
   - nowe.com
   - viu.com
-  - viu.tv
   - viu.now.com
+  - viu.tv

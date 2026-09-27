@@ -1,16 +1,18 @@
 # BBC iPlayer
 
 domain_suffix_set:
-  - bbcfmt.s.llnwi.net
-  - bbcfmt.hs.llnwd.net
+  # > BBC iPlayer
   - bbc.co
   - bbc.co.uk
   - bbc.com
+  - bbcfmt.hs.llnwd.net
+  - bbcfmt.s.llnwi.net
   - bbci.co
   - bbci.co.uk
   - bidi.net.uk
 
 domain_set:
+  # > BBC iPlayer
   - aod-pod-uk-live.akamaized.net
   - as-dash-uk-live.akamaized.net
   - as-hls-uk-live.akamaized.net

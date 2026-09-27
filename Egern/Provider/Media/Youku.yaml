@@ -1,6 +1,7 @@
 # Youku
 
 domain_suffix_set:
+  # > Youku
   - soku.com
-  - youku.com
   - ykimg.com
+  - youku.com

@@ -1,12 +1,13 @@
 # Niconico
 
 domain_suffix_set:
+  # > Niconico
   - dmc.nico
-  - nicovideo.jp
   - nicodic.jp
   - nicomanga.jp
   - niconico.com
   - nicoseiga.jp
+  - nicovideo.jp
   - nimg.jp
   - simg.jp
   - socdm.com
