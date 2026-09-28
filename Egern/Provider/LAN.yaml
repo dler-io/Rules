@@ -1,5 +1,5 @@
 # LAN
-no_resolve: true
+# No no_resolve: domains whose records point at these ranges must match here.
 
 domain_suffix_set:
   # > LAN
