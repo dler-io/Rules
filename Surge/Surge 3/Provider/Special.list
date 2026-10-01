@@ -20,7 +20,6 @@ DOMAIN-SUFFIX,itunesconnect.apple.com
 
 # > Apple Maps and Search
 DOMAIN,api.smoot.apple.cn
-DOMAIN-SUFFIX,ls.apple.com
 
 # > Download
 PROCESS-NAME,aria2c
