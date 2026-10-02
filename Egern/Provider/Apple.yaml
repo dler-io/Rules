@@ -5,6 +5,8 @@ domain_suffix_set:
   # > Apple API
   - aaplimg.com
   - apple-cloudkit.com
+  - apple-dns.net
+  - apple-livephotoskit.com
   - apple-mapkit.com
   - apple.co
   - apple.com
