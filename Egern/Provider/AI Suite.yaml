@@ -28,6 +28,7 @@ domain_suffix_set:
 
   # > Claude
   - anthropic.com
+  - clau.de
   - claude.ai
   - claude.com
   - claudeusercontent.com
@@ -119,6 +120,9 @@ domain_suffix_set:
   - copilot.cloud.microsoft
   - copilot.com
   - copilot.microsoft.com
+
+  # > Mistral AI
+  - mistral.ai
 
   # > OpenArt
   - openart.ai
