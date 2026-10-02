@@ -1,7 +1,5 @@
 payload:
   # > IQIYI
-  # - USER-AGENT,*QIYI*
-  # - USER-AGENT,iQiYi*
   - DOMAIN-SUFFIX,71.am
   - DOMAIN-SUFFIX,71.am.com
   - DOMAIN-SUFFIX,71edge.com
@@ -36,3 +34,5 @@ payload:
   - DOMAIN-SUFFIX,qy.com
   - DOMAIN-SUFFIX,qy.net
   - DOMAIN-SUFFIX,suike.cn
+  # - USER-AGENT,*QIYI*
+  # - USER-AGENT,iQiYi*

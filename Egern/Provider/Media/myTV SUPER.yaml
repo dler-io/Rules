@@ -1,9 +1,10 @@
-# myTV_SUPER
-
-domain_keyword_set:
-  - nowtv100
-  - rthklive
+# myTV SUPER
 
 domain_suffix_set:
+  # > myTV_SUPER
   - mytvsuper.com
   - tvb.com
+
+domain_set:
+  # > myTV_SUPER
+  - rthklive2-lh.akamaihd.net

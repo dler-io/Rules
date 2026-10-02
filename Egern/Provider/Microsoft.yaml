@@ -1,11 +1,7 @@
 # Microsoft
 
 domain_suffix_set:
-  - here.com
-  - here.net
-  - heremaps.cn
-  - ovi.com.cn
-
+  # > Azure
   - azure
   - azure-apim.net
   - azure-dns.com
@@ -58,9 +54,14 @@ domain_suffix_set:
   - tryfunctions.com
   - windowsazure.cn
   - windowsazure.com
-  - azure.microsoft.com
-  - azuremarketplace.microsoft.com
 
+  # > Bethesda
+  - beth.games
+  - bethesda.net
+  - bethesdagamestudios.com
+  - bethsoft.com
+
+  # > Bing
   - bbing.com
   - bibg.com
   - biing.com
@@ -115,25 +116,24 @@ domain_suffix_set:
   - renovacionoffice.com
   - sprinklesapp.com
   - working-bing-int.com
-  - bj1.api.bing.com
-  - emoi-cncdn.bing.com
-  - cn.bing.com
-  - cn.bing.net
-  - ditu.live.com
 
-  - a-msedge.net
-  - c-msedge.net
-  - e-msedge.net
-  - edgesuite.net
-  - evoke-windowsservices-tas.msedge
-  - microsoftedge.com
-  - microsoftedgeinsider.com
-  - msedge.net
-  - s-msedge.net
+  # > China services
+  - aicscience.com
+  - mmais.com.cn
+  - msminico.cn
+  - msminico.com.cn
+  - msxiaobing.com
+  - msxiaoice.com
+  - msxiaona.cn
+  - officeplus.cn
+  - renlifang.com
 
-  - femalefounderscomp.com
-  - m12.vc
+  # > Cortana
+  - cortana.ai
+  - cortanaanalytics.com
+  - cortanaskills.com
 
+  # > Developer services
   - adaptivecards.io
   - api-extractor.com
   - apisof.net
@@ -180,156 +180,46 @@ domain_suffix_set:
   - vfsforgit.com
   - vfsforgit.org
   - xamarin.com
-  - developer.microsoft.com
-  - dtlgalleryint.cloudapp.net
-  - poshtestgallery.cloudapp.net
-  - psg-int-centralus.cloudapp.net
-  - psg-int-eastus.cloudapp.net
 
-  - microsoft-online.cn
-  - microsoft-online.com.cn
-  - microsoftnews.cc
-  - microsoftnews.cn
-  - microsoftnews.com
-  - microsoftnews.net
-  - microsoftnews.org
-  - microsoftnewsforkids.com
-  - microsoftnewsforkids.net
-  - microsoftnewsforkids.org
-  - microsoftnewskids.com
-  - microsoftnewskids.net
-  - microsoftnewskids.org
-  - microsoftol.com
-  - microsoftol.com.cn
-  - microsoftusercontent.com
-  - msn.cn
-  - msn.com
-  - msn.com.cn
-  - msn.com.nsatc.net
-  - msn.com.tw
-  - msnewskids.com
-  - msnewskids.net
-  - msnewskids.org
-  - msnkids.com
-  - winmp.cn
+  # > Edge
+  - a-msedge.net
+  - c-msedge.net
+  - e-msedge.net
+  - edgesuite.net
+  - evoke-windowsservices-tas.msedge
+  - microsoftedge.com
+  - microsoftedgeinsider.com
+  - msedge.net
+  - s-msedge.net
 
-  - o365cn.com
-  - o365files.cn
-  - o365weve-dev.com
-  - o365weve-ppe.com
-  - o365weve.com
-  - office
-  - office.com
-  - office.net
-  - office365.com
-  - officedev.cn
+  # > HERE Maps
+  - here.com
+  - here.net
+  - heremaps.cn
+  - ovi.com.cn
 
-  - 1drv.com
-  - 1drv.ms
-  - livefilestore.com
-  - onedrive.co
-  - onedrive.co.uk
-  - onedrive.com
-  - onedrive.eu
-  - onedrive.live.com
-  - onedrive.net
-  - onedrive.org
-  - storage.live.com
+  # > M12
+  - femalefounderscomp.com
+  - m12.vc
 
-  - groupme.com
-  - skype.com
-  - skype.net
-  - skypeassets.com
-  - skypeassets.net
-  - skypeforbusiness.com
-
-  - sway-cdn.com
-  - sway-extensions.com
-  - sway.com
-
-  - visualstudio-staging.com
-  - visualstudio.co
-  - visualstudio.co.uk
-  - visualstudio.com
-  - visualstudio.eu
-  - visualstudio.net
-  - vsassets.io
-  - vscode-unpkg.net
-  - vscode-webview.net
-  - vscode.dev
-
-  - live.cn
-  - live.com.akadns.net
-  - sclive.net
-  - windowslive.cn
-  - wlxrs.com
-
-  - aicscience.com
-  - mmais.com.cn
-  - msminico.cn
-  - msminico.com.cn
-  - msxiaobing.com
-  - msxiaoice.com
-  - msxiaona.cn
-  - officeplus.cn
-  - renlifang.com
-
-  - cortana.ai
-  - cortanaanalytics.com
-  - cortanaskills.com
-
-  - forzamotorsport.net
-  - forzaracingchampionship.com
-  - forzarc.com
-  - gamepass.com
-  - msgamestudios.com
-  - orithegame.com
-  - renovacionxboxlive.com
-  - tellmewhygame.com
-  - xbox.co
-  - xbox.com
-  - xbox.eu
-  - xbox.org
-  - xbox360.co
-  - xbox360.com
-  - xbox360.eu
-  - xbox360.org
-  - xboxab.com
-  - xboxgamepass.com
-  - xboxgamestudios.com
-  - xboxlive.cn
-  - xboxlive.com
-  - xboxone.co
-  - xboxone.com
-  - xboxone.eu
-  - xboxplayanywhere.com
-  - xboxservices.com
-  - xboxstudios.com
-  - xbx.lv
-
-  - callersbane.com
-  - minecraft.net
-  - minecraftshop.com
-  - mojang.com
-
-  - beth.games
-  - bethesda.net
-  - bethesdagamestudios.com
-  - bethsoft.com
-
-  - Applicationinsights.io
-  - Applicationinsights.net
+  # > Microsoft services
+  - a1158.g.akamai.net
+  - a122.dscg3.akamai.net
+  - a767.dscg3.akamai.net
   - aadrm.com
   - acompli.net
   - aka.ms
   - ankarazirvesi2018.com
+  - Applicationinsights.io
   - applicationinsights.io
+  - Applicationinsights.net
   - applicationinsights.net
   - aria.ms
   - asp.net
   - aspnetcdn.com
   - assets-yammer.com
   - azurerms.com
+  - b.akamaiedge.net
   - binads.com
   - bluehatil.com
   - boswp.com
@@ -343,6 +233,8 @@ domain_suffix_set:
   - crmdynint-gcc.com
   - crmdynint.com
   - crossborderexpansion.com
+  - cs11.wpc.v0cdn.net
+  - cs9.wac.phicdn.net
   - docs.com
   - dwh5.com
   - dynamics.com
@@ -351,6 +243,7 @@ domain_suffix_set:
   - fasttrackreadysupport.com
   - fluidpreview.com
   - footprintdns.com
+  - g.akamaiedge.net
   - gameuxmasterguide.com
   - gears5.com
   - gearspop.com
@@ -374,6 +267,8 @@ domain_suffix_set:
   - ie9.com
   - imaginecup.pl
   - img-prod-cms-rt-microsoft-com
+  - img-prod-cms-rt-microsoft-com.akamaized.net
+  - img-s-msn-com.akamaized.net
   - ingads.com
   - internetexplorer.co
   - internetexplorer.com
@@ -449,7 +344,6 @@ domain_suffix_set:
   - microsoftadvertising.com
   - microsoftadvertisingregionalawards.com
   - microsoftaffiliates.com
-  - microsoftapps.azurewebsites.net
   - microsoftazuread-sso.com
   - microsoftcloud.com
   - microsoftcloudworkshop.com
@@ -510,11 +404,13 @@ domain_suffix_set:
   - msturing.org
   - msudalosti.com
   - msvevent.com
+  - mwf-service.akamaized.net
   - mymicrosoft.com
   - nextechafrica.net
   - nxta.org
   - oaspapps.com
   - oaspapps.com.akadns.net
+  - officecdn-microsoft-com.akamaized.net
   - onecollector.cloudapp.aria
   - onecollector.cloudapp.aria.akadns.net
   - onenote.com
@@ -537,6 +433,7 @@ domain_suffix_set:
   - powerautomate.com
   - powerbi.com
   - powershellgallery.com
+  - prod-video-cms-rt-microsoft-com.akamaized.net
   - projectmurphy.net
   - projectsangam.com
   - pxt.io
@@ -550,7 +447,12 @@ domain_suffix_set:
   - sharepoint.com
   - sharepointonline.com
   - skype
+  - spoprod-a.akamaihd.net
   - staffhub.ms
+  - statics-marketingsites-eas-ms-com.akamaized.net
+  - statics-marketingsites-eus-ms-com.akamaized.net
+  - statics-marketingsites-neu-ms-com.akamaized.net
+  - statics-marketingsites-wcus-ms-com.akamaized.net
   - successwithteams.com
   - surface.com
   - svc.ms
@@ -567,15 +469,15 @@ domain_suffix_set:
   - uservoice.com
   - videobreakdown.com
   - videoindexer.ai
+  - vip5.afdorigin-prod-am02.afdogw.com
   - virtualearth.net
   - vsallin.net
   - wbd.ms
   - what-fan.net
-  - windows.com
-  - windows.net
   - windows-int.net
   - windows-ppe.net
   - windows.com
+  - windows.com.akadns.net
   - windows.net
   - windows.nl
   - windows8.hk
@@ -589,22 +491,122 @@ domain_suffix_set:
   - winhec.net
   - yammer.com
   - yammerusercontent.com
-  - g.akamaiedge.net
-  - a1158.g.akamai.net
-  - a122.dscg3.akamai.net
-  - a767.dscg3.akamai.net
-  - cs11.wpc.v0cdn.net
-  - cs9.wac.phicdn.net
-  - b.akamaiedge.net
-  - spoprod-a.akamaihd.net
-  - windows.com.akadns.net
-  - prod-video-cms-rt-microsoft-com.akamaized.net
-  - statics-marketingsites-eas-ms-com.akamaized.net
-  - statics-marketingsites-neu-ms-com.akamaized.net
-  - vip5.afdorigin-prod-am02.afdogw.com
-  - img-prod-cms-rt-microsoft-com.akamaized.net
-  - img-s-msn-com.akamaized.net
-  - mwf-service.akamaized.net
-  - officecdn-microsoft-com.akamaized.net
-  - statics-marketingsites-eus-ms-com.akamaized.net
-  - statics-marketingsites-wcus-ms-com.akamaized.net
+
+  # > Minecraft
+  - callersbane.com
+  - minecraft.net
+  - minecraftshop.com
+  - mojang.com
+
+  # > MSN
+  - microsoft-online.cn
+  - microsoft-online.com.cn
+  - microsoftnews.cc
+  - microsoftnews.cn
+  - microsoftnews.com
+  - microsoftnews.net
+  - microsoftnews.org
+  - microsoftnewsforkids.com
+  - microsoftnewsforkids.net
+  - microsoftnewsforkids.org
+  - microsoftnewskids.com
+  - microsoftnewskids.net
+  - microsoftnewskids.org
+  - microsoftol.com
+  - microsoftol.com.cn
+  - microsoftusercontent.com
+  - msn.cn
+  - msn.com
+  - msn.com.cn
+  - msn.com.nsatc.net
+  - msn.com.tw
+  - msnewskids.com
+  - msnewskids.net
+  - msnewskids.org
+  - msnkids.com
+  - winmp.cn
+
+  # > Office
+  - o365cn.com
+  - o365files.cn
+  - o365weve-dev.com
+  - o365weve-ppe.com
+  - o365weve.com
+  - office
+  - office.com
+  - office.net
+  - office365.com
+  - officedev.cn
+
+  # > OneDrive
+  - 1drv.com
+  - 1drv.ms
+  - livefilestore.com
+  - onedrive.co
+  - onedrive.co.uk
+  - onedrive.com
+  - onedrive.eu
+  - onedrive.net
+  - onedrive.org
+
+  # > Skype
+  - groupme.com
+  - skype.com
+  - skype.net
+  - skypeassets.com
+  - skypeassets.net
+  - skypeforbusiness.com
+
+  # > Sway
+  - sway-cdn.com
+  - sway-extensions.com
+  - sway.com
+
+  # > Visual Studio
+  - visualstudio-staging.com
+  - visualstudio.co
+  - visualstudio.co.uk
+  - visualstudio.com
+  - visualstudio.eu
+  - visualstudio.net
+  - vsassets.io
+  - vscode-unpkg.net
+  - vscode-webview.net
+  - vscode.dev
+
+  # > Windows Live
+  - live.cn
+  - live.com.akadns.net
+  - sclive.net
+  - windowslive.cn
+  - wlxrs.com
+
+  # > Xbox
+  - forzamotorsport.net
+  - forzaracingchampionship.com
+  - forzarc.com
+  - gamepass.com
+  - msgamestudios.com
+  - orithegame.com
+  - renovacionxboxlive.com
+  - tellmewhygame.com
+  - xbox.co
+  - xbox.com
+  - xbox.eu
+  - xbox.org
+  - xbox360.co
+  - xbox360.com
+  - xbox360.eu
+  - xbox360.org
+  - xboxab.com
+  - xboxgamepass.com
+  - xboxgamestudios.com
+  - xboxlive.cn
+  - xboxlive.com
+  - xboxone.co
+  - xboxone.com
+  - xboxone.eu
+  - xboxplayanywhere.com
+  - xboxservices.com
+  - xboxstudios.com
+  - xbx.lv

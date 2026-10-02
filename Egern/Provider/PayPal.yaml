@@ -1,6 +1,6 @@
 # PayPal
 
 domain_suffix_set:
-  - domain_keyword,paypal
+  # > PayPal
   - paypal.com
   - paypalobjects.com

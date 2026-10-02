@@ -1,12 +1,23 @@
 payload:
   # > BBC iPlayer
-  - PROCESS-NAME,bbc.iplayer.android
-  - DOMAIN-KEYWORD,-uk-live.akamaized.net
-  - DOMAIN-KEYWORD,bbcfmt
+  - DOMAIN,aod-pod-uk-live.akamaized.net
+  - DOMAIN,as-dash-uk-live.akamaized.net
+  - DOMAIN,as-hls-uk-live.akamaized.net
   - DOMAIN-SUFFIX,bbc.co
   - DOMAIN-SUFFIX,bbc.co.uk
   - DOMAIN-SUFFIX,bbc.com
   - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net
+  - DOMAIN-SUFFIX,bbcfmt.s.llnwi.net
   - DOMAIN-SUFFIX,bbci.co
   - DOMAIN-SUFFIX,bbci.co.uk
   - DOMAIN-SUFFIX,bidi.net.uk
+  - DOMAIN,ve-dash-uk-live.akamaized.net
+  - DOMAIN,ve-uhd-push-uk-live.akamaized.net
+  - DOMAIN,vod-dash-uk-live.akamaized.net
+  - DOMAIN,vod-hls-uk-live.akamaized.net
+  - DOMAIN,vod-sub-uk-live.akamaized.net
+  - DOMAIN,vod-thumb-uk-live.akamaized.net
+  - DOMAIN,vs-cmaf-push-uk-live.akamaized.net
+  - DOMAIN,vs-hls-push-uk-live.akamaized.net
+  - DOMAIN,vs-hls-pushb-uk-live.akamaized.net
+  - PROCESS-NAME,bbc.iplayer.android

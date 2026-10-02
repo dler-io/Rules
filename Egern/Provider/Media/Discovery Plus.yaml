@@ -1,7 +1,7 @@
 # Discovery Plus
-  
+
 domain_suffix_set:
-  - content-ause1-ur-discovery1.uplynk.com
+  # > Discovery Plus
   - disco-api.com
   - discoveryplus.com
   - fwmrm.net

@@ -1,16 +1,16 @@
 payload:
   # > Apple API
-  - DOMAIN-KEYWORD,apple.com.akadns.net
-  - DOMAIN-KEYWORD,icloud.com.akadns.net
   - DOMAIN-SUFFIX,aaplimg.com
-  - DOMAIN-SUFFIX,apple.co
-  - DOMAIN-SUFFIX,apple.com
   - DOMAIN-SUFFIX,apple-cloudkit.com
   - DOMAIN-SUFFIX,apple-mapkit.com
+  - DOMAIN-SUFFIX,apple.co
+  - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,apple.com.akadns.net
   - DOMAIN-SUFFIX,appsto.re
   - DOMAIN-SUFFIX,cdn-apple.com
-  - DOMAIN-SUFFIX,icloud.com
   - DOMAIN-SUFFIX,icloud-content.com
+  - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,icloud.com.akadns.net
   - DOMAIN-SUFFIX,itunes.com
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,mzstatic.com
@@ -25,9 +25,9 @@ payload:
   - IP-CIDR,198.183.17.0/24,no-resolve
   - IP-CIDR,205.180.175.0/24,no-resolve
 
+  # > Apple Maps
+  - PROCESS-NAME,com.apple.geod
+
   # > Apple News
   - DOMAIN-SUFFIX,apple.comscoreresearch.com
   - DOMAIN-SUFFIX,apple.news
-
-  # > Apple Maps
-  - PROCESS-NAME,com.apple.geod

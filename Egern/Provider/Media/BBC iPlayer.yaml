@@ -1,14 +1,27 @@
 # BBC iPlayer
 
-domain_keyword_set:
-  - -uk-live.akamaized.net
-  - bbcfmt
-
 domain_suffix_set:
+  # > BBC iPlayer
   - bbc.co
   - bbc.co.uk
   - bbc.com
   - bbcfmt.hs.llnwd.net
+  - bbcfmt.s.llnwi.net
   - bbci.co
   - bbci.co.uk
   - bidi.net.uk
+
+domain_set:
+  # > BBC iPlayer
+  - aod-pod-uk-live.akamaized.net
+  - as-dash-uk-live.akamaized.net
+  - as-hls-uk-live.akamaized.net
+  - ve-dash-uk-live.akamaized.net
+  - ve-uhd-push-uk-live.akamaized.net
+  - vod-dash-uk-live.akamaized.net
+  - vod-hls-uk-live.akamaized.net
+  - vod-sub-uk-live.akamaized.net
+  - vod-thumb-uk-live.akamaized.net
+  - vs-cmaf-push-uk-live.akamaized.net
+  - vs-hls-push-uk-live.akamaized.net
+  - vs-hls-pushb-uk-live.akamaized.net

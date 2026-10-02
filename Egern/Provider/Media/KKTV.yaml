@@ -1,8 +1,10 @@
 # KKTV
 
 domain_suffix_set:
-  - kktv.me
+  # > KKTV
   - kktv.com.tw
+  - kktv.me
 
 domain_set:
+  # > KKTV
   - kktv-theater.kk.stream

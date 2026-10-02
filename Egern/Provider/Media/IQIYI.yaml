@@ -1,15 +1,38 @@
 # IQIYI
 
 domain_suffix_set:
-  - iqiyi.com
-  - iqiyipic.com
-  - iq.com
-  - qy.net
-  - gitv.tv
+  # > IQIYI
   - 71.am
-
-domain_keyword_set:
-  - qiyi
-
-domain_set:
-  - cache.video.iqiyi.com
+  - 71.am.com
+  - 71edge.com
+  - 71edge.net
+  - aianno.cn
+  - aianno.com
+  - aiqiyicloud-mgmt.com
+  - aiqiyicloud.com
+  - aiqiyicloud.net
+  - baiying.com
+  - gitv.cn
+  - gitv.tv
+  - ibkstore.com
+  - iq.com
+  - iqiyi.com
+  - iqiyi.demo.uwp
+  - iqiyiedge.com
+  - iqiyiedge.net
+  - iqiyipic.com
+  - jiangbing.cn
+  - pps.tv
+  - ppsimg.com
+  - ppstream.cn
+  - ppstream.com
+  - ppstream.com.cn
+  - ppstream.net
+  - ppstream.net.cn
+  - ppsurl.com
+  - qiyi.cn
+  - qiyi.com
+  - qiyipic.com
+  - qy.com
+  - qy.net
+  - suike.cn

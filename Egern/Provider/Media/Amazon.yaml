@@ -1,6 +1,7 @@
 # Amazon Prime Video
 
 domain_set:
+  # > Amazon Prime Video
   - d1v5ir2lpwr8os.cloudfront.net
   - d22qjgkvxw22r6.cloudfront.net
   - d25xi40x97liuc.cloudfront.net
@@ -8,6 +9,7 @@ domain_set:
   - dmqdd6hw24ucf.cloudfront.net
 
 domain_suffix_set:
+  # > Amazon Prime Video
   - aiv-cdn.net
   - aiv-delivery.net
   - amazonvideo.com

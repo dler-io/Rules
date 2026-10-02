@@ -1,6 +1,7 @@
 # Disney Plus
 
 domain_suffix_set:
+  # > Disney Plus
   - cdn.registerdisney.go.com
   - disney-plus.net
   - disney.api.edge.bamgrid.com

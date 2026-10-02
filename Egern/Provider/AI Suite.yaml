@@ -1,22 +1,30 @@
-# AI Suite
+# AI Suite: place before Microsoft, Apple and general proxy rules
+# Keep app/model restrictions even when the website supports Hong Kong
 
 domain_suffix_set:
   # > Augment
   - augment.com
   - augmentcode.com
 
-  # > ChatGPT
-  - ai.com
-  - chatgpt.com
-  - openai.com
-
-  # > Chat GPT API & CDN
-  - cdn.oaistatic.com
-  - oaiusercontent.com
-
   # > Cerebras
   - cerebras.ai
 
+  # > ChatGPT / Codex
+  # https://help.openai.com/en/articles/9247338
+  - chat.com
+  - chatgpt.com
+  - oaistatic.com
+  - oaistatsig.com
+  - oaiusercontent.com
+  - openai.com
+
+  # > ChatGPT shared dependencies (also used by other services)
+  - ct.sendgrid.net
+  - intercom.io
+  - intercomcdn.com
+
+  # > Chorus
+  - chorus.sh
 
   # > Claude
   - anthropic.com
@@ -24,56 +32,73 @@ domain_suffix_set:
   - claude.com
   - claudeusercontent.com
 
+  # > Cursor
+  # Provider region restrictions also apply to models in Cursor
+  # https://cursor.com/docs/account/regions
+  # https://cursor.com/docs/enterprise/network-configuration
+  - cursor-cdn.com
+  - cursor.com
+  - cursor.sh
+  - cursorapi.com
+  - cursorvm.com
 
   # > DIA
+  - diabrowser.com
   - diabrowser.engineering
-
-  # > Windsurf
-  - windsurf.com
-  - codeium.com
-  - codeiumdata.com
-
-  # > Chorus
-  - chorus.sh
-
-  # > Copilot
-  - githubcopilot.com
-  - microsoftonline.com
-
-  # > Cursor
-  - cursor.sh
 
   # > Dify.AI
   - dify.ai
+  - udify.app
 
-  # > Google Gemini
-  - apis.google.com
-  - bard.google.com
-  - gemini.google
-  - gemini.google.com
+  # > GitHub Copilot
+  # https://docs.github.com/en/copilot/reference/copilot-allowlist-reference
+  - githubcopilot.com
+
+  # > Google AI Studio
+  - aistudio.google.com
+  - generativeai.google
+  - makersuite.google.com
+
+  # > Google Antigravity / Gemini Code Assist
+  # Availability: https://antigravity.google/docs/faq
+  - antigravity.google
+  - antigravity.google.com
 
   # > Google DeepMind
   - deepmind.com
   - deepmind.google
 
-  # > Google Generative Language API
-  - generativelanguage.googleapis.com
-  - geller-pa.googleapis.com
-  - proactivebackend-pa.googleapis.com
+  # > Google Gemini
+  # Retained for iOS: Hong Kong is absent from its availability list (2026-09-27)
+  # https://support.google.com/gemini/answer/14579026?co=GENIE.Platform%3DiOS
+  - aisandbox-pa.googleapis.com
+  - bard.google.com
+  - gemini.google
+  - gemini.google.com
+  - robinfrontend-pa.googleapis.com
 
-  # > Google AI Studio
-  - domain_keyword,alkalimakersuite-pa.clients6.google.com
-  - aistudio.google.com
-  - makersuite.google.com
-  - generativeai.google
-
-  # > Google NotebookLM
+  # > Google Gemini Notebook / NotebookLM
+  - notebook.google
+  - notebook.google.com
+  - notebooklm.cloud.google.com
   - notebooklm.google
   - notebooklm.google.com
 
-  # > Grok
-  - x.ai
-  - grok.com
+  # > Google Generative Language API
+  - geller-pa.googleapis.com
+  - generativelanguage.googleapis.com
+  - proactivebackend-pa.googleapis.com
+
+  # > Google Jules
+  - jules.google
+  - jules.google.com
+
+  # > Google Opal
+  # Availability: https://developers.google.com/opal/faq
+  - opal.goog
+  - opal.google
+  - opal.google.com
+  - opal.withgoogle.com
 
   # > Groq
   - groq.com
@@ -82,9 +107,18 @@ domain_suffix_set:
   - clipdrop.co
   - jasper.ai
 
+  # > JetBrains
+  - jetbrains.ai
+
   # > Meta AI
   - meta.ai
-  - meta.com
+
+  # > Microsoft Copilot
+  # Retained for macOS app availability; web/mobile support alone is insufficient
+  # https://support.microsoft.com/en-us/microsoft-copilot/getting-started-with-microsoft-copilot
+  - copilot.cloud.microsoft
+  - copilot.com
+  - copilot.microsoft.com
 
   # > OpenArt
   - openart.ai
@@ -94,52 +128,113 @@ domain_suffix_set:
 
   # > Perplexity AI
   - perplexity.ai
-
-  # > POE
-  - poe.com
+  - pplx.ai
 
   # > Sora
   - sora.com
-  
-  # > TRAE
-  - trae.ai
-  - traeapi.us
 
   # > Windsurf
-  - windsurf.com
   - codeium.com
   - codeiumdata.com
+  - windsurf.com
 
   # > Zed
   - zed.dev
 
 domain_set:
-    # > Chat GPT API & CDN
+  # > Apple Intelligence ChatGPT extension
+  # The extension follows ChatGPT regional availability
+  # https://support.apple.com/en-us/101555
+  - apple-relay.apple.com
+  - apple-relay.mask.apple-dns.net
+
+  # > ChatGPT API & CDN
+  - cdn.openaimerge.com
   - chat.openai.com.cdn.cloudflare.net
   - openaiapi-site.azureedge.net
   - openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - openaicomproductionae4b.blob.core.windows.net
   - production-openaicom-storage.azureedge.net
+
+  # > ChatGPT shared dependencies (also used by other services)
+  - cdn.workos.com
+  - challenges.cloudflare.com
+  - forwarder.workos.com
+  - humb.apple.com
+  - images.workoscdn.com
+  - js.stripe.com
+  - o207216.ingest.sentry.io
   - o33249.ingest.sentry.io
+  - rum.browser-intake-datadoghq.com
+  - setup.workos.com
+  - workos.imgix.net
 
   # > Cloudflare AI Gateway
   - gateway.ai.cloudflare.com
 
-  # > Copilot
-  - copilot.microsoft.com
+  # > Cursor
+  # Provider region restrictions also apply to models in Cursor
+  # https://cursor.com/docs/account/regions
+  # https://cursor.com/docs/enterprise/network-configuration
+  - anysphere-binaries.s3.us-east-1.amazonaws.com
+
+  # > Cursor shared sign-in
+  # Shared sign-in hosts from 2026-09-30; keep exact matches to avoid routing all of Grok
+  # https://cursor.com/help/troubleshooting/sign-in-domains
+  - accounts.spacex.ai
+  - accounts.x.ai
+  - auth.grok.com
+  - auth.grokipedia.com
+  - auth.grokusercontent.com
+  - auth.x.ai
 
   # > GitHub Copilot
+  # https://docs.github.com/en/copilot/reference/copilot-allowlist-reference
+  - copilot-proxy.githubusercontent.com
+  - copilot-reports.github.com
+  - copilot-telemetry.githubusercontent.com
+  - default.exp-tas.com
+  - origin-tracker.githubusercontent.com
+
+  # > GitHub Copilot shared API
+  # Shared GitHub API host, required for Copilot token and user requests
   - api.github.com
 
   # > Google AI Studio
   - ai.google.dev
   - alkalicore-pa.clients6.google.com
+  - alkalimakersuite-pa.clients6.google.com
   - waa-pa.clients6.google.com
 
-  # > Siri
-  - apple-relay.apple.com
-  - apple-relay.cloudflare.com
-  - guzzoni.smoot.apple.com
+  # > Google Antigravity / Gemini Code Assist
+  # Availability: https://antigravity.google/docs/faq
+  - cloudcode-pa.googleapis.com
 
-  # > Sora
-  - sora-cdn.oaistatic.com
+  # > Google Gemini shared API
+  # Shared Google API loader
+  - apis.google.com
+
+  # > Google Jules
+  - jules.googleapis.com
+
+  # > Google Opal
+  # Availability: https://developers.google.com/opal/faq
+  - appcatalyst.pa.googleapis.com
+
+  # > JetBrains
+  - api.app.prod.grazie.aws.intellij.net
+  - api.jetbrains.cloud
+
+  # > JetBrains shared sign-in
+  # Shared JetBrains account hosts
+  - account.jetbrains.com
+  - oauth.account.jetbrains.com
+
+  # > Microsoft Copilot shared sign-in
+  # Shared Microsoft sign-in hosts
+  - login.live.com
+  - login.microsoftonline.com
+
+# > ChatGPT Voice
+# Direct-IP UDP voice needs separate IP rules and a UDP-capable outbound
+# Current ranges: https://openai.com/chatgpt-voice.json

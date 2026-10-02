@@ -1,23 +1,336 @@
-# Blizzard
+# Proxy
+no_resolve: true
 
 domain_suffix_set:
+  # > Apple Daily
+  - appledaily.com
+  - appledaily.com.hk
+  - appledaily.com.tw
+  - appledaily.hk
+
+  # > Blizzard
   - battle.net
   - battlenet.com
   - blizzard.com
-  
+
+  # > Blogger
+  - blogspot.com
+  - blogspot.hk
+
+  # > Dropbox
+  - addtodropbox.com
+  - dropbox-dns.com
+  - dropbox.com
+  - dropbox.tech
+  - dropbox.zendesk.com
+  - dropboxapi.com
+  - dropboxbusiness.com
+  - dropboxcaptcha.com
+  - dropboxexperiment.com
+  - dropboxforum.com
+  - dropboxforums.com
+  - dropboxinsiders.com
+  - dropboxlegal.com
+  - dropboxmail.com
+  - dropboxpartners.com
+  - dropboxstatic.com
+  - dropboxteam.com
+  - dropboxusercontent.com
+  - getdropbox.com
+
+  # > exception
+  - chalungu.cn
+  - wheel-size.cn
+
+  # > Facebook
+  - facebook.com
+  - facebook.net
+  - facebook.org
+  - facebookbrand.com
+  - facebookmail.com
+  - fb.com
+  - fb.me
+  - fbcdn.net
+  - fbsbx.com
+  - messenger.com
+
+  # > GitHub
+  - github.ai
+  - github.blog
+  - github.career
+  - github.com
+  - github.community
+  - github.dev
+  - github.io
+  - githubapp.com
+  - githubassets.com
+  - githubhackathon.com
+  - githubnext.com
+  - githubpreview.dev
+  - githubstatus.com
+  - githubsupport.com
+  - githubuniverse.com
+  - githubusercontent.com
+  - thegithubshop.com
+
+  # > Google
+  - 1e100.net
+  - 2mdn.net
+  - abc.xyz
+  - appspot.com
+  - autodraw.com
+  - blogblog.com
+  - chromeexperiments.com
+  - creativelab5.com
+  - culturalspot.org
+  - dartlang.org
+  - gcr.io
+  - gmail.com
+  - google
+  - google-analytics.com
+  - google.ad
+  - google.ae
+  - google.al
+  - google.am
+  - google.as
+  - google.at
+  - google.az
+  - google.ba
+  - google.be
+  - google.bf
+  - google.bg
+  - google.bi
+  - google.bj
+  - google.bs
+  - google.bt
+  - google.by
+  - google.ca
+  - google.cat
+  - google.cd
+  - google.cf
+  - google.cg
+  - google.ch
+  - google.ci
+  - google.cl
+  - google.cm
+  - google.cn
+  - google.co.ao
+  - google.co.bw
+  - google.co.ck
+  - google.co.cr
+  - google.co.id
+  - google.co.il
+  - google.co.in
+  - google.co.jp
+  - google.co.ke
+  - google.co.kr
+  - google.co.ls
+  - google.co.ma
+  - google.co.mz
+  - google.co.nz
+  - google.co.th
+  - google.co.tz
+  - google.co.ug
+  - google.co.uk
+  - google.co.uz
+  - google.co.ve
+  - google.co.vi
+  - google.co.za
+  - google.co.zm
+  - google.co.zw
+  - google.com
+  - google.com.af
+  - google.com.ag
+  - google.com.ar
+  - google.com.au
+  - google.com.bd
+  - google.com.bh
+  - google.com.bn
+  - google.com.bo
+  - google.com.br
+  - google.com.bz
+  - google.com.co
+  - google.com.cu
+  - google.com.cy
+  - google.com.do
+  - google.com.ec
+  - google.com.eg
+  - google.com.et
+  - google.com.fj
+  - google.com.gh
+  - google.com.gi
+  - google.com.gt
+  - google.com.hk
+  - google.com.jm
+  - google.com.kh
+  - google.com.kw
+  - google.com.lb
+  - google.com.ly
+  - google.com.mm
+  - google.com.mt
+  - google.com.mx
+  - google.com.my
+  - google.com.na
+  - google.com.ng
+  - google.com.ni
+  - google.com.np
+  - google.com.om
+  - google.com.pa
+  - google.com.pe
+  - google.com.pg
+  - google.com.ph
+  - google.com.pk
+  - google.com.pr
+  - google.com.py
+  - google.com.qa
+  - google.com.sa
+  - google.com.sb
+  - google.com.sg
+  - google.com.sl
+  - google.com.sv
+  - google.com.tj
+  - google.com.tr
+  - google.com.tw
+  - google.com.ua
+  - google.com.uy
+  - google.com.vc
+  - google.com.vn
+  - google.cv
+  - google.cz
+  - google.de
+  - google.dev
+  - google.dj
+  - google.dk
+  - google.dm
+  - google.dz
+  - google.ee
+  - google.es
+  - google.fi
+  - google.fm
+  - google.fr
+  - google.ga
+  - google.ge
+  - google.gg
+  - google.gl
+  - google.gm
+  - google.gr
+  - google.gy
+  - google.hn
+  - google.hr
+  - google.ht
+  - google.hu
+  - google.ie
+  - google.im
+  - google.iq
+  - google.is
+  - google.it
+  - google.je
+  - google.jo
+  - google.kg
+  - google.ki
+  - google.kz
+  - google.la
+  - google.li
+  - google.lk
+  - google.lt
+  - google.lu
+  - google.lv
+  - google.md
+  - google.me
+  - google.mg
+  - google.mk
+  - google.ml
+  - google.mn
+  - google.mu
+  - google.mv
+  - google.mw
+  - google.ne
+  - google.net
+  - google.nl
+  - google.no
+  - google.nr
+  - google.nu
+  - google.org
+  - google.pl
+  - google.pn
+  - google.ps
+  - google.pt
+  - google.ro
+  - google.rs
+  - google.ru
+  - google.rw
+  - google.sc
+  - google.se
+  - google.sh
+  - google.si
+  - google.sk
+  - google.sm
+  - google.sn
+  - google.so
+  - google.sr
+  - google.st
+  - google.td
+  - google.tg
+  - google.tl
+  - google.tm
+  - google.tn
+  - google.to
+  - google.tt
+  - google.vu
+  - google.ws
+  - googleadservices.com
+  - googleapis.cn
+  - googleapis.com
+  - googleblog.com
+  - googlebot.com
+  - googlecode.com
+  - googledomains.com
+  - googleearth.com
+  - googlefiber.com
+  - googlefiber.net
+  - googlemail.com
+  - googlemaps.com
+  - googlephotos.com
+  - googlesource.com
+  - googlestore.com
+  - googlesyndication.com
+  - googletagmanager.com
+  - googletagservices.com
+  - googleusercontent.com
+  - googlevideo.com
+  - googlezip.net
+  - gosetsuden.jp
+  - gwtproject.org
+  - html5rocks.com
+  - keyhole.com
+  - madewithcode.com
+  - material.io
+  - tenor.com
+  - tensorflow.org
+  - toggleable.com
+  - unfiltered.news
+  - waveprotocol.org
+  - webmproject.org
+  - webrtc.org
+  - withgoogle.com
+
+  # > Instagram
+  - cdninstagram.com
+  - instagram.com
+
   # > Line
   - lin.ee
-  - line.me
-  - line.naver.jp
   - line-apps.com
   - line-cdn.net
   - line-scdn.net
+  - line.me
+  - line.naver.jp
   - nhncorp.jp
 
   # > Riot Games
   - riotcdn.net
-  - wr.pvp.net
   - riotgames.com
+  - wr.pvp.net
 
   # > Sony
   - playstation.com
@@ -26,11 +339,15 @@ domain_suffix_set:
 
   # > Spark
   - api.amplitude.com
-  - app.smartmailcloud.com
-  - gate.hockeyapp.net
   - smartmailcloud.com
-  
-  # > Zooba
+
+  # > Spotify
+  - scdn.co
+
+  # > Tesla
+  - tesla.cn
+  - tesla.com
+  - teslamotors.com
 
   # > Top blocked sites
   - 2o7.net
@@ -44,8 +361,9 @@ domain_suffix_set:
   - adobe.com
   - adobedtm.com
   - aerisapi.com
-  - akamaihd.net
   - airtable.com
+  - akamai.net
+  - akamaihd.net
   - alfredapp.com
   - allconnected.co
   - amazon.co
@@ -57,9 +375,9 @@ domain_suffix_set:
   - ampproject.org
   - anaconda.com
   - ancsconf.org
+  - android-x86.org
   - android.com
   - androidify.com
-  - android-x86.org
   - angularjs.org
   - anthonycalzadilla.com
   - aol.com
@@ -90,6 +408,7 @@ domain_suffix_set:
   - azurewebsites.net
   - badoo.com
   - bandisoft.com
+  - bandwagonhost.com
   - bbtoystore.com
   - bet365.com
   - betvictor.com
@@ -107,7 +426,6 @@ domain_suffix_set:
   - blogger.com
   - bloglovin.com
   - blogsmithmedia.com
-  - blogspot.hk
   - bloomberg.cn
   - bloomberg.com
   - books.com.tw
@@ -144,6 +462,7 @@ domain_suffix_set:
   - cocoapods.org
   - comodoca.com
   - crisp.chat
+  - crittercism.com
   - culturedcode.com
   - cygames.jp
   - d.pr
@@ -190,9 +509,9 @@ domain_suffix_set:
   - feedburner.com
   - feedly.com
   - feedsportal.com
-  - firefox.com
   - fiftythree.com
   - firebaseio.com
+  - firefox.com
   - flexibits.com
   - flickr.com
   - flipboard.com
@@ -215,8 +534,8 @@ domain_suffix_set:
   - getpricetag.com
   - gfw.press
   - ggpht.com
-  - ghostnoteapp.com
   - ghcr.io
+  - ghostnoteapp.com
   - git.io
   - gitbook.com
   - gitlab.com
@@ -238,7 +557,9 @@ domain_suffix_set:
   - gunsamerica.com
   - gvt0.com
   - gvt1.com
+  - hackmd.io
   - helpshift.com
+  - heroku.com
   - hitun.io
   - hockeyapp.net
   - homedepot.com
@@ -283,6 +604,8 @@ domain_suffix_set:
   - kenengba.com
   - kik.com
   - klip.me
+  - kobo.com
+  - kobobooks.com
   - leancloud.com
   - leetcode.com
   - libsyn.com
@@ -306,6 +629,7 @@ domain_suffix_set:
   - mashable.com
   - mathjax.org
   - maven.org
+  - mediawiki.org
   - medium.com
   - mega.co.nz
   - mega.nz
@@ -324,12 +648,14 @@ domain_suffix_set:
   - nasa.gov
   - ndr.de
   - netdna-cdn.com
+  - netmarble.com
   - newipnow.com
   - nextmedia.com
+  - nianticlabs.com
   - nicovideo.jp
   - nih.gov
-  - nimg.jp
   - nikke-kr.com
+  - nimg.jp
   - nintendo.com
   - nintendo.net
   - notion.so
@@ -363,6 +689,7 @@ domain_suffix_set:
   - picasaweb.com
   - pinboard.in
   - ping.pe
+  - pinimg.com
   - pinterest.com
   - pixelmator.com
   - pixiv.net
@@ -372,12 +699,12 @@ domain_suffix_set:
   - polymer-project.org
   - popo.tw
   - potato.im
-  - redd.it
-  - rthk.hk
   - prfct.co
+  - proton.me
   - proxfree.com
   - psiphon3.com
   - ptt.cc
+  - pubnub.com
   - pubu.com.tw
   - puffinbrowser.com
   - pushbullet.com
@@ -388,6 +715,7 @@ domain_suffix_set:
   - readingtimes.com.tw
   - readmoo.com
   - recaptcha.net
+  - redd.it
   - reddit.com
   - redditmedia.com
   - redditstatic.com
@@ -396,12 +724,14 @@ domain_suffix_set:
   - rileyguide.com
   - rime.im
   - rsf.org
+  - rthk.hk
   - sciencedaily.com
   - sciencemag.org
   - scribd.com
   - search.com
   - servebom.com
   - sexinsex.net
+  - sfx.ms
   - shadowsocks.org
   - shadowverse.jp
   - sharethis.com
@@ -411,9 +741,9 @@ domain_suffix_set:
   - simp.ly
   - simplenote.com
   - sketchappsources.com
-  - slack.com
   - slack-edge.com
   - slack-msgs.com
+  - slack.com
   - slideshare.net
   - smartdnsproxy.com
   - smh.com.au
@@ -477,6 +807,7 @@ domain_suffix_set:
   - tokyocn.com
   - tomshardware.com
   - torcn.com
+  - torproject.org
   - torrentmac.net
   - torrentprivacy.com
   - torrentproject.se
@@ -574,13 +905,24 @@ domain_suffix_set:
   - westca.com
   - westpoint.edu
   - whatbrowser.org
-  - wikiwand.com
+  - wikibooks.org
+  - wikidata.org
+  - wikifunctions.org
+  - wikileaks-forum.com
   - wikileaks.info
   - wikileaks.org
-  - wikileaks-forum.com
   - wikimedia.org
+  - wikimediafoundation.org
+  - wikinews.org
   - wikipedia.com
   - wikipedia.org
+  - wikiquote.org
+  - wikisource.org
+  - wikispecies.org
+  - wikiversity.org
+  - wikivoyage.org
+  - wikiwand.com
+  - wiktionary.org
   - wn.com
   - wordpress.com
   - workflow.is
@@ -608,8 +950,8 @@ domain_suffix_set:
   - yastatic.net
   - ycombinator.com
   - yeeyi.com
-  - yesasia.com
   - yes-news.com
+  - yesasia.com
   - yidio.com
   - yimg.com
   - ying.com
@@ -623,92 +965,45 @@ domain_suffix_set:
   - zeutch.com
   - zynamics.com
 
-  # > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
-
-  - 1e100.net
-  - 2mdn.net
-  - abc.xyz
-  - akamai.net
-  - appspot.com
-  - autodraw.com
-  - bandwagonhost.com
-  - blogblog.com
-  - chromeexperiments.com
-  - creativelab5.com
-  - crittercism.com
-  - culturalspot.org
-  - dartlang.org
-  - fb.com
-  - fb.me
-  - fbcdn.net
-  - fbsbx.com
-  - gcr.io
-  - gmail.com
-  - gosetsuden.jp
-  - gwtproject.org
-  - hackmd.io
-  - heroku.com
-  - html5rocks.com
-  - keyhole.com
-  - kobo.com
-  - kobobooks.com
-  - madewithcode.com
-  - material.io
-  - messenger.com
-  - netmarble.com
-  - nianticlabs.com
-  - pinimg.com
-  - proton.me
-  - pubnub.com
-  - scdn.co
+  # > Twitter
+  - ads-twitter.com
   - t.co
-  - tenor.com
-  - tensorflow.org
-  - toggleable.com
-  - torproject.org
   - twimg.com
   - twitpic.com
-  - unfiltered.news
-  - waveprotocol.org
-  - webmproject.org
-  - webrtc.org
+  - twitter.biz
+  - twitter.com
+  - twitter.jp
+  - twittercommunity.com
+  - twitterflightschool.com
+  - twitterinc.com
+  - twitteroauth.com
+  - twitterstat.us
 
   # > V2EX
   - v2ex.com
-  
 
   # > VikACG
-  - vikacg.com
   - picjs.xyz
+  - vikacg.com
 
-  # > exception
-  - wheel-size.cn
-  - chalungu.cn
-
+  # > WhatsApp
+  - whatsapp.com
+  - whatsapp.net
+  - whatsappbrand.com
 
 domain_set:
+  # > Blizzard
   - cdp.cloud.unity3d.com
+
+  # > GitHub
+  - github-api.arkoselabs.com
+
+  # > TestFlight
+  - testflight.apple.com
 
   # > WAQI
   - api.waqi.info
   - aqi.aqicn.org
-
-
-domain_keyword_set:
-  # > Tesla
-  - tesla
-
-  - dlercloud
-  - appledaily
-  - beetalk
-  - blogspot
-  - dropbox
-  - facebook
-  - github
-  - instagram
-  - twitter
-  - whatsapp
-  - google
 
 ip_cidr_set:
   # > Amazon
@@ -719,17 +1014,24 @@ ip_cidr_set:
   - 18.194.0.0/15
   - 18.208.0.0/13
   - 18.232.0.0/14
-  - 52.200.0.0/13
   - 52.58.0.0/15
   - 52.74.0.0/16
   - 52.77.0.0/16
   - 52.84.0.0/15
+  - 52.200.0.0/13
+  - 54.93.0.0/16
   - 54.156.0.0/14
   - 54.226.0.0/15
   - 54.230.156.0/22
-  - 54.93.0.0/16
 
   # > Facebook
+  - 31.13.24.0/21
+  - 31.13.64.0/18
+  - 45.64.40.0/22
+  - 66.220.144.0/20
+  - 69.63.176.0/20
+  - 69.171.224.0/19
+  - 74.119.76.0/22
   - 103.4.96.0/22
   - 129.134.0.0/17
   - 157.240.0.0/17
@@ -738,27 +1040,20 @@ ip_cidr_set:
   - 179.60.192.0/22
   - 185.60.216.0/22
   - 204.15.20.0/22
-  - 31.13.24.0/21
-  - 31.13.64.0/18
-  - 45.64.40.0/22
-  - 66.220.144.0/20
-  - 69.171.224.0/19
-  - 69.63.176.0/20
-  - 74.119.76.0/22
 
   # > Google
-  - 173.194.0.0/16
   - 74.125.0.0/16
+  - 173.194.0.0/16
 
   # > Kakao Talk
   - 1.201.0.0/24
-  - 103.246.56.0/22
+  - 27.0.236.0/22
   - 103.27.148.0/22
+  - 103.246.56.0/22
   - 110.76.140.0/22
   - 113.61.104.0/22
-  - 27.0.236.0/22
 
-  # > LINE
+  # > Line
   - 103.2.28.0/22
   - 119.235.224.0/21
   - 119.235.232.0/23
@@ -774,10 +1069,10 @@ ip_cidr_set:
   - 203.174.77.0/24
 
   # > Potato Chat
-  - 13.251.24.157/24
-  - 13.251.41.203/24
-  - 17.252.156.147/24
-  - 17.252.157.26/24
+  - 13.251.24.0/24
+  - 13.251.41.0/24
+  - 17.252.156.0/24
+  - 17.252.157.0/24
 
   # > SoftLayer
   - 74.86.0.0/16
