@@ -28,7 +28,3 @@ IP-CIDR,205.180.175.0/24,no-resolve
 
 # > Apple Maps
 PROCESS-NAME,com.apple.geod
-
-# > Apple News
-DOMAIN-SUFFIX,apple.comscoreresearch.com
-DOMAIN-SUFFIX,apple.news

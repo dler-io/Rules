@@ -1,7 +1,7 @@
 payload:
   # > Apple News and Apple Map TOMTOM Version
-  # - DOMAIN,apple.comscoreresearch.com
-  # - DOMAIN-SUFFIX,apple.news
+  - DOMAIN-SUFFIX,apple.comscoreresearch.com
+  - DOMAIN-SUFFIX,apple.news
   # - DOMAIN,gateway.icloud.com
   - DOMAIN,gspe1-ssl.ls.apple.com
   # - DOMAIN,news-client.apple.com
