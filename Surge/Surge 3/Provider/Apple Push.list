@@ -3,6 +3,7 @@
 DOMAIN-SUFFIX,apple.com.edgekey.net
 DOMAIN-SUFFIX,push-apple.com.akadns.net
 DOMAIN-SUFFIX,push.apple.com
+IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,17.57.144.0/22,no-resolve
 IP-CIDR,17.188.20.0/23,no-resolve
 IP-CIDR,17.188.128.0/18,no-resolve
