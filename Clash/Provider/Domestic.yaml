@@ -23,6 +23,12 @@ payload:
   # > CN
   - DOMAIN-SUFFIX,cn
 
+  # > Oray / Sunlogin
+  - DOMAIN-SUFFIX,aweray.com
+  - DOMAIN-SUFFIX,oray.com
+  - DOMAIN-SUFFIX,oray.net
+  - DOMAIN-SUFFIX,sunlogin.net
+
   # > Other domains
   - DOMAIN-SUFFIX,10010.com
   - DOMAIN-SUFFIX,12306.com
@@ -275,6 +281,9 @@ payload:
   - DOMAIN,client.amplifi.com
   - DOMAIN,ip.bjango.com
 
+  # > RayLink
+  - DOMAIN-SUFFIX,raylink.live
+
   # > RRYS
   - DOMAIN-SUFFIX,p4pfile.com
   - DOMAIN-SUFFIX,zmzfile.com
@@ -295,3 +304,6 @@ payload:
 
   # > Tencent
   - IP-CIDR,182.254.116.0/24,no-resolve
+
+  # > ToDesk
+  - DOMAIN-SUFFIX,todesk.com
