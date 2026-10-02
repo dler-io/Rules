@@ -24,6 +24,12 @@ domain_suffix_set:
   # > CN
   - cn
 
+  # > Oray / Sunlogin
+  - aweray.com
+  - oray.com
+  - oray.net
+  - sunlogin.net
+
   # > Other domains
   - 10010.com
   - 12306.com
@@ -273,6 +279,9 @@ domain_suffix_set:
   # > Prior
   - alphassl.com
 
+  # > RayLink
+  - raylink.live
+
   # > RRYS
   - p4pfile.com
   - zmzfile.com
@@ -280,6 +289,9 @@ domain_suffix_set:
   # > Sony
   - sony.com
   - sonyentertainmentnetwork.com
+
+  # > ToDesk
+  - todesk.com
 
 domain_set:
   # > Prior
