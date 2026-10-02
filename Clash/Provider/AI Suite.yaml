@@ -84,6 +84,7 @@ payload:
 
   # > Claude
   - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,clau.de
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
   - DOMAIN-SUFFIX,claudeusercontent.com
@@ -221,6 +222,9 @@ payload:
   # Shared Microsoft sign-in hosts
   - DOMAIN,login.live.com
   - DOMAIN,login.microsoftonline.com
+
+  # > Mistral AI
+  - DOMAIN-SUFFIX,mistral.ai
 
   # > OpenArt
   - DOMAIN-SUFFIX,openart.ai
