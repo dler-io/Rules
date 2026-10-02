@@ -20,10 +20,6 @@ domain_suffix_set:
   - me.com
   - mzstatic.com
 
-  # > Apple News
-  - apple.comscoreresearch.com
-  - apple.news
-
 ip_cidr_set:
   # > Apple API
   - 17.0.0.0/8

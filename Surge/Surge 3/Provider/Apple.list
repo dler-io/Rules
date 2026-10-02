@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,icloud.com.akadns.net
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
+IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,63.92.224.0/19,no-resolve
 IP-CIDR,65.199.22.0/23,no-resolve
 IP-CIDR,139.178.128.0/18,no-resolve
@@ -27,4 +28,3 @@ IP-CIDR,205.180.175.0/24,no-resolve
 
 # > Apple Maps
 PROCESS-NAME,com.apple.geod
-
