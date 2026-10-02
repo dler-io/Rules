@@ -40,6 +40,7 @@ payload:
   - DOMAIN-SUFFIX,acfun.tv
   - DOMAIN-SUFFIX,adobesc.com
   - DOMAIN-SUFFIX,aiaa.org
+  - DOMAIN-SUFFIX,aiqicha.com
   - DOMAIN-SUFFIX,air-matters.com
   - DOMAIN-SUFFIX,air-matters.io
   - DOMAIN-SUFFIX,aixifan.com
@@ -168,10 +169,12 @@ payload:
   - DOMAIN-SUFFIX,pniao.com
   - DOMAIN-SUFFIX,privatehd.to
   - DOMAIN-SUFFIX,qbox.me
+  - DOMAIN-SUFFIX,qcc.com
   - DOMAIN-SUFFIX,qcloud.com
   - DOMAIN-SUFFIX,qdaily.com
   - DOMAIN-SUFFIX,qdmm.com
   - DOMAIN-SUFFIX,qhimg.com
+  - DOMAIN-SUFFIX,qichacha.com
   - DOMAIN-SUFFIX,qidian.com
   - DOMAIN-SUFFIX,qihucdn.com
   - DOMAIN-SUFFIX,qin.io
@@ -185,6 +188,8 @@ payload:
   - DOMAIN-SUFFIX,qqurl.com
   - DOMAIN-SUFFIX,rarbg.to
   - DOMAIN-SUFFIX,redacted.ch
+  - DOMAIN-SUFFIX,rednotecdn.com
+  - DOMAIN-SUFFIX,rnote.com
   - DOMAIN-SUFFIX,rrmj.tv
   - DOMAIN-SUFFIX,ruguoapp.com
   - DOMAIN-SUFFIX,servicewechat.com

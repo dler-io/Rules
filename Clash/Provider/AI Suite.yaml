@@ -1,12 +1,16 @@
 payload:
-  # AI Suite: place before Microsoft, Apple and general proxy rules
+  # AI Suite: place before Apple media, Microsoft, Apple and general proxy rules
   # Keep app/model restrictions even when the website supports Hong Kong
 
-  # > Apple Intelligence ChatGPT extension
-  # The extension follows ChatGPT regional availability
-  # https://support.apple.com/en-us/101555
+  # > Apple Intelligence / Siri ChatGPT
+  # Keep Apple Relay and Siri region lookups on the same AI egress
+  # https://github.com/SukkaW/Surge/blob/master/Source/non_ip/apple_intelligence.conf
   - DOMAIN,apple-relay.apple.com
+  - DOMAIN,apple-relay.cloudflare.com
+  - DOMAIN,apple-relay.fastly-edge.com
   - DOMAIN,apple-relay.mask.apple-dns.net
+  - DOMAIN,cp4.cloudflare.com
+  - DOMAIN,gspe1-ssl.ls.apple.com
 
   # > Augment
   - DOMAIN-SUFFIX,augment.com
