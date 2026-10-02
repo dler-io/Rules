@@ -1,7 +1,5 @@
 # JOOX
 
 domain_suffix_set:
+  # > JOOX
   - joox.com
-
-domain_keyword:
-  - jooxweb-api

@@ -1,11 +1,13 @@
-# Apple CDN
+# Special
+no_resolve: true
 
 domain_suffix_set:
-  - ls.apple.com
-
   # > Apple Developer
   - appstoreconnect.apple.com
   - itunesconnect.apple.com
+
+  # > Apple Maps and Search
+  - ls.apple.com
 
   # > Google
   - dl.google.com
@@ -14,39 +16,11 @@ domain_suffix_set:
   - msftconnecttest.com
 
   # > Passkey
-  - DOMAIN-SUFFIX,auth.com
+  - auth.com
 
-  # > Proxy plugin
-    
   # > PlayStation
   - dl.playstation.net
 
-  # > Steam
-  - steamcontent.com
-  - steamserver.net
-
-  - steamchina.com
-
-  # > Tesla
-  - solarcity.com
-  - tesla.cn
-  - tesla.com
-  - tesla.com.cn
-  - teslamotors.cn
-  - teslamotors.com
-  - teslamotors.com.cn
-  - ts.la
-
-  # > UUBooster
-    
-  # > WiFiman
-  - app-measurement.com
-
-  # > Xunlei
-  - xunlei.com
-
-  # > Download
-        #                                     
   # > Private Tracker
   - audiences.me
   - awesome-hd.me
@@ -61,8 +35,8 @@ domain_suffix_set:
   - icetorrent.org
   - jpopsuki.eu
   - keepfrds.com
-  - madsrevolution.net
   - m-team.cc
+  - madsrevolution.net
   - nanyangpt.com
   - ncore.cc
   - open.cd
@@ -74,16 +48,33 @@ domain_suffix_set:
   - springsunday.net
   - tjupt.org
   - totheglory.im
-  - audiences.me
 
-  - smtp
+  # > Steam
+  - steamchina.com
+  - steamcontent.com
+  - steamserver.net
+
+  # > Tesla
+  - solarcity.com
+  - tesla.cn
+  - tesla.com
+  - tesla.com.cn
+  - teslamotors.cn
+  - teslamotors.com
+  - teslamotors.com.cn
+  - ts.la
+
+  # > WiFiman
+  - app-measurement.com
+
+  # > Xunlei
+  - xunlei.com
 
 domain_set:
+  # > Apple CDN
   - aod.itunes.apple.com
-  - api.smoot.apple.cn
   - appldnld.apple.com
   - apptrailers.itunes.apple.com
-  - contentdelivery.itunes.apple.com
   - gs-loc-cn.apple.com
   - iosapps.itunes.apple.com
   - music.apple.com
@@ -93,50 +84,46 @@ domain_set:
   - swcdn.apple.com
   - updates-http.cdn-apple.com
 
+  # > Apple Developer
+  - contentdelivery.itunes.apple.com
+
+  # > Apple Maps and Search
+  - api.smoot.apple.cn
+
+  # > Epic Games
+  - ol.epicgames.com
+
   # > Google
   - safebrowsing.googleapis.com
 
   # > Steam
   - cm.steampowered.com
-  - ol.epicgames.com
-
   - csgo.wmsj.cn
-  - dota2.wmsj.cn
-  - wmsjsteam.com
-
   - dl.steam.clngaa.com
   - dl.steam.ksyna.com
-
+  - dota2.wmsj.cn
   - gstore.val.manlaxy.com
-
   - st.dl.bscstorage.net
   - st.dl.eccdnx.com
   - st.dl.pinyuncloud.com
-
-  - steampipe.steamcontent.tnkjmec.com
-
-  - steampowered.com.8686c.com
-  - steamstatic.com.8686c.com
-
   - steambroadcast.akamaized.net
   - steamcdn-a.akamaihd.net
   - steamcommunity-a.akamaihd.net
+  - steampipe.steamcontent.tnkjmec.com
+  - steampowered.com.8686c.com
+  - steamstatic.com.8686c.com
   - steamstore-a.akamaihd.net
   - steamusercontent-a.akamaihd.net
   - steamuserimages-a.akamaihd.net
+  - wmsjsteam.com
 
   # > Tesla
   - tesla-cdn.thron.cn
   - tesla-cdn.thron.com
+
   # > UBI
   - uplaypc-s-ubisoft.cdn.ubi.com
 
-domain_keyword_set:
-  # > Epic
-  - epicgames
-
-  - announce
-  - torrent
-
-url_regex_set:
-    - (Subject|HELO|SMTP)
+ip_cidr_set:
+  # > Tailscale
+  - 100.64.0.0/10

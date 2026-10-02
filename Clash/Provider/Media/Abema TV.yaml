@@ -1,7 +1,8 @@
 payload:
-  # > AbemaTV
-  # - USER-AGENT,AbemaTV*
+  # > Abema TV
   - PROCESS-NAME,tv.abema
+
+  # > AbemaTV
   - DOMAIN-SUFFIX,abema-tv.com
   - DOMAIN-SUFFIX,abema.adx.promo
   - DOMAIN-SUFFIX,abema.io
@@ -15,3 +16,4 @@ payload:
   - DOMAIN-SUFFIX,linear-abematv.akamaized.net
   - DOMAIN-SUFFIX,vod-abematv.akamaized.net
   - DOMAIN-SUFFIX,vod-playout-abematv.akamaized.net
+  # - USER-AGENT,AbemaTV*

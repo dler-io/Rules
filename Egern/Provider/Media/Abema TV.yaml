@@ -1,6 +1,7 @@
 # AbemaTV
 
 domain_suffix_set:
+  # > AbemaTV
   - abema-tv.com
   - abema.adx.promo
   - abema.io

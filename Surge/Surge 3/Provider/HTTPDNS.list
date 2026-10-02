@@ -1,6 +1,5 @@
 # Block HTTPDNS
 
-
 # > Alibaba
 DOMAIN,httpdns.alicdn.com
 
@@ -10,8 +9,8 @@ DOMAIN,httpdns-sc.aliyuncs.com
 IP-CIDR,203.107.1.0/24,no-resolve
 
 # > Baidu
-DOMAIN,httpsdns.baidu.com
 DOMAIN,httpdns.baidu.com
+DOMAIN,httpsdns.baidu.com
 
 # > BaiduBCE
 DOMAIN,httpdns.baidubce.com
@@ -38,11 +37,11 @@ DOMAIN,kuaishou.httpdns.pro
 DOMAIN,httpdns.meituan.com
 
 # > NetEase
-DOMAIN,httpdns.yunxindns.com
-DOMAIN,httpdns.n.netease.com
 DOMAIN,httpdns.music.163.com
-DOMAIN,music.httpdns.c.163.com
+DOMAIN,httpdns.n.netease.com
+DOMAIN,httpdns.yunxindns.com
 DOMAIN,lofter.httpdns.c.163.com
+DOMAIN,music.httpdns.c.163.com
 IP-CIDR,59.111.239.61/32,no-resolve
 IP-CIDR,59.111.239.62/32,no-resolve
 IP-CIDR,115.236.121.51/32,no-resolve
@@ -79,5 +78,5 @@ IP-CIDR,182.254.116.117/32,no-resolve
 IP-CIDR,182.254.118.119/32,no-resolve
 
 # > Zhihu
-IP-CIDR,118.89.204.198/23,no-resolve
+IP-CIDR,118.89.204.0/23,no-resolve
 IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,no-resolve

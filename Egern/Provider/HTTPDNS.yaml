@@ -1,102 +1,104 @@
-# Block HTTPDNS
+# HTTPDNS
+no_resolve: true
 
 domain_set:
-  # > ZhihuAlibaba
+  # > Alibaba
   - httpdns.alicdn.com
 
-  # > ZhihuAliyun
+  # > Aliyun
   - httpdns-api.aliyuncs.com
   - httpdns-sc.aliyuncs.com
 
-  # > ZhihuBaidu
-  - httpsdns.baidu.com
+  # > Baidu
   - httpdns.baidu.com
+  - httpsdns.baidu.com
 
-  # > ZhihuBaiduBCE
+  # > BaiduBCE
   - httpdns.baidubce.com
 
-  # > ZhihuBilibili
+  # > Bilibili
   - httpdns.bilivideo.com
 
-  # > ZhihuHuawei
+  # > Huawei
   - httpdns.c.cdnhwc2.com
 
-  # > ZhihuJD
+  # > JD
   - dns.jd.com
 
-  # > ZhihuKuaishou
+  # > Kuaishou
   - kuaishou.httpdns.pro
 
-  # > ZhihuMeituan
+  # > Meituan
   - httpdns.meituan.com
 
-  # > ZhihuNetEase
-  - httpdns.yunxindns.com
-  - httpdns.n.netease.com
+  # > NetEase
   - httpdns.music.163.com
-  - music.httpdns.c.163.com
+  - httpdns.n.netease.com
+  - httpdns.yunxindns.com
   - lofter.httpdns.c.163.com
+  - music.httpdns.c.163.com
 
-  # > ZhihuOppo
+  # > Oppo
   - httpdns.push.oppomobile.com
 
-  # > ZhihuWeixin
+  # > Volcengine
+  - httpdns.volcengineapi.com
+
+  # > Weibo
+  - dns.weibo.cn
+
+  # > Weixin
   - dns.weixin.qq.com
   - dns.weixin.qq.com.cn
 
-  # > ZhihuVolcengine
-  - httpdns.volcengineapi.com
-
-  # > ZhihuWeibo
-  - dns.weibo.cn
-
 ip_cidr_set:
-  # > ZhihuAliyun
+  # > Aliyun
   - 203.107.1.0/24
-  # > ZhihuBaiduBCE
+
+  # > BaiduBCE
   - 186.76.76.200/32
 
-  # > ZhihuJD
+  # > JD
   - 101.124.19.122/32
 
-  # > ZhihuJD Cloud
+  # > JD Cloud
   - 103.224.222.208/32
 
-  # > ZhihuNetEase
+  # > NetEase
   - 59.111.239.61/32
   - 59.111.239.62/32
   - 115.236.121.51/32
   - 115.236.121.195/32
 
-
-  # > ZhihuTencent Cloud
+  # > Tencent Cloud
   - 119.29.29.98/32
   - 119.29.29.99/32
 
-  # > ZhihuWeibo
+  # > Weibo
   - 39.97.128.148/32
   - 39.97.130.51/32
 
+  # > Weixin
   - 42.81.232.18/32
   - 42.187.182.106/32
   - 42.187.182.123/32
   - 42.187.184.154/32
   - 123.151.54.50/32
 
-  # > ZhihuWework
+  # > Wework
   - 182.254.116.117/32
   - 182.254.118.119/32
 
-    # > ZhihuZhihu
-  - 118.89.204.198/23
+  # > Zhihu
+  - 118.89.204.0/23
 
 ip_cidr6_set:
-    # > ZhihuZhihu
-  - 2402:4e00:1200:ed00:0:9089:6dac:96b6/128
-
-  # > ZhihuJD
+  # > JD
   - 2402:db40:5100:1011::5/128
 
+  # > Weixin
   - 2402:4e00:1900:1700:0:9554:1ad9:c3a/128
   - 240e:928:1400:10::25/128
 
+  # > Zhihu
+  - 2402:4e00:1200:ed00:0:9089:6dac:96b6/128

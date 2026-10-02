@@ -1,13 +1,9 @@
 # Domestic
+no_resolve: true
 
 domain_suffix_set:
-  # China Banks
   # > Agricultural Bank of China
   - abchina.com
-  - abchina.com.cn
-
-  # > Bank of China
-  - boc.cn
 
   # > China Citic Bank
   - citicbank.com
@@ -16,7 +12,6 @@ domain_suffix_set:
 
   # > China Construction Bank
   - ccb.com
-  - ccb.com.cn
 
   # > China Everbright Bank
   - cebbank.com
@@ -24,38 +19,16 @@ domain_suffix_set:
   # > China Merchants Bank
   - cmbchina.com
   - cmbimg.com
-  - cmbt.cn
   - mbcloud.com
 
-  # > Industrial and Commercial Bank of China
-  - icbc.com.cn
+  # > CN
+  - cn
 
-  # > Ping An Bank
-  - pingan.com
-  - pingan.com.cn
-
-  # Type
-
-  # > Prior
-  - alphassl.com
-  - edu.cn
-
-  # > RRYS
-  - p4pfile.com
-  - zmzfile.com
-
-  # > Sony
-  - sony.com
-  - sonyentertainmentnetwork.com
-
+  # > Other domains
   - 10010.com
-  - 10086.cn
-  - 12306.cn
   - 12306.com
   - 126.net
   - 163.com
-  - 189.cn
-  - 360.cn
   - 360.com
   - 360buy.com
   - 360buyimg.com
@@ -93,6 +66,7 @@ domain_suffix_set:
   - caiyunapp.com
   - ccgslb.com
   - ccgslb.net
+  - chdbits.co
   - chinacache.net
   - chunbo.com
   - chunboimg.com
@@ -101,14 +75,12 @@ domain_suffix_set:
   - cloudxns.net
   - cmct.tv
   - cmfu.com
-  - chdbits.co
   - cnlang.org
   - coolapk.com
-  - cn88.net
+  - cz88.net
   - dct-cloud.com
   - didialift.com
   - digicert.com
-  - dler.cloud
   - douban.com
   - doubanio.com
   - douyin.com
@@ -126,7 +98,6 @@ domain_suffix_set:
   - frdic.com
   - fresh-ideas.cc
   - gameloft.com
-  - garmin.cn
   - geetest.com
   - godic.net
   - goodread.com
@@ -137,7 +108,6 @@ domain_suffix_set:
   - haosou.com
   - hdchina.org
   - hdcmct.org
-  - hjfile.cn
   - hkserversolution.com
   - hollisterco.com
   - hongxiu.com
@@ -188,9 +158,9 @@ domain_suffix_set:
   - mxhichina.com
   - myqcloud.com
   - myunlu.com
-  - ngabbs.com
   - netease.com
   - nfoservers.com
+  - ngabbs.com
   - nuomi.com
   - ourbits.club
   - ourdvs.com
@@ -211,14 +181,16 @@ domain_suffix_set:
   - qiniucdn.com
   - qiniudn.com
   - qq.com
+  - qq.net
+  - qqmail.com
   - qqurl.com
   - rarbg.to
   - redacted.ch
   - rrmj.tv
   - ruguoapp.com
+  - servicewechat.com
   - sf-express.com
   - sinaapp.com
-  - sinaimg.cn
   - sinaimg.com
   - smzdm.com
   - snwx.com
@@ -235,15 +207,15 @@ domain_suffix_set:
   - taobao.com
   - tawk.link
   - tawk.to
-  - tencent.com
   - tencent-cloud.net
+  - tencent.com
   - tenpay.com
   - tietuku.com
   - tmall.com
   - tmzvps.com
+  - totheglory.im
   - trello.com
   - trellocdn.com
-  - totheglory.im
   - ttmeiju.com
   - tudou.com
   - udache.com
@@ -255,11 +227,11 @@ domain_suffix_set:
   - weather.bjango.com
   - webqxs.com
   - wechat.com
-  - weibo.cn
   - weibo.com
   - weico.cc
   - weiphone.com
   - weiphone.net
+  - weixinbridge.com
   - werewolf.53site.com
   - wkcdn.com
   - xdrig.com
@@ -281,7 +253,6 @@ domain_suffix_set:
   - yixia.com
   - ykimg.com
   - youdao.com
-  - ysepay.cn
   - ysepay.com
   - yunjiasu-cdn.net
   - zealer.com
@@ -291,36 +262,40 @@ domain_suffix_set:
   - zimuzu.tv
   - zmz002.com
 
-  # > CN
-  - gov.cn
-  - cn
+  # > Ping An Bank
+  - pingan.com
+
+  # > Prior
+  - alphassl.com
+
+  # > RRYS
+  - p4pfile.com
+  - zmzfile.com
+
+  # > Sony
+  - sony.com
+  - sonyentertainmentnetwork.com
 
 domain_set:
   # > Prior
   - client.amplifi.com
   - ip.bjango.com
 
-domain_keyword_set:
-  # > Beplay
-  - beplay
-
 ip_cidr_set:
+  # > Other domains
+  - 1.255.62.0/24
+
   # > TeamViewer
   - 185.188.32.0/24
   - 185.188.33.0/24
   - 185.188.34.0/24
   - 185.188.35.0/24
-    # > Tencent
-  - 182.254.116.0/24
 
-  - 1.255.62.0/24
+  # > Tencent
+  - 182.254.116.0/24
 
 ip_cidr6_set:
   # > TeamViewer
-  - 185.188.32.0/24
-  - 185.188.33.0/24
-  - 185.188.34.0/24
-  - 185.188.35.0/24
   - 2a0b:b580::/48
   - 2a0b:b581::/48
   - 2a0b:b582::/48

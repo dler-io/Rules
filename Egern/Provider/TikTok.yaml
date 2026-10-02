@@ -1,6 +1,7 @@
 # TikTok
 
 domain_suffix_set:
+  # > TikTok
   - byteoversea.com
   - ibytedtos.com
   - ibyteimg.com
@@ -14,10 +15,6 @@ domain_suffix_set:
   - tiktokcdn.com
   - tiktokv.com
 
-
 domain_set:
+  # > TikTok
   - p16-tiktokcdn-com.akamaized.net
-
-domain_keyword_set:
-  - -tiktokcdn-com
-#  - USER-AGENT,TikTok*

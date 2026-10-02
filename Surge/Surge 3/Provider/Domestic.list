@@ -1,10 +1,7 @@
-# China Banks
+# Domestic
+
 # > Agricultural Bank of China
 DOMAIN-SUFFIX,abchina.com
-DOMAIN-SUFFIX,abchina.com.cn
-
-# > Bank of China
-DOMAIN-SUFFIX,boc.cn
 
 # > China Citic Bank
 DOMAIN-SUFFIX,citicbank.com
@@ -13,66 +10,27 @@ DOMAIN-SUFFIX,ecitic.net
 
 # > China Construction Bank
 DOMAIN-SUFFIX,ccb.com
-DOMAIN-SUFFIX,ccb.com.cn
 
 # > China Everbright Bank
 DOMAIN-SUFFIX,cebbank.com
 
 # > China Merchants Bank
-USER-AGENT,cmb*
 DOMAIN-SUFFIX,cmbchina.com
 DOMAIN-SUFFIX,cmbimg.com
-DOMAIN-SUFFIX,cmbt.cn
 DOMAIN-SUFFIX,mbcloud.com
+USER-AGENT,cmb*
+
+# > CN
+DOMAIN-SUFFIX,cn
 
 # > Industrial and Commercial Bank of China
 USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*
-DOMAIN-SUFFIX,icbc.com.cn
 
-# > Ping An Bank
-DOMAIN-SUFFIX,pingan.com
-DOMAIN-SUFFIX,pingan.com.cn
-
-# Type
-# > Beplay
-DOMAIN-KEYWORD,beplay
-
-# > Prior
-DOMAIN,client.amplifi.com
-DOMAIN,ip.bjango.com
-DOMAIN-SUFFIX,alphassl.com
-DOMAIN-SUFFIX,edu.cn
-
-# > RRYS
-DOMAIN-SUFFIX,p4pfile.com
-DOMAIN-SUFFIX,zmzfile.com
-
-# > Sony
-USER-AGENT,RemotePlay*
-DOMAIN-SUFFIX,sony.com
-DOMAIN-SUFFIX,sonyentertainmentnetwork.com
-
-# > TeamViewer
-IP-CIDR,185.188.32.0/24,no-resolve
-IP-CIDR,185.188.33.0/24,no-resolve
-IP-CIDR,185.188.34.0/24,no-resolve
-IP-CIDR,185.188.35.0/24,no-resolve
-IP-CIDR6,2a0b:b580::/48,no-resolve
-IP-CIDR6,2a0b:b581::/48,no-resolve
-IP-CIDR6,2a0b:b582::/48,no-resolve
-IP-CIDR6,2a0b:b583::/48,no-resolve
-
-# > Tencent
-IP-CIDR,182.254.116.0/24,no-resolve
-
+# > Other domains
 DOMAIN-SUFFIX,10010.com
-DOMAIN-SUFFIX,10086.cn
-DOMAIN-SUFFIX,12306.cn
 DOMAIN-SUFFIX,12306.com
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,163.com
-DOMAIN-SUFFIX,189.cn
-DOMAIN-SUFFIX,360.cn
 DOMAIN-SUFFIX,360.com
 DOMAIN-SUFFIX,360buy.com
 DOMAIN-SUFFIX,360buyimg.com
@@ -106,6 +64,7 @@ DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,beatsbydre.com
 DOMAIN-SUFFIX,bochk.com
+DOMAIN-SUFFIX,broadcasthe.net
 DOMAIN-SUFFIX,caiyunapp.com
 DOMAIN-SUFFIX,ccgslb.com
 DOMAIN-SUFFIX,ccgslb.net
@@ -141,7 +100,6 @@ DOMAIN-SUFFIX,fir.im
 DOMAIN-SUFFIX,frdic.com
 DOMAIN-SUFFIX,fresh-ideas.cc
 DOMAIN-SUFFIX,gameloft.com
-DOMAIN-SUFFIX,garmin.cn
 DOMAIN-SUFFIX,geetest.com
 DOMAIN-SUFFIX,godic.net
 DOMAIN-SUFFIX,goodread.com
@@ -152,7 +110,6 @@ DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,haosou.com
 DOMAIN-SUFFIX,hdchina.org
 DOMAIN-SUFFIX,hdcmct.org
-DOMAIN-SUFFIX,hjfile.cn
 DOMAIN-SUFFIX,hkserversolution.com
 DOMAIN-SUFFIX,hollisterco.com
 DOMAIN-SUFFIX,hongxiu.com
@@ -236,7 +193,6 @@ DOMAIN-SUFFIX,ruguoapp.com
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,sf-express.com
 DOMAIN-SUFFIX,sinaapp.com
-DOMAIN-SUFFIX,sinaimg.cn
 DOMAIN-SUFFIX,sinaimg.com
 DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,snwx.com
@@ -256,7 +212,6 @@ DOMAIN-SUFFIX,tawk.to
 DOMAIN-SUFFIX,tencent-cloud.net
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tenpay.com
-DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,tietuku.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,tmzvps.com
@@ -274,8 +229,6 @@ DOMAIN-SUFFIX,wandoujia.com
 DOMAIN-SUFFIX,weather.bjango.com
 DOMAIN-SUFFIX,webqxs.com
 DOMAIN-SUFFIX,wechat.com
-DOMAIN-SUFFIX,wechat.com
-DOMAIN-SUFFIX,weibo.cn
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weico.cc
 DOMAIN-SUFFIX,weiphone.com
@@ -302,7 +255,6 @@ DOMAIN-SUFFIX,yinxiang.com
 DOMAIN-SUFFIX,yixia.com
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,youdao.com
-DOMAIN-SUFFIX,ysepay.cn
 DOMAIN-SUFFIX,ysepay.com
 DOMAIN-SUFFIX,yunjiasu-cdn.net
 DOMAIN-SUFFIX,zealer.com
@@ -311,9 +263,34 @@ DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zimuzu.tv
 DOMAIN-SUFFIX,zmz002.com
-
 IP-CIDR,1.255.62.0/24,no-resolve
 
-# > CN
-DOMAIN-SUFFIX,gov.cn
-DOMAIN-SUFFIX,cn
+# > Ping An Bank
+DOMAIN-SUFFIX,pingan.com
+
+# > Prior
+DOMAIN-SUFFIX,alphassl.com
+DOMAIN,client.amplifi.com
+DOMAIN,ip.bjango.com
+
+# > RRYS
+DOMAIN-SUFFIX,p4pfile.com
+DOMAIN-SUFFIX,zmzfile.com
+
+# > Sony
+DOMAIN-SUFFIX,sony.com
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+USER-AGENT,RemotePlay*
+
+# > TeamViewer
+IP-CIDR,185.188.32.0/24,no-resolve
+IP-CIDR,185.188.33.0/24,no-resolve
+IP-CIDR,185.188.34.0/24,no-resolve
+IP-CIDR,185.188.35.0/24,no-resolve
+IP-CIDR6,2a0b:b580::/48,no-resolve
+IP-CIDR6,2a0b:b581::/48,no-resolve
+IP-CIDR6,2a0b:b582::/48,no-resolve
+IP-CIDR6,2a0b:b583::/48,no-resolve
+
+# > Tencent
+IP-CIDR,182.254.116.0/24,no-resolve

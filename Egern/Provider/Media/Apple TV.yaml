@@ -1,9 +1,11 @@
 # Apple TV
 
 domain_set:
+  # > Apple TV
   - np-edge.itunes.apple.com
   - play-edge.itunes.apple.com
   - uts-api.itunes.apple.com
 
 domain_suffix_set:
+  # > Apple TV
   - tv.apple.com

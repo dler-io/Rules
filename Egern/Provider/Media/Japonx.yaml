@@ -1,15 +1,12 @@
 # Japonx
 
-domain_keyword:
-  - japonx
-  - japronx
-
 domain_suffix_set:
+  # > Japonx
   - japonx.com
-  - japonx.tv
   - japonx.net
+  - japonx.tv
   - japonx.vip
   - japronx.com
-  - japronx.tv
   - japronx.net
+  - japronx.tv
   - japronx.vip

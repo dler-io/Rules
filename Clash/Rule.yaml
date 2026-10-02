@@ -51,8 +51,8 @@
   - RULE-SET,Crypto,Crypto
   - RULE-SET,Discord,Discord
   - RULE-SET,Google FCM,Google FCM
-  - RULE-SET,Microsoft,Microsoft
   - RULE-SET,AI Suite,AI Suite
+  - RULE-SET,Microsoft,Microsoft
   - RULE-SET,PayPal,PayPal
   - RULE-SET,Scholar,Scholar
   - RULE-SET,Speedtest,Speedtest
