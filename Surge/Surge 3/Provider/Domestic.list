@@ -26,6 +26,12 @@ DOMAIN-SUFFIX,cn
 # > Industrial and Commercial Bank of China
 USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*
 
+# > Oray / Sunlogin
+DOMAIN-SUFFIX,aweray.com
+DOMAIN-SUFFIX,oray.com
+DOMAIN-SUFFIX,oray.net
+DOMAIN-SUFFIX,sunlogin.net
+
 # > Other domains
 DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,12306.com
@@ -278,6 +284,9 @@ DOMAIN-SUFFIX,alphassl.com
 DOMAIN,client.amplifi.com
 DOMAIN,ip.bjango.com
 
+# > RayLink
+DOMAIN-SUFFIX,raylink.live
+
 # > RRYS
 DOMAIN-SUFFIX,p4pfile.com
 DOMAIN-SUFFIX,zmzfile.com
@@ -299,3 +308,6 @@ IP-CIDR6,2a0b:b583::/48,no-resolve
 
 # > Tencent
 IP-CIDR,182.254.116.0/24,no-resolve
+
+# > ToDesk
+DOMAIN-SUFFIX,todesk.com
