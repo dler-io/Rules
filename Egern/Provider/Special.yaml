@@ -2,12 +2,14 @@
 no_resolve: true
 
 domain_suffix_set:
+  - cn-ssl.ls.apple.com
+  - cn.ls.apple.com
+  - gspe19-cn-ssl.ls.apple.com
   # > Apple Developer
   - appstoreconnect.apple.com
   - itunesconnect.apple.com
 
   # > Apple Maps and Search
-  - ls.apple.com
 
   # > Google
   - dl.google.com

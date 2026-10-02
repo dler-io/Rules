@@ -188,6 +188,8 @@ payload:
   - DOMAIN-SUFFIX,qqurl.com
   - DOMAIN-SUFFIX,rarbg.to
   - DOMAIN-SUFFIX,redacted.ch
+  - DOMAIN-SUFFIX,rednotecdn.com
+  - DOMAIN-SUFFIX,rnote.com
   - DOMAIN-SUFFIX,rrmj.tv
   - DOMAIN-SUFFIX,ruguoapp.com
   - DOMAIN-SUFFIX,servicewechat.com
