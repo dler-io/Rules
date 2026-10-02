@@ -3,7 +3,7 @@
 
 # > Apple Intelligence / Siri ChatGPT
 # Keep Apple Relay and Siri region lookups on the same AI egress
-# https://github.com/SukkaW/Surge/blob/master/Source/non_ip/apple_intelligence.conf
+# https://github.com/RocM301/Apple-Rule/blob/main/Apple-AI.list
 DOMAIN,guzzoni.apple.com
 DOMAIN,mask-api.fe.apple-dns.net
 DOMAIN,mask-api.icloud.com
