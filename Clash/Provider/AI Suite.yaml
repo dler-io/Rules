@@ -148,6 +148,8 @@ payload:
   - DOMAIN-SUFFIX,antigravity.google
   - DOMAIN-SUFFIX,antigravity.google.com
   - DOMAIN,cloudcode-pa.googleapis.com
+  - DOMAIN,daily-cloudcode-pa.googleapis.com
+  - DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
 
   # > Google DeepMind
   - DOMAIN-SUFFIX,deepmind.com
@@ -183,6 +185,12 @@ payload:
   - DOMAIN-SUFFIX,jules.google.com
   - DOMAIN,jules.googleapis.com
 
+  # > Google Labs / Project Genie
+  # Hong Kong is absent from the Project Genie availability list (2026-10-12)
+  # Shared host: this also routes other Google Labs paths through the AI egress
+  # https://labs.google/fx/faq
+  - DOMAIN,labs.google
+
   # > Google Opal
   # Availability: https://developers.google.com/opal/faq
   - DOMAIN,appcatalyst.pa.googleapis.com
@@ -207,6 +215,14 @@ payload:
   # Shared JetBrains account hosts
   - DOMAIN,account.jetbrains.com
   - DOMAIN,oauth.account.jetbrains.com
+
+  # > Kiro
+  # Paid-plan availability does not override model providers' region restrictions
+  # https://kiro.dev/faq/
+  # https://kiro.dev/docs/privacy-and-security/firewalls/
+  - DOMAIN-SUFFIX,kiro.dev
+  - DOMAIN,q.eu-central-1.amazonaws.com
+  - DOMAIN,q.us-east-1.amazonaws.com
 
   # > Meta AI
   - DOMAIN-SUFFIX,meta.ai

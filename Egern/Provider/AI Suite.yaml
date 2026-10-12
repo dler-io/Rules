@@ -111,6 +111,12 @@ domain_suffix_set:
   # > JetBrains
   - jetbrains.ai
 
+  # > Kiro
+  # Paid-plan availability does not override model providers' region restrictions
+  # https://kiro.dev/faq/
+  # https://kiro.dev/docs/privacy-and-security/firewalls/
+  - kiro.dev
+
   # > Meta AI
   - meta.ai
 
@@ -217,6 +223,8 @@ domain_set:
   # > Google Antigravity / Gemini Code Assist
   # Availability: https://antigravity.google/docs/faq
   - cloudcode-pa.googleapis.com
+  - daily-cloudcode-pa.googleapis.com
+  - daily-cloudcode-pa.sandbox.googleapis.com
 
   # > Google Gemini shared API
   # Shared Google API loader
@@ -224,6 +232,12 @@ domain_set:
 
   # > Google Jules
   - jules.googleapis.com
+
+  # > Google Labs / Project Genie
+  # Hong Kong is absent from the Project Genie availability list (2026-10-12)
+  # Shared host: this also routes other Google Labs paths through the AI egress
+  # https://labs.google/fx/faq
+  - labs.google
 
   # > Google Opal
   # Availability: https://developers.google.com/opal/faq
@@ -237,6 +251,11 @@ domain_set:
   # Shared JetBrains account hosts
   - account.jetbrains.com
   - oauth.account.jetbrains.com
+
+  # > Kiro
+  # https://kiro.dev/docs/privacy-and-security/firewalls/
+  - q.eu-central-1.amazonaws.com
+  - q.us-east-1.amazonaws.com
 
   # > Microsoft Copilot shared sign-in
   # Shared Microsoft sign-in hosts
