@@ -33,6 +33,12 @@ domain_suffix_set:
   - claude.com
   - claudeusercontent.com
 
+  # > Cohere
+  # Hong Kong is a restricted location in the SaaS agreement
+  # https://cohere.com/saas-agreement
+  - cohere.ai
+  - cohere.com
+
   # > Cursor
   # Provider region restrictions also apply to models in Cursor
   # https://cursor.com/docs/account/regions
@@ -143,6 +149,13 @@ domain_suffix_set:
   # > Sora
   - sora.com
 
+  # > TRAE International
+  # Hong Kong is absent from the current service availability list
+  # https://docs.trae.ai/ide/supported-countries-and-regions
+  # https://docs.trae.ai/ide/troubleshoot-general-issues
+  - trae.ai
+  - traeapi.us
+
   # > Windsurf
   - codeium.com
   - codeiumdata.com
@@ -226,6 +239,11 @@ domain_set:
   - daily-cloudcode-pa.googleapis.com
   - daily-cloudcode-pa.sandbox.googleapis.com
 
+  # > Google Chrome DevTools AI assistance
+  # Hong Kong is excluded from the supported locations
+  # https://developer.chrome.com/docs/devtools/ai-assistance/get-started
+  - aida.googleapis.com
+
   # > Google Gemini shared API
   # Shared Google API loader
   - apis.google.com
@@ -262,11 +280,17 @@ domain_set:
   - login.live.com
   - login.microsoftonline.com
 
+  # > TRAE International
+  # Keep shared mchost.guru limited to the international API hosts
+  # https://docs.trae.ai/ide/troubleshoot-general-issues
+  - trae-api-sg.mchost.guru
+  - trae-api-us.mchost.guru
+
 # > ChatGPT Voice
 # Direct-IP UDP voice needs separate IP rules and a UDP-capable outbound
 # Current ranges: https://openai.com/chatgpt-voice.json
 
-# ChatGPT Voice: https://openai.com/chatgpt-voice.json (verified 2026-10-02)
+# ChatGPT Voice: https://openai.com/chatgpt-voice.json (verified 2026-10-12)
 no_resolve: true
 ip_cidr_set:
   - 102.37.57.54/32

@@ -22,6 +22,8 @@
         "clipdrop.co",
         "codeium.com",
         "codeiumdata.com",
+        "cohere.ai",
+        "cohere.com",
         "copilot.cloud.microsoft",
         "copilot.com",
         "copilot.microsoft.com",
@@ -73,6 +75,8 @@
         "proactivebackend-pa.googleapis.com",
         "robinfrontend-pa.googleapis.com",
         "sora.com",
+        "trae.ai",
+        "traeapi.us",
         "udify.app",
         "windsurf.com",
         "zed.dev"
@@ -82,6 +86,7 @@
         "accounts.spacex.ai",
         "accounts.x.ai",
         "ai.google.dev",
+        "aida.googleapis.com",
         "alkalicore-pa.clients6.google.com",
         "alkalimakersuite-pa.clients6.google.com",
         "anysphere-binaries.s3.us-east-1.amazonaws.com",
@@ -132,6 +137,8 @@
         "q.us-east-1.amazonaws.com",
         "rum.browser-intake-datadoghq.com",
         "setup.workos.com",
+        "trae-api-sg.mchost.guru",
+        "trae-api-us.mchost.guru",
         "waa-pa.clients6.google.com",
         "workos.imgix.net"
       ]
