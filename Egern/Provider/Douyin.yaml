@@ -1,20 +1,53 @@
 # Douyin
 
+domain_set:
+  # > Douyin
+  - p-aweme-im-img-sign.bytedance.net
+  - v5-dy-o-abtest.zjcdn.com
+
 domain_suffix_set:
   # > Douyin
   - amemv.com
+  - byted-static.com
+  - bytednsdoc.com
   - bytegecko.com
   - bytegoofy.com
   - bytehwm.com
   - byteimg.com
   - bytescm.com
+  - bytetcc.com
+  - bytetos.com
+  - douyin.com
+  - douyincdn.com
+  - douyinfe.com
+  - douyinliving.com
   - douyinpic.com
   - douyinstatic.com
   - douyinvod.com
+  - huoshancdn.com
+  - huoshanimg.com
+  - huoshanlive.com
+  - huoshanstatic.com
+  - huoshanvod.com
+  - hypercachenode.com
   - ibytedapm.com
+  - idouyinliving.com
+  - idouyinpic.com
+  - idouyinstatic.com
+  - idouyinvod.com
+  - iesdouyin.com
+  - iesdouyin.net
+  - ihuoshanimg.com
+  - ihuoshanlive.com
+  - ihuoshanstatic.com
+  - ihuoshanvod.com
   - ixigua.com
   - ixiguavideo.com
   - pstatp.com
   - snssdk.com
+  - supercachenet.com
+  - supercachenode.com
   - toutiao.com
+  - ultracachenode.com
+  - yhgfb-cn-static.com
   - zijieapi.com
