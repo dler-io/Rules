@@ -244,9 +244,30 @@ domain_set:
   # https://developer.chrome.com/docs/devtools/ai-assistance/get-started
   - aida.googleapis.com
 
-  # > Google Gemini shared API
-  # Shared Google API loader
+  # > Google Gemini shared dependencies
+  # https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/gemini-app-firewall-settings
+  # Exact shared hosts also route non-Gemini requests through the AI egress
+  # YouTube and advertising/analytics hosts retain their existing policies
   - apis.google.com
+  - content-autofill.googleapis.com
+  - csp.withgoogle.com
+  - encrypted-tbn0.gstatic.com
+  - encrypted-tbn1.gstatic.com
+  - encrypted-tbn2.gstatic.com
+  - encrypted-tbn3.gstatic.com
+  - fonts.googleapis.com
+  - fonts.gstatic.com
+  - jnn-pa.googleapis.com
+  - lh3.google.com
+  - lh3.googleusercontent.com
+  - lh5.googleusercontent.com
+  - maps.googleapis.com
+  - maps.gstatic.com
+  - ogs.google.com
+  - optimizationguide-pa.googleapis.com
+  - play.google.com
+  - ssl.gstatic.com
+  - streetviewpixels-pa.googleapis.com
 
   # > Google Jules
   - jules.googleapis.com

@@ -181,9 +181,30 @@ DOMAIN-SUFFIX,notebooklm.cloud.google.com
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
 
-# > Google Gemini shared API
-# Shared Google API loader
+# > Google Gemini shared dependencies
+# https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/gemini-app-firewall-settings
+# Exact shared hosts also route non-Gemini requests through the AI egress
+# YouTube and advertising/analytics hosts retain their existing policies
 DOMAIN,apis.google.com
+DOMAIN,content-autofill.googleapis.com
+DOMAIN,csp.withgoogle.com
+DOMAIN,encrypted-tbn0.gstatic.com
+DOMAIN,encrypted-tbn1.gstatic.com
+DOMAIN,encrypted-tbn2.gstatic.com
+DOMAIN,encrypted-tbn3.gstatic.com
+DOMAIN,fonts.googleapis.com
+DOMAIN,fonts.gstatic.com
+DOMAIN,jnn-pa.googleapis.com
+DOMAIN,lh3.google.com
+DOMAIN,lh3.googleusercontent.com
+DOMAIN,lh5.googleusercontent.com
+DOMAIN,maps.googleapis.com
+DOMAIN,maps.gstatic.com
+DOMAIN,ogs.google.com
+DOMAIN,optimizationguide-pa.googleapis.com
+DOMAIN,play.google.com
+DOMAIN,ssl.gstatic.com
+DOMAIN,streetviewpixels-pa.googleapis.com
 
 # > Google Generative Language API
 DOMAIN-SUFFIX,geller-pa.googleapis.com
