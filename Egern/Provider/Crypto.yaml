@@ -86,7 +86,6 @@ domain_suffix_set:
   - binancezh.mobi
   - binancezh.net
   - binancezh.pro
-  - binancezh.sh
   - binancezh.top
   - bnappzh.co
   - bnappzh.com
@@ -160,55 +159,77 @@ domain_suffix_set:
   - arbitrum.io
   - avax.network
   - bibox.com
+  - bingx.com
   - bitbank.cc
   - bitcoin.org
   - bitfinex.com
+  - bitget.com
   - bithumb.com
+  - bitmart.com
   - bitmex.com
   - bitquick.co
   - bitstamp.net
-  - bittrex.com
+  - bitunix.com
   - boba.network
   - btcbox.co.jp
+  - bybit.ae
   - bybit.com
   - bybit.eu
+  - bybit.id
+  - bybit.kz
+  - bybit.tr
+  - bybitgeorgia.ge
+  - bytick.com
   - cex.io
   - coinbase.com
   - coincheck.com
+  - coinex.com
   - coinone.co.kr
+  - crypto.com
+  - deribit.com
   - dogecoin.com
   - dydx.exchange
   - gemini.com
   - korbit.co.kr
   - kraken.com
   - kucoin.com
+  - kucoin.eu
   - liquid.com
   - optimism.io
-  - paxful.com
+  - phemex.com
   - poloniex.com
   - poly.network
   - solana.com
   - tether.to
+  - upbit.com
   - zkscan.io
   - zksync.io
 
   # > Forum
   - bitcointalk.org
 
-  # > FTX
+  # > Bittrex (withdrawals / liquidation)
+  - bittrex.com
+  - bittrexglobal.com
+
+  # > FTX (claims portal)
   - ftx.com
 
   # > Gate
   - gate.ac
+  - gate.com
   - gate.io
+  - gateio.ws
 
-  # > Huobi
+  # > HTX (formerly Huobi)
   - bitderiv.com
   - hbabit.com
+  - hbdm.com
   - hbfile.net
   - heco-scan.com
   - hecochain.com
   - hecoview.com
+  - htx.com
   - huobi.br.com
   - huobi.co.ma
   - huobi.com
@@ -231,7 +252,7 @@ domain_suffix_set:
   - lightning.community
   - lightning.engineering
 
-  # > localbitcoins
+  # > LocalBitcoins (withdrawals only)
   - localbitcoins.com
   - localbitcoinschain.com
 
@@ -239,7 +260,9 @@ domain_suffix_set:
   - metamask.io
 
   # > Mexc
+  - mexc.co
   - mexc.com
+  - mexc.in
 
   # > NFT
   - cryptoart.io
@@ -254,6 +277,9 @@ domain_suffix_set:
   # > OKX
   - okex.com
   - okx.com
+
+  # > Paxful (withdrawals only)
+  - paxful.com
 
   # > POOL
   - 1ml.com
@@ -281,7 +307,6 @@ domain_suffix_set:
   # > zb
   - zb.app
   - zb.com
-  - zb.io
   - zb.live
 
 domain_set:

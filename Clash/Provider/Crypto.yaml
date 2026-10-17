@@ -84,7 +84,6 @@ payload:
   - DOMAIN-SUFFIX,binancezh.mobi
   - DOMAIN-SUFFIX,binancezh.net
   - DOMAIN-SUFFIX,binancezh.pro
-  - DOMAIN-SUFFIX,binancezh.sh
   - DOMAIN-SUFFIX,binancezh.top
   - DOMAIN-SUFFIX,bnappzh.co
   - DOMAIN-SUFFIX,bnappzh.com
@@ -159,55 +158,77 @@ payload:
   - DOMAIN-SUFFIX,arbitrum.io
   - DOMAIN-SUFFIX,avax.network
   - DOMAIN-SUFFIX,bibox.com
+  - DOMAIN-SUFFIX,bingx.com
   - DOMAIN-SUFFIX,bitbank.cc
   - DOMAIN-SUFFIX,bitcoin.org
   - DOMAIN-SUFFIX,bitfinex.com
+  - DOMAIN-SUFFIX,bitget.com
   - DOMAIN-SUFFIX,bithumb.com
+  - DOMAIN-SUFFIX,bitmart.com
   - DOMAIN-SUFFIX,bitmex.com
   - DOMAIN-SUFFIX,bitquick.co
   - DOMAIN-SUFFIX,bitstamp.net
-  - DOMAIN-SUFFIX,bittrex.com
+  - DOMAIN-SUFFIX,bitunix.com
   - DOMAIN-SUFFIX,boba.network
   - DOMAIN-SUFFIX,btcbox.co.jp
+  - DOMAIN-SUFFIX,bybit.ae
   - DOMAIN-SUFFIX,bybit.com
   - DOMAIN-SUFFIX,bybit.eu
+  - DOMAIN-SUFFIX,bybit.id
+  - DOMAIN-SUFFIX,bybit.kz
+  - DOMAIN-SUFFIX,bybit.tr
+  - DOMAIN-SUFFIX,bybitgeorgia.ge
+  - DOMAIN-SUFFIX,bytick.com
   - DOMAIN-SUFFIX,cex.io
   - DOMAIN-SUFFIX,coinbase.com
   - DOMAIN-SUFFIX,coincheck.com
+  - DOMAIN-SUFFIX,coinex.com
   - DOMAIN-SUFFIX,coinone.co.kr
+  - DOMAIN-SUFFIX,crypto.com
+  - DOMAIN-SUFFIX,deribit.com
   - DOMAIN-SUFFIX,dogecoin.com
   - DOMAIN-SUFFIX,dydx.exchange
   - DOMAIN-SUFFIX,gemini.com
   - DOMAIN-SUFFIX,korbit.co.kr
   - DOMAIN-SUFFIX,kraken.com
   - DOMAIN-SUFFIX,kucoin.com
+  - DOMAIN-SUFFIX,kucoin.eu
   - DOMAIN-SUFFIX,liquid.com
   - DOMAIN-SUFFIX,optimism.io
-  - DOMAIN-SUFFIX,paxful.com
+  - DOMAIN-SUFFIX,phemex.com
   - DOMAIN-SUFFIX,poloniex.com
   - DOMAIN-SUFFIX,poly.network
   - DOMAIN-SUFFIX,solana.com
   - DOMAIN-SUFFIX,tether.to
+  - DOMAIN-SUFFIX,upbit.com
   - DOMAIN-SUFFIX,zkscan.io
   - DOMAIN-SUFFIX,zksync.io
 
   # > Forum
   - DOMAIN-SUFFIX,bitcointalk.org
 
-  # > FTX
+  # > Bittrex (withdrawals / liquidation)
+  - DOMAIN-SUFFIX,bittrex.com
+  - DOMAIN-SUFFIX,bittrexglobal.com
+
+  # > FTX (claims portal)
   - DOMAIN-SUFFIX,ftx.com
 
   # > Gate
   - DOMAIN-SUFFIX,gate.ac
+  - DOMAIN-SUFFIX,gate.com
   - DOMAIN-SUFFIX,gate.io
+  - DOMAIN-SUFFIX,gateio.ws
 
-  # > Huobi
+  # > HTX (formerly Huobi)
   - DOMAIN-SUFFIX,bitderiv.com
   - DOMAIN-SUFFIX,hbabit.com
+  - DOMAIN-SUFFIX,hbdm.com
   - DOMAIN-SUFFIX,hbfile.net
   - DOMAIN-SUFFIX,heco-scan.com
   - DOMAIN-SUFFIX,hecochain.com
   - DOMAIN-SUFFIX,hecoview.com
+  - DOMAIN-SUFFIX,htx.com
   - DOMAIN-SUFFIX,huobi.br.com
   - DOMAIN-SUFFIX,huobi.co.ma
   - DOMAIN-SUFFIX,huobi.com
@@ -231,7 +252,7 @@ payload:
   - DOMAIN-SUFFIX,lightning.community
   - DOMAIN-SUFFIX,lightning.engineering
 
-  # > localbitcoins
+  # > LocalBitcoins (withdrawals only)
   - DOMAIN-SUFFIX,localbitcoins.com
   - DOMAIN-SUFFIX,localbitcoinschain.com
 
@@ -240,7 +261,9 @@ payload:
   - DOMAIN,token-api.metaswap.codefi.network
 
   # > Mexc
+  - DOMAIN-SUFFIX,mexc.co
   - DOMAIN-SUFFIX,mexc.com
+  - DOMAIN-SUFFIX,mexc.in
 
   # > NFT
   - DOMAIN-SUFFIX,cryptoart.io
@@ -256,6 +279,9 @@ payload:
   - DOMAIN-SUFFIX,okex.com
   - DOMAIN-SUFFIX,okx.com
   - PROCESS-NAME,OKX.exe
+
+  # > Paxful (withdrawals only)
+  - DOMAIN-SUFFIX,paxful.com
 
   # > POOL
   - DOMAIN-SUFFIX,1ml.com
@@ -283,5 +309,4 @@ payload:
   # > zb
   - DOMAIN-SUFFIX,zb.app
   - DOMAIN-SUFFIX,zb.com
-  - DOMAIN-SUFFIX,zb.io
   - DOMAIN-SUFFIX,zb.live
