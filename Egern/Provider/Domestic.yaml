@@ -76,6 +76,11 @@ domain_suffix_set:
   - oray.net
   - sunlogin.net
 
+  # > Volcengine
+  - volcengine.com
+  - volcengineapi.com
+  - volces.com
+
   # > Other domains
   - 10010.com
   - 12306.com
