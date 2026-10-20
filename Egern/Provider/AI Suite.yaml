@@ -239,6 +239,24 @@ domain_set:
   - daily-cloudcode-pa.googleapis.com
   - daily-cloudcode-pa.sandbox.googleapis.com
 
+  # > Google Antigravity Enterprise / Gemini Enterprise
+  # https://antigravity.google/docs/enterprise#network-allowlists-and-mtls-endpoints
+  # Global, US, EU and mTLS endpoints; shared API traffic also uses the AI egress
+  - aiplatform.eu.rep.googleapis.com
+  - aiplatform.googleapis.com
+  - aiplatform.mtls.googleapis.com
+  - aiplatform.us.rep.googleapis.com
+  - businessaicode.eu.rep.googleapis.com
+  - businessaicode.googleapis.com
+  - businessaicode.mtls.googleapis.com
+  - businessaicode.us.rep.googleapis.com
+  - discoveryengine.googleapis.com
+  - discoveryengine.mtls.googleapis.com
+  - eu-discoveryengine.googleapis.com
+  - eu-discoveryengine.mtls.googleapis.com
+  - us-discoveryengine.googleapis.com
+  - us-discoveryengine.mtls.googleapis.com
+
   # > Google Chrome DevTools AI assistance
   # Hong Kong is excluded from the supported locations
   # https://developer.chrome.com/docs/devtools/ai-assistance/get-started
