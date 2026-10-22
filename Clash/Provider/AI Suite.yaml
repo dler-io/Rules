@@ -274,8 +274,10 @@ payload:
   - DOMAIN,q.eu-central-1.amazonaws.com
   - DOMAIN,q.us-east-1.amazonaws.com
 
-  # > Meta AI
+  # > Meta AI / Muse
+  # https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
   - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,muse.ai
 
   # > Microsoft Copilot
   # Retained for macOS app availability; web/mobile support alone is insufficient

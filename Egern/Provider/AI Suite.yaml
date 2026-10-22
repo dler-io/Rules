@@ -123,8 +123,10 @@ domain_suffix_set:
   # https://kiro.dev/docs/privacy-and-security/firewalls/
   - kiro.dev
 
-  # > Meta AI
+  # > Meta AI / Muse
+  # https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
   - meta.ai
+  - muse.ai
 
   # > Microsoft Copilot
   # Retained for macOS app availability; web/mobile support alone is insufficient
