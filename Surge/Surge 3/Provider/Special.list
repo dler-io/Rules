@@ -135,6 +135,9 @@ DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
 # > UUBooster
 PROCESS-NAME,UUBooster
 
+# > WiFi Calling
+DOMAIN-SUFFIX,3gppnetwork.org
+
 # > WiFiman
 DOMAIN-SUFFIX,app-measurement.com
 

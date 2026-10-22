@@ -66,6 +66,9 @@ domain_suffix_set:
   - teslamotors.com.cn
   - ts.la
 
+  # > WiFi Calling
+  - 3gppnetwork.org
+
   # > WiFiman
   - app-measurement.com
 

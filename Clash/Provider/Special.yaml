@@ -146,6 +146,9 @@ payload:
   # > UUBooster
   - PROCESS-NAME,UUBooster
 
+  # > WiFi Calling
+  - DOMAIN-SUFFIX,3gppnetwork.org
+
   # > WiFiman
   - DOMAIN-SUFFIX,app-measurement.com
 
