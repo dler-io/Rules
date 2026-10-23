@@ -109,7 +109,7 @@ DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursorvm.com
 
 # > Cursor shared sign-in
-# Sign-in moved to X auth hosts on 2026-10-30; the xAI suffix rules below cover them
+# Shared sign-in uses X auth hosts; the xAI suffix rules below cover them
 # https://cursor.com/help/troubleshooting/sign-in-domains
 DOMAIN,accounts.spacex.ai
 

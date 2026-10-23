@@ -214,7 +214,7 @@ domain_set:
   - anysphere-binaries.s3.us-east-1.amazonaws.com
 
   # > Cursor shared sign-in
-  # Sign-in moved to X auth hosts on 2026-10-30; the xAI suffix rules cover them
+  # Shared sign-in uses X auth hosts; the xAI suffix rules cover them
   # https://cursor.com/help/troubleshooting/sign-in-domains
   - accounts.spacex.ai
 
