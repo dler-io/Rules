@@ -166,6 +166,14 @@ domain_suffix_set:
   # > Zed
   - zed.dev
 
+  # > xAI / Grok
+  # xAI runs sign-in for Grok and Cursor; wildcard domains per official guidance
+  # https://cursor.com/help/troubleshooting/sign-in-domains
+  - grok.com
+  - grokipedia.com
+  - grokusercontent.com
+  - x.ai
+
 domain_set:
   # > Apple Intelligence / Siri ChatGPT
   # Keep Apple Relay and Siri region lookups on the same AI egress
@@ -208,14 +216,9 @@ domain_set:
   - anysphere-binaries.s3.us-east-1.amazonaws.com
 
   # > Cursor shared sign-in
-  # Shared sign-in hosts from 2026-09-30; keep exact matches to avoid routing all of Grok
+  # Shared sign-in uses X auth hosts; the xAI suffix rules cover them
   # https://cursor.com/help/troubleshooting/sign-in-domains
   - accounts.spacex.ai
-  - accounts.x.ai
-  - auth.grok.com
-  - auth.grokipedia.com
-  - auth.grokusercontent.com
-  - auth.x.ai
 
   # > GitHub Copilot
   # https://docs.github.com/en/copilot/reference/copilot-allowlist-reference
