@@ -90,28 +90,6 @@ PROCESS-NAME,ss-local
 PROCESS-NAME,v2ray
 
 # > Steam
-DOMAIN,cm.steampowered.com
-DOMAIN,csgo.wmsj.cn
-DOMAIN,dl.steam.clngaa.com
-DOMAIN,dl.steam.ksyna.com
-DOMAIN,dota2.wmsj.cn
-DOMAIN,gstore.val.manlaxy.com
-DOMAIN,st.dl.bscstorage.net
-DOMAIN,st.dl.eccdnx.com
-DOMAIN,st.dl.pinyuncloud.com
-DOMAIN,steambroadcast.akamaized.net
-DOMAIN,steamcdn-a.akamaihd.net
-DOMAIN-SUFFIX,steamchina.com
-DOMAIN,steamcommunity-a.akamaihd.net
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN,steampipe.steamcontent.tnkjmec.com
-DOMAIN,steampowered.com.8686c.com
-DOMAIN-SUFFIX,steamserver.net
-DOMAIN,steamstatic.com.8686c.com
-DOMAIN,steamstore-a.akamaihd.net
-DOMAIN,steamusercontent-a.akamaihd.net
-DOMAIN,steamuserimages-a.akamaihd.net
-DOMAIN,wmsjsteam.com
 USER-AGENT,Steam*
 
 # > Tailscale

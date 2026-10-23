@@ -8,7 +8,7 @@ domain_suffix_set:
   - steam-chat.com
   - steam.tv
   - steamcommunity.com
-  # - steamcontent.com
+  - steamcontent.com
   - steamconnecttest.com
   - steamdeck.com
   - steamgames.com
@@ -19,10 +19,31 @@ domain_suffix_set:
   - underlords.com
   - valve.net
   - valvesoftware.com
+  - steamchina.com
+  - steamserver.net
 
 domain_set:
   - steammobile.akamaized.net
   - steampipe.akamaized.net
+  - cm.steampowered.com
+  - csgo.wmsj.cn
+  - dl.steam.clngaa.com
+  - dl.steam.ksyna.com
+  - dota2.wmsj.cn
+  - gstore.val.manlaxy.com
+  - st.dl.bscstorage.net
+  - st.dl.eccdnx.com
+  - st.dl.pinyuncloud.com
+  - steambroadcast.akamaized.net
+  - steamcdn-a.akamaihd.net
+  - steamcommunity-a.akamaihd.net
+  - steampipe.steamcontent.tnkjmec.com
+  - steampowered.com.8686c.com
+  - steamstatic.com.8686c.com
+  - steamstore-a.akamaihd.net
+  - steamusercontent-a.akamaihd.net
+  - steamuserimages-a.akamaihd.net
+  - wmsjsteam.com
 
 ip_cidr_set:
   # > Steam server IP ranges

@@ -4,7 +4,7 @@ DOMAIN-SUFFIX,steam-api.com
 DOMAIN-SUFFIX,steam-chat.com
 DOMAIN-SUFFIX,steam.tv
 DOMAIN-SUFFIX,steamcommunity.com
-# DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamconnecttest.com
 DOMAIN-SUFFIX,steamdeck.com
 DOMAIN-SUFFIX,steamgames.com
@@ -17,6 +17,27 @@ DOMAIN-SUFFIX,valve.net
 DOMAIN-SUFFIX,valvesoftware.com
 DOMAIN,steammobile.akamaized.net
 DOMAIN,steampipe.akamaized.net
+DOMAIN,cm.steampowered.com
+DOMAIN,csgo.wmsj.cn
+DOMAIN,dl.steam.clngaa.com
+DOMAIN,dl.steam.ksyna.com
+DOMAIN,dota2.wmsj.cn
+DOMAIN,gstore.val.manlaxy.com
+DOMAIN,st.dl.bscstorage.net
+DOMAIN,st.dl.eccdnx.com
+DOMAIN,st.dl.pinyuncloud.com
+DOMAIN,steambroadcast.akamaized.net
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN-SUFFIX,steamchina.com
+DOMAIN,steamcommunity-a.akamaihd.net
+DOMAIN,steampipe.steamcontent.tnkjmec.com
+DOMAIN,steampowered.com.8686c.com
+DOMAIN-SUFFIX,steamserver.net
+DOMAIN,steamstatic.com.8686c.com
+DOMAIN,steamstore-a.akamaihd.net
+DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN,steamuserimages-a.akamaihd.net
+DOMAIN,wmsjsteam.com
 
 # > Steam server IP ranges
 IP-CIDR,45.121.184.0/24,no-resolve

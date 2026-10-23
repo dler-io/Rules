@@ -51,11 +51,6 @@ domain_suffix_set:
   - tjupt.org
   - totheglory.im
 
-  # > Steam
-  - steamchina.com
-  - steamcontent.com
-  - steamserver.net
-
   # > Tesla
   - solarcity.com
   - tesla.cn
@@ -100,27 +95,6 @@ domain_set:
 
   # > Google
   - safebrowsing.googleapis.com
-
-  # > Steam
-  - cm.steampowered.com
-  - csgo.wmsj.cn
-  - dl.steam.clngaa.com
-  - dl.steam.ksyna.com
-  - dota2.wmsj.cn
-  - gstore.val.manlaxy.com
-  - st.dl.bscstorage.net
-  - st.dl.eccdnx.com
-  - st.dl.pinyuncloud.com
-  - steambroadcast.akamaized.net
-  - steamcdn-a.akamaihd.net
-  - steamcommunity-a.akamaihd.net
-  - steampipe.steamcontent.tnkjmec.com
-  - steampowered.com.8686c.com
-  - steamstatic.com.8686c.com
-  - steamstore-a.akamaihd.net
-  - steamusercontent-a.akamaihd.net
-  - steamuserimages-a.akamaihd.net
-  - wmsjsteam.com
 
   # > Tesla
   - tesla-cdn.thron.cn
