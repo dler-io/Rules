@@ -1,11 +1,40 @@
 # Steam
+no_resolve: true
 
 domain_suffix_set:
   # > Steam
   - s.team
+  - steam-api.com
+  - steam-chat.com
+  - steam.tv
   - steamcommunity.com
   # - steamcontent.com
+  - steamconnecttest.com
+  - steamdeck.com
   - steamgames.com
   - steampowered.com
   - steamstatic.com
   - steamusercontent.com
+  - dota2.com
+  - underlords.com
+  - valve.net
+  - valvesoftware.com
+
+domain_set:
+  - steammobile.akamaized.net
+  - steampipe.akamaized.net
+
+ip_cidr_set:
+  # > Steam server IP ranges
+  - 45.121.184.0/24
+  - 103.10.124.0/23
+  - 103.28.54.0/24
+  - 146.66.152.0/24
+  - 146.66.155.0/24
+  - 155.133.224.0/19
+  - 162.254.192.0/21
+  - 185.25.180.0/22
+  - 192.69.96.0/22
+  - 205.196.6.0/24
+  - 208.64.200.0/22
+  - 208.78.164.0/22
