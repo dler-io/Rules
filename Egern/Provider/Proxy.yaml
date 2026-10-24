@@ -2,6 +2,9 @@
 no_resolve: true
 
 domain_suffix_set:
+  # > AO3
+  - archiveofourown.org
+
   # > Apple Daily
   - appledaily.com
   - appledaily.com.hk
@@ -37,6 +40,10 @@ domain_suffix_set:
   - dropboxteam.com
   - dropboxusercontent.com
   - getdropbox.com
+
+  # > E-Hentai
+  - e-hentai.org
+  - exhentai.org
 
   # > exception
   - chalungu.cn
@@ -326,6 +333,17 @@ domain_suffix_set:
   - line.me
   - line.naver.jp
   - nhncorp.jp
+
+  # > PicACG
+  - bidobido.xyz
+  - bikaios.xyz
+  - bikawebapp.com
+  - diwodiwo.xyz
+  - huakacomic.com
+  - manhuabika.com
+  - pica-id.com
+  - tipatipa.xyz
+  - wikawika.xyz
 
   # > Riot Games
   - riotcdn.net
