@@ -6,6 +6,8 @@
   - RULE-SET,Reject IP,REJECT
 
   - RULE-SET,AI Suite,Proxy
+  - DOMAIN-SUFFIX,notion.com,Proxy
+  - DOMAIN-SUFFIX,vscode-cdn.net,Proxy
   - RULE-SET,Apple China,DIRECT
   - RULE-SET,Domestic,Domestic
   - RULE-SET,Domestic IP,Domestic

@@ -675,6 +675,7 @@ domain_suffix_set:
   - nimg.jp
   - nintendo.com
   - nintendo.net
+  - notion.com
   - notion.so
   - novafile.com
   - nrk.no
@@ -907,6 +908,7 @@ domain_suffix_set:
   - vpnbook.com
   - vpngate.net
   - vsco.co
+  - vscode-cdn.net
   - vultr.com
   - vzw.com
   - w.org
