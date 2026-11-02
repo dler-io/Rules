@@ -570,6 +570,7 @@ domain_suffix_set:
   - visualstudio.eu
   - visualstudio.net
   - vsassets.io
+  - vscode-cdn.net
   - vscode-unpkg.net
   - vscode-webview.net
   - vscode.dev
