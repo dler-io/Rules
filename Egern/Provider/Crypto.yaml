@@ -172,13 +172,25 @@ domain_suffix_set:
   - bitunix.com
   - boba.network
   - btcbox.co.jp
+  - byabcde.com
+  - byapis.com
+  - byapps.net
+  - bybdc6.com
+  - bybit-global.com
   - bybit.ae
+  - bybit.biz
+  - bybit.cloud
   - bybit.com
   - bybit.eu
   - bybit.id
   - bybit.kz
   - bybit.tr
   - bybitgeorgia.ge
+  - bybitglobal.com
+  - bycbe.com
+  - bycsi.com
+  - byd3c3.com
+  - bymj.io
   - bytick.com
   - cex.io
   - coinbase.com
@@ -310,5 +322,9 @@ domain_suffix_set:
   - zb.live
 
 domain_set:
+  # > Bybit
+  - bybit-exchange.github.io
+  - bybit.ada.support
+
   # > Metamask
   - token-api.metaswap.codefi.network
