@@ -56,6 +56,11 @@ domain_suffix_set:
   - steamcontent.com
   - steamserver.net
 
+  # > Tailscale
+  - tailscale.com
+  - tailscale.io
+  - ts.net
+
   # > Tesla
   - solarcity.com
   - tesla.cn
