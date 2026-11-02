@@ -568,6 +568,7 @@ payload:
   - DOMAIN-SUFFIX,visualstudio.eu
   - DOMAIN-SUFFIX,visualstudio.net
   - DOMAIN-SUFFIX,vsassets.io
+  - DOMAIN-SUFFIX,vscode-cdn.net
   - DOMAIN-SUFFIX,vscode-unpkg.net
   - DOMAIN-SUFFIX,vscode-webview.net
   - DOMAIN-SUFFIX,vscode.dev
