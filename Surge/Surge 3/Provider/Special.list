@@ -117,8 +117,6 @@ USER-AGENT,Steam*
 # > Tailscale
 PROCESS-NAME,tailscaled
 PROCESS-NAME,tailscaled.exe
-DOMAIN-SUFFIX,tailscale.com
-DOMAIN-SUFFIX,tailscale.io
 DOMAIN-SUFFIX,ts.net
 IP-CIDR,100.64.0.0/10,no-resolve
 

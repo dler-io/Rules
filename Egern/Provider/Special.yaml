@@ -57,8 +57,6 @@ domain_suffix_set:
   - steamserver.net
 
   # > Tailscale
-  - tailscale.com
-  - tailscale.io
   - ts.net
 
   # > Tesla
