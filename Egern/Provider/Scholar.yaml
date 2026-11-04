@@ -42,6 +42,19 @@ domain_suffix_set:
   - libguides.com
   - liebertpub.com
   - madsrevolution.net
+  - mathematica.com
+  - matlab.com
+  - mathworks.com
+  - mathworks.cn
+  - mathworks.co.jp
+  - mathworks.co.kr
+  - mathworks.co.uk
+  - mathworks.com.au
+  - mathworks.de
+  - mathworks.fr
+  - mathworks.in
+  - mathworks.nl
+  - mathworks.se
   - mdpi.com
   - mpg.de
   - myilibrary.com
@@ -81,5 +94,11 @@ domain_suffix_set:
   - westlaw.com
   # - westlawchina.com
   - wiley.com
+  - wolfram.co.uk
+  - wolfram.com
+  - wolframalpha.com
+  - wolframalpha.net
+  - wolframcdn.com
+  - wolframcloud.com
   - worldbank.org
   - worldscientific.com
