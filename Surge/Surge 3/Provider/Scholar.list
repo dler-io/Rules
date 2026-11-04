@@ -39,6 +39,19 @@ DOMAIN-SUFFIX,karger.com
 DOMAIN-SUFFIX,libguides.com
 DOMAIN-SUFFIX,liebertpub.com
 DOMAIN-SUFFIX,madsrevolution.net
+DOMAIN-SUFFIX,mathematica.com
+DOMAIN-SUFFIX,matlab.com
+DOMAIN-SUFFIX,mathworks.com
+DOMAIN-SUFFIX,mathworks.cn
+DOMAIN-SUFFIX,mathworks.co.jp
+DOMAIN-SUFFIX,mathworks.co.kr
+DOMAIN-SUFFIX,mathworks.co.uk
+DOMAIN-SUFFIX,mathworks.com.au
+DOMAIN-SUFFIX,mathworks.de
+DOMAIN-SUFFIX,mathworks.fr
+DOMAIN-SUFFIX,mathworks.in
+DOMAIN-SUFFIX,mathworks.nl
+DOMAIN-SUFFIX,mathworks.se
 DOMAIN-SUFFIX,mdpi.com
 DOMAIN-SUFFIX,mpg.de
 DOMAIN-SUFFIX,myilibrary.com
@@ -78,5 +91,11 @@ DOMAIN-SUFFIX,webofknowledge.com
 DOMAIN-SUFFIX,westlaw.com
 # DOMAIN-SUFFIX,westlawchina.com
 DOMAIN-SUFFIX,wiley.com
+DOMAIN-SUFFIX,wolfram.co.uk
+DOMAIN-SUFFIX,wolfram.com
+DOMAIN-SUFFIX,wolframalpha.com
+DOMAIN-SUFFIX,wolframalpha.net
+DOMAIN-SUFFIX,wolframcdn.com
+DOMAIN-SUFFIX,wolframcloud.com
 DOMAIN-SUFFIX,worldbank.org
 DOMAIN-SUFFIX,worldscientific.com
