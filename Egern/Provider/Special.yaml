@@ -14,6 +14,19 @@ domain_suffix_set:
   # > Google
   - dl.google.com
 
+  # > Hong Kong Banks
+  - citi.com
+  - citibank.com.hk
+  - hangseng.com
+  - hangseng.com.hk
+  - hsbc.com
+  - hsbc.com.hk
+  - hsbc.hk
+  - sc.com
+  - standardchartered.com
+  - za.bank
+  - zabank.com
+
   # > Microsoft
   - msftconnecttest.com
 
