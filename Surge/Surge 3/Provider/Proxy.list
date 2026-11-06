@@ -1064,11 +1064,6 @@ DOMAIN-SUFFIX,zaobao.com.sg
 DOMAIN-SUFFIX,zeutch.com
 DOMAIN-SUFFIX,zynamics.com
 
-# > Userscripts
-DOMAIN-SUFFIX,greasyfork.org
-DOMAIN-SUFFIX,sleazyfork.org
-DOMAIN-SUFFIX,tampermonkey.net
-
 # > Twitter
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,t.co
@@ -1082,6 +1077,11 @@ DOMAIN-SUFFIX,twitterflightschool.com
 DOMAIN-SUFFIX,twitterinc.com
 DOMAIN-SUFFIX,twitteroauth.com
 DOMAIN-SUFFIX,twitterstat.us
+
+# > Userscripts
+DOMAIN-SUFFIX,greasyfork.org
+DOMAIN-SUFFIX,sleazyfork.org
+DOMAIN-SUFFIX,tampermonkey.net
 
 # > V2EX
 DOMAIN-SUFFIX,v2ex.com

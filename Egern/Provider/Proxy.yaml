@@ -335,10 +335,10 @@ domain_suffix_set:
   - line.naver.jp
   - nhncorp.jp
 
-# > Matrix
-  - DOMAIN-SUFFIX,element.io
-  - DOMAIN-SUFFIX,matrix.org
-  - DOMAIN-SUFFIX,vector.im
+  # > Matrix
+  - element.io
+  - matrix.org
+  - vector.im
 
   # > PicACG
   - bidobido.xyz
@@ -373,9 +373,9 @@ domain_suffix_set:
   - tesla.com
   - teslamotors.com
 
-# > Tinder
-  - DOMAIN-SUFFIX,gotinder.com
-  - DOMAIN-SUFFIX,tindersparks.com
+  # > Tinder
+  - gotinder.com
+  - tindersparks.com
 
   # > Top blocked sites
   - 2o7.net
@@ -994,11 +994,6 @@ domain_suffix_set:
   - zeutch.com
   - zynamics.com
 
-# > Userscripts
-  - DOMAIN-SUFFIX,greasyfork.org
-  - DOMAIN-SUFFIX,sleazyfork.org
-  - DOMAIN-SUFFIX,tampermonkey.net
-
   # > Twitter
   - ads-twitter.com
   - t.co
@@ -1012,6 +1007,11 @@ domain_suffix_set:
   - twitterinc.com
   - twitteroauth.com
   - twitterstat.us
+
+  # > Userscripts
+  - greasyfork.org
+  - sleazyfork.org
+  - tampermonkey.net
 
   # > V2EX
   - v2ex.com

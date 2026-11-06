@@ -390,7 +390,7 @@ payload:
   - IP-CIDR,203.174.66.64/26,no-resolve
   - IP-CIDR,203.174.77.0/24,no-resolve
 
-# > Matrix
+  # > Matrix
   - DOMAIN-SUFFIX,element.io
   - DOMAIN-SUFFIX,matrix.org
   - DOMAIN-SUFFIX,vector.im
@@ -443,7 +443,7 @@ payload:
   # > TestFlight
   - DOMAIN,testflight.apple.com
 
-# > Tinder
+  # > Tinder
   - DOMAIN-SUFFIX,gotinder.com
   - DOMAIN-SUFFIX,tindersparks.com
 
@@ -1064,11 +1064,6 @@ payload:
   - DOMAIN-SUFFIX,zeutch.com
   - DOMAIN-SUFFIX,zynamics.com
 
-# > Userscripts
-  - DOMAIN-SUFFIX,greasyfork.org
-  - DOMAIN-SUFFIX,sleazyfork.org
-  - DOMAIN-SUFFIX,tampermonkey.net
-
   # > Twitter
   - DOMAIN-SUFFIX,ads-twitter.com
   - DOMAIN-SUFFIX,t.co
@@ -1082,6 +1077,11 @@ payload:
   - DOMAIN-SUFFIX,twitterinc.com
   - DOMAIN-SUFFIX,twitteroauth.com
   - DOMAIN-SUFFIX,twitterstat.us
+
+  # > Userscripts
+  - DOMAIN-SUFFIX,greasyfork.org
+  - DOMAIN-SUFFIX,sleazyfork.org
+  - DOMAIN-SUFFIX,tampermonkey.net
 
   # > V2EX
   - DOMAIN-SUFFIX,v2ex.com
