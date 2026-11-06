@@ -5,6 +5,7 @@ domain_suffix_set:
   # > Apple Push
   # IP Source: https://support.apple.com/en-us/102266
   - apple.com.edgekey.net
+  - courier-push-apple.com.akadns.net
   - push-apple.com.akadns.net
   - push.apple.com
 

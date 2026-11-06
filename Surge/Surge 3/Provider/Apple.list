@@ -10,7 +10,6 @@ DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.akadns.net
 DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,courier-push-apple.com.akadns.net
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.akadns.net
@@ -19,7 +18,6 @@ DOMAIN-SUFFIX,ls-apple.com.akadns.net
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,me.com.akadns.net
 DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,push-apple.com.akadns.net
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,63.92.224.0/19,no-resolve
 IP-CIDR,65.199.22.0/23,no-resolve

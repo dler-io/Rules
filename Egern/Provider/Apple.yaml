@@ -14,7 +14,6 @@ domain_suffix_set:
   - apple.com.akadns.net
   - appsto.re
   - cdn-apple.com
-  - courier-push-apple.com.akadns.net
   - icloud-content.com
   - icloud.com
   - icloud.com.akadns.net
@@ -23,7 +22,6 @@ domain_suffix_set:
   - me.com
   - me.com.akadns.net
   - mzstatic.com
-  - push-apple.com.akadns.net
 
 ip_cidr_set:
   # > Apple API
