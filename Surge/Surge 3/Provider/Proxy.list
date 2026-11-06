@@ -390,6 +390,11 @@ IP-CIDR,203.104.128.0/20,no-resolve
 IP-CIDR,203.174.66.64/26,no-resolve
 IP-CIDR,203.174.77.0/24,no-resolve
 
+# > Matrix
+DOMAIN-SUFFIX,element.io
+DOMAIN-SUFFIX,matrix.org
+DOMAIN-SUFFIX,vector.im
+
 # > PicACG
 DOMAIN-SUFFIX,bidobido.xyz
 DOMAIN-SUFFIX,bikaios.xyz
@@ -437,6 +442,10 @@ DOMAIN-SUFFIX,teslamotors.com
 
 # > TestFlight
 DOMAIN,testflight.apple.com
+
+# > Tinder
+DOMAIN-SUFFIX,gotinder.com
+DOMAIN-SUFFIX,tindersparks.com
 
 # > Top blocked sites
 DOMAIN-SUFFIX,2o7.net
@@ -1054,6 +1063,11 @@ DOMAIN-SUFFIX,zalmos.com
 DOMAIN-SUFFIX,zaobao.com.sg
 DOMAIN-SUFFIX,zeutch.com
 DOMAIN-SUFFIX,zynamics.com
+
+# > Userscripts
+DOMAIN-SUFFIX,greasyfork.org
+DOMAIN-SUFFIX,sleazyfork.org
+DOMAIN-SUFFIX,tampermonkey.net
 
 # > Twitter
 DOMAIN-SUFFIX,ads-twitter.com
