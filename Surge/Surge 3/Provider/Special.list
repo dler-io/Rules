@@ -47,6 +47,16 @@ DOMAIN,ol.epicgames.com
 DOMAIN-SUFFIX,dl.google.com
 DOMAIN,safebrowsing.googleapis.com
 
+# > Hong Kong Banks
+DOMAIN-SUFFIX,bank.za.group
+DOMAIN-SUFFIX,citibank.com.hk
+DOMAIN-SUFFIX,hangseng.com
+DOMAIN-SUFFIX,hangseng.com.hk
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,hsbc.hk
+DOMAIN-SUFFIX,standardchartered.com.hk
+DOMAIN-SUFFIX,zabank.com
+
 # > Microsoft
 DOMAIN-SUFFIX,msftconnecttest.com
 USER-AGENT,Microsoft%20Remote%20Desktop*
