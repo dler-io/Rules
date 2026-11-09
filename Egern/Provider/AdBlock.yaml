@@ -7151,7 +7151,7 @@ domain_suffix_set:
   - xdrig.com
   - zhihu.xmcimg.com
 
-
+  # > PCDN
   - abcdefgaijkl.com
   - abcdegghijkl.com
   - ahdohpiechei.com
@@ -7226,11 +7226,6 @@ domain_suffix_set:
   - zxycdn.cn
   - zyxwvutsrqpo.com
 
-  # > PCDN
-  - data.bilibili.com
-  - dataflow.biliapi.com
-  - cm.bilibili.com
-
 domain_set:
   # > Baidu
   - duclick.baidu.com
@@ -7275,6 +7270,11 @@ domain_set:
   - sugar.zhihu.com
   - zhihu-analytics.zhihu.com
   - zhihu-web-analytics.zhihu.com
+
+  # > PCDN
+  - data.bilibili.com
+  - dataflow.biliapi.com
+  - cm.bilibili.com
 
 ip_cidr_set:
   # > China Mobile
