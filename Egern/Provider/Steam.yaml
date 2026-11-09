@@ -23,6 +23,7 @@ domain_suffix_set:
 domain_set:
   - steammobile.akamaized.net
   - steampipe.akamaized.net
+  - steamvideo-a.akamaihd.net
 
 ip_cidr_set:
   # > Steam server IP ranges
