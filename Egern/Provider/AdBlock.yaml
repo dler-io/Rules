@@ -7151,6 +7151,86 @@ domain_suffix_set:
   - xdrig.com
   - zhihu.xmcimg.com
 
+
+  - abcdefgaijkl.com
+  - abcdegghijkl.com
+  - ahdohpiechei.com
+  - alphawebzzz.com
+  - clipspacexyy.com
+  - datapixelzzx.com
+  - dddfe.com
+  - demoforge.site
+  - dooquuequezi.com
+  - eeeam.com
+  - flexcloudyz.com
+  - gaetausohyei.com
+  - gliderboxxyy.com
+  - gncrr.live
+  - ijklmnopqrst.com
+  - kaiwaijaicai.com
+  - kodo.bilivideo.com
+  - lmnopqrstuvw.com
+  - mcdn.bilivideo.cn
+  - mcdn.bilivideo.com
+  - mountaintoys.cn
+  - netvisorhub.com
+  - nexusedgeio.com
+  - opqrsduvwxyz.com
+  - ourdvsss.com
+  - pai-net.work
+  - paicosine.com
+  - paigod.work
+  - paigpu.com
+  - paisine.com
+  - pocedsgslb.com
+  - ppgslb.cn
+  - ppgslb.com
+  - ppinfra.com
+  - ppio.bilivideo.com
+  - ppio.cloud
+  - ppio.cn
+  - ppio.com
+  - ppio.net.cn
+  - ppio.online
+  - ppio.work
+  - ppiocdn.cn
+  - ppiocdn.com
+  - ppiocloud.site
+  - pplabs.com
+  - ppos.com
+  - pyedsgslb.com
+  - pyrcms.com
+  - qrstuvwxyzab.com
+  - quantazoomz.com
+  - roongeimahwo.com
+  - scsd.cn
+  - scwl.cn
+  - solseed.cn
+  - solseedr.cn
+  - stormfluxixx.com
+  - szbdyd.com
+  - taishoopecei.com
+  - techvortexz1.com
+  - thefirstchain.com
+  - wiebaijitamo.com
+  - xionguamaqui.com
+  - xyxyzz.com
+  - zeicaefiegoh.com
+  - zhenidc.cn
+  - zhenxcloud.cn
+  - zhenxuancdn.cn
+  - zhenxuancloud.com
+  - zhenxuanidc.cn
+  - zhenxyun.cn
+  - zonerushappz.com
+  - zxycdn.cn
+  - zyxwvutsrqpo.com
+
+  # > PCDN
+  - data.bilibili.com
+  - dataflow.biliapi.com
+  - cm.bilibili.com
+
 domain_set:
   # > Baidu
   - duclick.baidu.com
