@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,valve.net
 DOMAIN-SUFFIX,valvesoftware.com
 DOMAIN,steammobile.akamaized.net
 DOMAIN,steampipe.akamaized.net
+DOMAIN,steamvideo-a.akamaihd.net
 
 # > Steam server IP ranges
 IP-CIDR,45.121.184.0/24,no-resolve
