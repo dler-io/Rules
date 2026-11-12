@@ -15,6 +15,9 @@ domain_suffix_set:
   - dl.google.com
 
   # > Hong Kong Banks
+  - alipay.hk
+  - alipayhk.com
+  - antbank.hk
   - bank.za.group
   - citibank.com.hk
   - hangseng.com
