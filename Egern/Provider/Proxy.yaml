@@ -11,6 +11,9 @@ domain_suffix_set:
   - appledaily.com.tw
   - appledaily.hk
 
+  # > AppsFlyer
+  - appsflyersdk.com
+
   # > Blizzard
   - battle.net
   - battlenet.com
@@ -355,6 +358,9 @@ domain_suffix_set:
   - riotcdn.net
   - riotgames.com
   - wr.pvp.net
+
+  # > Sentry
+  - sentry.io
 
   # > Sony
   - playstation.com

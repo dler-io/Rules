@@ -25,6 +25,9 @@ DOMAIN-SUFFIX,appledaily.com.hk
 DOMAIN-SUFFIX,appledaily.com.tw
 DOMAIN-SUFFIX,appledaily.hk
 
+# > AppsFlyer
+DOMAIN-SUFFIX,appsflyersdk.com
+
 # > Blizzard
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com
@@ -416,6 +419,9 @@ IP-CIDR,17.252.157.0/24,no-resolve
 DOMAIN-SUFFIX,riotcdn.net
 DOMAIN-SUFFIX,riotgames.com
 DOMAIN-SUFFIX,wr.pvp.net
+
+# > Sentry
+DOMAIN-SUFFIX,sentry.io
 
 # > SoftLayer
 IP-CIDR,74.86.0.0/16,no-resolve
