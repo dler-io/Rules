@@ -445,6 +445,9 @@ payload:
 
   # > Tinder
   - DOMAIN-SUFFIX,gotinder.com
+  - DOMAIN,mhg0jr.launches.appsflyersdk.com
+  - DOMAIN,mhg0jr.skadsdkless.appsflyersdk.com
+  - DOMAIN,o825645.ingest.us.sentry.io
   - DOMAIN-SUFFIX,tindersparks.com
 
   # > Top blocked sites
