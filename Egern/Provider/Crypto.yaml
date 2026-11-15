@@ -170,6 +170,7 @@ domain_suffix_set:
   - bitquick.co
   - bitstamp.net
   - bitunix.com
+  - blackcat.app
   - boba.network
   - btcbox.co.jp
   - byabcde.com
@@ -198,24 +199,33 @@ domain_suffix_set:
   - coinex.com
   - coinone.co.kr
   - crypto.com
+  - cryptopay.me
   - deribit.com
   - dogecoin.com
   - dtcpay.com
   - dtcpay.sg
   - dydx.exchange
+  - ffbbbdc6d3c353211fe2ba39c9f744cd.com
+  - ffe390afd658c19dcbf707e0597b846d.de
   - gemini.com
+  - holyheld.com
+  - infini.money
+  - kast.xyz
   - korbit.co.kr
   - kraken.com
   - kucoin.com
   - kucoin.eu
   - liquid.com
+  - moonpay.com
   - optimism.io
   - phemex.com
   - poloniex.com
   - poly.network
+  - redotpay.com
   - solana.com
   - tether.to
   - upbit.com
+  - utorg.com
   - zkscan.io
   - zksync.io
 
