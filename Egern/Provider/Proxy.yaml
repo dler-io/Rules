@@ -375,9 +375,6 @@ domain_suffix_set:
 
   # > Tinder
   - gotinder.com
-  - mhg0jr.launches.appsflyersdk.com
-  - mhg0jr.skadsdkless.appsflyersdk.com
-  - o825645.ingest.us.sentry.io
   - tindersparks.com
 
   # > Top blocked sites
@@ -1037,6 +1034,13 @@ domain_set:
 
   # > TestFlight
   - testflight.apple.com
+
+  # > Tinder
+  - mhg0jr.launches.appsflyersdk.com
+  - mhg0jr-launches.appsflyersdk.com
+  - mhg0jr.skadsdkless.appsflyersdk.com
+  - mhg0jr-skadsdkless.appsflyersdk.com
+  - o825645.ingest.us.sentry.io
 
   # > WAQI
   - api.waqi.info
