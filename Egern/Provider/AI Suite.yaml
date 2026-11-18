@@ -70,6 +70,27 @@ domain_suffix_set:
   # Availability: https://antigravity.google/docs/faq
   - antigravity.google
   - antigravity.google.com
+  - cloudcode-pa.googleapis.com
+  - daily-cloudcode-pa.googleapis.com
+  - daily-cloudcode-pa.sandbox.googleapis.com
+
+  # > Google Antigravity Enterprise / Gemini Enterprise
+  # https://antigravity.google/docs/enterprise#network-allowlists-and-mtls-endpoints
+  # Global, US, EU and mTLS endpoints; shared API traffic also uses the AI egress
+  - aiplatform.eu.rep.googleapis.com
+  - aiplatform.googleapis.com
+  - aiplatform.mtls.googleapis.com
+  - aiplatform.us.rep.googleapis.com
+  - businessaicode.eu.rep.googleapis.com
+  - businessaicode.googleapis.com
+  - businessaicode.mtls.googleapis.com
+  - businessaicode.us.rep.googleapis.com
+  - discoveryengine.googleapis.com
+  - discoveryengine.mtls.googleapis.com
+  - eu-discoveryengine.googleapis.com
+  - eu-discoveryengine.mtls.googleapis.com
+  - us-discoveryengine.googleapis.com
+  - us-discoveryengine.mtls.googleapis.com
 
   # > Google DeepMind
   - deepmind.com
@@ -238,34 +259,13 @@ domain_set:
   - alkalimakersuite-pa.clients6.google.com
   - waa-pa.clients6.google.com
 
-  # > Google Antigravity / Gemini Code Assist
-  # Availability: https://antigravity.google/docs/faq
-  - cloudcode-pa.googleapis.com
-  - daily-cloudcode-pa.googleapis.com
-  - daily-cloudcode-pa.sandbox.googleapis.com
-
-  # > Google Antigravity Enterprise / Gemini Enterprise
-  # https://antigravity.google/docs/enterprise#network-allowlists-and-mtls-endpoints
-  # Global, US, EU and mTLS endpoints; shared API traffic also uses the AI egress
-  - aiplatform.eu.rep.googleapis.com
-  - aiplatform.googleapis.com
-  - aiplatform.mtls.googleapis.com
-  - aiplatform.us.rep.googleapis.com
-  - businessaicode.eu.rep.googleapis.com
-  - businessaicode.googleapis.com
-  - businessaicode.mtls.googleapis.com
-  - businessaicode.us.rep.googleapis.com
-  - discoveryengine.googleapis.com
-  - discoveryengine.mtls.googleapis.com
-  - eu-discoveryengine.googleapis.com
-  - eu-discoveryengine.mtls.googleapis.com
-  - us-discoveryengine.googleapis.com
-  - us-discoveryengine.mtls.googleapis.com
-
   # > Google Chrome DevTools AI assistance
   # Hong Kong is excluded from the supported locations
   # https://developer.chrome.com/docs/devtools/ai-assistance/get-started
   - aida.googleapis.com
+
+  # > Google Generative Language API (mTLS)
+  - generativelanguage.mtls.googleapis.com
 
   # > Google Gemini shared dependencies
   # https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/gemini-app-firewall-settings

@@ -147,27 +147,27 @@ DOMAIN,waa-pa.clients6.google.com
 # Availability: https://antigravity.google/docs/faq
 DOMAIN-SUFFIX,antigravity.google
 DOMAIN-SUFFIX,antigravity.google.com
-DOMAIN,cloudcode-pa.googleapis.com
-DOMAIN,daily-cloudcode-pa.googleapis.com
-DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
+DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+DOMAIN-SUFFIX,daily-cloudcode-pa.googleapis.com
+DOMAIN-SUFFIX,daily-cloudcode-pa.sandbox.googleapis.com
 
 # > Google Antigravity Enterprise / Gemini Enterprise
 # https://antigravity.google/docs/enterprise#network-allowlists-and-mtls-endpoints
 # Global, US, EU and mTLS endpoints; shared API traffic also uses the AI egress
-DOMAIN,aiplatform.eu.rep.googleapis.com
-DOMAIN,aiplatform.googleapis.com
-DOMAIN,aiplatform.mtls.googleapis.com
-DOMAIN,aiplatform.us.rep.googleapis.com
-DOMAIN,businessaicode.eu.rep.googleapis.com
-DOMAIN,businessaicode.googleapis.com
-DOMAIN,businessaicode.mtls.googleapis.com
-DOMAIN,businessaicode.us.rep.googleapis.com
-DOMAIN,discoveryengine.googleapis.com
-DOMAIN,discoveryengine.mtls.googleapis.com
-DOMAIN,eu-discoveryengine.googleapis.com
-DOMAIN,eu-discoveryengine.mtls.googleapis.com
-DOMAIN,us-discoveryengine.googleapis.com
-DOMAIN,us-discoveryengine.mtls.googleapis.com
+DOMAIN-SUFFIX,aiplatform.eu.rep.googleapis.com
+DOMAIN-SUFFIX,aiplatform.googleapis.com
+DOMAIN-SUFFIX,aiplatform.mtls.googleapis.com
+DOMAIN-SUFFIX,aiplatform.us.rep.googleapis.com
+DOMAIN-SUFFIX,businessaicode.eu.rep.googleapis.com
+DOMAIN-SUFFIX,businessaicode.googleapis.com
+DOMAIN-SUFFIX,businessaicode.mtls.googleapis.com
+DOMAIN-SUFFIX,businessaicode.us.rep.googleapis.com
+DOMAIN-SUFFIX,discoveryengine.googleapis.com
+DOMAIN-SUFFIX,discoveryengine.mtls.googleapis.com
+DOMAIN-SUFFIX,eu-discoveryengine.googleapis.com
+DOMAIN-SUFFIX,eu-discoveryengine.mtls.googleapis.com
+DOMAIN-SUFFIX,us-discoveryengine.googleapis.com
+DOMAIN-SUFFIX,us-discoveryengine.mtls.googleapis.com
 
 # > Google Chrome DevTools AI assistance
 # Hong Kong is excluded from the supported locations
@@ -222,6 +222,7 @@ DOMAIN,streetviewpixels-pa.googleapis.com
 # > Google Generative Language API
 DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN,generativelanguage.mtls.googleapis.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 
 # > Google Jules
